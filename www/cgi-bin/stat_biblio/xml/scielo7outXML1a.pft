@@ -1,0 +1,45 @@
+	'<current_state>17</current_state>'/
+	'<page_title_list>',
+		'<page_title lang="pt">Co-autoria</page_title>'/
+		'<page_title lang="en">Co-authors</page_title>'/
+		'<page_title lang="es">Co-autoria</page_title>'/
+	'</page_title_list>'/
+	if v3400='' 
+	then 
+		'<title_list>',
+			'<title lang="pt">Coleção da biblioteca</title>'/
+			'<title lang="en">Library collection</title>'/
+			'<title lang="es">Colección de la biblioteca</title>'/
+		'</title_list>'/ 
+	else
+		'<title_list>',
+			'<title lang="pt">', ref(['title']l(['title']v3400),v100), '</title>'/
+			'<title lang="en">', ref(['title']l(['title']v3400),v100), '</title>'/
+			'<title lang="es">', ref(['title']l(['title']v3400),v100), '</title>'/
+		'</title_list>'/
+		'<journal>',
+			'<issn>', v3400, '</issn>'/
+			'<siglum>', ref(['title']l(['title']v3400),v68), '</siglum>'/
+		'</journal>'/
+	fi, 
+	'<subtitle_list>',
+		'<subtitle lang="pt">Co-autoria</subtitle>'/
+		'<subtitle lang="en">Co-authors</subtitle>'/
+		'<subtitle lang="es">Co-autoria</subtitle>'/
+	'</subtitle_list>'/
+	'<header>',
+		'<journal>',
+			if v2^t*1<>'' 
+			then
+				ref(['tab30issn']l(['tab30issn']v2^t*1),'<![CDATA[',mpu,v222^a,mpl,']]>')
+			else 
+				'all' 
+			fi,
+		'</journal>'/
+		'<year_source_list>', v11, '</year_source_list>'/
+		'<country_one><![CDATA[', e1:=l(['3166']v2^c*1), if v333='pt' then ref(['3166']e1,v1) else, if v333='en' then ref(['3166']e1,v2) else, if v333='es' then ref(['3166']e1,v3) else v2^c*1 fi, fi, fi, ']]></country_one>'/
+		'<country_two_list>', v22, '</country_two_list>'/
+	'</header>'/
+	'<cooperation_list>',
+
+	

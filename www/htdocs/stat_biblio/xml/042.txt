@@ -1,0 +1,17 @@
+                        </option_list>
+                </selection>
+                <selection name="year_source">
+                        <label_list>
+                                <label lang="pt">Ano base</label>
+                                <label lang="en">Year base</label>
+                                <label lang="es">Año base</label>
+                        </label_list>
+                        <option_list name="YNG" selection_type="multiple">
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">Todos</label>
+                                                <label lang="en">All</label>
+                                                <label lang="es">Todos</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option>

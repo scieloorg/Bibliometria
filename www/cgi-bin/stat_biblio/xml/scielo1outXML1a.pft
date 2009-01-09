@@ -1,0 +1,35 @@
+	'<current_state>15</current_state>'/
+	'<page_title_list>',
+		'<page_title lang="pt">Lista de dados fonte</page_title>'/
+		'<page_title lang="en">Source data list</page_title>'/
+		'<page_title lang="es">Lista de datos fuente</page_title>'/
+	'</page_title_list>'/
+	if v3400='' 
+	then 
+		'<title_list>',
+			'<title lang="pt">Coleção da biblioteca</title>'/
+			'<title lang="en">Library collection</title>'/
+			'<title lang="es">Colección de la biblioteca</title>'/
+		'</title_list>'/ 
+	else
+		'<title_list>',
+                '<title lang="pt"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="en"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="es"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+        '</title_list>'/
+		'<journal>',
+			'<issn>', v3400, '</issn>'/
+			'<siglum>', ref(['title']l(['title']v3400),v68), '</siglum>'/
+		'</journal>'/
+	fi, 
+	'<subtitle_list>',
+		'<subtitle lang="pt">Lista de dados fonte</subtitle>'/
+		'<subtitle lang="en">Source data list</subtitle>'/
+		'<subtitle lang="es">Lista de datos fuente</subtitle>'/
+	'</subtitle_list>'/
+	'<table_list stat="source_data">',
+		'<table>',
+			'<journal_list>',
+		
+
+	

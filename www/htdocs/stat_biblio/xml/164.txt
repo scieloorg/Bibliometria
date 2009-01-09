@@ -1,0 +1,25 @@
+		</option_list>
+		</selection>
+		<selection name="year_source">
+			<label_list>
+				<label lang="pt">Ano de Publicação</label>
+				<label lang="en">Year of Publication</label>
+				<label lang="es">Año de Publicación</label>
+			</label_list>
+			<option_list name="YNG" selection_type="multiple">
+				<option>
+					<label_list>
+						<label lang="pt">Soma de todos os anos</label>
+						<label lang="en">Sum of all years</label>
+						<label lang="es">Suma de todos los años</label>
+					</label_list>
+					<value>sum</value>
+				</option>
+				<option selected="true">
+					<label_list>
+						<label lang="pt">Qualquer ano</label>
+						<label lang="en">Any year</label>
+						<label lang="es">Cualquier año</label>
+					</label_list>
+					<value>all</value>
+				</option>

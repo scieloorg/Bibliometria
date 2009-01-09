@@ -1,0 +1,8 @@
+			</option_list>
+		</selection>
+	</selection_list>
+	<form>
+		<action>/cgi-bin/stat_biblio/xml/scielo7.sh</action>
+		<state>17</state>
+	</form>
+</root>

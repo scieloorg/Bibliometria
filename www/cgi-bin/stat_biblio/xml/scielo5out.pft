@@ -1,0 +1,14 @@
+if mfn=1 
+then 
+	'<table cellpadding="1">
+		<TR><TD>', v1, '</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+			<TD>', v999, '</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+			<TD>',f(100*val(v999)/val(v1111),1,1)'% </TD>
+		</TR>'
+else
+	'<TR><TD>', v1, '</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+			<TD>', v999, '</TD><TD>&nbsp;</TD><TD>&nbsp;</TD>
+			<TD>',f(100*val(v999)/val(v1111),1,1)'% </TD>
+		</TR>'
+fi,
+

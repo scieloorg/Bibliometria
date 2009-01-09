@@ -1,0 +1,50 @@
+if mfn=1 then '<html><center><TABLE BORDER> <TR> <TD><font size="+3,5">Fator de Impacto em SciELO</TD></TR></TABLE></center><br>' fi
+
+  
+ '<TABLE BORDER>
+ <tr><td colspan="11" height="35"><center><b>Revista SciELO:&nbsp;
+  		<font face="Arial Narrow" size="+1" color="Teal">
+			<a href=http://www.scielo.br/scielo.php?script=sci_serial&pid=', ref(['tab30issn']l(['tab30issn']v2^t),v400)'&amp;lng='v333'&nrm=iso target="_blank">'v2^t'</a>
+		</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ano:&nbsp;
+		<font face="Arial Narrow" size="+1" color="Teal">'v2^a'</font></b>
+	</td></center>
+</tr>
+
+ <tr><td colspan="5"><font face="Courier New" size="2" color="Black">Citações concedidas na base SciELO em <b>'v2^a,'</b> a:</font></td>
+     <td colspan="3"><font face="Courier New" size="2" color="Black"><b>&nbsp;'f(val(v2^a)-2,1,0)': </b>',v7,'</font></td>
+	 <td colspan="3"><font face="Courier New" size="2" color="Black"><b>&nbsp;',f(val(v2^a)-1,1,0),': </b>',v6'&nbsp;</font></td>
+</tr>
+
+ <tr><td colspan="5"><font face="Courier New" size="2" color="Black">Número de artigos publicados em: </font></td>
+	 <td colspan="3"><font face="Courier New" size="2" color="Black"><b>&nbsp;',f(val(v2^a)-2,1,0)': </b>'if v9<'1' then 'Não constava em SciELO' else v9 fi,'</font></td>
+	 <td colspan="3"><font face="Courier New" size="2" color="Black"><b>&nbsp;'f(val(v2^a)-1,1,0),': </b>'if v8<'1' then 'Não constava em SciELO' else v8 fi,'&nbsp;</font></td>
+</tr>
+
+ <tr><td colspan="5"><font face="Courier New" size="+1,5" color="Navy"><b>Fator de Impacto em Scielo</b></font></td>
+     <td colspan="3" bgcolor=""><font face="Courier New" size="2" color="Black"><center>('v7'+'v6')/('v9'+'v8') = </center></font></td>
+     <td colspan="3"><font face="Courier New" size="3" color="Red"><center>'if v8>'0' and v9>'0' then v12 else, if v8<'1' and v9<'1' then '<font face="Courier New" size="2" color="Red">Não houve publicação nos referidos anos</font>' else v12'<font face="Courier New" size="2" color="Black">&nbsp;(um ano sem publicação)</font>' fi fi'</td>
+</tr>
+ 
+ <tr><td colspan="5"><font face="Courier New" size="2" color="Black">Citações concedidas na base SciELO em <b>'v2^a,'</b> a:</font></td>
+     <td colspan="6"><font face="Courier New" size="2" color="Black"><b>&nbsp;',v2^a,': </b>',v4,'&nbsp;</td>
+</tr>
+
+ <tr><td colspan="5"><font face="Courier New" size="2" color="Black">Número de artigos publicados em: </font></td>
+     <td colspan="6"><font face="Courier New" size="2" color="Black"><b>&nbsp;',v2^a,': </b>'if v5<'1' then 'Não constava em SciELO' else v5 fi,'&nbsp;</font></td>
+</tr>
+
+ <tr><td colspan="5"><font face="Courier New" size="+1,5" color="Navy"><b>Índice de Imediatez em Scielo</b></font></td>
+     <td colspan="3"><font face="Courier New" size="2" color="Black"><center>('v4'/'v5') = </center></font></td>
+	 <td colspan="3"><center><font face="Courier New" size="3" color="Red">&nbsp;',if v5>'0' then v11 else '<font face="Courier New" size="2" color="Red">Não houve publicação no referido ano</font>' fi'&nbsp;</td>
+</tr>
+ <tr><td colspan="5"><font face="Courier New" size="2" color="Black">Total de citações concedidas na base SciELO em <b>'v2^a,'</b>:</font></td>
+	 <td colspan="6"><font face="Courier New" size="2" color="Black"><center>',v10,'&nbsp;</center></td>
+</tr>
+</table>',
+
+if val(v2^a)<>val(ref([''v5555'.titsanosc']val(f(mfn+1,1,0)),v2^a)) 
+then 
+	'GGGGGXXXXXXXXX'
+fi
+
+

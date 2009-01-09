@@ -1,0 +1,17 @@
+			</option_list>
+		</selection>
+		<selection name="country1">
+			<label_list>
+				<label lang="pt">Países  de Afiliação</label>
+				<label lang="en">Affiliation countries</label>
+				<label lang="es">Países de afiliación</label>
+			</label_list>
+			<option_list name="PAIS1">
+				<option selected="true">
+					<label_list>
+						<label lang="pt">Pais</label>
+						<label lang="en">Pais</label>
+						<label lang="es">Pais</label>
+					</label_list>
+					<value>PP</value>
+				</option>

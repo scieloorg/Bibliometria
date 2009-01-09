@@ -1,0 +1,111 @@
+e1:=l(['tab30issn']ref(['tab30issn']l(['tab30issn']v1^c),v400)),
+e2:=l(['fat_imp']v1^c),
+e3:=l(['titlelilmdl']'LL_'v1^c),
+e4:=l(['titlelilmdl']'IM_'v1^c),
+		'<citation>',
+			'<title_cited>',
+				if e1>0
+					then 
+						'<label><![CDATA[', v1^c, ']]></label>'/
+						'<link_list>',
+							'<link type="scielo">',
+								'<label_list>',
+									'<label lang="pt"><![CDATA[', v1^c,']]></label>'/
+	  								'<label lang="en"><![CDATA[', v1^c,']]></label>'/ 
+									'<label lang="es"><![CDATA[', v1^c,']]></label>'/ 
+								'</label_list>'/
+								'<url>',
+									'<protocol>http</protocol>'/
+									'<host>'v7766'</host>'/
+									'<port></port>'/
+									'<path></path>'/
+									'<script_name>scielo.php</script_name>'/
+									'<param_list>',
+										'<param>',
+											'<name>script</name>'/
+											'<value>sci_serial</value>'/
+										'</param>'/
+										'<param>',
+											'<name>pid</name>'/
+											'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400), '</value>'/
+										'</param>'/
+										'<param>',
+											'<name>lng</name>'/
+											'<value>', v333, '</value>'/
+										'</param>'/
+										'<param>',
+											'<name>nrm</name>'/
+											'<value>iso</value>'/
+										'</param>'/
+									'</param_list>'/
+								'</url>'/
+							'</link>'/
+					else,
+	if e2>0 and e1=0
+				then
+					'<label><![CDATA[', v1^c,']]></label>'/
+						'<link_list>',
+				else, 
+		if v1^c.1='~'
+				then
+					'<label><![CDATA[', v1^c*4,']]></label>'/
+						'<link_list>',
+				else 
+					'<label><![CDATA[', v1^c,']]></label>'/
+						'<link_list>',
+					fi,
+				fi,
+			fi,
+				 if v1^i<>'' 
+						then
+							'<link type="popup">',
+								'<label_list>',
+				  					'<label lang="pt">Ver</label>'/
+			  						'<label lang="en">See</label>'/ 
+				  					'<label lang="es">Ver</label>'/ 
+				  				'</label_list>'/
+								'<url>',
+									'<protocol>http</protocol>'/
+									'<host>'v7777'</host>'/
+									'<port></port>'/
+									'<path>stat_biblio/xml</path>'/
+									'<script_name>scielo5out.sh</script_name>'/
+									'<param_list>',
+										'<param>',
+											'<name>CITED</name>'/
+											'<value>44I_',v1^i,|%20and%20|,v280,|%20and%20|,v288,|%20and%20|,v265, '</value>'/
+										'</param>'/
+										'<param>',
+											'<name>formato</name>'/
+											'<value>', v5000, '</value>'/
+										'</param>'/
+										'<param>',
+											'<name>lang</name>'/
+											'<value>', v333, '</value>'/
+										'</param>'/
+									'</param_list>'/
+								'</url>'/
+								'<state>13</state>'/
+							'</link>'/
+					fi,
+						'</link_list>'/
+					'</title_cited>'/
+					'<citations_to_title_cited>', v999, '</citations_to_title_cited>'/
+					'<database_title_cited>',
+						if e1>0 or e2>0 or e3>0 or e4>0 then
+							proc('a2~'
+								if e1>0 then ',SciELO'
+								fi,
+								if e2>0 then ', ISI'
+								fi,
+								if e3>0 then ', LILACS'
+								fi,
+								if e4>0 then ', MEDLINE'
+								fi,
+							'~'),
+							v2*1
+						else, 
+							'-'
+						fi
+					'</database_title_cited>'/
+				'</citation>'/

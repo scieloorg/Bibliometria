@@ -1,0 +1,117 @@
+if mfn=1
+then 
+	'<table_list stat="citing_data">',
+		'<table issn="', v1^n, '">',
+			'<header>',
+				'<title><![CDATA[', v1^s, ']]></title>'/
+				'<sub_total>', v1111, '</sub_total>'/
+			'</header>'/
+			'<citation_list>',
+fi,
+
+		'<citation>',
+			'<title_cited>',
+					'<issn>', v1^n, '</issn>'/
+			'</title_cited>'/
+			'<title_citing>',
+				'<label><![CDATA[', v1^c,']]></label>'/
+				'<link_list>',
+					'<link type="scielo">',
+						'<label_list>',
+	  						'<label lang="pt"><![CDATA[', v1^c,']]></label>'/
+	  						'<label lang="en"><![CDATA[', v1^c,']]></label>'/ 
+							'<label lang="es"><![CDATA[', v1^c,']]></label>'/ 
+	  					'</label_list>'/	
+							'<url>',
+								'<protocol>http</protocol>'/
+							'<host>'v7766'</host>'/
+							'<port></port>'/
+							'<path></path>'/
+							'<script_name>scielo.php</script_name>'/
+							'<param_list>',
+								'<param>',
+									'<name>script</name>'/
+									'<value>sci_serial</value>'/
+								'</param>'/
+								'<param>',
+									'<name>pid</name>'/
+									'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400), '</value>'/
+								'</param>'/
+								'<param>',
+									'<name>lng</name>'/
+									'<value>', v333, '</value>'/
+								'</param>'/
+								'<param>',
+									'<name>nrm</name>'/
+									'<value>iso</value>'/
+								'</param>'/
+							'</param_list>'/
+							'</url>'/
+					'</link>'/
+				'</link_list>'/
+			'</title_citing>'/
+			'<citations_to_title_cited>', v999, '</citations_to_title_cited>'/
+		'</citation>'/
+
+if v1^n<>ref([''v5555'.mxtbcg']val(f(mfn+1,1,0)),v1^n) and ref([''v5555'.mxtbcg']val(f(mfn+1,1,0)),v1^n)<>''
+then 
+	'</citation_list>'/
+	'</table>'/
+	'<table issn="', ref([''v5555'.mxtbcg']val(f(mfn+1,1,0)),v1^n), '">',
+		'<header>',
+			'<title><![CDATA[', ref([''v5555'.mxtbcg']val(f(mfn+1,1,0)),v1^s), ']]></title>'/
+			'<sub_total>', ref([''v5555'.mxtbcg']val(f(mfn+1,1,0)),v1111), '</sub_total>'/
+		'</header>'/
+		'<citation_list>',
+fi,
+if ref([''v5555'.mxtbcg']val(f(mfn+1,1,0)),v1^n)='' 
+then 
+		'</citation_list>'/ 
+	'</table>'/
+	if v1^n='' 
+	then
+		'<table>',
+		'<citation_list>',
+	fi,
+fi,
+
+/*
+e1:=l(['tab30issn']ref(['tab30issn']l(['tab30issn']v1^c),v400)),e2:=l(['fat_imp']v1^c),
+			if e1>0
+					then
+						link scielo
+				fi,
+					'<link type="iah">',
+						'<label_list>',
+	  						'<label lang="pt">Ver</label>'/
+	  						'<label lang="en">See</label>'/ 
+		  					'<label lang="es">Ver</label>'/ 
+	  					'</label_list>'/
+							'<url>',
+								'<protocol>http</protocol>'/
+								'<host>'v7777'</host>'/
+								'<port></port>'/
+								'<path>stat_biblio/xml</path>'/
+								'<script_name>scielo6out.sh</script_name>'/
+								'<param_list>',
+									'<param>',
+										'<name>CITING</name>'/
+										'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400)|%20and%20|,v230|%20and%20|,v1^y|%20and%20|,v265, '</value>'/
+									'</param>'/
+									'<param>',
+										'<name>CITED</name>'/
+										'<value>', v11, '</value>'/
+									'</param>'/
+									'<param>',
+										'<name>formato</name>'/
+										'<value>', v5000, '</value>'/
+									'</param>'/
+									'<param>',
+										'<name>lang</name>'/
+										'<value>', v333, '</value>'/
+									'</param>'/
+								'</param_list>'/
+							'</url>'/
+							'<state>14</state>'/
+					'</link>'/
+*/	

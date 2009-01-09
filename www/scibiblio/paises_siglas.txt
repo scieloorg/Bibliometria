@@ -1,0 +1,1434 @@
+pt - Afeganistão
+en - Afghanistan
+es - Afganistan
+fr - Afghanistan
+                             AF
+
+pt - Albania
+en - Albania
+es - Albania
+fr - Albanie
+                             AL
+
+pt - Algeria
+en - Algeria
+es - Argelia
+fr - Algérie
+                             DZ
+
+pt - Samoa americana
+en - American samoa
+es - Samoa Americana
+fr - Samoa américaines
+                             AS
+
+pt - Andorra
+en - Andorra
+es - Andorra
+fr - Andorre
+                             AD
+
+pt - Angola
+en - Angola
+es - Angola
+fr - Angola
+                             AO
+
+pt - Anguila
+en - Anguilla
+es - Anguila
+fr - Anguilla
+                             AI
+
+pt - Antártida
+en - Antarctica
+es - Antartica
+fr - Antarctique
+                             AQ
+
+pt - Antigua e Barbuda
+en - Antigua and Barbuda
+es - Antigua y Barbuda
+fr - Antigua-et-Barbuda
+                             AG
+
+pt - Argentina
+en - Argentina
+es - Argentina
+fr - Argentine
+                             AR
+
+pt - Armênia
+en - Armenia
+es - Armenia
+fr - Arménie
+                             AM
+
+pt - Aruba
+en - Aruba
+es - Aruba
+fr - Aruba
+                             AW
+
+pt - Australia
+en - Australia
+es - Australia
+fr - Australie
+                             AU
+
+pt - Austria
+en - Austria
+es - Austria
+fr - Autriche
+                             AT
+
+pt - Azerbaidjão
+en - Azerbaijan
+es - Azerbaiyan
+fr - Azerbaïdjan
+                             AZ
+
+pt - Bahamas
+en - Bahamas
+es - Bahamas
+fr - Bahamas
+                             BS
+
+pt - Bahrein
+en - Bahrain
+es - Bahrein
+fr - Bahreïn
+                             BH
+
+pt - Bangladesh
+en - Bangladesh
+es - Bangladesh
+fr - Bangladesh
+                             BD
+
+pt - Barbados
+en - Barbados
+es - Barbados
+fr - Barbade
+                             BB
+
+pt - Belarus
+en - Belarus
+es - Belarus
+fr - Bélarus
+                             BY
+
+pt - Bélgica
+en - Belgium
+es - Belgica
+fr - Belgique
+                             BE
+
+pt - Belize
+en - Belize
+es - Belice
+fr - Belize
+                             BZ
+
+pt - Benim
+en - Benin
+es - Benin
+fr - Bénin
+                             BJ
+
+pt - Bermudas
+en - Bermuda
+es - Bermudas
+fr - Bermudes
+                             BM
+
+pt - Butão
+en - Bhutan
+es - Butan
+fr - Bhoutan
+                             BT
+
+pt - Bolívia
+en - Bolivia
+es - Bolivia
+fr - Bolivie
+                             BO
+
+pt - Bosnia-Herzegovina
+en - Bosnia and Herzegovina
+es - Bosnia Herzegovina
+fr - Bosnie-Herzégovine
+                             BA
+
+pt - Botsuana
+en - Botswana
+es - Botswana
+fr - Botswana
+                             BW
+
+pt - Bouvet, Ilha
+en - Bouvet Island
+es - Bouvet, Isla
+fr - Bouvet, Île
+                             BV
+
+pt - Brasil
+en - Brazil
+es - Brasil
+fr - Brésil
+                             BR
+
+pt - Territorio britânico no oceano índico
+en - British indian ocean territory
+es - 
+fr - Océan indien, territoire britannique de l'
+                             IO
+
+pt - Brunei Darussalam
+en - Brunei Darussalam
+es - Brunei
+fr - Brunéi Darussalam
+                             BN
+
+pt - Búlgaria
+en - Bulgaria
+es - Bulgaria
+fr - Bulgarie
+                             BG
+
+pt - Burquina Fasso
+en - Burkina Faso
+es - Burquina Faso
+fr - Burkina Faso
+                             BF
+
+pt - Burundi
+en - Burundi
+es - Burundi
+fr - Burundi
+                             BI
+
+pt - Camboja
+en - Cambodia
+es - Cambodia
+fr - Cambodge
+                             KH
+
+pt - Camarões
+en - Cameroon
+es - Camerun
+fr - Cameroun
+                             CM
+
+pt - Canadá
+en - Canada
+es - Canada
+fr - Canada
+                             CA
+
+pt - Cabo Verde
+en - Cape Verde
+es - Cabo Verde
+fr - Cap-Vert
+                             CV
+
+pt - Cayman, Ilhas
+en - Cayman Islands
+es - Cayman, Islas
+fr - Caïmanes, Îles
+                             KY
+
+pt - Centro-Africana, República
+en - Central African Republic
+es - Centro Africana, Republica
+fr - Centrafricaine, République
+                             CF
+
+pt - Chade
+en - Chad
+es - Chad
+fr - Tchad
+                             TD
+
+pt - Chile
+en - Chile
+es - Chile
+fr - Chili
+                             CL
+
+pt - China
+en - China
+es - China
+fr - Chine
+                             CN
+
+pt - Christmas, Ilhas
+en - Christmas Island
+es - Chistmas, Islas
+fr - Christmas, Île
+                             CX
+
+pt - Cocos, Ilhas
+en - Cocos Islands
+es - Cocos, Islas
+fr - Cocos, Îles
+                             CC
+
+pt - Colômbia
+en - Colombia
+es - Colombia
+fr - Colombie
+                             CO
+
+pt - Comores
+en - Comoros
+es - Comoros
+fr - Comores
+                             KM
+
+pt - Congo
+en - Congo
+es - Congo
+fr - Congo
+                             CG
+
+pt - Cook, Ilhas
+en - Cook Islands
+es - Cook, Islas
+fr - Cook, Îles
+                             CK
+
+pt - Costa Rica
+en - Costa Rica
+es - Costa Rica
+fr - Costa Rica
+                             CR
+
+pt - Costa do Marfim
+en - Cote d'Ivoire
+es - Costa de Marfil
+fr - Côte d'Ivoire
+                             CI
+
+pt - Croácia
+en - Croatia
+es - Croacia
+fr - Croatie
+                             HR
+
+pt - Cuba
+en - Cuba
+es - Cuba
+fr - Cuba
+                             CU
+
+pt - Chipre
+en - Cyprus
+es - Chipre
+fr - Chypre
+                             CY
+
+pt - Tcheca, República
+en - Czech Republic
+es - Checa, Republica
+fr - Tchèque, République
+                             CZ
+
+pt - Dinamarca
+en - Denmark
+es - Dinamarca
+fr - Danemark
+                             DK
+
+pt - Djibuti
+en - Djibouti
+es - Djibouti
+fr - Djibouti
+                             DJ
+
+pt - Dominica
+en - Dominica
+es - Dominica
+fr - Dominique
+                             DM
+
+pt - Dominicana, República
+en - Dominican Republic
+es - Dominicana, Republica
+fr - Dominicaine, République
+                             DO
+
+pt - Timor Oriental
+en - Timor-Leste
+es - Timor Oriental
+fr - Timor-Leste
+                             TL
+
+pt - Equador
+en - Ecuador
+es - Ecuador
+fr - Équateur
+                             EC
+
+pt - Egito
+en - Egypt
+es - Egipto
+fr - Égypte
+                             EG
+
+pt - El Salvador
+en - El salvador
+es - El Salvador
+fr - El salvador
+                             SV
+
+pt - Guine Equatorial
+en - Equatorial Guinea
+es - Guinea Ecuatorial
+fr - Guinée Équatoriale
+                             GQ
+
+pt - Eritréia
+en - Eritrea
+es - Eritrea
+fr - Érythrée
+                             ER
+
+pt - Estônia
+en - Estonia
+es - Estonia
+fr - Estonie
+                             EE
+
+pt - Etiópia
+en - Ethiopia
+es - Etiopia
+fr - Éthiopie
+                             ET
+
+pt - Falkland, Ilhas
+en - Falkland Islands
+es - Falkland, Islas
+fr - Falkland, Îles
+                             FK
+
+pt - Faroe, Ilhas
+en - Faroe Islands
+es - Feroe, Islas
+fr - Féroé, Îles
+                             FO
+
+pt - Fiji
+en - Fiji
+es - Fidji
+fr - Fidji
+                             FJ
+
+pt - Finlândia
+en - Finland
+es - Finlandia
+fr - Finlande
+                             FI
+
+pt - França
+en - France
+es - Francia
+fr - France
+                             FR
+
+pt - França (territorio europeu)
+en - France, metropolitan
+es - 
+fr - 
+                             FX
+
+pt - Guiana Francesa
+en - French Guiana
+es - Guyana Francesa
+fr - Guyane Française
+                             GF
+
+pt - Polinesia Francesa
+en - French Polynesia
+es - Polinesia
+fr - Polynésie Française
+                             PF
+
+pt - Territorios Franceses Meridionais
+en - French Southern Territories
+es - 
+fr - Terres Australes Françaises
+                             TF
+
+pt - Gabão
+en - Gabon
+es - Gabon
+fr - Gabon
+                             GA
+
+pt - Gâmbia
+en - Gambia
+es - Gambia
+fr - Gambie
+                             GM
+
+pt - Georgia
+en - Georgia
+es - Georgia
+fr - Géorgie
+                             GE
+
+pt - Alemanha
+en - Germany
+es - Alemania
+fr - Allemagne
+                             DE
+
+pt - Gana
+en - Ghana
+es - Ghana
+fr - Ghana
+                             GH
+
+pt - Gibraltar
+en - Gibraltar
+es - Gibraltar
+fr - Gibraltar
+                             GI
+
+pt - Grécia
+en - Greece
+es - Grecia
+fr - Grèce
+                             GR
+
+pt - Groenlândia
+en - Greenland
+es - Groenlandia
+fr - Groenland
+                             GL
+
+pt - Granada
+en - Grenada
+es - Grenada
+fr - Grenade
+                             GD
+
+pt - Guadalupe
+en - Guadeloupe
+es - Guadalupe
+fr - Guadeloupe
+                             GP
+
+pt - Guam
+en - Guam
+es - Guam
+fr - Guam
+                             GU
+
+pt - Guatemala
+en - Guatemala
+es - Guatemala
+fr - Guatemala
+                             GT
+
+pt - Guine
+en - Guinea
+es - Guinea
+fr - Guinée
+                             GN
+
+pt - Guine-Bissau
+en - Guinea-Bissau
+es - Guinea Bissau
+fr - Guinée-Bissau
+                             GW
+
+pt - Guiana
+en - Guyana
+es - Guyana
+fr - Guyana
+                             GY
+
+pt - Haiti
+en - Haiti
+es - Haiti
+fr - Haïti
+                             HT
+
+pt - Heard e McDonald, Ilhas
+en - Heard and McDonald Islands
+es - 
+fr - Heard, Île et McDonald, Îles
+                             HM
+
+pt - Cidade-Estado do Vaticano
+en - Holy See
+es - Ciudad del Vaticano
+fr - Saint-Siège
+                             VA
+
+pt - Honduras
+en - Honduras
+es - Honduras
+fr - Honduras
+                             HN
+
+pt - Hong Kong
+en - Hong Kong
+es - Hong Kong
+fr - Hong-Kong
+                             HK
+
+pt - Hungria
+en - Hungary
+es - Hungria
+fr - Hongrie
+                             HU
+
+pt - Islândia
+en - Iceland
+es - Islandia
+fr - Islande
+                             IS
+
+pt - Índia
+en - India
+es - India
+fr - Inde
+                             IN
+
+pt - Indonésia
+en - Indonesia
+es - Indonesia
+fr - Indonésie
+                             ID
+
+pt - Irã, República Islâmica do
+en - Iran, Islamic Republic of
+es - Iran
+fr - Iran, République Islamique d'
+                             IR
+
+pt - Iraque
+en - Iraq
+es - Irak
+fr - Iraq
+                             IQ
+
+pt - Irlanda
+en - Ireland
+es - Irlanda
+fr - Irlande
+                             IE
+
+pt - Israel
+en - Israel
+es - Israel
+fr - Israël
+                             IL
+
+pt - Itália
+en - Italy
+es - Italia
+fr - Italie
+                             IT
+
+pt - Jamaica
+en - Jamaica
+es - Jamaica
+fr - Jamaïque
+                             JM
+
+pt - Japão
+en - Japan
+es - Japon
+fr - Japon
+                             JP
+
+pt - Jordânia
+en - Jordan
+es - Jordania
+fr - Jordanie
+                             JO
+
+pt - Cazaquistão
+en - Kazakhstan
+es - Kazajstan
+fr - Kazakhstan
+                             KZ
+
+pt - Quênia
+en - Kenya
+es - Kenia
+fr - Kenya
+                             KE
+
+pt - Kiribati
+en - Kiribati
+es - Kiribati
+fr - Kiribati
+                             KI
+
+pt - Coreia do Norte
+en - Korea, Democratic People's Republic of
+es - Corea del Norte
+fr - Corée, République Populaire Démocratique de
+                             KP
+
+pt - Coreia do Sul
+en - Korea, Republic of
+es - Corea del Sur
+fr - Corée, République de
+                             KR
+
+pt - Kuwait
+en - Kuwait
+es - Kuwait
+fr - Koweït
+                             KW
+
+pt - Quirguizistão
+en - Kyrgyzstan
+es - Kirguistan
+fr - Kirghizistan
+                             KG
+
+pt - Laos, República Democratica do Povo
+en - Lao People's Democratic Republic
+es - Laos
+fr - Lao, République Démocratique Populaire
+                             LA
+
+pt - Letônia
+en - Latvia
+es - Letonia
+fr - Lettonie
+                             LV
+
+pt - Líbano
+en - Lebanon
+es - Libano
+fr - Liban
+                             LB
+
+pt - Lessoto
+en - Lesotho
+es - Lesotho
+fr - Lesotho
+                             LS
+
+pt - Libéria
+en - Liberia
+es - Liberia
+fr - Libéria
+                             LR
+
+pt - Líbia
+en - Libyan Arab Jamahiriya
+es - Libia
+fr - Libyenne, Jamahiriya Arabe
+                             LY
+
+pt - Liechtenstein
+en - Liechtenstein
+es - Liechtenstein
+fr - Liechtenstein
+                             LI
+
+pt - Lituânia
+en - Lithuania
+es - Lituania
+fr - Lituanie
+                             LT
+
+pt - Luxemburgo
+en - Luxembourg
+es - Luxemburgo
+fr - Luxembourg
+                             LU
+
+pt - Macau
+en - Macao
+es - Macao
+fr - Macao
+                             MO
+
+pt - Macedônia
+en - Macedonia, The Former Yugoslav Republic of
+es - Macedonia Republica
+fr - Macédoine, L'ex-république Yougoslave de
+                             MK
+
+pt - Madagascar
+en - Madagascar
+es - Madagascar
+fr - Madagascar
+                             MG
+
+pt - Malawi
+en - Malawi
+es - Malawi
+fr - Malawi
+                             MW
+
+pt - Malásia
+en - Malaysia
+es - Malasia
+fr - Malaisie
+                             MY
+
+pt - Maldivas
+en - Maldives
+es - Maldivas
+fr - Maldives
+                             MV
+
+pt - Mali
+en - Mali
+es - Mali
+fr - Mali
+                             ML
+
+pt - Malta
+en - Malta
+es - Malta
+fr - Malte
+                             MT
+
+pt - Marshall, Ilhas
+en - Marshall Islands
+es - Marshall, Islas
+fr - Marshall, Îles
+                             MH
+
+pt - Martinica
+en - Martinique
+es - Martinica
+fr - Martinique
+                             MQ
+
+pt - Mauritânia
+en - Mauritania
+es - Mauritania
+fr - Mauritanie
+                             MR
+
+pt - Maurício, Ilhas
+en - Mauritius
+es - Mauricio
+fr - Maurice
+                             MU
+
+pt - 
+en - Mayotte
+es - Mayotte
+fr - Mayotte
+                             YT
+
+pt - México
+en - Mexico
+es - Mexico
+fr - Mexique
+                             MX
+
+pt - Micronésia
+en - Micronesia, Federated States of
+es - Micronesia
+fr - Micronésie, États Fédérés de
+                             FM
+
+pt - Moldávia
+en - Moldova, Republic of
+es - Moldova
+fr - Moldova, République de
+                             MD
+
+pt - Mônaco
+en - Monaco
+es - Monaco
+fr - Monaco
+                             MC
+
+pt - Mongólia
+en - Mongolia
+es - Mongolia
+fr - Mongolie
+                             MN
+
+pt - Montserrat
+en - Montserrat
+es - Montserrat
+fr - Montserrat
+                             MS
+
+pt - Marrocos
+en - Morocco
+es - Marruecos
+fr - Maroc
+                             MA
+
+pt - Moçambique
+en - Mozambique
+es - Mozambique
+fr - Mozambique
+                             MZ
+
+pt - Myanmar
+en - Myanmar
+es - Mianmar
+fr - Myanmar
+                             MM
+
+pt - Namíbia
+en - Namibia
+es - Namibia
+fr - Namibie
+                             NA
+
+pt - Nauru
+en - Nauru
+es - Nauru
+fr - Nauru
+                             NR
+
+pt - Nepal
+en - Nepal
+es - Nepal
+fr - Népal
+                             NP
+
+pt - Países Baixos
+en - Netherlands
+es - Paises Bajos
+fr - Pays-bas
+                             NL
+
+pt - Antilhas Holandesas
+en - Netherlands Antilles
+es - Antillas Neerlandesas
+fr - Antilles Néerlandaises
+                             AN
+
+pt - Nova Caledônia
+en - New Caledonia
+es - Nueva Caledonia
+fr - Nouvelle-Calédonie
+                             NC
+
+pt - Nova Zelândia
+en - New Zealand
+es - Nueva Zelanda
+fr - Nouvelle-Zélande
+                             NZ
+
+pt - Nicarágua
+en - Nicaragua
+es - Nicaragua
+fr - Nicaragua
+                             NI
+
+pt - Niger
+en - Niger
+es - Niger
+fr - Niger
+                             NE
+
+pt - Nigéria
+en - Nigeria
+es - Nigeria
+fr - Nigéria
+                             NG
+
+pt - Niue
+en - Niue
+es - 
+fr - Niué
+                             NU
+
+pt - Norfolk, Ilha
+en - Norfolk Island
+es - Norfolk, Isla
+fr - Norfolk, Île
+                             NF
+
+pt - Mariana do Norte, Ilhas
+en - Northern Mariana Islands
+es - Marianas, Islas
+fr - Mariannes du Nord, Îles
+                             MP
+
+pt - Noruega
+en - Norway
+es - Noruega
+fr - Norvège
+                             NO
+
+pt - Omã
+en - Oman
+es - Oman
+fr - Oman
+                             OM
+
+pt - Paquistão
+en - Pakistan
+es - Pakistan
+fr - Pakistan
+                             PK
+
+pt - Palau
+en - Palau
+es - Palau
+fr - Palaos
+                             PW
+
+pt - Panamá
+en - Panama
+es - Panama
+fr - Panama
+                             PA
+
+pt - Papua-Nova Guiné
+en - Papua New Guinea
+es - Papua Nueva Guinea
+fr - Papouasie-Nouvelle-Guinée
+                             PG
+
+pt - Paraguai
+en - Paraguay
+es - Paraguay
+fr - Paraguay
+                             PY
+
+pt - Perú
+en - Peru
+es - Peru
+fr - Pérou
+                             PE
+
+pt - Filipinas
+en - Philippines
+es - Filipinas
+fr - Philippines
+                             PH
+
+pt - Pitcairn, Ilha
+en - Pitcairn
+es - Pitcairn, Isla
+fr - Pitcairn
+                             PN
+
+pt - Polônia
+en - Poland
+es - Polonia
+fr - Pologne
+                             PL
+
+pt - Portugal
+en - Portugal
+es - Portugal
+fr - Portugal
+                             PT
+
+pt - Porto Rico
+en - Puerto Rico
+es - Puerto Rico
+fr - Porto Rico
+                             PR
+
+pt - Qatar
+en - Qatar
+es - Qatar
+fr - Qatar
+                             QA
+
+pt - Reunião
+en - Reunion
+es - Reunion
+fr - Réunion
+                             RE
+
+pt - Romênia
+en - Romania
+es - Rumania
+fr - Roumanie
+                             RO
+
+pt - Federacao Russa
+en - Russian Federation
+es - Rusia
+fr - Russie, Fédération de
+                             RU
+
+pt - Ruanda
+en - Rwanda
+es - Rwanda
+fr - Rwanda
+                             RW
+
+pt - Saint Kitts Nevis Anguilla
+en - Saint Kitts and Nevis
+es - San Kitts y Nevis
+fr - Saint-Kitts-et-Nevis
+                             KN
+
+pt - Santa Lúcia
+en - Saint Lucia
+es - Santa Lucia
+fr - Sainte-Lucie
+                             LC
+
+pt - São Vicente e Granada
+en - Saint Vincent and the Grenadines
+es - San Vicente y Las Grenadinas
+fr - Saint-Vincent-et-les Grenadines
+                             VC
+
+pt - Samôa
+en - Samoa
+es - Samoa
+fr - Samoa
+                             WS
+
+pt - San Marino
+en - San Marino
+es - San Marino
+fr - Saint-Marin
+                             SM
+
+pt - São Tomé e Principe
+en - Sao Tome and Principe
+es - 
+fr - Sao Tomé-et-Principe
+                             ST
+
+pt - Arábia Saudita
+en - Saudi Arabia
+es - Arabia Saudita
+fr - Arabie Saoudite
+                             SA
+
+pt - Senegal
+en - Senegal
+es - Senegal
+fr - Sénégal
+                             SN
+
+pt - Seychelles
+en - Seychelles
+es - Seychelles
+fr - Seychelles
+                             SC
+
+pt - Serra Leoa
+en - Sierra Leone
+es - Sierra Leona
+fr - Sierra Leone
+                             SL
+
+pt - Singapura
+en - Singapore
+es - Singapur
+fr - Singapour
+                             SG
+
+pt - Eslovaca, República
+en - Slovakia
+es - Eslovaquia
+fr - Slovaquie
+                             SK
+
+pt - Eslovênia
+en - Slovenia
+es - Eslovenia
+fr - Slovénie
+                             SI
+
+pt - Salomão, Ilhas
+en - Solomon Islands
+es - Salomon, Islas
+fr - Salomon, Îles
+                             SB
+
+pt - Somália
+en - Somalia
+es - Somalia
+fr - Somalie
+                             SO
+
+pt - África do Sul
+en - South Africa
+es - Sudafrica
+fr - Afrique du Sud
+                             ZA
+
+pt - Georgia do Sul e Ilhas Sandwich do Sul
+en - South Georgia and the South Sandwich Islands
+es - 
+fr - Géorgie du Sud et les Îles Sandwich du Sud
+                             GS
+
+pt - Espanha
+en - Spain
+es - España
+fr - Espagne
+                             ES
+
+pt - Sri Lanka
+en - Sri Lanka
+es - Sri Lanka
+fr - Sri Lanka
+                             LK
+
+pt - Santa Helena
+en - Saint Helena
+es - 
+fr - Sainte-Hélène
+                             SH
+
+pt - Saint Pierre e Miquelon
+en - Saint Pierre and Miquelon
+es - Saint Pierre y Miquelon
+fr - Saint-Pierre-et-Miquelon
+                             PM
+
+pt - Sudão
+en - Sudan
+es - Sudan
+fr - Soudan
+                             SD
+
+pt - Suriname
+en - Suriname
+es - Suriname
+fr - Suriname
+                             SR
+
+pt - Svalbard e Jan Mayen
+en - Svalbard and Jan Mayen
+es - Svalbard
+fr - Svalbard et Île Jan Mayen
+                             SJ
+
+pt - Suazilândia
+en - Swaziland
+es - Swazilandia
+fr - Swaziland
+                             SZ
+
+pt - Suécia
+en - Sweden
+es - Suecia
+fr - Suède
+                             SE
+
+pt - Suiça
+en - Switzerland
+es - Suiza
+fr - Suisse
+                             CH
+
+pt - Síria
+en - Syrian Arab Republic
+es - Siria
+fr - Syrienne, République Arabe
+                             SY
+
+pt - Taiwan
+en - Taiwan, Province of China
+es - Taiwan
+fr - Taïwan, Province de Chine
+                             TW
+
+pt - Tadjiquistão
+en - Tajikistan
+es - Tayikistan
+fr - Tadjikistan
+                             TJ
+
+pt - Tanzânia
+en - Tanzania, United Republic of
+es - Tanzania
+fr - Tanzanie, République-Unie de
+                             TZ
+
+pt - Tailândia
+en - Thailand
+es - Tailandia
+fr - Thaïlande
+                             TH
+
+pt - Togo
+en - Togo
+es - Togo
+fr - Togo
+                             TG
+
+pt - Tokelau
+en - Tokelau
+es - Tokelau
+fr - Tokelau
+                             TK
+
+pt - Tonga
+en - Tonga
+es - Tonga
+fr - Tonga
+                             TO
+
+pt - Trinidad e Tobago
+en - Trinidad and Tobago
+es - Trinidad y Tobago
+fr - Trinité-et-Tobago
+                             TT
+
+pt - Tunísia
+en - Tunisia
+es - Tunez
+fr - Tunisie
+                             TN
+
+pt - Turquia
+en - Turkey
+es - Turquia
+fr - Turquie
+                             TR
+
+pt - Turcomenistão
+en - Turkmenistan
+es - Turkmenistan
+fr - Turkménistan
+                             TM
+
+pt - Turcas e Caicos, Ilhas
+en - Turks and Caicos Islands
+es - 
+fr - Turks et Caïques, Îles
+                             TC
+
+pt - Tuvalu
+en - Tuvalu
+es - Tuvalu
+fr - Tuvalu
+                             TV
+
+pt - Uganda
+en - Uganda
+es - Uganda
+fr - Ouganda
+                             UG
+
+pt - Ucrânia
+en - Ukraine
+es - Ucrania
+fr - Ukraine
+                             UA
+
+pt - Emirados Árabes Unidos
+en - United Arab Emirates
+es - Emiratos Arabes Unidos
+fr - Émirats Arabes Unis
+                             AE
+
+pt - Reino Unido
+en - United kingdom
+es - Reino Unido
+fr - Royaume-uni
+                             GB
+
+pt - Estados Unidos da América
+en - United States
+es - Estados Unidos
+fr - États-Unis
+                             US
+
+pt - Ilhas exteriores menores dos Estados Unidos da América
+en - United States minor outlying islands
+es - 
+fr - Îles mineures éloignées des États-Unis
+                             UM
+
+pt - Uruguai
+en - Uruguay
+es - Uruguay
+fr - Uruguay
+                             UY
+
+pt - Usbequistão
+en - Uzbekistan
+es - Uzbequistan
+fr - Ouzbékistan
+                             UZ
+
+pt - Vanuatu
+en - Vanuatu
+es - Vanuatu
+fr - Vanuatu
+                             VU
+
+pt - Venezuela
+en - Venezuela
+es - Venezuela
+fr - Venezuela
+                             VE
+
+pt - Vietnã
+en - Viet Nam
+es - Vietnam
+fr - Viet Nam
+                             VN
+
+pt - Virgens Britânicas, Ilhas
+en - Virgin Islands, British
+es - British
+fr - Îles Vierges Britanniques
+                             VG
+
+pt - Ilhas Virgens
+en - Virgin Islands, U.S.
+es - Virgenes de los  Estados Unidos, Islas
+fr - Îles Vierges des États-Unis
+                             VI
+
+pt - Wallis e Futuna, Ilhas
+en - Wallis and Futuna
+es - 
+fr - Wallis et Futuna
+                             WF
+
+pt - Saara Ocidental
+en - Western Sahara
+es - 
+fr - Sahara Occidental
+                             EH
+
+pt - Iemen
+en - Yemen
+es - Yemen
+fr - Yémen
+                             YE
+
+pt - Iugoslavia
+en - Yugoslav
+es - Yugoslavia
+fr - Yougoslavie
+                             YU
+
+pt - Zaire
+en - Zaire
+es - 
+fr - 
+                             ZR
+
+pt - Zâmbia
+en - Zambia
+es - Zambia
+fr - Zambie
+                             ZM
+
+pt - Zimbabue
+en - Zimbabwe
+es - Zimbabwe
+fr - Zimbabwe
+                             ZW
+

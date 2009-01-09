@@ -1,0 +1,377 @@
+if v333='pt' then
+	'<cooperation>'/
+		'<order>', f(val(mfn),1,0), '</order>'/
+		'<year_source>', 
+			if v2^a<>'sum' 
+			then
+				v2^a 
+			else, 
+				'soma de todos os anos' 
+			fi,
+		'</year_source>'/
+		'<country_first><![CDATA[', e1:=l(['3166']v2^c*1),ref(['3166']e1,mpu,v1,mpl) ']]></country_first>'/
+		'<country_second>',
+			if v2^p='-' 
+			then, 
+				'País não identificado'
+			else, 
+				if v2^p='1' then, 
+					'Autor individual'
+				else 
+					'<![CDATA[', e1:=l(['3166']v2^p),ref(['3166']e1,mpu,v1,mpl) ']]>' 
+				fi, 
+			fi,
+		'</country_second>'/
+		'<frequency>',
+			if v2^a<>'sum' 
+			then 
+				f(npost(['v677']v2^a,v2^c'/'v2^p,v2^t),1,0)  
+			else 
+				f(npost(['v677']v2^c'/'v2^p,v2^t),1,0) 
+			fi
+		'</frequency>'/
+			'<link type="iah">',
+				'<label_list>',
+							'<label lang="pt">Ver artigos</label>'/
+							'<label lang="en">See articles</label>'/ 
+							'<label lang="es">Ver artículos</label>'/ 
+						'</label_list>'/
+					'<url>',
+						'<protocol>http</protocol>'/
+						'<host>'v7766'</host>'/
+						'<port></port>'/
+						'<path>cgi-bin/wxis.exe/iah</path>'/
+						'<script_name></script_name>'/
+						'<param_list>',
+							'<param>',
+								'<name>IsisScript</name>'/
+								'<value>iah/iah.xis</value>'/
+							'</param>'/
+							'<param>',
+								'<name>base</name>'/
+								'<value>article^d',if v2^t<>'' then ref(['title']l(['title']v2^t*1),v68) else 'library' fi, '</value>'/
+							'</param>'/
+							'<param>',
+								'<name>fmt</name>'/
+								'<value>iso.pft</value>'/
+							'</param>'/
+							'<param>',
+								'<name>nextAction</name>'/
+								'<value>lnk</value>'/
+							'</param>'/
+							'<param>',
+								'<name>lang</name>'/
+								'<value>p</value>'/
+							'</param>'/
+							'<param>',
+								'<name>exprSearch</name>'/
+								'<value>',e1:=l(['3166']v2^c*1), 
+											if 'pt en es':v333 then 
+												ref(['3166']e1,mpu,v1,mpl) 
+											else,
+												v2^c*1 
+											fi,
+										',%20',
+										if v2^p='' or v2^p='-' then,
+											'- NAO IDENTIFICADO' 
+										else,
+											if v2^p='1' then,
+												'- AUTOR INDIVIDUAL'
+											else,
+												e1:=l(['3166']v2^p), 
+												ref(['3166']e1,mpu,v1,mpl) 
+											fi,
+										fi,
+								'</value>'/
+							'</param>'/
+						'<param>',
+								'<name>indexSearch</name>'/
+								'<value>PP</value>'/
+							'</param>'/
+						if v2^a<>'sum'
+						then 
+							'<param>',
+								'<name>conectSearch</name>'/
+								'<value>AND</value>'/
+							'</param>'/
+							'<param>',
+								'<name>exprSearch</name>'/
+								'<value>'v2^a'</value>'/
+							'</param>'/
+							'<param>',
+								'<name>indexSearch</name>'/
+								'<value>YR</value>'/
+							'</param>'/ 
+						fi, 
+						if v2^t<>'' 
+						then
+							'<param>',
+								'<name>limit</name>'/
+								'<value>'v2^t*1'</value>'/
+							'</param>'/ 
+						fi,
+						'</param_list>'/
+					'</url>'/
+					'<state>iah</state>'/
+			'</link>'/
+	'</cooperation>'/
+
+else, 
+	if v333='en' then 
+
+		'<cooperation>'/
+			'<order>', f(val(mfn),1,0), '</order>'/
+			'<year_source>', 
+				if v2^a<>'sum' 
+				then
+					v2^a 
+				else, 
+					'sum of all years' 
+				fi,
+			'</year_source>'/
+			'<country_first><![CDATA[', e1:=l(['3166']v2^c*1),
+								if 'pt en es':v333 then 
+									ref(['3166']e1,mpu,v2,mpl) 
+								else 
+									v2^c*1 
+								fi, 
+					']]>
+			</country_first>'/
+			'<country_second>',
+				if v2^p='-' 
+				then, 
+					'Country not identified' 
+				else, 
+					if v2^p='1' then, 
+						'Individual author' 
+					else 
+						'<![CDATA[', e1:=l(['3166']v2^p),ref(['3166']e1,mpu,v2,mpl) ']]>' 
+					fi, 
+				fi,
+			'</country_second>'/
+			'<frequency>',
+				if v2^a<>'sum' 
+				then 
+					f(npost(['v677']v2^a,v2^c'/'v2^p,v2^t),1,0)  
+				else 
+					f(npost(['v677']v2^c'/'v2^p,v2^t),1,0) 
+				fi,
+			'</frequency>'/
+				'<link type="iah">',
+					'<label_list>',
+								'<label lang="pt">Ver artigos</label>'/
+								'<label lang="en">See articles</label>'/ 
+								'<label lang="es">Ver artículos</label>'/ 
+							'</label_list>'/
+						'<url>',
+							'<protocol>http</protocol>'/
+							'<host>'v7766'</host>'/
+							'<port></port>'/
+							'<path>cgi-bin/wxis.exe/iah</path>'/
+							'<script_name></script_name>'/
+							'<param_list>',
+								'<param>',
+									'<name>IsisScript</name>'/
+									'<value>iah/iah.xis</value>'/
+								'</param>'/
+								'<param>',
+									'<name>base</name>'/
+									'<value>article^d',if v2^t<>'' then ref(['title']l(['title']v2^t*1),v68) else 'library' fi, '</value>'/
+								'</param>'/
+								'<param>',
+									'<name>fmt</name>'/
+									'<value>iso.pft</value>'/
+								'</param>'/
+								'<param>',
+									'<name>nextAction</name>'/
+									'<value>lnk</value>'/
+								'</param>'/
+								'<param>',
+									'<name>lang</name>'/
+									'<value>i</value>'/
+								'</param>'/
+								'<param>',
+									'<name>exprSearch</name>'/
+									'<value>',e1:=l(['3166']v2^c*1), 
+												if 'pt en es':v333 then 
+													ref(['3166']e1,mpu,v2,mpl) 
+												else,
+													v2^c*1 
+												fi,
+											',%20',
+											if v2^p='' or v2^p='-' then,
+												'- NOT IDENTIFIED' 
+											else,
+												if v2^p='1' then,
+													'- INDIVIDUAL AUTHOR'
+												else,
+													e1:=l(['3166']v2^p), 
+													ref(['3166']e1,mpu,v2,mpl) 
+												fi,
+											fi,
+									'</value>'/
+								'</param>'/
+							'<param>',
+									'<name>indexSearch</name>'/
+									'<value>PP</value>'/
+								'</param>'/
+							if v2^a<>'sum'
+							then 
+								'<param>',
+									'<name>conectSearch</name>'/
+									'<value>AND</value>'/
+								'</param>'/
+								'<param>',
+									'<name>exprSearch</name>'/
+									'<value>'v2^a'</value>'/
+								'</param>'/
+								'<param>',
+									'<name>indexSearch</name>'/
+									'<value>YR</value>'/
+								'</param>'/ 
+							fi, 
+							if v2^t<>'' 
+							then
+								'<param>',
+									'<name>limit</name>'/
+									'<value>'v2^t*1'</value>'/
+								'</param>'/ 
+							fi,
+							'</param_list>'/
+						'</url>'/
+						'<state>iah</state>'/
+				'</link>'/
+		'</cooperation>'/
+
+	else, 
+		if v333='es' then 
+
+			'<cooperation>'/
+				'<order>', f(val(mfn),1,0), '</order>'/
+				'<year_source>', 
+					if v2^a<>'sum' 
+					then
+						v2^a 
+					else, 
+						'suma de todos los años' 
+					fi,
+				'</year_source>'/
+				'<country_first><![CDATA[', e1:=l(['3166']v2^c*1),
+									if 'pt en es':v333 then 
+										ref(['3166']e1,mpu,v3,mpl) 
+									else 
+										v2^c*1 
+									fi, 
+						']]>
+				</country_first>'/
+				'<country_second>',
+					if v2^p='-' 
+					then, 
+						'País no identificado'
+					else, 
+						if v2^p='1' then, 
+							'Autor individual'
+						else 
+							'<![CDATA[', e1:=l(['3166']v2^p),ref(['3166']e1,mpu,v3,mpl) ']]>' 
+						fi, 
+					fi,
+				'</country_second>'/
+				'<frequency>',
+					if v2^a<>'sum' 
+					then 
+						f(npost(['v677']v2^a,v2^c'/'v2^p,v2^t),1,0)  
+					else 
+						f(npost(['v677']v2^c'/'v2^p,v2^t),1,0) 
+					fi,
+				'</frequency>'/
+					'<link type="iah">',
+						'<label_list>',
+									'<label lang="pt">Ver artigos</label>'/
+									'<label lang="en">See articles</label>'/ 
+									'<label lang="es">Ver artículos</label>'/ 
+								'</label_list>'/
+							'<url>',
+								'<protocol>http</protocol>'/
+								'<host>'v7766'</host>'/
+								'<port></port>'/
+								'<path>cgi-bin/wxis.exe/iah</path>'/
+								'<script_name></script_name>'/
+								'<param_list>',
+									'<param>',
+										'<name>IsisScript</name>'/
+										'<value>iah/iah.xis</value>'/
+									'</param>'/
+									'<param>',
+										'<name>base</name>'/
+										'<value>article^d',if v2^t<>'' then ref(['title']l(['title']v2^t*1),v68) else 'library' fi, '</value>'/
+									'</param>'/
+									'<param>',
+										'<name>fmt</name>'/
+										'<value>iso.pft</value>'/
+									'</param>'/
+									'<param>',
+										'<name>nextAction</name>'/
+										'<value>lnk</value>'/
+									'</param>'/
+									'<param>',
+										'<name>lang</name>'/
+										'<value>e</value>'/
+									'</param>'/
+									'<param>',
+										'<name>exprSearch</name>'/
+										'<value>',e1:=l(['3166']v2^c*1), 
+													if 'pt en es':v333 then 
+														ref(['3166']e1,mpu,v3,mpl) 
+													else,
+														v2^c*1 
+													fi,
+												',%20',
+												if v2^p='' or v2^p='-' then,
+													'- NO IDENTIFICADO' 
+												else,
+													if v2^p='1' then,
+														'- AUTOR INDIVIDUAL'
+													else,
+														e1:=l(['3166']v2^p), 
+														ref(['3166']e1,mpu,v3,mpl) 
+													fi,
+												fi,
+										'</value>'/
+									'</param>'/
+								'<param>',
+										'<name>indexSearch</name>'/
+										'<value>PP</value>'/
+									'</param>'/
+								if v2^a<>'sum'
+								then 
+									'<param>',
+										'<name>conectSearch</name>'/
+										'<value>AND</value>'/
+									'</param>'/
+									'<param>',
+										'<name>exprSearch</name>'/
+										'<value>'v2^a'</value>'/
+									'</param>'/
+									'<param>',
+										'<name>indexSearch</name>'/
+										'<value>YR</value>'/
+									'</param>'/ 
+								fi, 
+								if v2^t<>'' 
+								then
+									'<param>',
+										'<name>limit</name>'/
+										'<value>'v2^t*1'</value>'/
+									'</param>'/ 
+								fi,
+								'</param_list>'/
+							'</url>'/
+							'<state>iah</state>'/
+					'</link>'/
+			'</cooperation>'/
+
+		fi, 
+	fi,
+fi, 
+
+

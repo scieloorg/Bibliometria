@@ -1,0 +1,121 @@
+Inicio de ./Gentc30issn.sh em Thu Nov 16 16:25:59 BRST 2006
+Salva cópia da base em diretório OLD
+*********************************************************************************************
+******           SHELL PARA GERAÇÃO DA BASE DE CORREÇÃO DE TÍTULOS DE REVISTAS:        ******
+******                   campo v30 da base Scielo - artigo                       ******
+*********************************************************************************************
+*******  Cipar, bases e geração de arquivos invertidos das bases a serem utilizadas   *******
+*********************************************************************************************
+*   Conta citações já tabuladas [ contav30 ]a artigos de revista [ p(v30) and a(v18) ]   *
+*********************************************************************************************
+******** Parte 1 - Gera base TC30SCIELO, utilizando os dados da TITLE SciELO  *******
+*********************************************************************************************
+*****    Parte 2 -         Gera base de correção de títulos   TAB30ISSN_CORRECT         *****
+***  Gera FASE 1 da base de correção de títulos, com títulos escritos como nna base ISSN  ***
+**        Seleciona citações já tabuladas, com Match=1 na base do ISSN [ fastissn ]        **
+*** Gera FASE 2 da base de correção de títulos, utilizando inversão palavra por palavra   ***
+**     Geração de expressões de busca (palavra por palavra) para recuperação na base       **
+**                  Monta Shell c/ expressões de busca palavra-a-palavra                   **
+**                        Formata a base fase2_tabout2                                     **
+**               Seleciona registros excludentes entre as bases das FASES 1 e 2            **
++++ 456+0 links 
++++ fase1.lk1
++++ fase1.lk2
++++ create=fase1 
++++ maxmfn=456
+**          Seleciona (da base_FASE 2) citações tabuladas excludentes das FASE 1           **
+**                              Appenda as bases da FASES 1 e 2                            **
+*********************************************************************************************
+*****   Parte 3 -  Corrige títulos menos citados por mais citados similares - TRIGRAMA  *****
+*****               e aplica base de correção TAB30ISSN_CORRECT                         *****
+**                            Começa a gerar base WTRIG_TITLES                             **
+++ 1826 recs 
+++ 1826 vectors 
++++ 1/5 
++++ 2/5 
++++ 3/5 
++++ 4/5 
++++ 5/5 
++++ sorting 2682 terms 
++++ writing global frequencies to tc30.n
++++ writing list of postings to tc30.x
++++ writing parms and documents' collection data to tc30.c
+
++ 2682 terms in collection 
+++ 1/5 
+++ 2/5 
+++ 3/5 
+++ 4/5 
+++ 5/5 
+++ 1826 term vectors in collection 
++++ 1000
++++ 1864+2212 links 
++++ wtrig_titles.lk1
++++ wtrig_titles.lk2
++++ create=wtrig_titles 
++++ maxmfn=1826
+**                     Cria base TC30ISSN com TC30SCIELO e WTRIG_TITLES                    **
++++ 2329+2771 links 
++++ tc30issn.lk1
++++ tc30issn.lk2
++++ create=tc30issn 
++++ maxmfn=2053
+*********************************************************************************************
+*****     Parte 4 -  Une as bases geradas nas partes 1 e 3 e aplica TRIGRAMA entre      *****
+*****                títulos não convertidos e convertidos pela base WTRIG_TITLES,      *****
+*****                possibilitando assim a correção de mais alguns títulos             *****
+**                                  Gera a base WTRIG_TITLES2                              **
+**   Aplica trigramas entre títulos não convertidos e convertidos pela base WTRIG_TITLES   **
+++ 1340 recs 
+++ 1919 vectors 
++++ 1/5 
++++ 2/5 
++++ 3/5 
++++ 4/5 
++++ 5/5 
++++ sorting 2283 terms 
++++ writing global frequencies to delbbffi.n
++++ writing list of postings to delbbffi.x
++++ writing parms and documents' collection data to delbbffi.c
+
+++ 695 recs 
+++ 695 vectors 
++++ 1/5 
++++ 2/5 
++++ 3/5 
++++ 4/5 
++++ 5/5 
++++ sorting 2138 terms 
++++ writing global frequencies to delaaffi.n
++++ writing list of postings to delaaffi.x
++++ writing parms and documents' collection data to delaaffi.c
+
++ 2283 terms in collection 
+++ 1/5 
+++ 2/5 
+++ 3/5 
+++ 4/5 
+++ 5/5 
+++ 1919 term vectors in collection 
+*********************************************************************************************
+*******  Parte 5 - Gera base TC30ISSN, utilizando as bases geradas nas partes 1, 3 e 4 ******
+**   Gera início da base TAB30ISSN, utilizando os dados da TITLE SciELO                    **
+**                         Apenda base WTRIG_TITLES2, gerada acima                         **
+**                               Apenda a base WTRIG_TITLES                                **
++++ 2714+3135 links 
++++ tc30issn.lk1
++++ tc30issn.lk2
++++ create=tc30issn 
++++ maxmfn=2264
+*********************************************************************************************
+***********  Parte 6 - Acrescenta dados provenientes da base TC30ISSN do SciELO BR  **********
+********** Gera base TC30ISSN, utilizando as bases geradas nas partes 1, 3, 4 e 6 ***********
++++ 3049+3431 links 
++++ tc30issn.lk1
++++ tc30issn.lk2
++++ create=tc30issn 
++++ maxmfn=2264
+*********************************************************************************************
+*****************************   !!!!!       FIM       !!!!!   *******************************
+*********************************************************************************************
+Termino de ./Gentc30issn.sh em Thu Nov 16 16:30:52 BRST 2006

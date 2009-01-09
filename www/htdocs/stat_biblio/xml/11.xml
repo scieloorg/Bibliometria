@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+        <current_state>11</current_state>
+        <page_title_list>
+                <page_title lang="pt">Citações concedidas</page_title>
+                <page_title lang="en">Granted citations</page_title>
+                <page_title lang="es">Citas concedidas</page_title>
+        </page_title_list>
+        <title_list>
+                <title lang="pt">Coleção da biblioteca</title>
+                <title lang="en">Library collection</title>
+                <title lang="es">Colección de la biblioteca</title>
+        </title_list>
+        <subtitle_list>
+                <subtitle lang="pt">Citações concedidas</subtitle>
+                <subtitle lang="en">Granted citations</subtitle>
+                <subtitle lang="es">Citas concedidas</subtitle>
+        </subtitle_list>
+        <selection_list>
+                <selection name="journal">
+                        <label_list>
+                                <label lang="pt">Revistas SciELO</label>
+                                <label lang="en">SciELO journals</label>
+                                <label lang="es">Revistas SciELO</label>
+                        </label_list>
+                        <option_list name="CITING" selection_type="multiple">
+                                <option selected="true">
+                                        <label_list>
+                                                <label lang="pt">Todas as revistas em SciELO</label>
+                                                <label lang="en">All journals in SciELO</label>
+                                                <label lang="es">Todas las revistas en SciELO</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option>
+<option issn="0044-5967" siglum="aa">
+<label_list>
+<label lang="pt"><![CDATA[Acta Amazonica]]></label>
+<label lang="en"><![CDATA[Acta Amazonica]]></label>
+<label lang="es"><![CDATA[Acta Amazonica]]></label>
+</label_list>
+<value><![CDATA[ACTA AMAZONICA]]></value>
+</option>
+<option issn="0102-3306" siglum="abb">
+<label_list>
+<label lang="pt"><![CDATA[Acta Botanica Brasilica]]></label>
+<label lang="en"><![CDATA[Acta Botanica Brasilica]]></label>
+<label lang="es"><![CDATA[Acta Botanica Brasilica]]></label>
+</label_list>
+<value><![CDATA[ACTA BOTANICA BRASILICA]]></value>
+</option>
+<option issn="0102-8650" siglum="acb">
+<label_list>
+<label lang="pt"><![CDATA[Acta Cirurgica Brasileira]]></label>
+<label lang="en"><![CDATA[Acta Cirurgica Brasileira]]></label>
+<label lang="es"><![CDATA[Acta Cirurgica Brasileira]]></label>
+</label_list>
+<value><![CDATA[ACTA CIRURGICA BRASILEIRA]]></value>
+</option>
+<option issn="1413-7852" siglum="aob">
+<label_list>
+<label lang="pt"><![CDATA[Acta Ortopédica Brasileira]]></label>
+<label lang="en"><![CDATA[Acta Ortopédica Brasileira]]></label>
+<label lang="es"><![CDATA[Acta Ortopédica Brasileira]]></label>
+</label_list>
+<value><![CDATA[ACTA ORTOPEDICA BRASILEIRA]]></value>
+</option>
+<option issn="0103-2100" siglum="ape">
+<label_list>
+<label lang="pt"><![CDATA[Acta Paulista de Enfermagem]]></label>
+<label lang="en"><![CDATA[Acta Paulista de Enfermagem]]></label>
+<label lang="es"><![CDATA[Acta Paulista de Enfermagem]]></label>
+</label_list>
+<value><![CDATA[ACTA PAULISTA DE ENFERMAGEM]]></value>
+</option>
+<option issn="1517-106X" siglum="alea">
+<label_list>
+<label lang="pt"><![CDATA[Alea : Estudos Neolatinos]]></label>
+<label lang="en"><![CDATA[Alea : Estudos Neolatinos]]></label>
+<label lang="es"><![CDATA[Alea : Estudos Neolatinos]]></label>
+</label_list>
+<value><![CDATA[ALEA : ESTUDOS NEOLATINOS]]></value>
+</option>
+<option issn="1414-753X" siglum="asoc">
+<label_list>
+<label lang="pt"><![CDATA[Ambiente & sociedade]]></label>
+<label lang="en"><![CDATA[Ambiente & sociedade]]></label>
+<label lang="es"><![CDATA[Ambiente & sociedade]]></label>
+</label_list>
+<value><![CDATA[AMBIENTE & SOCIEDADE]]></value>
+</option>
+<option issn="0365-0596" siglum="abd">
+<label_list>
+<label lang="pt"><![CDATA[Anais Brasileiros de Dermatologia]]></label>
+<label lang="en"><![CDATA[Anais Brasileiros de Dermatologia]]></label>
+<label lang="es"><![CDATA[Anais Brasileiros de Dermatologia]]></label>
+</label_list>
+<value><![CDATA[ANAIS BRASILEIROS DE DERMATOLOGIA]]></value>
+</option>
+<option issn="0001-3765" siglum="aabc">
+<label_list>
+<label lang="pt"><![CDATA[Anais da Academia Brasileira de Ciências]]></label>
+<label lang="en"><![CDATA[Anais da Academia Brasileira de Ciências]]></label>
+<label lang="es"><![CDATA[Anais da Academia Brasileira de Ciências]]></label>
+</label_list>
+<value><![CDATA[ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS]]></value>
+</option>
+<option issn="0301-8059" siglum="aseb">
+<label_list>
+<label lang="pt"><![CDATA[Anais da Sociedade Entomológica do Brasil]]></label>
+<label lang="en"><![CDATA[Anais da Sociedade Entomológica do Brasil]]></label>
+<label lang="es"><![CDATA[Anais da Sociedade Entomológica do Brasil]]></label>
+</label_list>
+<value><![CDATA[ANAIS DA SOCIEDADE ENTOMOLOGICA DO BRASIL]]></value>
+</option>
+<option issn="0102-0935" siglum="abmvz">
+<label_list>
+<label lang="pt"><![CDATA[Arquivo Brasileiro de Medicina Veterinária e Zootecnia]]></label>
+<label lang="en"><![CDATA[Arquivo Brasileiro de Medicina Veterinária e Zootecnia]]></label>
+<label lang="es"><![CDATA[Arquivo Brasileiro de Medicina Veterinária e Zootecnia]]></label>
+</label_list>
+<value><![CDATA[ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA]]></value>
+</option>
+<option issn="0066-782X" siglum="abc">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos Brasileiros de Cardiologia]]></label>
+<label lang="en"><![CDATA[Arquivos Brasileiros de Cardiologia]]></label>
+<label lang="es"><![CDATA[Arquivos Brasileiros de Cardiologia]]></label>
+</label_list>
+<value><![CDATA[ARQUIVOS BRASILEIROS DE CARDIOLOGIA]]></value>
+</option>
+<option issn="0004-2730" siglum="abem">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos Brasileiros de Endocrinologia & Metabologia]]></label>
+<label lang="en"><![CDATA[Arquivos Brasileiros de Endocrinologia & Metabologia]]></label>
+<label lang="es"><![CDATA[Arquivos Brasileiros de Endocrinologia & Metabologia]]></label>
+</label_list>
+<value><![CDATA[ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA]]></value>
+</option>
+<option issn="0004-2749" siglum="abo">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos Brasileiros de Oftalmologia]]></label>
+<label lang="en"><![CDATA[Arquivos Brasileiros de Oftalmologia]]></label>
+<label lang="es"><![CDATA[Arquivos Brasileiros de Oftalmologia]]></label>
+</label_list>
+<value><![CDATA[ARQUIVOS BRASILEIROS DE OFTALMOLOGIA]]></value>
+</option>
+<option issn="0004-2803" siglum="ag">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos de Gastroenterologia]]></label>
+<label lang="en"><![CDATA[Arquivos de Gastroenterologia]]></label>
+<label lang="es"><![CDATA[Arquivos de Gastroenterologia]]></label>
+</label_list>
+<value><![CDATA[ARQUIVOS DE GASTROENTEROLOGIA]]></value>
+</option>
+<option issn="0004-282X" siglum="anp">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos de Neuro-Psiquiatria]]></label>
+<label lang="en"><![CDATA[Arquivos de Neuro-Psiquiatria]]></label>
+<label lang="es"><![CDATA[Arquivos de Neuro-Psiquiatria]]></label>
+</label_list>
+<value><![CDATA[ARQUIVOS DE NEURO-PSIQUIATRIA]]></value>
+</option>
+<option issn="1676-0603" siglum="bn">
+<label_list>
+<label lang="pt"><![CDATA[Biota Neotropica]]></label>
+<label lang="en"><![CDATA[Biota Neotropica]]></label>
+<label lang="es"><![CDATA[Biota Neotropica]]></label>
+</label_list>
+<value><![CDATA[BIOTA NEOTROPICA]]></value>
+</option>
+<option issn="0006-8705" siglum="brag">
+<label_list>
+<label lang="pt"><![CDATA[Bragantia]]></label>
+<label lang="en"><![CDATA[Bragantia]]></label>
+<label lang="es"><![CDATA[Bragantia]]></label>
+</label_list>
+<value><![CDATA[BRAGANTIA]]></value>
+</option>
+<option issn="1516-8913" siglum="babt">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Archives of Biology and Technology]]></label>
+<label lang="en"><![CDATA[Brazilian Archives of Biology and Technology]]></label>
+<label lang="es"><![CDATA[Brazilian Archives of Biology and Technology]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY]]></value>
+</option>
+<option issn="0103-6440" siglum="bdj">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Dental Journal ]]></label>
+<label lang="en"><![CDATA[Brazilian Dental Journal ]]></label>
+<label lang="es"><![CDATA[Brazilian Dental Journal ]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN DENTAL JOURNAL ]]></value>
+</option>
+<option issn="1519-6984" siglum="bjb">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Biology]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Biology]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Biology]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF BIOLOGY]]></value>
+</option>
+<option issn="1678-9741" siglum="bjcvs">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF CARDIOVASCULAR SURGERY]]></value>
+</option>
+<option issn="0104-6632" siglum="bjce">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Chemical Engineering]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Chemical Engineering]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Chemical Engineering]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING]]></value>
+</option>
+<option issn="0100-8455" siglum="bjg">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Genetics]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Genetics]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Genetics]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF GENETICS]]></value>
+</option>
+<option issn="1413-8670" siglum="bjid">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Infectious Diseases]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Infectious Diseases]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Infectious Diseases]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF INFECTIOUS DISEASES]]></value>
+</option>
+<option issn="0100-879X" siglum="bjmbr">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Medical and Biological Research]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Medical and Biological Research]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Medical and Biological Research]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH]]></value>
+</option>
+<option issn="1517-8382" siglum="bjm">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Microbiology]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Microbiology]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Microbiology]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF MICROBIOLOGY]]></value>
+</option>
+<option issn="0103-9733" siglum="bjp">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Physics]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Physics]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Physics]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF PHYSICS]]></value>
+</option>
+<option issn="1677-0420" siglum="bjpp">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Plant Physiology]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Plant Physiology]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Plant Physiology]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY]]></value>
+</option>
+<option issn="1413-9596" siglum="bjvras">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Veterinary Research and Animal Science]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Veterinary Research and Animal Science]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Veterinary Research and Animal Science]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE]]></value>
+</option>
+<option issn="1806-8324" siglum="bor">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Oral Research]]></label>
+<label lang="en"><![CDATA[Brazilian Oral Research]]></label>
+<label lang="es"><![CDATA[Brazilian Oral Research]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN ORAL RESEARCH]]></value>
+</option>
+<option issn="0101-3262" siglum="ccedes">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos CEDES]]></label>
+<label lang="en"><![CDATA[Cadernos CEDES]]></label>
+<label lang="es"><![CDATA[Cadernos CEDES]]></label>
+</label_list>
+<value><![CDATA[CADERNOS CEDES]]></value>
+</option>
+<option issn="0104-8333" siglum="cpa">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos Pagu]]></label>
+<label lang="en"><![CDATA[Cadernos Pagu]]></label>
+<label lang="es"><![CDATA[Cadernos Pagu]]></label>
+</label_list>
+<value><![CDATA[CADERNOS PAGU]]></value>
+</option>
+<option issn="0100-1574" siglum="cp">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos de Pesquisa]]></label>
+<label lang="en"><![CDATA[Cadernos de Pesquisa]]></label>
+<label lang="es"><![CDATA[Cadernos de Pesquisa]]></label>
+</label_list>
+<value><![CDATA[CADERNOS DE PESQUISA]]></value>
+</option>
+<option issn="0102-311X" siglum="csp">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos de Saúde Pública]]></label>
+<label lang="en"><![CDATA[Cadernos de Saúde Pública]]></label>
+<label lang="es"><![CDATA[Cadernos de Saúde Pública]]></label>
+</label_list>
+<value><![CDATA[CADERNOS DE SAUDE PUBLICA]]></value>
+</option>
+<option issn="0366-6913" siglum="ce">
+<label_list>
+<label lang="pt"><![CDATA[Cerâmica]]></label>
+<label lang="en"><![CDATA[Cerâmica]]></label>
+<label lang="es"><![CDATA[Cerâmica]]></label>
+</label_list>
+<value><![CDATA[CERAMICA]]></value>
+</option>
+<option issn="1413-8123" siglum="csc">
+<label_list>
+<label lang="pt"><![CDATA[Ciência & Saúde Coletiva]]></label>
+<label lang="en"><![CDATA[Ciência & Saúde Coletiva]]></label>
+<label lang="es"><![CDATA[Ciência & Saúde Coletiva]]></label>
+</label_list>
+<value><![CDATA[CIENCIA & SAUDE COLETIVA]]></value>
+</option>
+<option issn="0103-8478" siglum="cr">
+<label_list>
+<label lang="pt"><![CDATA[Ciência Rural]]></label>
+<label lang="en"><![CDATA[Ciência Rural]]></label>
+<label lang="es"><![CDATA[Ciência Rural]]></label>
+</label_list>
+<value><![CDATA[CIENCIA RURAL]]></value>
+</option>
+<option issn="0100-1965" siglum="ci">
+<label_list>
+<label lang="pt"><![CDATA[Ciência da Informação]]></label>
+<label lang="en"><![CDATA[Ciência da Informação]]></label>
+<label lang="es"><![CDATA[Ciência da Informação]]></label>
+</label_list>
+<value><![CDATA[CIENCIA DA INFORMACAO]]></value>
+</option>
+<option issn="1413-7054" siglum="cagro">
+<label_list>
+<label lang="pt"><![CDATA[Ciência e Agrotecnologia]]></label>
+<label lang="en"><![CDATA[Ciência e Agrotecnologia]]></label>
+<label lang="es"><![CDATA[Ciência e Agrotecnologia]]></label>
+</label_list>
+<value><![CDATA[CIENCIA E AGROTECNOLOGIA]]></value>
+</option>
+<option issn="0101-2061" siglum="cta">
+<label_list>
+<label lang="pt"><![CDATA[Ciência e Tecnologia de Alimentos]]></label>
+<label lang="en"><![CDATA[Ciência e Tecnologia de Alimentos]]></label>
+<label lang="es"><![CDATA[Ciência e Tecnologia de Alimentos]]></label>
+</label_list>
+<value><![CDATA[CIENCIA E TECNOLOGIA DE ALIMENTOS]]></value>
+</option>
+<option issn="1807-5932" siglum="clin">
+<label_list>
+<label lang="pt"><![CDATA[Clinics]]></label>
+<label lang="en"><![CDATA[Clinics]]></label>
+<label lang="es"><![CDATA[Clinics]]></label>
+</label_list>
+<value><![CDATA[CLINICS]]></value>
+</option>
+<option issn="0101-8205" siglum="cam">
+<label_list>
+<label lang="pt"><![CDATA[Computational & Applied Mathematics ]]></label>
+<label lang="en"><![CDATA[Computational & Applied Mathematics ]]></label>
+<label lang="es"><![CDATA[Computational & Applied Mathematics ]]></label>
+</label_list>
+<value><![CDATA[COMPUTATIONAL & APPLIED MATHEMATICS ]]></value>
+</option>
+<option issn="0102-4450" siglum="delta">
+<label_list>
+<label lang="pt"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+<label lang="en"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+<label lang="es"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+</label_list>
+<value><![CDATA[DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA]]></value>
+</option>
+<option issn="0011-5258" siglum="dados">
+<label_list>
+<label lang="pt"><![CDATA[Dados]]></label>
+<label lang="en"><![CDATA[Dados]]></label>
+<label lang="es"><![CDATA[Dados]]></label>
+</label_list>
+<value><![CDATA[DADOS]]></value>
+</option>
+<option issn="0100-4670" siglum="eq">
+<label_list>
+<label lang="pt"><![CDATA[Eclética Química]]></label>
+<label lang="en"><![CDATA[Eclética Química]]></label>
+<label lang="es"><![CDATA[Eclética Química]]></label>
+</label_list>
+<value><![CDATA[ECLETICA QUIMICA]]></value>
+</option>
+<option issn="1413-8050" siglum="ecoa">
+<label_list>
+<label lang="pt"><![CDATA[Economia Aplicada]]></label>
+<label lang="en"><![CDATA[Economia Aplicada]]></label>
+<label lang="es"><![CDATA[Economia Aplicada]]></label>
+</label_list>
+<value><![CDATA[ECONOMIA APLICADA]]></value>
+</option>
+<option issn="0104-4060" siglum="er">
+<label_list>
+<label lang="pt"><![CDATA[Educar em Revista]]></label>
+<label lang="en"><![CDATA[Educar em Revista]]></label>
+<label lang="es"><![CDATA[Educar em Revista]]></label>
+</label_list>
+<value><![CDATA[EDUCAR EM REVISTA]]></value>
+</option>
+<option issn="0101-7330" siglum="es">
+<label_list>
+<label lang="pt"><![CDATA[Educação & Sociedade]]></label>
+<label lang="en"><![CDATA[Educação & Sociedade]]></label>
+<label lang="es"><![CDATA[Educação & Sociedade]]></label>
+</label_list>
+<value><![CDATA[EDUCACAO & SOCIEDADE]]></value>
+</option>
+<option issn="1517-9702" siglum="ep">
+<label_list>
+<label lang="pt"><![CDATA[Educação e Pesquisa]]></label>
+<label lang="en"><![CDATA[Educação e Pesquisa]]></label>
+<label lang="es"><![CDATA[Educação e Pesquisa]]></label>
+</label_list>
+<value><![CDATA[EDUCACAO E PESQUISA]]></value>
+</option>
+<option issn="0100-6916" siglum="eagri">
+<label_list>
+<label lang="pt"><![CDATA[Engenharia Agrícola]]></label>
+<label lang="en"><![CDATA[Engenharia Agrícola]]></label>
+<label lang="es"><![CDATA[Engenharia Agrícola]]></label>
+</label_list>
+<value><![CDATA[ENGENHARIA AGRICOLA]]></value>
+</option>
+<option issn="1413-4152" siglum="esa">
+<label_list>
+<label lang="pt"><![CDATA[Engenharia Sanitaria e Ambiental ]]></label>
+<label lang="en"><![CDATA[Engenharia Sanitaria e Ambiental ]]></label>
+<label lang="es"><![CDATA[Engenharia Sanitaria e Ambiental ]]></label>
+</label_list>
+<value><![CDATA[ENGENHARIA SANITARIA E AMBIENTAL ]]></value>
+</option>
+<option issn="0104-4036" siglum="ensaio">
+<label_list>
+<label lang="pt"><![CDATA[Ensaio: Avaliação e Políticas Públicas em Educação]]></label>
+<label lang="en"><![CDATA[Ensaio: Avaliação e Políticas Públicas em Educação]]></label>
+<label lang="es"><![CDATA[Ensaio: Avaliação e Políticas Públicas em Educação]]></label>
+</label_list>
+<value><![CDATA[ENSAIO: AVALIACAO E POLITICAS PUBLICAS EM EDUCACAO]]></value>
+</option>
+<option issn="0328-0381" siglum="ev">
+<label_list>
+<label lang="pt"><![CDATA[Entomología y Vectores]]></label>
+<label lang="en"><![CDATA[Entomología y Vectores]]></label>
+<label lang="es"><![CDATA[Entomología y Vectores]]></label>
+</label_list>
+<value><![CDATA[ENTOMOLOGIA Y VECTORES]]></value>
+</option>
+<option issn="0101-546X" siglum="eaa">
+<label_list>
+<label lang="pt"><![CDATA[Estudos Afro-Asiáticos]]></label>
+<label lang="en"><![CDATA[Estudos Afro-Asiáticos]]></label>
+<label lang="es"><![CDATA[Estudos Afro-Asiáticos]]></label>
+</label_list>
+<value><![CDATA[ESTUDOS AFRO-ASIATICOS]]></value>
+</option>
+<option issn="0103-4014" siglum="ea">
+<label_list>
+<label lang="pt"><![CDATA[Estudos Avançados]]></label>
+<label lang="en"><![CDATA[Estudos Avançados]]></label>
+<label lang="es"><![CDATA[Estudos Avançados]]></label>
+</label_list>
+<value><![CDATA[ESTUDOS AVANCADOS]]></value>
+</option>
+<option issn="0101-4161" siglum="ee">
+<label_list>
+<label lang="pt"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+<label lang="en"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+<label lang="es"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+</label_list>
+<value><![CDATA[ESTUDOS ECONOMICOS (SAO PAULO)]]></value>
+</option>
+<option issn="0103-166X" siglum="estpsi">
+<label_list>
+<label lang="pt"><![CDATA[Estudos de Psicologia (Campinas)]]></label>
+<label lang="en"><![CDATA[Estudos de Psicologia (Campinas)]]></label>
+<label lang="es"><![CDATA[Estudos de Psicologia (Campinas)]]></label>
+</label_list>
+<value><![CDATA[ESTUDOS DE PSICOLOGIA (CAMPINAS)]]></value>
+</option>
+<option issn="1413-294X" siglum="epsic">
+<label_list>
+<label lang="pt"><![CDATA[Estudos de Psicologia (Natal)]]></label>
+<label lang="en"><![CDATA[Estudos de Psicologia (Natal)]]></label>
+<label lang="es"><![CDATA[Estudos de Psicologia (Natal)]]></label>
+</label_list>
+<value><![CDATA[ESTUDOS DE PSICOLOGIA (NATAL)]]></value>
+</option>
+<option issn="0100-4158" siglum="fb">
+<label_list>
+<label lang="pt"><![CDATA[Fitopatologia Brasileira]]></label>
+<label lang="en"><![CDATA[Fitopatologia Brasileira]]></label>
+<label lang="es"><![CDATA[Fitopatologia Brasileira]]></label>
+</label_list>
+<value><![CDATA[FITOPATOLOGIA BRASILEIRA]]></value>
+</option>
+<option issn="1415-4757" siglum="gmb">
+<label_list>
+<label lang="pt"><![CDATA[Genetics and Molecular Biology]]></label>
+<label lang="en"><![CDATA[Genetics and Molecular Biology]]></label>
+<label lang="es"><![CDATA[Genetics and Molecular Biology]]></label>
+</label_list>
+<value><![CDATA[GENETICS AND MOLECULAR BIOLOGY]]></value>
+</option>
+<option issn="0104-530X" siglum="gp">
+<label_list>
+<label lang="pt"><![CDATA[Gestão & Produção]]></label>
+<label lang="en"><![CDATA[Gestão & Produção]]></label>
+<label lang="es"><![CDATA[Gestão & Produção]]></label>
+</label_list>
+<value><![CDATA[GESTAO & PRODUCAO]]></value>
+</option>
+<option issn="0101-9074" siglum="his">
+<label_list>
+<label lang="pt"><![CDATA[História (São Paulo)]]></label>
+<label lang="en"><![CDATA[História (São Paulo)]]></label>
+<label lang="es"><![CDATA[História (São Paulo)]]></label>
+</label_list>
+<value><![CDATA[HISTORIA (SAO PAULO)]]></value>
+</option>
+<option issn="0104-5970" siglum="hcsm">
+<label_list>
+<label lang="pt"><![CDATA[História, Ciências, Saúde-Manguinhos]]></label>
+<label lang="en"><![CDATA[História, Ciências, Saúde-Manguinhos]]></label>
+<label lang="es"><![CDATA[História, Ciências, Saúde-Manguinhos]]></label>
+</label_list>
+<value><![CDATA[HISTORIA, CIENCIAS, SAUDE-MANGUINHOS]]></value>
+</option>
+<option issn="0104-7183" siglum="ha">
+<label_list>
+<label lang="pt"><![CDATA[Horizontes Antropológicos]]></label>
+<label lang="en"><![CDATA[Horizontes Antropológicos]]></label>
+<label lang="es"><![CDATA[Horizontes Antropológicos]]></label>
+</label_list>
+<value><![CDATA[HORIZONTES ANTROPOLOGICOS]]></value>
+</option>
+<option issn="0102-0536" siglum="hb">
+<label_list>
+<label lang="pt"><![CDATA[Horticultura Brasileira]]></label>
+<label lang="en"><![CDATA[Horticultura Brasileira]]></label>
+<label lang="es"><![CDATA[Horticultura Brasileira]]></label>
+</label_list>
+<value><![CDATA[HORTICULTURA BRASILEIRA]]></value>
+</option>
+<option issn="0073-4721" siglum="isz">
+<label_list>
+<label lang="pt"><![CDATA[Iheringia. Série Zoologia]]></label>
+<label lang="en"><![CDATA[Iheringia. Série Zoologia]]></label>
+<label lang="es"><![CDATA[Iheringia. Série Zoologia]]></label>
+</label_list>
+<value><![CDATA[IHERINGIA. SERIE ZOOLOGIA]]></value>
+</option>
+<option issn="1414-3283" siglum="icse">
+<label_list>
+<label lang="pt"><![CDATA[Interface - Comunicação, Saúde, Educação]]></label>
+<label lang="en"><![CDATA[Interface - Comunicação, Saúde, Educação]]></label>
+<label lang="es"><![CDATA[Interface - Comunicação, Saúde, Educação]]></label>
+</label_list>
+<value><![CDATA[INTERFACE - COMUNICACAO, SAUDE, EDUCACAO]]></value>
+</option>
+<option issn="1677-5538" siglum="ibju">
+<label_list>
+<label lang="pt"><![CDATA[International braz j urol]]></label>
+<label lang="en"><![CDATA[International braz j urol]]></label>
+<label lang="es"><![CDATA[International braz j urol]]></label>
+</label_list>
+<value><![CDATA[INTERNATIONAL BRAZ J UROL]]></value>
+</option>
+<option issn="1676-2444" siglum="jbpml">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Brasileiro de Patologia e Medicina Laboratorial]]></label>
+<label lang="en"><![CDATA[Jornal Brasileiro de Patologia e Medicina Laboratorial]]></label>
+<label lang="es"><![CDATA[Jornal Brasileiro de Patologia e Medicina Laboratorial]]></label>
+</label_list>
+<value><![CDATA[JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL]]></value>
+</option>
+<option issn="1806-3713" siglum="jbpneu">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Brasileiro de Pneumologia]]></label>
+<label lang="en"><![CDATA[Jornal Brasileiro de Pneumologia]]></label>
+<label lang="es"><![CDATA[Jornal Brasileiro de Pneumologia]]></label>
+</label_list>
+<value><![CDATA[JORNAL BRASILEIRO DE PNEUMOLOGIA]]></value>
+</option>
+<option issn="0047-2085" siglum="jbpsiq">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Brasileiro de Psiquiatria]]></label>
+<label lang="en"><![CDATA[Jornal Brasileiro de Psiquiatria]]></label>
+<label lang="es"><![CDATA[Jornal Brasileiro de Psiquiatria]]></label>
+</label_list>
+<value><![CDATA[JORNAL BRASILEIRO DE PSIQUIATRIA]]></value>
+</option>
+<option issn="1677-5449" siglum="jvb">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Vascular Brasileiro]]></label>
+<label lang="en"><![CDATA[Jornal Vascular Brasileiro]]></label>
+<label lang="es"><![CDATA[Jornal Vascular Brasileiro]]></label>
+</label_list>
+<value><![CDATA[JORNAL VASCULAR BRASILEIRO]]></value>
+</option>
+<option issn="0021-7557" siglum="jped">
+<label_list>
+<label lang="pt"><![CDATA[Jornal de Pediatria]]></label>
+<label lang="en"><![CDATA[Jornal de Pediatria]]></label>
+<label lang="es"><![CDATA[Jornal de Pediatria]]></label>
+</label_list>
+<value><![CDATA[JORNAL DE PEDIATRIA]]></value>
+</option>
+<option issn="0102-3586" siglum="jpneu">
+<label_list>
+<label lang="pt"><![CDATA[Jornal de Pneumologia]]></label>
+<label lang="en"><![CDATA[Jornal de Pneumologia]]></label>
+<label lang="es"><![CDATA[Jornal de Pneumologia]]></label>
+</label_list>
+<value><![CDATA[JORNAL DE PNEUMOLOGIA]]></value>
+</option>
+<option issn="1678-7757" siglum="jaos">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Applied Oral Science]]></label>
+<label lang="en"><![CDATA[Journal of Applied Oral Science]]></label>
+<label lang="es"><![CDATA[Journal of Applied Oral Science]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF APPLIED ORAL SCIENCE]]></value>
+</option>
+<option issn="1676-2649" siglum="jecn">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Epilepsy and Clinical Neurophysiology]]></label>
+<label lang="en"><![CDATA[Journal of Epilepsy and Clinical Neurophysiology]]></label>
+<label lang="es"><![CDATA[Journal of Epilepsy and Clinical Neurophysiology]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF EPILEPSY AND CLINICAL NEUROPHYSIOLOGY]]></value>
+</option>
+<option issn="0104-7930" siglum="jvat">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF VENOMOUS ANIMALS AND TOXINS]]></value>
+</option>
+<option issn="1678-9199" siglum="jvatitd">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF VENOMOUS ANIMALS AND TOXINS INCLUDING TROPICAL DISEASES]]></value>
+</option>
+<option issn="0103-5053" siglum="jbchs">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Chemical Society]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Chemical Society]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Chemical Society]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY]]></value>
+</option>
+<option issn="0104-6500" siglum="jbcos">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Computer Society]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Computer Society]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Computer Society]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY]]></value>
+</option>
+<option issn="0100-7386" siglum="jbsms">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES]]></value>
+</option>
+<option issn="1678-5878" siglum="jbsmse">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences and Engineering]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences and Engineering]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences and Engineering]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES AND ENGINEERING]]></value>
+</option>
+<option issn="0100-512X" siglum="kr">
+<label_list>
+<label lang="pt"><![CDATA[Kriterion: Revista de Filosofia]]></label>
+<label lang="en"><![CDATA[Kriterion: Revista de Filosofia]]></label>
+<label lang="es"><![CDATA[Kriterion: Revista de Filosofia]]></label>
+</label_list>
+<value><![CDATA[KRITERION: REVISTA DE FILOSOFIA]]></value>
+</option>
+<option issn="0102-6445" siglum="ln">
+<label_list>
+<label lang="pt"><![CDATA[Lua Nova: Revista de Cultura e Política]]></label>
+<label lang="en"><![CDATA[Lua Nova: Revista de Cultura e Política]]></label>
+<label lang="es"><![CDATA[Lua Nova: Revista de Cultura e Política]]></label>
+</label_list>
+<value><![CDATA[LUA NOVA: REVISTA DE CULTURA E POLITICA]]></value>
+</option>
+<option issn="0104-9313" siglum="mana">
+<label_list>
+<label lang="pt"><![CDATA[Mana]]></label>
+<label lang="en"><![CDATA[Mana]]></label>
+<label lang="es"><![CDATA[Mana]]></label>
+</label_list>
+<value><![CDATA[MANA]]></value>
+</option>
+<option issn="1516-1439" siglum="mr">
+<label_list>
+<label lang="pt"><![CDATA[Materials Research]]></label>
+<label lang="en"><![CDATA[Materials Research]]></label>
+<label lang="es"><![CDATA[Materials Research]]></label>
+</label_list>
+<value><![CDATA[MATERIALS RESEARCH]]></value>
+</option>
+<option issn="1517-7076" siglum="rmat">
+<label_list>
+<label lang="pt"><![CDATA[Matéria (Rio de Janeiro)]]></label>
+<label lang="en"><![CDATA[Matéria (Rio de Janeiro)]]></label>
+<label lang="es"><![CDATA[Matéria (Rio de Janeiro)]]></label>
+</label_list>
+<value><![CDATA[MATERIA (RIO DE JANEIRO)]]></value>
+</option>
+<option issn="0074-0276" siglum="mioc">
+<label_list>
+<label lang="pt"><![CDATA[Memórias do Instituto Oswaldo Cruz]]></label>
+<label lang="en"><![CDATA[Memórias do Instituto Oswaldo Cruz]]></label>
+<label lang="es"><![CDATA[Memórias do Instituto Oswaldo Cruz]]></label>
+</label_list>
+<value><![CDATA[MEMORIAS DO INSTITUTO OSWALDO CRUZ]]></value>
+</option>
+<option issn="1519-566X" siglum="ne">
+<label_list>
+<label lang="pt"><![CDATA[Neotropical Entomology]]></label>
+<label lang="en"><![CDATA[Neotropical Entomology]]></label>
+<label lang="es"><![CDATA[Neotropical Entomology]]></label>
+</label_list>
+<value><![CDATA[NEOTROPICAL ENTOMOLOGY]]></value>
+</option>
+<option issn="1679-6225" siglum="ni">
+<label_list>
+<label lang="pt"><![CDATA[Neotropical Ichthyology]]></label>
+<label lang="en"><![CDATA[Neotropical Ichthyology]]></label>
+<label lang="es"><![CDATA[Neotropical Ichthyology]]></label>
+</label_list>
+<value><![CDATA[NEOTROPICAL ICHTHYOLOGY]]></value>
+</option>
+<option issn="0103-6351" siglum="neco">
+<label_list>
+<label lang="pt"><![CDATA[Nova Economia]]></label>
+<label lang="en"><![CDATA[Nova Economia]]></label>
+<label lang="es"><![CDATA[Nova Economia]]></label>
+</label_list>
+<value><![CDATA[NOVA ECONOMIA]]></value>
+</option>
+<option issn="0101-3300" siglum="nec">
+<label_list>
+<label lang="pt"><![CDATA[Novos Estudos - CEBRAP]]></label>
+<label lang="en"><![CDATA[Novos Estudos - CEBRAP]]></label>
+<label lang="es"><![CDATA[Novos Estudos - CEBRAP]]></label>
+</label_list>
+<value><![CDATA[NOVOS ESTUDOS - CEBRAP]]></value>
+</option>
+<option issn="0104-6276" siglum="op">
+<label_list>
+<label lang="pt"><![CDATA[Opinião Pública]]></label>
+<label lang="en"><![CDATA[Opinião Pública]]></label>
+<label lang="es"><![CDATA[Opinião Pública]]></label>
+</label_list>
+<value><![CDATA[OPINIAO PUBLICA]]></value>
+</option>
+<option issn="0031-1049" siglum="paz">
+<label_list>
+<label lang="pt"><![CDATA[Papéis Avulsos de Zoologia (São Paulo)]]></label>
+<label lang="en"><![CDATA[Papéis Avulsos de Zoologia (São Paulo)]]></label>
+<label lang="es"><![CDATA[Papéis Avulsos de Zoologia (São Paulo)]]></label>
+</label_list>
+<value><![CDATA[PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO)]]></value>
+</option>
+<option issn="1413-9936" siglum="pci">
+<label_list>
+<label lang="pt"><![CDATA[Perspectivas em Ciência da Informação]]></label>
+<label lang="en"><![CDATA[Perspectivas em Ciência da Informação]]></label>
+<label lang="es"><![CDATA[Perspectivas em Ciência da Informação]]></label>
+</label_list>
+<value><![CDATA[PERSPECTIVAS EM CIENCIA DA INFORMACAO]]></value>
+</option>
+<option issn="0100-204X" siglum="pab">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Agropecuária Brasileira]]></label>
+<label lang="en"><![CDATA[Pesquisa Agropecuária Brasileira]]></label>
+<label lang="es"><![CDATA[Pesquisa Agropecuária Brasileira]]></label>
+</label_list>
+<value><![CDATA[PESQUISA AGROPECUARIA BRASILEIRA]]></value>
+</option>
+<option issn="1517-7491" siglum="pob">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Odontológica Brasileira]]></label>
+<label lang="en"><![CDATA[Pesquisa Odontológica Brasileira]]></label>
+<label lang="es"><![CDATA[Pesquisa Odontológica Brasileira]]></label>
+</label_list>
+<value><![CDATA[PESQUISA ODONTOLOGICA BRASILEIRA]]></value>
+</option>
+<option issn="0101-7438" siglum="pope">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Operacional]]></label>
+<label lang="en"><![CDATA[Pesquisa Operacional]]></label>
+<label lang="es"><![CDATA[Pesquisa Operacional]]></label>
+</label_list>
+<value><![CDATA[PESQUISA OPERACIONAL]]></value>
+</option>
+<option issn="0100-736X" siglum="pvb">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Veterinária Brasileira]]></label>
+<label lang="en"><![CDATA[Pesquisa Veterinária Brasileira]]></label>
+<label lang="es"><![CDATA[Pesquisa Veterinária Brasileira]]></label>
+</label_list>
+<value><![CDATA[PESQUISA VETERINARIA BRASILEIRA]]></value>
+</option>
+<option issn="0103-7331" siglum="physis">
+<label_list>
+<label lang="pt"><![CDATA[Physis: Revista de Saúde Coletiva]]></label>
+<label lang="en"><![CDATA[Physis: Revista de Saúde Coletiva]]></label>
+<label lang="es"><![CDATA[Physis: Revista de Saúde Coletiva]]></label>
+</label_list>
+<value><![CDATA[PHYSIS: REVISTA DE SAUDE COLETIVA]]></value>
+</option>
+<option issn="0100-8358" siglum="pd">
+<label_list>
+<label lang="pt"><![CDATA[Planta Daninha]]></label>
+<label lang="en"><![CDATA[Planta Daninha]]></label>
+<label lang="es"><![CDATA[Planta Daninha]]></label>
+</label_list>
+<value><![CDATA[PLANTA DANINHA]]></value>
+</option>
+<option issn="0104-1428" siglum="po">
+<label_list>
+<label lang="pt"><![CDATA[Polímeros]]></label>
+<label lang="en"><![CDATA[Polímeros]]></label>
+<label lang="es"><![CDATA[Polímeros]]></label>
+</label_list>
+<value><![CDATA[POLIMEROS]]></value>
+</option>
+<option issn="0103-6513" siglum="prod">
+<label_list>
+<label lang="pt"><![CDATA[Produção]]></label>
+<label lang="en"><![CDATA[Produção]]></label>
+<label lang="es"><![CDATA[Produção]]></label>
+</label_list>
+<value><![CDATA[PRODUCAO]]></value>
+</option>
+<option issn="0104-5687" siglum="pfono">
+<label_list>
+<label lang="pt"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
+<label lang="en"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
+<label lang="es"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
+</label_list>
+<value><![CDATA[PRO-FONO REVISTA DE ATUALIZACAO CIENTIFICA]]></value>
+</option>
+<option issn="0102-7182" siglum="psoc">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia & Sociedade]]></label>
+<label lang="en"><![CDATA[Psicologia & Sociedade]]></label>
+<label lang="es"><![CDATA[Psicologia & Sociedade]]></label>
+</label_list>
+<value><![CDATA[PSICOLOGIA & SOCIEDADE]]></value>
+</option>
+<option issn="0103-5665" siglum="pc">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia Clínica]]></label>
+<label lang="en"><![CDATA[Psicologia Clínica]]></label>
+<label lang="es"><![CDATA[Psicologia Clínica]]></label>
+</label_list>
+<value><![CDATA[PSICOLOGIA CLINICA]]></value>
+</option>
+<option issn="0103-6564" siglum="pusp">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia USP]]></label>
+<label lang="en"><![CDATA[Psicologia USP]]></label>
+<label lang="es"><![CDATA[Psicologia USP]]></label>
+</label_list>
+<value><![CDATA[PSICOLOGIA USP]]></value>
+</option>
+<option issn="1413-7372" siglum="pe">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia em Estudo]]></label>
+<label lang="en"><![CDATA[Psicologia em Estudo]]></label>
+<label lang="es"><![CDATA[Psicologia em Estudo]]></label>
+</label_list>
+<value><![CDATA[PSICOLOGIA EM ESTUDO]]></value>
+</option>
+<option issn="0102-7972" siglum="prc">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia: Reflexão e Crítica]]></label>
+<label lang="en"><![CDATA[Psicologia: Reflexão e Crítica]]></label>
+<label lang="es"><![CDATA[Psicologia: Reflexão e Crítica]]></label>
+</label_list>
+<value><![CDATA[PSICOLOGIA: REFLEXAO E CRITICA]]></value>
+</option>
+<option issn="0102-3772" siglum="ptp">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia: Teoria e Pesquisa]]></label>
+<label lang="en"><![CDATA[Psicologia: Teoria e Pesquisa]]></label>
+<label lang="es"><![CDATA[Psicologia: Teoria e Pesquisa]]></label>
+</label_list>
+<value><![CDATA[PSICOLOGIA: TEORIA E PESQUISA]]></value>
+</option>
+<option issn="0100-4042" siglum="qn">
+<label_list>
+<label lang="pt"><![CDATA[Química Nova]]></label>
+<label lang="en"><![CDATA[Química Nova]]></label>
+<label lang="es"><![CDATA[Química Nova]]></label>
+</label_list>
+<value><![CDATA[QUIMICA NOVA]]></value>
+</option>
+<option issn="1676-5648" siglum="raeel">
+<label_list>
+<label lang="pt"><![CDATA[RAE eletrônica]]></label>
+<label lang="en"><![CDATA[RAE eletrônica]]></label>
+<label lang="es"><![CDATA[RAE eletrônica]]></label>
+</label_list>
+<value><![CDATA[RAE ELETRONICA]]></value>
+</option>
+<option issn="0100-3984" siglum="rb">
+<label_list>
+<label lang="pt"><![CDATA[Radiologia Brasileira]]></label>
+<label lang="en"><![CDATA[Radiologia Brasileira]]></label>
+<label lang="es"><![CDATA[Radiologia Brasileira]]></label>
+</label_list>
+<value><![CDATA[RADIOLOGIA BRASILEIRA]]></value>
+</option>
+<option issn="0370-4467" siglum="rem">
+<label_list>
+<label lang="pt"><![CDATA[Rem: Revista Escola de Minas]]></label>
+<label lang="en"><![CDATA[Rem: Revista Escola de Minas]]></label>
+<label lang="es"><![CDATA[Rem: Revista Escola de Minas]]></label>
+</label_list>
+<value><![CDATA[REM: REVISTA ESCOLA DE MINAS]]></value>
+</option>
+<option issn="0034-7094" siglum="rba">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Anestesiologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Anestesiologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Anestesiologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ANESTESIOLOGIA]]></value>
+</option>
+<option issn="0034-7108" siglum="rbbio">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Biologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Biologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Biologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE BIOLOGIA]]></value>
+</option>
+<option issn="0100-8404" siglum="rbb">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Botânica]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Botânica]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Botânica]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE BOTANICA]]></value>
+</option>
+<option issn="0102-7638" siglum="rbccv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR]]></value>
+</option>
+<option issn="1516-635X" siglum="rbca">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciência Avícola]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciência Avícola]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciência Avícola]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE CIENCIA AVICOLA]]></value>
+</option>
+<option issn="0100-0683" siglum="rbcs">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciência do Solo]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciência do Solo]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciência do Solo]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE CIENCIA DO SOLO]]></value>
+</option>
+<option issn="1516-9332" siglum="rbcf">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciências Farmacêuticas]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciências Farmacêuticas]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciências Farmacêuticas]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE CIENCIAS FARMACEUTICAS]]></value>
+</option>
+<option issn="0102-6909" siglum="rbcsoc">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciências Sociais]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciências Sociais]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciências Sociais]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE CIENCIAS SOCIAIS]]></value>
+</option>
+<option issn="0101-9880" siglum="rbc">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Coloproctologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Coloproctologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Coloproctologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE COLOPROCTOLOGIA]]></value>
+</option>
+<option issn="0034-7140" siglum="rbe">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Economia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Economia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Economia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ECONOMIA]]></value>
+</option>
+<option issn="1413-2478" siglum="rbedu">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Educação]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Educação]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Educação]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE EDUCACAO]]></value>
+</option>
+<option issn="1413-6538" siglum="rbee">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Educação Especial]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Educação Especial]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Educação Especial]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE EDUCACAO ESPECIAL]]></value>
+</option>
+<option issn="0100-5502" siglum="rbem">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Educação Médica]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Educação Médica]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Educação Médica]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE EDUCACAO MEDICA]]></value>
+</option>
+<option issn="1415-4366" siglum="rbeaa">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Engenharia Agrícola e Ambiental]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Engenharia Agrícola e Ambiental]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Engenharia Agrícola e Ambiental]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ENGENHARIA AGRICOLA E AMBIENTAL]]></value>
+</option>
+<option issn="0102-4744" siglum="rbef">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ensino de Física]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ensino de Física]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ensino de Física]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ENSINO DE FISICA]]></value>
+</option>
+<option issn="0085-5626" siglum="rbent">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Entomologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Entomologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Entomologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ENTOMOLOGIA]]></value>
+</option>
+<option issn="1415-790X" siglum="rbepid">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Epidemiologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Epidemiologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Epidemiologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE EPIDEMIOLOGIA]]></value>
+</option>
+<option issn="0102-3098" siglum="rbepop">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Estudos de População]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Estudos de População]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Estudos de População]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ESTUDOS DE POPULACAO]]></value>
+</option>
+<option issn="0102-695X" siglum="rbfar">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Farmacognosia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Farmacognosia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Farmacognosia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE FARMACOGNOSIA]]></value>
+</option>
+<option issn="0103-3131" siglum="rbfv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Fisiologia Vegetal]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Fisiologia Vegetal]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Fisiologia Vegetal]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE FISIOLOGIA VEGETAL]]></value>
+</option>
+<option issn="1413-3555" siglum="rbfis">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Fisioterapia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Fisioterapia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Fisioterapia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE FISIOTERAPIA]]></value>
+</option>
+<option issn="0100-2945" siglum="rbf">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Fruticultura]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Fruticultura]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Fruticultura]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE FRUTICULTURA]]></value>
+</option>
+<option issn="0102-261X" siglum="rbg">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Geofísica]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Geofísica]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Geofísica]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE GEOFISICA]]></value>
+</option>
+<option issn="0100-7203" siglum="rbgo">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ginecologia e Obstetrícia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ginecologia e Obstetrícia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ginecologia e Obstetrícia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE GINECOLOGIA E OBSTETRICIA]]></value>
+</option>
+<option issn="1516-8484" siglum="rbhh">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Hematologia e Hemoterapia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Hematologia e Hemoterapia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Hematologia e Hemoterapia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE HEMATOLOGIA E HEMOTERAPIA]]></value>
+</option>
+<option issn="0102-0188" siglum="rbh">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de História]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de História]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de História]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE HISTORIA]]></value>
+</option>
+<option issn="1517-8692" siglum="rbme">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Medicina do Esporte]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Medicina do Esporte]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Medicina do Esporte]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE MEDICINA DO ESPORTE]]></value>
+</option>
+<option issn="0034-7299" siglum="rboto">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE OTORRINOLARINGOLOGIA]]></value>
+</option>
+<option issn="1516-4446" siglum="rbp">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Psiquiatria]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Psiquiatria]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Psiquiatria]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE PSIQUIATRIA]]></value>
+</option>
+<option issn="0482-5004" siglum="rbr">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Reumatologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Reumatologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Reumatologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE REUMATOLOGIA]]></value>
+</option>
+<option issn="1519-3829" siglum="rbsmi">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Saúde Materno Infantil ]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Saúde Materno Infantil ]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Saúde Materno Infantil ]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE SAUDE MATERNO INFANTIL ]]></value>
+</option>
+<option issn="0101-3122" siglum="rbs">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Sementes]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Sementes]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Sementes]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE SEMENTES]]></value>
+</option>
+<option issn="0101-8175" siglum="rbzool">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Zoologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Zoologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Zoologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ZOOLOGIA]]></value>
+</option>
+<option issn="1516-3598" siglum="rbz">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Zootecnia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Zootecnia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Zootecnia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ZOOTECNIA]]></value>
+</option>
+<option issn="1516-1846" siglum="rcefac">
+<label_list>
+<label lang="pt"><![CDATA[Revista CEFAC]]></label>
+<label lang="en"><![CDATA[Revista CEFAC]]></label>
+<label lang="es"><![CDATA[Revista CEFAC]]></label>
+</label_list>
+<value><![CDATA[REVISTA CEFAC]]></value>
+</option>
+<option issn="1415-5419" siglum="dpress">
+<label_list>
+<label lang="pt"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+<label lang="en"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+<label lang="es"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+</label_list>
+<value><![CDATA[REVISTA DENTAL PRESS DE ORTODONTIA E ORTOPEDIA FACIAL]]></value>
+</option>
+<option issn="0104-026X" siglum="ref">
+<label_list>
+<label lang="pt"><![CDATA[Revista Estudos Feministas]]></label>
+<label lang="en"><![CDATA[Revista Estudos Feministas]]></label>
+<label lang="es"><![CDATA[Revista Estudos Feministas]]></label>
+</label_list>
+<value><![CDATA[REVISTA ESTUDOS FEMINISTAS]]></value>
+</option>
+<option issn="1414-4980" siglum="rk">
+<label_list>
+<label lang="pt"><![CDATA[Revista Katálysis]]></label>
+<label lang="en"><![CDATA[Revista Katálysis]]></label>
+<label lang="es"><![CDATA[Revista Katálysis]]></label>
+</label_list>
+<value><![CDATA[REVISTA KATALYSIS]]></value>
+</option>
+<option issn="0104-1169" siglum="rlae">
+<label_list>
+<label lang="pt"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+<label lang="en"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+<label lang="es"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+</label_list>
+<value><![CDATA[REVISTA LATINO-AMERICANA DE ENFERMAGEM]]></value>
+</option>
+<option issn="0104-4230" siglum="ramb">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Associação Médica Brasileira]]></label>
+<label lang="en"><![CDATA[Revista da Associação Médica Brasileira]]></label>
+<label lang="es"><![CDATA[Revista da Associação Médica Brasileira]]></label>
+</label_list>
+<value><![CDATA[REVISTA DA ASSOCIACAO MEDICA BRASILEIRA]]></value>
+</option>
+<option issn="0102-2555" siglum="rfe">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Faculdade de Educação]]></label>
+<label lang="en"><![CDATA[Revista da Faculdade de Educação]]></label>
+<label lang="es"><![CDATA[Revista da Faculdade de Educação]]></label>
+</label_list>
+<value><![CDATA[REVISTA DA FACULDADE DE EDUCACAO]]></value>
+</option>
+<option issn="1516-8034" siglum="rsbf">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Sociedade Brasileira de Fonoaudiologia]]></label>
+<label lang="en"><![CDATA[Revista da Sociedade Brasileira de Fonoaudiologia]]></label>
+<label lang="es"><![CDATA[Revista da Sociedade Brasileira de Fonoaudiologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA DA SOCIEDADE BRASILEIRA DE FONOAUDIOLOGIA]]></value>
+</option>
+<option issn="0037-8682" siglum="rsbmt">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Sociedade Brasileira de Medicina Tropical]]></label>
+<label lang="en"><![CDATA[Revista da Sociedade Brasileira de Medicina Tropical]]></label>
+<label lang="es"><![CDATA[Revista da Sociedade Brasileira de Medicina Tropical]]></label>
+</label_list>
+<value><![CDATA[REVISTA DA SOCIEDADE BRASILEIRA DE MEDICINA TROPICAL]]></value>
+</option>
+<option issn="0034-7612" siglum="rap">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Administração Pública]]></label>
+<label lang="en"><![CDATA[Revista de Administração Pública]]></label>
+<label lang="es"><![CDATA[Revista de Administração Pública]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ADMINISTRACAO PUBLICA]]></value>
+</option>
+<option issn="0034-7701" siglum="ra">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Antropologia]]></label>
+<label lang="en"><![CDATA[Revista de Antropologia]]></label>
+<label lang="es"><![CDATA[Revista de Antropologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ANTROPOLOGIA]]></value>
+</option>
+<option issn="1415-9848" siglum="rec">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Economia Contemporânea]]></label>
+<label lang="en"><![CDATA[Revista de Economia Contemporânea]]></label>
+<label lang="es"><![CDATA[Revista de Economia Contemporânea]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ECONOMIA CONTEMPORANEA]]></value>
+</option>
+<option issn="0101-3157" siglum="rep">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Economia Política]]></label>
+<label lang="en"><![CDATA[Revista de Economia Política]]></label>
+<label lang="es"><![CDATA[Revista de Economia Política]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ECONOMIA POLITICA]]></value>
+</option>
+<option issn="0103-2003" siglum="resr">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
+<label lang="en"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
+<label lang="es"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ECONOMIA E SOCIOLOGIA RURAL]]></value>
+</option>
+<option issn="0001-3714" siglum="rm">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Microbiologia]]></label>
+<label lang="en"><![CDATA[Revista de Microbiologia]]></label>
+<label lang="es"><![CDATA[Revista de Microbiologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE MICROBIOLOGIA]]></value>
+</option>
+<option issn="1415-5273" siglum="rn">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Nutrição]]></label>
+<label lang="en"><![CDATA[Revista de Nutrição]]></label>
+<label lang="es"><![CDATA[Revista de Nutrição]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE NUTRICAO]]></value>
+</option>
+<option issn="0103-0663" siglum="rousp">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Odontologia da Universidade de São Paulo]]></label>
+<label lang="en"><![CDATA[Revista de Odontologia da Universidade de São Paulo]]></label>
+<label lang="es"><![CDATA[Revista de Odontologia da Universidade de São Paulo]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ODONTOLOGIA DA UNIVERSIDADE DE SAO PAULO]]></value>
+</option>
+<option issn="0101-6083" siglum="rpc">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Psiquiatria Clínica]]></label>
+<label lang="en"><![CDATA[Revista de Psiquiatria Clínica]]></label>
+<label lang="es"><![CDATA[Revista de Psiquiatria Clínica]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE PSIQUIATRIA CLINICA]]></value>
+</option>
+<option issn="0101-8108" siglum="rprs">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Psiquiatria do Rio Grande do Sul]]></label>
+<label lang="en"><![CDATA[Revista de Psiquiatria do Rio Grande do Sul]]></label>
+<label lang="es"><![CDATA[Revista de Psiquiatria do Rio Grande do Sul]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE PSIQUIATRIA DO RIO GRANDE DO SUL]]></value>
+</option>
+<option issn="0034-8910" siglum="rsp">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Saúde Pública]]></label>
+<label lang="en"><![CDATA[Revista de Saúde Pública]]></label>
+<label lang="es"><![CDATA[Revista de Saúde Pública]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE SAUDE PUBLICA]]></value>
+</option>
+<option issn="0104-4478" siglum="rsocp">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Sociologia e Política]]></label>
+<label lang="en"><![CDATA[Revista de Sociologia e Política]]></label>
+<label lang="es"><![CDATA[Revista de Sociologia e Política]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE SOCIOLOGIA E POLITICA]]></value>
+</option>
+<option issn="0100-6991" siglum="rcbc">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Colégio Brasileiro de Cirurgiões]]></label>
+<label lang="en"><![CDATA[Revista do Colégio Brasileiro de Cirurgiões]]></label>
+<label lang="es"><![CDATA[Revista do Colégio Brasileiro de Cirurgiões]]></label>
+</label_list>
+<value><![CDATA[REVISTA DO COLEGIO BRASILEIRO DE CIRURGIOES]]></value>
+</option>
+<option issn="0104-8023" siglum="rdpsi">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Departamento de Psicologia. UFF]]></label>
+<label lang="en"><![CDATA[Revista do Departamento de Psicologia. UFF]]></label>
+<label lang="es"><![CDATA[Revista do Departamento de Psicologia. UFF]]></label>
+</label_list>
+<value><![CDATA[REVISTA DO DEPARTAMENTO DE PSICOLOGIA. UFF]]></value>
+</option>
+<option issn="0041-8781" siglum="rhc">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Hospital das Clínicas]]></label>
+<label lang="en"><![CDATA[Revista do Hospital das Clínicas]]></label>
+<label lang="es"><![CDATA[Revista do Hospital das Clínicas]]></label>
+</label_list>
+<value><![CDATA[REVISTA DO HOSPITAL DAS CLINICAS]]></value>
+</option>
+<option issn="0036-4665" siglum="rimtsp">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Instituto de Medicina Tropical de São Paulo]]></label>
+<label lang="en"><![CDATA[Revista do Instituto de Medicina Tropical de São Paulo]]></label>
+<label lang="es"><![CDATA[Revista do Instituto de Medicina Tropical de São Paulo]]></label>
+</label_list>
+<value><![CDATA[REVISTA DO INSTITUTO DE MEDICINA TROPICAL DE SAO PAULO]]></value>
+</option>
+<option issn="0100-6762" siglum="rarv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Árvore]]></label>
+<label lang="en"><![CDATA[Revista Árvore]]></label>
+<label lang="es"><![CDATA[Revista Árvore]]></label>
+</label_list>
+<value><![CDATA[REVISTA ARVORE]]></value>
+</option>
+<option issn="1516-3180" siglum="spmj">
+<label_list>
+<label lang="pt"><![CDATA[Sao Paulo Medical Journal]]></label>
+<label lang="en"><![CDATA[Sao Paulo Medical Journal]]></label>
+<label lang="es"><![CDATA[Sao Paulo Medical Journal]]></label>
+</label_list>
+<value><![CDATA[SAO PAULO MEDICAL JOURNAL]]></value>
+</option>
+<option issn="0103-1759" siglum="ca">
+<label_list>
+<label lang="pt"><![CDATA[Sba: Controle & Automação Sociedade Brasileira de Automatica]]></label>
+<label lang="en"><![CDATA[Sba: Controle & Automação Sociedade Brasileira de Automatica]]></label>
+<label lang="es"><![CDATA[Sba: Controle & Automação Sociedade Brasileira de Automatica]]></label>
+</label_list>
+<value><![CDATA[SBA: CONTROLE & AUTOMACAO SOCIEDADE BRASILEIRA DE AUTOMATICA]]></value>
+</option>
+<option issn="0103-9016" siglum="sa">
+<label_list>
+<label lang="pt"><![CDATA[Scientia Agricola]]></label>
+<label lang="en"><![CDATA[Scientia Agricola]]></label>
+<label lang="es"><![CDATA[Scientia Agricola]]></label>
+</label_list>
+<value><![CDATA[SCIENTIA AGRICOLA]]></value>
+</option>
+<option issn="0102-6992" siglum="se">
+<label_list>
+<label lang="pt"><![CDATA[Sociedade e Estado]]></label>
+<label lang="en"><![CDATA[Sociedade e Estado]]></label>
+<label lang="es"><![CDATA[Sociedade e Estado]]></label>
+</label_list>
+<value><![CDATA[SOCIEDADE E ESTADO]]></value>
+</option>
+<option issn="1517-4522" siglum="soc">
+<label_list>
+<label lang="pt"><![CDATA[Sociologias]]></label>
+<label lang="en"><![CDATA[Sociologias]]></label>
+<label lang="es"><![CDATA[Sociologias]]></label>
+</label_list>
+<value><![CDATA[SOCIOLOGIAS]]></value>
+</option>
+<option issn="0100-5405" siglum="sp">
+<label_list>
+<label lang="pt"><![CDATA[Summa Phytopathologica]]></label>
+<label lang="en"><![CDATA[Summa Phytopathologica]]></label>
+<label lang="es"><![CDATA[Summa Phytopathologica]]></label>
+</label_list>
+<value><![CDATA[SUMMA PHYTOPATHOLOGICA]]></value>
+</option>
+<option issn="0102-8839" siglum="spp">
+<label_list>
+<label lang="pt"><![CDATA[São Paulo em Perspectiva]]></label>
+<label lang="en"><![CDATA[São Paulo em Perspectiva]]></label>
+<label lang="es"><![CDATA[São Paulo em Perspectiva]]></label>
+</label_list>
+<value><![CDATA[SAO PAULO EM PERSPECTIVA]]></value>
+</option>
+<option issn="1413-7704" siglum="tem">
+<label_list>
+<label lang="pt"><![CDATA[Tempo]]></label>
+<label lang="en"><![CDATA[Tempo]]></label>
+<label lang="es"><![CDATA[Tempo]]></label>
+</label_list>
+<value><![CDATA[TEMPO]]></value>
+</option>
+<option issn="0103-2070" siglum="ts">
+<label_list>
+<label lang="pt"><![CDATA[Tempo Social]]></label>
+<label lang="en"><![CDATA[Tempo Social]]></label>
+<label lang="es"><![CDATA[Tempo Social]]></label>
+</label_list>
+<value><![CDATA[TEMPO SOCIAL]]></value>
+</option>
+<option issn="0101-3173" siglum="trans">
+<label_list>
+<label lang="pt"><![CDATA[Trans/Form/Ação]]></label>
+<label lang="en"><![CDATA[Trans/Form/Ação]]></label>
+<label lang="es"><![CDATA[Trans/Form/Ação]]></label>
+</label_list>
+<value><![CDATA[TRANS/FORM/ACAO]]></value>
+</option>
+<option issn="1516-1498" siglum="agora">
+<label_list>
+<label lang="pt"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+<label lang="en"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+<label lang="es"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+</label_list>
+<value><![CDATA[AGORA: ESTUDOS EM TEORIA PSICANALITICA]]></value>
+</option>
+                        </option_list>
+                </selection>
+                <selection name="year_source">
+                        <label_list>
+                                <label lang="pt">Citações concedidas em</label>
+                                <label lang="en">Citations granted in</label>
+                                <label lang="es">Citas concedidas en</label>
+                        </label_list>
+                        <option_list name="YNG" selection_type="multiple">
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">Todos</label>
+                                                <label lang="en">All</label>
+                                                <label lang="es">Todos</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option>
+<option selected="true">
+<label_list>
+<label lang="pt">2007</label>
+<label lang="en">2007</label>
+<label lang="es">2007</label>
+</label_list>
+<value>2007</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2006</label>
+<label lang="en">2006</label>
+<label lang="es">2006</label>
+</label_list>
+<value>2006</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2005</label>
+<label lang="en">2005</label>
+<label lang="es">2005</label>
+</label_list>
+<value>2005</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2004</label>
+<label lang="en">2004</label>
+<label lang="es">2004</label>
+</label_list>
+<value>2004</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2003</label>
+<label lang="en">2003</label>
+<label lang="es">2003</label>
+</label_list>
+<value>2003</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2002</label>
+<label lang="en">2002</label>
+<label lang="es">2002</label>
+</label_list>
+<value>2002</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2001</label>
+<label lang="en">2001</label>
+<label lang="es">2001</label>
+</label_list>
+<value>2001</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2000</label>
+<label lang="en">2000</label>
+<label lang="es">2000</label>
+</label_list>
+<value>2000</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">1999</label>
+<label lang="en">1999</label>
+<label lang="es">1999</label>
+</label_list>
+<value>1999</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">1998</label>
+<label lang="en">1998</label>
+<label lang="es">1998</label>
+</label_list>
+<value>1998</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">1997</label>
+<label lang="en">1997</label>
+<label lang="es">1997</label>
+</label_list>
+<value>1997</value>
+</option>
+                        </option_list>
+                </selection>
+                <selection name="year_cited">
+                        <label_list>
+                                <label lang="pt">Publicadas em</label>
+                                <label lang="en">Published in</label>
+                                <label lang="es">Publicadas en</label>
+                        </label_list>
+                        <option_list name="YED" selection_type="multiple">
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">Todos</label>
+                                                <label lang="en">All</label>
+                                                <label lang="es">Todos</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option>
+<option selected="true">
+<label_list>
+<label lang="pt">2007</label>
+<label lang="en">2007</label>
+<label lang="es">2007</label>
+</label_list>
+<value>2007</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2006</label>
+<label lang="en">2006</label>
+<label lang="es">2006</label>
+</label_list>
+<value>2006</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2005</label>
+<label lang="en">2005</label>
+<label lang="es">2005</label>
+</label_list>
+<value>2005</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2004</label>
+<label lang="en">2004</label>
+<label lang="es">2004</label>
+</label_list>
+<value>2004</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2003</label>
+<label lang="en">2003</label>
+<label lang="es">2003</label>
+</label_list>
+<value>2003</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2002</label>
+<label lang="en">2002</label>
+<label lang="es">2002</label>
+</label_list>
+<value>2002</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2001</label>
+<label lang="en">2001</label>
+<label lang="es">2001</label>
+</label_list>
+<value>2001</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2000</label>
+<label lang="en">2000</label>
+<label lang="es">2000</label>
+</label_list>
+<value>2000</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">1999</label>
+<label lang="en">1999</label>
+<label lang="es">1999</label>
+</label_list>
+<value>1999</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">1998</label>
+<label lang="en">1998</label>
+<label lang="es">1998</label>
+</label_list>
+<value>1998</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">1997</label>
+<label lang="en">1997</label>
+<label lang="es">1997</label>
+</label_list>
+<value>1997</value>
+</option>
+                        </option_list>
+                </selection>
+                <selection name="top_cited">
+                        <label_list>
+                                <label lang="pt">Listar</label>
+                                <label lang="en">List</label>
+                                <label lang="es">Lista</label>
+                        </label_list>
+                        <option_list name="COUNT_SCI">
+                                <!--option>
+                                        <label_list>
+                                                <label lang="pt">Todos</label>
+                                                <label lang="en">All</label>
+                                                <label lang="es">Todos</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option-->
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">10</label>
+                                                <label lang="en">10</label>
+                                                <label lang="es">10</label>
+                                        </label_list>
+                                        <value>10</value>
+                                </option>
+                                <option selected="true">
+                                        <label_list>
+                                                <label lang="pt">50</label>
+                                                <label lang="en">50</label>
+                                                <label lang="es">50</label>
+                                        </label_list>
+                                        <value>50</value>
+                                </option>
+				<option>
+                                        <label_list>
+                                                <label lang="pt">100</label>
+                                                <label lang="en">100</label>
+                                                <label lang="es">100</label>
+                                        </label_list>
+                                        <value>100</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">500</label>
+                                                <label lang="en">500</label>
+                                                <label lang="es">500</label>
+                                        </label_list>
+                                        <value>500</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">1000</label>
+                                                <label lang="en">1000</label>
+                                                <label lang="es">1000</label>
+                                        </label_list>
+                                        <value>1000</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">5000</label>
+                                                <label lang="en">5000</label>
+                                                <label lang="es">5000</label>
+                                        </label_list>
+                                        <value>5000</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">10000</label>
+                                                <label lang="en">10000</label>
+                                                <label lang="es">10000</label>
+                                        </label_list>
+                                        <value>10000</value>
+                                </option>
+                        </option_list>
+                </selection>
+        </selection_list>
+        <form>
+                <action>/cgi-bin/stat_biblio/xml/scielo5b.sh</action>
+                <action2>/cgi-bin/stat_biblio/xml/scielo5.sh</action2>
+                <state>12</state>
+        </form>
+</root>
+

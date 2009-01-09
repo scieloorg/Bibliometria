@@ -1,0 +1,35 @@
+
+proc(
+   (if v2000^n='CITED' then '<4002 0>', if v2000^v <>'all' then '/'v2000^v fi, '</4002>' fi)
+   (if v2000^n='PAIS1' then '<3001 0>', '/'v2000^v, '</3001>' fi)
+   (if v2000^n='PAIS2' then '<3002 0>', v2000^v, '</3002>' fi)
+   (if v2000^n='YNG' then '<4001 0>',v2000^v,'</4001>' fi)
+   (if v2000^n='formato' then '<3003 0>',v2000^v,'</3003>' fi)
+   (if v2000^n='lang' then '<3004 0>',v2000^v,'</3004>' fi)
+   (if v2000^n='issn' then '<3400 0>',v2000^v,'</3400>' fi)
+ )
+
+ 
+  'BEGIN|'if v3003='html' then 'echo "<html><table>"'/ else 'echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><root>"'/ fi
+   'LANG|'if v3004='' or v3004=' ' then 'pt'/ else v3004/ fi
+'FORMAT1|'if v3003='html' then '-all'/ else 'pft=@$HOM/scielo7outXML1a.pft'/ fi
+'FORMAT2|'if v3003='html' then '@$HOM/scielo7out1a2.pft'/ else '@$HOM/scielo7outXML1b.pft'/ fi
+'FORMAT3|'if v3003='html' then 'pft=@$HOM/scielo7out1c.pft'/ else 'pft=@$HOM/scielo7outXML1c.pft'/ fi
+    'END|'if v3003='html' then 'echo "</table></html>"'/ else 'echo "</cooperation_list></root>"'/ fi
+'SHOWpa2|'if v3002<>'all' and v3003='html' then |- |v3002+|<br><br>| else, if v3002<>'all' and v3002<>'1' and v3003='xml' then, if v3004='pt' then proc(('<302 0>'ref(['3166']l(['3166']v3002),v1)'</302>')), |<country_two><![CDATA[|v302|]]></country_two>| else, if v3004='en' then proc(('<302 0>'ref(['3166']l(['3166']v3002),v2)'</302>')), |<country_two><![CDATA[|v302|]]></country_two>| else, if v3004='es' then proc(('<302 0>'ref(['3166']l(['3166']v3002),v3)'</302>')), |<country_two><![CDATA[|v302|]]></country_two>| fi, fi, fi, else, if v3002='1' then '1' else  'all' fi, fi, fi/
+'SHOWano|'if v4001<>'all' and v4001<>'sum' and v3003='html' then v4001+|, | else if  v4001<>'all' and v4001<>'sum' and v3003='xml' then |<year_source>|v4001|</year_source>| else v4001 fi, fi/
+'ISSN|'if v3400<>'' then '"proc=\','`a3400~'v3400'~\','`"'/ else / fi
+
+
+/* lista de títulos - um por linha */
+ if v4002>'' then't|'v4002/ fi 
+	
+/* lista de paises - um por linha */
+ if v3001>'' then'c|'v3001/ fi 
+	
+ /* lista de paises - um por linha */
+ (if v3002='all' then cat('../../../scibiblio/bases/estat/artigo/allpais.seq') else 'p|'v3002/ fi)
+ 
+ /* lista de anos - todos em uma so linha */
+ if v4001='all' then cat('../../../scibiblio/bases/estat/artigo/allanos.seq') else 'a|',v4001|;|/ fi
+

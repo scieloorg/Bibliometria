@@ -1,0 +1,25 @@
+unset ROOT
+unset ROOTPROD
+
+unset SCIELO
+
+unset CIPATH
+
+unset ALLANOS
+unset JCR
+unset TAB30
+unset COAUT
+
+unset XML
+unset CGIXML
+
+unset CISIS
+unset CISIS1660
+unset LIND
+unset FFI
+unset LINDFFI
+
+unset UTL
+unset HOM
+unset GET
+

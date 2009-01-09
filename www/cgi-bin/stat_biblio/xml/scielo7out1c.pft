@@ -1,0 +1,42 @@
+
+'<tr>
+	<td>
+		<font face="Tahoma" size="2" color="Black"><b>'f(val(mfn),1,0)'.</b></font>
+	</td>
+	<td>
+		<font face="Verdana" size="2"  color="Black"><b>',
+			if v2^a<>'sum' then 
+								v2^a'</font>', 
+							else
+								'Soma dos anos</font>', 
+							fi,'
+	</td>
+	<td>
+		<font face="Verdana" size="2"  color="Black"><b>'v2^c*1'</font>
+	</td>
+	<td>
+		<font face="Verdana" size="2"  color="Black"><b>'if v2^p='-' then 'País ignorado' else if v2^p='1' then 'Autor individual' else v2^p fi fi'</font>
+	</td>
+	<td>
+		<font face="Verdana" size="2"  color="Black"><b>',
+			if v2^t*1<>'' 
+			then 
+				ref(['tab30issn']l(['tab30issn']v2^t*1),mpu,v222^a,mpl)'</font>', 
+			else
+				'Todas as revistas de SciELO</font>', 
+			fi,'
+	</td>
+	<td>
+		<font face="Verdana" size="2"  color="Black"><b>'
+			if v2^a<>'sum' then 
+								f(npost(['v677']v2^a,v2^c'/'v2^p,v2^t),1,0)'</font> ', 
+							else
+								f(npost(['v677']v2^c'/'v2^p,v2^t),1,0)'</font>', 
+							fi, '
+	</td>
+	<td>
+		[<a href=http://www.scielo.br/cgi-bin/wxis.exe/iah/?IsisScript=iah/iah.xis&base=article^d',if v2^t<>'' then ref(['title']l(['title']v2^t*1),v68) else 'library' fi, '&fmt=iso.pft&nextAction=lnk&lang=p&exprSearch=('v2^c*1,if v2^p<>'' and v2^p<>'-' and v2^p<>'1' then |,%20|v2^p fi,')&indexSearch=PP',if v2^a<>'sum' then |&conectSearch=AND&exprSearch=|v2^a|&indexSearch=YR| fi,if v2^t<>'' then |&limit=|v2^t*1 fi, ' target="_blank"> Ver artigos citados</a> ]'
+	'</td>
+
+</tr>'
+	

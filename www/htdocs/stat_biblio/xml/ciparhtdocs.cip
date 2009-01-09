@@ -1,0 +1,5 @@
+artigoh.mst=../../../bases/artigo/artigo.mst
+artigoh.xrf=../../../bases/artigo/artigo.xrf
+artigoh.*=../../../scibiblio/bases/estat/artigo/artigoh.*
+
+title.*=../../../scibiblio/bases/estat/jcr/title.*

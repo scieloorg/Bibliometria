@@ -1,0 +1,11 @@
+/utl/lind/mx iso=g850ans.iso create=g850ans -all now
+/utl/lind/mx iso=3166.iso gizmo=g850ans create=3166 -all now
+/utl/lind/mx 3166 "fst=;1 0 v1;2 0 v2;3 0 v3;4 0 v4; 5 0 v102;6 0 v103" fullinv/ansi=3166 tell=100
+$LIND/mx 3166 iso=3166.iso -all now
+$FFI/mx iso=3166.iso create=3166ffi -all now
+$FFI/mx 3166ffi "fst=;1 0 v1;2 0 v2;3 0 v3;4 0 v4; 5 0 v102;6 0 v103" fullinv/ansi=3166ffi tell=100
+$FFI/mkiy0 3166ffi
+rm 3166ffi.cnt
+rm 3166ffi.n0?
+rm 3166ffi.ly?
+rm 3166ffi.iyp

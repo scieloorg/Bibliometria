@@ -1,0 +1,10 @@
+'<TABLE border="1"><center>
+		<TR><TD><font size="+2">Citações concedidas na base SciELO, no(s) ano(s) de 
+				<font face="Courier" size="+1,5" color="Blue"><b>', v22, '</b></font>, à(s) revista(s):<br><br>
+         		<font face="Courier" size="+1,5" color="Blue"><b>', v11, '</b></font><br><br>
+				<font size="+2">publicada(s) em <font face="Courier" size="+1,5" color="Blue"><b>', v65, '</b></font>.
+			</TD>
+		</TR>
+	</TABLE></center>'
+	
+

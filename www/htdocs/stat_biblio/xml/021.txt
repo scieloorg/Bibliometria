@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<current_state>02</current_state>
+	<page_title_list>
+		<page_title lang="pt">Relatórios de citações de revistas</page_title>
+		<page_title lang="en">Journal Citation Reports</page_title>
+		<page_title lang="es">Informes de citas de revistas</page_title>
+	</page_title_list>
+	<title_list>
+		<title lang="pt">Coleção da biblioteca</title>
+		<title lang="en">Library collection</title>
+		<title lang="es">Colección de la biblioteca</title>
+	</title_list>
+	<subtitle_list>
+		<subtitle lang="pt">Relatórios de citações de revistas</subtitle>
+		<subtitle lang="en">Journal citation reports</subtitle>
+		<subtitle lang="es">Informes de citas de revistas</subtitle>
+	</subtitle_list>
+	<option_list name="stat">
+		<option>
+			<link>
+				<label_list> 
+  					<label lang="pt">Dados fonte</label> 
+  					<label lang="en">Source data</label> 
+  					<label lang="es">Datos fuente</label> 
+  				</label_list> 
+				<url>
+					<protocol>http</protocol>
+					<host>www.scielo.br</host>
+					<port></port>
+					<path>stat_biblio/xml</path>
+					<script_name>03.xml</script_name>
+					<param_list></param_list>
+				</url>
+				<state>03</state>
+			</link>
+		</option>
+    	<option>
+			<link>
+				<label_list> 
+  					<label lang="pt">Fator de impacto em um período de dois anos</label> 
+  					<label lang="en">Impact factor on a two-year basis</label> 
+  					<label lang="es">Factor de impacto en un período de dos años</label> 
+  				</label_list> 
+				<url>
+					<protocol>http</protocol>
+					<host>www.scielo.br</host>
+					<port></port>
+					<path>stat_biblio/xml</path>
+					<script_name>04.xml</script_name>
+					<param_list></param_list>
+				</url>
+				<state>04</state>
+			</link>
+		</option>
+		<option>
+			<link>
+				<label_list> 
+  					<label lang="pt">Fator de impacto em um período de três anos</label> 
+  					<label lang="en">Impact factor on a three-year basis</label> 
+  					<label lang="es">Factor de impacto en un período de tres años</label> 
+  				</label_list> 
+				<url>
+					<protocol>http</protocol>
+					<host>www.scielo.br</host>
+					<port></port>
+					<path>stat_biblio/xml</path>
+					<script_name>18.xml</script_name>
+					<param_list></param_list>
+				</url>
+				<state>18</state>
+			</link>
+		</option>
+		<option>
+			<link>
+				<label_list> 
+  					<label lang="pt">Vida média</label> 
+  					<label lang="en">Half-life</label> 
+  					<label lang="es">Vida media</label> 
+  				</label_list>
+				<url>
+					<protocol>http</protocol>
+					<host>www.scielo.br</host>
+					<port></port>
+					<path>stat_biblio/xml</path>
+					<script_name>07.xml</script_name>
+					<param_list></param_list>
+				</url>
+				<state>07</state>
+			</link>
+		</option>
+		<option>
+			<link>
+				<label_list> 
+  					<label lang="pt">Citações recebidas</label> 
+  					<label lang="en">Received citations</label> 
+  					<label lang="es">Citas recibidas</label> 
+  				</label_list>
+				<url>
+					<protocol>http</protocol>
+					<host>www.scielo.br</host>
+					<port></port>
+					<path>stat_biblio/xml</path>
+					<script_name>09.xml</script_name>
+					<param_list></param_list>
+				</url>
+				<state>09</state>
+			</link>
+		</option>
+		<option>
+			<link>
+				<label_list> 
+  					<label lang="pt">Citações concedidas</label> 
+  					<label lang="en">Granted citations</label> 
+  					<label lang="es">Citas concedidas</label> 
+  				</label_list>
+				<url>
+					<protocol>http</protocol>
+					<host>www.scielo.br</host>
+					<port></port>
+					<path>stat_biblio/xml</path>
+					<script_name>11.xml</script_name>
+					<param_list></param_list>
+				</url>
+				<state>11</state>
+			</link>
+		</option>
+	</option_list>
+	<option_list name="journal">

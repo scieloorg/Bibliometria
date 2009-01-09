@@ -1,0 +1,47 @@
+if mfn=1 
+then 
+	'<html><h1><center><font size="+3,5">Lista de Dados Fonte em SciELO</font></center></h1> 
+		<TABLE BORDER>
+			<tr>
+				<td><b>titulo da revista/ano</td>
+				<td><b>n. de<br>fascículos</td>
+				<td><b>n. de<br>artigos</td>
+				<td><b>n. de<br>citações<br>concedidas</td>
+				<td><b>n. de<br>citações<br>recebidas</td>
+				<td><b>média de<br>artigos<br>por<br>fascículo</td>
+				<td><b>média de<br>citações<br>concedidas<br>por<br>fascículo</td>
+				<td><b>média de<br>citações<br>concedidas<br>por<br>artigo</td>
+				<td><b>média de<br>citações<br>recebidas<br>por<br>fascículo</td>
+				<td><b>média de<br>citações<br>recebidas<br>por<br>artigo</td>
+			</tr>' 
+fi,
+if v2^i<>ref([''v5555'.titsanosg']val(f(mfn-1,1,0)),v2^i) 
+then 
+	'<tr>
+			<td>', ref(['title']l(['title']v2^t),v150), '</td>
+			<td>', v21, '</td>
+			<td>', v22, '</td>
+			<td>', v23, '</td>
+			<td>', v24, '</td>
+			<td>', v25, '</td>
+			<td>', v26, '</td>
+			<td>', v27, '</td>
+			<td>', v28, '</td>
+			<td>', v29, '</td>
+	</tr>' 
+fi, 
+if v12<>'0' 
+	then 
+ 		'<tr>
+			<td>', v2^a, '</td>
+			<td>', v11, '</td>
+			<td>', v12, '</td>
+			<td>', v13, '</td>
+			<td>', v14, '</td>
+			<td>', v15, '</td>
+			<td>', v16, '</td>
+			<td>', v17, '</td>
+			<td>', v18, '</td>
+			<td>', v19, '</td>
+		</tr>' 
+fi

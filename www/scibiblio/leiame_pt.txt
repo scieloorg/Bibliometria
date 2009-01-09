@@ -1,0 +1,341 @@
+Modulo de Bibliometria - SciELO
+
+20/09/2007
+
+Instrucoes para instalacao (default) de interface em:
+
+										ROOT = /home/scielo
+
+######################################################################################
+
+1 - Ao se descompactar "install.stat_biblio.tgz", cria-se un diretorio "www" (se nao esta criado), sob o qual estarao 4 sub-diretorios: "scibilio" (que contem toda a estrutura responsavel pela geracao e atualizacao de bases); "bases" (com diretorios respectivos a correcao de afiliacao de autores, artigo, title e yah); e a estrutura correspondente a interface "htdocs" (cliente) e "cgi-bin" (servidor).
+
+_______________________________________________
+	/home/scielo
+  1.1 
+
+comando:
+
+	tar -xvzpf install.stat_biblio.tgz
+
+######################################################################################
+
+2 - Alteracoes na interface da bibliometria
+
+_________________________________________________
+  2.1 E-mail da unidade scielo responsavel
+
+substituicao:
+
+		SciELO Brazil		->	SciELO Pais
+		scielo@bireme.br	->	scielo@instituicao.pp
+
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/stat_biblio/xsl
+2.1.1						common.xsl
+---------------------------------------------------------------------
+  2.2 Alterar os caminhos:
+
+/home/scielo/www/htdocs/stat_biblio/
+
+Fazer a correcao necessaria.
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/stat_biblio/ini
+2.2.1						stat.ini
+
+_________________________________________________
+  2.3 URL do site SciELO e Modulo de Bibliometria
+
+
+substituicao:
+
+		www.scielo.br			->	www.scielo.pp
+		statbiblio.scielo.br	->  statbiblio.scielo.pp
+		
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/stat_biblio/ini
+2.3.1						stat.ini		
+---------------------------------------------------------------------
+	/home/scielo/www/cgi-bin/stat_biblio/xml
+2.3.2						SetVar.txt			(vars. DOM_SCI e DOMAIN)
+---------------------------------------------------------------------
+
+_________________________________________________
+  2.4 Definicao do diretorio para criacao e exclusao 
+      automatica de arquivos temporarios na maquina da perte servidor
+
+
+substituicao de:
+
+		TMP=/tmp		->	TMP=/alguno/tmp/
+
+---------------------------------------------------------------------
+	/home/scielo/www/cgi-bin/stat_biblio/xml
+2.4.1						SetVar.txt			(var. TMP)
+
+_________________________________________________
+  2.5 Nome e sigla do pais do site SciELO
+
+(ver lista de paises em /home/scielo/www/scibiblio/paises_siglas.txt)
+
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/stat_biblio/xml
+2.5.1						genselbox.sh
+---------------------------------------------------------------------
+substituicao:
+
+		v1^*='BR'		->		v1^*='PP'
+
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/stat_biblio/xml
+2.5.2						162.txt	
+---------------------------------------------------------------------
+substituir:
+
+					<label_list>
+						<label lang="pt">Pais</label>
+						<label lang="en">Pais</label>
+						<label lang="es">Pais</label>
+					</label_list>
+					<value>PP</value>
+
+por:
+
+					<label_list>
+						<label lang="pt">Brasil</label>
+						<label lang="en">Brazil</label>
+						<label lang="es">Brasil</label>
+					</label_list>
+					<value>BR</value>
+
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/stat_biblio/xml
+2.5.3						163.txt	
+
+---------------------------------------------------------------------
+substituir:
+
+					<label_list>
+						<label lang="pt">Pais</label>
+						<label lang="en">Pais</label>
+						<label lang="es">Pais</label>
+					</label_list>
+					<value>PP</value>
+					
+por:
+
+					<label_list>
+						<label lang="pt">Brasil</label>
+						<label lang="en">Brazil</label>
+						<label lang="es">Brasil</label>
+					</label_list>
+					<value>BR</value>
+
+######################################################################################
+
+3 - Alteracoes na interface do site SciELO
+
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/
+3.1						scielo.def
+---------------------------------------------------------------------
+substituir:
+
+[LOG]
+ACTIVATE_LOG=0
+ENABLE_STATISTICS_LINK=0
+ENABLE_CITATION_REPORTS_LINK=0
+
+por:
+
+[LOG]
+ACTIVATE_LOG=0
+ENABLE_STATISTICS_LINK=0
+ENABLE_CITATION_REPORTS_LINK=1
+
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/xsl/
+3.2						sci_home.xsl
+---------------------------------------------------------------------
+(ingles)
+substituir:
+
+<a>
+ <xsl:attribute name="href">
+ http:// 
+ <xsl:value-of select="SCIELO_INFO/SERVER" /> 
+ <xsl:value-of select="SCIELO_INFO/PATH_DATA" /> 
+ bib2jcr.htm 
+ </xsl:attribute>
+ <font class="linkado" size="-1">journal citation</font> 
+</a>
+
+por:
+
+<a href="/stat_biblio/index.php?lang={LANGUAGE}">
+  <font class="linkado" size="-1">journal citation</font> 
+</a><br/>
+<a href="/stat_biblio/index.php?lang={LANGUAGE}&amp;state=16">
+  <font class="linkado" size="-1">co-author</font>  
+</a>
+------------------------------------
+(portugues)
+substituir:
+
+<a>
+ <xsl:attribute name="href">
+ http:// 
+ <xsl:value-of select="SCIELO_INFO/SERVER" /> 
+ <xsl:value-of select="SCIELO_INFO/PATH_DATA" /> 
+ bib2jcrp.htm 
+ </xsl:attribute>
+ <font class="linkado" size="-1">citações de revistas</font> 
+</a>
+
+por:
+
+<a href="/stat_biblio/index.php?lang={LANGUAGE}">
+  <font class="linkado" size="-1">citações de revistas</font> 
+</a><br/>
+<a href="/stat_biblio/index.php?lang={LANGUAGE}&amp;state=16">
+  <font class="linkado" size="-1">co-autoria</font>  
+</a>
+------------------------------------
+(espanhol)
+substituir:
+
+<a>
+ <xsl:attribute name="href">
+ http://
+ <xsl:value-of select="SCIELO_INFO/SERVER" />
+ <xsl:value-of select="SCIELO_INFO/PATH_DATA" />
+ bib2jcre.htm
+ </xsl:attribute>
+ <font class="linkado" size="-1">citas de revistas</font>
+</a> 
+
+por:
+
+<a href="/stat_biblio/index.php?lang={LANGUAGE}">
+  <font class="linkado" size="-1">citas de revistas</font> 
+</a><br/>
+<a href="/stat_biblio/index.php?lang={LANGUAGE}&amp;state=16">
+  <font class="linkado" size="-1">co-autoria</font>  
+</a>
+
+---------------------------------------------------------------------
+	/home/scielo/www/htdocs/xsl/
+3.3						sci_serial.xsl
+---------------------------------------------------------------------
+(ingles)
+substituir:
+
+<a>
+  <xsl:call-template name="AddScieloLink">
+  <xsl:with-param name="script">sci_jstat</xsl:with-param> 
+  <xsl:with-param name="seq" select="/SERIAL/ISSN" /> 
+  </xsl:call-template>
+  <img>
+  <xsl:attribute name="src">
+  <xsl:value-of select="SCIELO_INFO/PATH_GENIMG" /> 
+  en/statist.gif 
+  </xsl:attribute>
+  <xsl:attribute name="border">0</xsl:attribute> 
+  </img>
+</a>
+
+por:
+
+<a href="/stat_biblio/index.php?lang={LANGUAGE}&issn={/SERIAL/ISSN}">
+  <img>
+  <xsl:attribute name="src">
+  <xsl:value-of select="SCIELO_INFO/PATH_GENIMG" /> 
+  en/statist.gif 
+  </xsl:attribute>
+  <xsl:attribute name="border">0</xsl:attribute> 
+  </img>
+</a>
+------------------------------------
+(portugues)
+substituir:
+
+<a>
+  <xsl:call-template name="AddScieloLink">
+  <xsl:with-param name="script">sci_jstat</xsl:with-param> 
+  <xsl:with-param name="seq" select="/SERIAL/ISSN" /> 
+  </xsl:call-template>
+  <img>
+  <xsl:attribute name="src">
+  <xsl:value-of select="SCIELO_INFO/PATH_GENIMG" /> 
+  pt/statist.gif 
+  </xsl:attribute>
+  <xsl:attribute name="border">0</xsl:attribute> 
+  </img>
+</a>
+
+por:
+
+<a href="/stat_biblio/index.php?lang={LANGUAGE}&issn={/SERIAL/ISSN}">
+  <img>
+  <xsl:attribute name="src">
+  <xsl:value-of select="SCIELO_INFO/PATH_GENIMG" /> 
+  pt/statist.gif 
+  </xsl:attribute>
+  <xsl:attribute name="border">0</xsl:attribute> 
+  </img>
+</a>
+------------------------------------
+(espanhol)
+substituir:
+
+<a>
+  <xsl:call-template name="AddScieloLink">
+  <xsl:with-param name="script">sci_jstat</xsl:with-param> 
+  <xsl:with-param name="seq" select="/SERIAL/ISSN" /> 
+  </xsl:call-template>
+  <img>
+  <xsl:attribute name="src">
+  <xsl:value-of select="SCIELO_INFO/PATH_GENIMG" /> 
+  es/statist.gif 
+  </xsl:attribute>
+  <xsl:attribute name="border">0</xsl:attribute> 
+  </img>
+</a>
+
+por:
+
+<a href="/stat_biblio/index.php?lang={LANGUAGE}&issn={/SERIAL/ISSN}">
+  <img>
+  <xsl:attribute name="src">
+  <xsl:value-of select="SCIELO_INFO/PATH_GENIMG" /> 
+  es/statist.gif 
+  </xsl:attribute>
+  <xsl:attribute name="border">0</xsl:attribute> 
+  </img>
+</a>
+
+######################################################################################
+
+4 - Alteracoes na parte de geracao e atualizacao de bases de dados do Modulo de Bibliometria
+
+---------------------------------------------------------------------
+	/home/scielo/www/scibiblio/bases/estat
+4.1						SetAmbBibliometriaSciELO.txt
+---------------------------------------------------------------------
+substituir (caminho de localizacao do Modulo de Bibliometria):
+
+export ROOT=/home/scielo/www
+
+por (seu diretorio):
+
+export ROOT=/alguno/home/scielo/www
+
+######################################################################################
+
+FIM
+
+######################################################################################
+
+
+
+

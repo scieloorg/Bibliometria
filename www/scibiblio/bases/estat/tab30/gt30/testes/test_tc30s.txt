@@ -1,0 +1,163 @@
+************************
+Estatísticas de correção
+************************
+-               19786        26.6%
+ISI             43464        58.3%
+SciELO           3364        4.5%
+SciELO / ISI     4257        5.7%
+arrumar1         3635        4.9%
+************************
+TOTAL           74506        100%
+*****************************************************************
+Total de citações concedidas: 74506 / 7816 revistas
+*****************************************************************
+1.     2284 SciELO / ISI REVISTA DE SAUDE PUBLICA                                                             0034-8910
+2.     1997 ISI          LANCET                                                                               0140-6736
+3.     1485 SciELO       CADERNOS DE SAUDE PUBLICA                                                            0102-311X
+4.     1215 ISI          AMERICAN JOURNAL OF EPIDEMIOLOGY                                                     0002-9262
+5.     1100 SciELO / ISI BULLETIN OF THE WORLD HEALTH ORGANIZATION                                            0042-9686
+6.     1080 -            JAMA                                                                                 0867-5104
+7.     827  ISI          AMERICAN JOURNAL OF CLINICAL NUTRITION                                               0002-9165
+8.     812  ISI          INTERNATIONAL JOURNAL OF EPIDEMIOLOGY                                                0300-5771
+9.     774  -            BMJ                                                                                  1106-4226
+10.    756  ISI          NEW ENGLAND JOURNAL OF MEDICINE                                                      0028-4793
+11.    734  SciELO / ISI SALUD PUBLICA DE MEXICO                                                              0036-3634
+12.    721  ISI          AMERICAN JOURNAL OF TROPICAL MEDICINE AND HYGIENE                                    0002-9637
+13.    709  ISI          JOURNAL OF INFECTIOUS DISEASES                                                       0022-1899
+14.    658  ISI          AMERICAN JOURNAL OF PUBLIC HEALTH                                                    0271-4353
+15.    658  ISI          MEMORIAS DO INSTITUTO OSWALDO CRUZ                                                   0074-0276
+16.    623  ISI          PEDIATRICS                                                                           1414-9125
+17.    582  ISI          TRANSACTIONS OF THE ROYAL SOCIETY OF TROPICAL MEDICINE AND H                         0035-9203
+18.    578  -            JAPANESE JOURNAL OF MEDICAL SCIENCES, PART 7. SOCIAL MEDICIN                         0368-3680
+19.    501  ISI          SOCIAL SCIENCE & MEDICINE                                                            0037-7856
+20.    462  -            ATENCION PRIMARIA                                                                    0212-6567
+21.    450  -            MORBIDITY AND MORTALITY WEEKLY REPORT                                                0149-2195
+22.    428  -            REVISTA DO INSTITUTO DE MEDICINA TROPICAL DE SAO PAULO                               0036-4665
+23.    412  -            REVISTA DA SOCIEDADE BRASILEIRA DE MEDICINA TROPICAL                                 0037-8682
+24.    409  ISI          AMERICAN JOURNAL OF PUBLIC HEALTH                                                    0090-0036
+25.    407  ISI          JOURNAL OF EPIDEMIOLOGY AND COMMUNITY HEALTH                                         0141-7681
+26.    407  ISI          NEW ENGLAND JOURNAL OF MEDICINE                                                      1533-4406
+27.    395  ISI          BRITISH MEDICAL JOURNAL                                                              0007-1447
+28.    388  ISI          ENVIRONMENTAL HEALTH PERSPECTIVES                                                    0091-6765
+29.    386  ISI          SCIENCE                                                                              0954-5441
+30.    383  ISI          JOURNAL OF CLINICAL MICROBIOLOGY                                                     1070-633X
+31.    368  ISI          AIDS                                                                                 0857-5347
+32.    358  ISI          JOURNAL OF THE NATIONAL CANCER INSTITUTE                                             0027-8874
+33.    356  SciELO       GACETA SANITARIA                                                                     0213-9111
+34.    346  -            JORNAL DE PEDIATRIA                                                                  0021-7557
+35.    341  -            MEDECINE CLINIQUE                                                                    0989-6031
+36.    312  ISI          MEDICAL CARE                                                                         0025-7079
+37.    305  ISI          PEDIATRIC INFECTIOUS DISEASE JOURNAL                                                 0891-3668
+38.    290  SciELO       BOLETIN PANAMERICANO DE SANIDAD DE LA OFICINA SANITARIA INTE                         1014-4390
+39.    288  ISI          INTERNATIONAL JOURNAL OF CANCER                                                      0020-7136
+40.    285  ISI          ANNALS OF INTERNAL MEDICINE                                                          0003-4819
+41.    270  ISI          CLINICAL INFECTIOUS DISEASES                                                         1058-4838
+42.    257  ISI          JOURNAL OF CLINICAL EPIDEMIOLOGY                                                     0895-4356
+43.    257  SciELO       REVISTA PANAMERICANA DE SALUD PUBLICA                                                1020-4989
+44.    254  ISI          JOURNAL OF NUTRITION                                                                 0022-3166
+45.    244  ISI          ARCHIVES OF INTERNAL MEDICINE                                                        0730-188X
+46.    241  SciELO       BOLETIN DE LA OFICINA SANITARIA PANAMERICANA                                         0030-0632
+47.    233  -            ANALES DE LA CLINICA MEDICO FORENSE DE BARCELONA                                     1131-270X
+48.    227  SciELO       REVISTA ESPANOLA DE SALUD PUBLICA                                                    1135-5727
+49.    225  ISI          AMERICAN JOURNAL OF OBSTETRICS AND GYNECOLOGY                                        0002-9378
+50.    215  ISI          HEALTH POLICY AND PLANNING                                                           1460-2237
+51.    214  ISI          VACCINE                                                                              0264-410X
+52.    212  ISI          DIABETES CARE                                                                        0149-5992
+53.    206  ISI          EUROPEAN JOURNAL OF CLINICAL NUTRITION                                               0954-3007
+54.    205  ISI          STATISTICS IN MEDICINE                                                               0277-6715
+55.    204  ISI          NATURE                                                                               0028-0836
+56.    201  ISI          AMERICAN JOURNAL OF INDUSTRIAL MEDICINE                                              0271-3586
+57.    201  ISI          ARCHIVES OF ENVIRONMENTAL HEALTH                                                     0003-9896
+58.    199  ISI          EPIDEMIOLOGY                                                                         1044-3983
+59.    198  ISI          EPIDEMIOLOGIC REVIEWS                                                                0193-936X
+60.    197  ISI          CANCER CYTOPATHOLOGY                                                                 0008-543X
+61.    193  -            WEEKLY EPIDEMIOLOGICAL RECORD                                                        0049-8114
+62.    190  -            INFORME EPIDEMIOLOGICO DO SUS                                                        0104-1673
+63.    185  ISI          CANCER RESEARCH                                                                      0807-9749
+64.    181  -            JOURNAL OF THE AMERICAN MEDICAL ASSOCIATION                                          0002-9955
+65.    179  ISI          INTERNATIONAL JOURNAL OF HEALTH SERVICES                                             0020-7314
+66.    178  ISI          COMMUNITY DENTISTRY AND ORAL EPIDEMIOLOGY                                            0301-5661
+67.    174  ISI          PREVENTIVE MEDICINE                                                                  0099-6637
+68.    171  SciELO       WORLD HEALTH STATISTICS QUARTERLY                                                    0379-8070
+69.    168  -            BULLETIN OF TROPICAL MEDICINE AND INTERNATIONAL HEALTH                               1356-0832
+70.    166  -            REVISTA BRASILEIRA DE MALARIOLOGIA E DOENCAS TROPICAIS                               0034-7256
+71.    165  -            BOLETIN MEDICO DEL HOSPITAL INFANTIL DE MEXICO                                       0539-6115
+72.    164  ISI          JOURNAL OF MEDICAL ENTOMOLOGY                                                        0022-2585
+73.    162  ISI          ENVIRONMENTAL RESEARCH                                                               0311-8363
+74.    160  ISI          PARASITOLOGY TODAY                                                                   0169-4707
+75.    159  -            REVIEWS OF INFECTIOUS DISEASES                                                       0162-0886
+76.    151  ISI          INTERNATIONAL JOURNAL OF TUBERCULOSIS AND LUNG DISEASE                               1027-3719
+77.    150  -            OBSTETRICS & GYNECOLOGY                                                              0078-298X
+78.    147  ISI          ANNALS OF TROPICAL MEDICINE AND PARASITOLOGY                                         0003-4983
+79.    146  ISI          CIRCULATION                                                                          1323-7195
+80.    146  ISI          PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITE                         0027-8424
+81.    144  ISI          JOURNAL OF TROPICAL PEDIATRICS                                                       0449-3281
+82.    139  ISI          JOURNAL OF THE AMERICAN MOSQUITO CONTROL ASSOCIATION                                 8756-971X
+83.    138  ISI          EPIDEMIOLOGY AND INFECTION                                                           1469-4409
+84.    136  ISI          JOURNAL OF DENTAL RESEARCH                                                           0022-0345
+85.    133  SciELO       BULLETIN OF THE PAN AMERICAN HEALTH ORGANIZATION                                     0085-4638
+86.    132  ISI          BRITISH JOURNAL OF CANCER                                                            0007-0920
+87.    129  -            DIARIO OFICIAL. SECAO 3                                                              1415-1553
+88.    129  ISI          SCANDINAVIAN JOURNAL OF WORK ENVIRONMENT & HEALTH                                    0355-3140
+89.    129  -            THE AMERICAN REVIEW OF RESPIRATORY DISEASE                                           0003-0805
+90.    127  ISI          ARCHIVES OF DISEASE IN CHILDHOOD                                                     0003-9888
+91.    127  ISI          BRITISH JOURNAL OF PSYCHIATRY                                                        1472-1465
+92.    127  ISI          EMERGING INFECTIOUS DISEASES                                                         1080-6059
+93.    127  ISI          MEDICAL JOURNAL OF AUSTRALIA                                                         0025-729X
+94.    125  ISI          INFECTION AND IMMUNITY                                                               1070-6313
+95.    124  -            BRITISH JOURNAL OF INDUSTRIAL MEDICINE                                               0007-1072
+96.    124  -            JOURNAL OF OCCUPATIONAL MEDICINE                                                     0096-1736
+97.    123  ISI          ANNUAL REVIEW OF PUBLIC HEALTH                                                       0163-7525
+98.    122  -            REVISTA BRASILEIRA DE SAUDE OCUPACIONAL                                              0303-7657
+99.    121  ISI          MEDICAL AND VETERINARY ENTOMOLOGY                                                    1365-2915
+100.   117  ISI          CANADIAN MEDICAL ASSOCIATION JOURNAL                                                 0008-4409
+101.   117  ISI          JOURNAL OF THE AMERICAN GERIATRICS SOCIETY                                           0002-8614
+102.   117  SciELO       REVISTA DE SANIDAD E HIGIENE PUBLICA                                                 0034-8899
+103.   115  -            ANALES ESPANOLES DE PEDIATRIA                                                        0302-4342
+104.   113  ISI          AMERICAN JOURNAL OF PREVENTIVE MEDICINE                                              0749-3797
+105.   112  ISI          INTERNATIONAL JOURNAL OF OBESITY                                                     0307-0565
+106.   112  -            PUBLIC HEALTH REPORT                                                                 1025-1847
+107.   111  ISI          INTERNATIONAL DENTAL JOURNAL                                                         0020-6539
+108.   111  -            SAUDE EM DEBATE                                                                      0103-1104
+109.   109  ISI          BIOMETRICS                                                                           0006-341X
+110.   109  ISI          INFECTION CONTROL AND HOSPITAL EPIDEMIOLOGY                                          0899-823X
+111.   108  -            AMERICAN JOURNAL OF DISEASES OF CHILDREN                                             0096-8994
+112.   108  ISI          AMERICAN JOURNAL OF RESPIRATORY AND CRITICAL CARE MEDICINE                           1073-449X
+113.   107  ISI          MUTATION RESEARCH-FUNDAMENTAL AND MOLECULAR MECHANISMS OF MU                         0027-5107
+114.   106  ISI          ACTA TROPICA                                                                         0001-706X
+115.   104  -            CIENCIA E SAUDE COLETIVA                                                             1413-8123
+116.   103  ISI          AMERICAN JOURNAL OF MEDICINE                                                         0002-9343
+117.   103  ISI          JOURNAL OF VIROLOGY                                                                  1070-6321
+118.   103  ISI          REVISTA DE INVESTIGACION CLINICA                                                     0034-8376
+119.   100  -            FOLHA DE S. PAULO                                                                    1414-5723
+120.   100  -            BOE                                                                                  Não corrigido
+121.   97   ISI          ARCHIVES OF GENERAL PSYCHIATRY                                                       0003-990X
+122.   97   ISI          STUDIES IN FAMILY PLANNING                                                           0039-3665
+123.   96   ISI          ANNALS OF THE NEW YORK ACADEMY OF SCIENCES                                           0077-8923
+124.   96   ISI          REVISTA MEDICA DE CHILE                                                              0034-9887
+125.   95   -            GACETA MEDICA DE MEXICO                                                              0016-3813
+126.   95   ISI          PARASITOLOGY                                                                         1469-8161
+127.   94   ISI          CANCER EPIDEMIOLOGY BIOMARKERS & PREVENTION                                          1055-9965
+128.   93   -            ENFERMEDADES INFECCIOSAS Y MICROBIOLOGIA CLINICA                                     0213-005X
+129.   93   ISI          SAMJ SOUTH AFRICAN MEDICAL JOURNAL                                                   0038-2469
+130.   92   ISI          CANCER CAUSES & CONTROL                                                              0957-5243
+131.   92   ISI          PSYCHOLOGICAL MEDICINE                                                               1469-8978
+132.   91   -            JOURNAL OF CHRONIC DISEASES                                                          0021-9681
+133.   91   ISI          JOURNAL OF THE AMERICAN DIETETIC ASSOCIATION                                         0002-8223
+134.   90   ISI          AMERICAN JOURNAL OF HUMAN GENETICS                                                   0002-9297
+135.   90   ISI          JOURNAL OF PARASITOLOGY                                                              0022-3395
+136.   88   ISI          MEDICINE AND SCIENCE IN SPORTS AND EXERCISE                                          0195-9131
+137.   87   ISI          ARCHIVOS LATINOAMERICANOS DE NUTRICION                                               0004-0622
+138.   86   -            CIENCIA E CULTURA                                                                    0009-6725
+139.   86   ISI          PAEDIATRIC AND PERINATAL EPIDEMIOLOGY                                                1365-3016
+140.   85   ISI          JOURNAL OF TROPICAL MEDICINE AND HYGIENE                                             0022-5304
+141.   85   ISI          QUALITY OF LIFE RESEARCH                                                             0962-9343
+142.   83   ISI          APPLIED AND ENVIRONMENTAL MICROBIOLOGY                                               1070-6291
+143.   82   -            JORNAL BRASILEIRO DE PSIQUIATRIA                                                     0047-2085
+144.   81   ISI          CLINICAL MICROBIOLOGY REVIEWS                                                        1070-6305
+145.   80   ISI          NUTRITION REVIEWS                                                                    0029-6643
+146.   79   ISI          BRITISH JOURNAL OF OBSTETRICS AND GYNAECOLOGY                                        0874-0305
+147.   79   ISI          INTERNATIONAL ARCHIVES OF OCCUPATIONAL AND ENVIRONMENTAL HEA                         0340-0131
+148.   79   ISI          JOURNAL OF IMMUNOLOGY                                                                1048-3233
+149.   78   ISI          AMERICAN JOURNAL OF CARDIOLOGY                                                       0002-9149
+150.   78   ISI          JOURNAL OF HEALTH AND SOCIAL BEHAVIOR                                                0022-1465

@@ -1,0 +1,42 @@
+	'<current_state>12</current_state>'/
+	'<page_title_list>',
+		'<page_title lang="pt">Citações concedidas</page_title>'/
+		'<page_title lang="en">Granted citations</page_title>'/
+		'<page_title lang="es">Citas concedidas</page_title>'/
+	'</page_title_list>'/
+	if v3400='' 
+	then 
+		'<title_list>',
+			'<title lang="pt">Coleção da biblioteca</title>'/
+			'<title lang="en">Library collection</title>'/
+			'<title lang="es">Colección de la biblioteca</title>'/
+		'</title_list>'/ 
+	else
+		'<title_list>',
+                '<title lang="pt"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="en"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="es"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+        '</title_list>'/
+		'<journal>',
+			'<issn>', v3400, '</issn>'/
+			'<siglum>', ref(['title']l(['title']v3400),v68), '</siglum>'/
+		'</journal>'/
+	fi, 
+	'<subtitle_list>',
+		'<subtitle lang="pt">Citações concedidas</subtitle>'/
+		'<subtitle lang="en">Granted citations</subtitle>'/
+		'<subtitle lang="es">Citas concedidas</subtitle>'/
+	'</subtitle_list>'/
+	'<header>',
+		'<title_list>', v11, '</title_list>'/
+		'<year_list type="source">', v22, '</year_list>'/
+		'<year_list type="before">', v65, '</year_list>'/
+	'</header>'/	
+	'<totals>',
+	
+
+	
+		
+		
+
+	

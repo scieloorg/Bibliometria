@@ -1,0 +1,416 @@
+|Argentina
+Avellaneda
+Bahía Blanca
+Buenos Aires
+San Fernando del Valle de Catamarca
+Comodoro Rivadavia
+Concordia
+Córdoba
+Corrientes
+Formosa
+General San Martín
+La Matanza
+Lanús
+La Plata
+Lomas de Zamora
+Mar del Plata
+Mendoza
+Morón
+Neuquén
+Paraná
+Posadas
+Quilmes
+Resistencia
+Río Cuarto
+Rosario
+Salta
+San Fernando
+San Isidro
+San Juan
+San Miguel de Tucumán
+San Nicolás de los Arroyos
+San Salvador de Jujuy
+Santa Fe
+Santiago del Estero
+Vicente López
+|Bolivia
+Cochabamba
+El Alto
+La Paz
+Oruro
+Potosí
+Santa Cruz de la Sierra
+Sucre
+Tarija
+|Brazil
+Abaetetuba
+Aguas Lindas de Goiás
+Alagoinhas
+Alvorada
+Americana
+Ananindeua
+Anápolis
+Angra dos Reis
+Aparecida de Goiania
+Apucarana
+Aracaju
+Araçatuba
+Araguaina
+Araguari
+Arapiraca
+Araraquara
+Araras
+Atibaia
+Bagé
+Barbacena
+Barueri
+Barra Mansa
+Barreiras
+Barretos
+Bauru
+Belém
+Belford Roxo
+Belo Horizonte
+Betim
+Blumenau
+Boa Vista
+Botucatu
+Bragança Paulista
+Brasilia
+Cabo de Santo Agostinho
+Cabo Frio
+Cachoeirinha
+Cachoeiro de Itapemirim
+Camacari
+Camaragibe
+Campina Grande
+Campinas
+Campo Grande
+Campos dos Goytacazes
+Canoas
+Carapicuíba
+Cariacica
+Caruaru
+Cascavel
+Castanhal
+Catanduva
+Caucaia
+Caxias
+Caxias do Sul
+Chapecó
+Codo
+Colatina
+Colombo
+Conselheiro Lafaiete
+Contagem
+Cotia
+Crato
+Criciúma
+Cubatão
+Cuiabá
+Curitiba
+Diadema
+Divinópolis
+Dourados
+Duque de Caxias
+Embu
+Feira de Santana
+Ferraz de Vasconcelos
+Florianópolis
+Fortaleza
+Foz do Iguaçu
+Franca
+Francisco Morato
+Franco da Rocha
+Garanhuns
+Goiânia
+Governador Valadares
+Gravatai
+Guaratinguetá
+Guarapuava
+Guarujá
+Guarulhos
+Hortolandia
+Ibirité
+Ilhéus
+Imperatriz
+Indaiatuba
+Ipatinga
+Itaboraí
+Itabuna
+Itajaí
+Itapetininga
+Itapecerica da Serra
+Itapevi
+Itaquaquecetuba
+Itu
+Jaboatao dos Guararapes
+Jacareí
+Jaraguá do Sul
+Jaú
+Jequié
+Ji-Paraná
+João Pessoa
+Joinville
+Juazeiro
+Juazeiro do Norte
+Juiz de Fora
+Jundiaí
+Lages
+Lauro de Freitas
+Limeira
+Linhares
+Londrina
+Luziânia
+Macae
+Macapá
+Maceió
+Magé
+Manaus
+Maraba
+Maracanau
+Marília
+Maringá
+Mauá
+Mesquita
+Moji das Cruzes
+Moji-Guaçu
+Montes Claros
+Mossoró
+Natal
+Nilópolis
+Niterói
+Nossa Senhora do Socorro
+Nova Friburgo
+Nova Iguaçu
+Nôvo Hamburgo
+Olinda
+Osasco
+Palhoça
+Palmas
+Paranaguá
+Parnaíba
+Parnamirim
+Passo Fundo
+Patos de Minas
+Paulista
+Pelotas
+Petrolina
+Petrópolis
+Pindamonhangaba
+Pinhais
+Piracicaba
+Poços de Caldas
+Ponta Grossa
+Porto Alegre
+Porto Seguro
+Porto Velho
+Pouso Alegre
+Praia Grande
+Presidente Prudente
+Queimados
+Recife
+Resende
+Ribeirão das Neves
+Ribeirão Prêto
+Ribeirão Pires
+Rio Branco
+Rio Claro
+Rio de Janeiro
+Rio Grande
+Rio Verde
+Rondonópolis
+Sabará
+Salvador
+Santa Bárbara d'Oeste
+Santa Cruz do Sul
+Santa Luzia
+Santa Maria
+Santa Rita
+Santarém
+Santo André
+Santos
+São Bernardo do Campo
+São Caetano do Sul
+São Carlos
+São Gonçalo
+São Joao de Meriti
+São José
+São José de Ribamar
+São José do Rio Preto
+São José dos Campos
+São José dos Pinhais
+São Leopoldo
+São Luís
+São Paulo
+São Vicente
+Sapucaia do Sul
+Serra
+Sete Lagoas
+Sobral
+Sorocaba
+Sumaré
+Susano
+Taboão da Serra
+Taubaté
+Teixeira de Freitas
+Teófilo Otoni
+Teresina
+Teresópolis
+Timon
+Uberaba
+Uberlândia
+Uruguaiana
+Varginha
+Varzea Grande
+Viamão
+Vila Velha
+Vitória
+Vitória da Conquista
+Vitória de Santo Antao
+Volta Redonda
+|Chile
+Antofagasta
+Arica
+Calama
+Chillán
+Concepción
+Copiapó
+Coquimbo
+Iquique
+La Serena
+Los Angeles
+Osorno
+Puente Alto
+Puerto Montt
+Punta Arenas
+Quilpué
+Rancagua
+San Bernardo
+Santiago
+Talca
+Talcahuano
+Temuco
+Valdivia
+Valparaíso
+Viña del Mar
+|Colombia
+Armenia
+Barrancabermeja
+Barranquilla
+Bello
+Bucaramanga
+Buenaventura
+Buga
+Cali
+Cartagena
+Cartago
+Chía
+Chiquinquirá
+Ciénaga
+Cúcuta
+Dosquebradas
+Duitama
+Envigado
+Facatativá
+Florencia
+Floridablanca
+Girardot
+Ibagué
+Ipiales
+Itagüí
+Maicao
+Manizales
+Medellín
+Montería
+Neiva
+Palmira
+Pasto
+Popayán
+Pereira
+Santa Fe de Bogotá
+Santa Marta
+Sincelejo
+Soacha
+Sogamoso
+Soledad
+Tuluá
+Tunja
+Valledupar
+Villavicencio
+Zipaquirá
+|Ecuador
+Ambato
+Cuenca
+Esmeraldas
+Guayaquil
+Ibarra
+Loja
+Machala
+Manta
+Milagro
+Portoviejo
+Quevedo
+Quito
+Riobamba
+Santo Domingo de los Colorados
+|Guyana
+Georgetown
+|Paraguay
+Asunción
+Capiatá
+Ciudad del Este
+Fernando de la Mora
+Lambaré
+Luque
+San Lorenzo
+|Peru
+Arequipa
+Ayacucho
+Cajamarca
+Chiclayo
+Chimbote
+Cusco
+Huancayo
+Huánuco
+Ica
+Iquitos
+Juliaca
+Lima
+Piura
+Pucallpa
+Puno
+Sullana
+Tacna
+Trujillo
+|Suriname
+Paramaribo
+|Uruguay
+Montevideo
+|Venezuela
+Acarigua-Araure
+Barcelona
+Barcelona-Puerto la Cruz
+Barinas
+Barquisimeto
+Cabimas
+Caracas
+Carúpano
+Catia la Mar
+Ciudad Bolívar
+Ciudad Guayana
+Coro
+Cumaná
+Guarenas
+Los Teques
+Maracaibo
+Maracay
+Maturín
+Mérida
+Puerto Cabello
+Punto Fijo
+San Cristóbal
+San Fernando de Apure
+Turmero
+Valencia
+Valera

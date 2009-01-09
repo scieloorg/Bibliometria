@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<texts>
+	<xml_file_list>
+		<xml_file state="02">
+			<language id="pt">
+				<text>
+					<find>SITE_USAGE</find>
+					<replace>Relatórios de utilização do site</replace>
+				</text>
+				<text>
+					<find>JOURNAL_ACCESS</find>
+					<replace>Acessos às revistas</replace>
+				</text>
+				<text>
+					<find>ISSUE_ACCESS</find>
+					<replace>Acessos aos fascículos</replace>
+				</text>
+				<text>
+					<find>ARTICLE_ACCESS</find>
+					<replace>Acessos aos artigos</replace>
+				</text>
+				<text>
+					<find>CITATION_REPORTS</find>
+					<replace>Relatórios de citações de revistas</replace>
+				</text>
+				<text>
+					<find>CO_AUTHOR_REPORT</find>
+					<replace>Relatório de co-autoria</replace>
+				</text>
+				<text>
+					<find>CO_AUTHOR</find>
+					<replace>Co-autoria</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>SITE_USAGE</find>
+					<replace>Informes de uso del sítio</replace>
+				</text>
+				<text>
+					<find>JOURNAL_ACCESS</find>
+					<replace>Acceso a las revistas</replace>
+				</text>
+				<text>
+					<find>ISSUE_ACCESS</find>
+					<replace>Acceso a los ejemplares</replace>
+				</text>
+				<text>
+					<find>ARTICLE_ACCESS</find>
+					<replace>Acceso a los artículos</replace>
+				</text>
+				<text>
+					<find>CITATION_REPORTS</find>
+					<replace>Informes de citas de revistas</replace>
+				</text>
+				<text>
+					<find>CO_AUTHOR_REPORT</find>
+					<replace>Informes de co-autoria</replace>
+				</text>
+				<text>
+					<find>CO_AUTHOR</find>
+					<replace>Co-autoria</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>SITE_USAGE</find>
+					<replace>Site usage reports</replace>
+				</text>
+				<text>
+					<find>JOURNAL_ACCESS</find>
+					<replace>Journal requests</replace>
+				</text>
+				<text>
+					<find>ISSUE_ACCESS</find>
+					<replace>Issue requests</replace>
+				</text>
+				<text>
+					<find>ARTICLE_ACCESS</find>
+					<replace>Article requests</replace>
+				</text>
+				<text>
+					<find>CITATION_REPORTS</find>
+					<replace>Journal citation reports</replace>
+				</text>
+				<text>
+					<find>CO_AUTHOR_REPORT</find>
+					<replace>Co-authors report</replace>
+				</text>
+				<text>
+					<find>CO_AUTHOR</find>
+					<replace>Co-authors</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="05">
+			<language id="pt">
+				<text>
+					<find>ANO_BASE</find>
+					<replace>ano base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>foram consideradas somente as citações de revistas da SciELO</replace>
+				</text>
+				<text>
+					<find>REVISTAS_EM_ORDEM_ALFABETICA</find>
+					<replace>revistas em ordem alfabética</replace>
+				</text>
+				<text>
+					<find>CITACOES_EM</find>
+					<replace>citações em</replace>
+				</text>
+				<text>
+					<find>PARA</find>
+					<replace>para</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artigos publicados em</replace>
+				</text>
+				<text>
+					<find>FATOR_DE_IMPACTO</find>
+					<replace>fator de impacto</replace>
+				</text>
+				<text>
+					<find>CITACOES_FEITAS_EM</find>
+					<replace>citacoes feitas em</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_DE</find>
+					<replace>para artigos de</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artigos publicados em</replace>
+				</text>
+				<text>
+					<find>INDICE_DE_IMEDIATEZ</find>
+					<replace>índice de imediatez</replace>
+				</text>
+				<text>
+					<find>TITULO</find>
+					<replace>título</replace>
+				</text>
+				<text>
+					<find>TODOS_ANOS</find>
+					<replace>todos anos</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>ANO_BASE</find>
+					<replace>año base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>fueron consideradas solamente las citas de revistas de SciELO</replace>
+				</text>
+				<text>
+					<find>REVISTAS_EM_ORDEM_ALFABETICA</find>
+					<replace>revistas en orden alfabético</replace>
+				</text>
+				<text>
+					<find>CITACOES_EM</find>
+					<replace>citas en</replace>
+				</text>
+				<text>
+					<find>PARA</find>
+					<replace>para</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artículos publicados en</replace>
+				</text>
+				<text>
+					<find>FATOR_DE_IMPACTO</find>
+					<replace>factor de impacto</replace>
+				</text>
+				<text>
+					<find>CITACOES_FEITAS_EM</find>
+					<replace>citas hechas en</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_DE</find>
+					<replace>para artículos de</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artículos publicados en</replace>
+				</text>
+				<text>
+					<find>INDICE_DE_IMEDIATEZ</find>
+					<replace>índice de inmediatez</replace>
+				</text>
+				<text>
+					<find>TITULO</find>
+					<replace>título</replace>
+				</text>
+				<text>
+					<find>TODOS_ANOS</find>
+					<replace>todos los años</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>ANO_BASE</find>
+					<replace>year base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>were considered just SciELO journals citations</replace>
+				</text>
+				<text>
+					<find>REVISTAS_EM_ORDEM_ALFABETICA</find>
+					<replace>journals in alphabetic order</replace>
+				</text>
+				<text>
+					<find>CITACOES_EM</find>
+					<replace>citations in</replace>
+				</text>
+				<text>
+					<find>PARA</find>
+					<replace>to</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>articles published in</replace>
+				</text>
+				<text>
+					<find>FATOR_DE_IMPACTO</find>
+					<replace>impact factor</replace>
+				</text>
+				<text>
+					<find>CITACOES_FEITAS_EM</find>
+					<replace>citations in</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_DE</find>
+					<replace>to articles of</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>articles published in</replace>
+				</text>
+				<text>
+					<find>INDICE_DE_IMEDIATEZ</find>
+					<replace>imediacy index</replace>
+				</text>
+				<text>
+					<find>TITULO</find>
+					<replace>titles</replace>
+				</text>
+				<text>
+					<find>TODOS_ANOS</find>
+					<replace>all years</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="08">
+			<language id="pt">
+				<text>
+					<find>LISTAGEM_DE_VIDA_MEDIA_DE_REVISTAS</find>
+					<replace>Listagem de vida média de revistas</replace>
+				</text>
+				<text>
+					<find>ANO_BASE</find>
+					<replace>ano base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>foram consideradas somente as citações de revistas da SciELO</replace>
+				</text>
+				<text>
+					<find>DISTRIBUICAO_CRONOLOGICA_DE_CITACOES_DE_REVISTAS_CITANTES</find>
+					<replace>Distribuição cronológica de citações de revistas citantes</replace>
+				</text>
+				<!--text>
+     <find>PERCENTUAL_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>percentual de citações de revistas de</replace>
+    </text>
+    <text>
+     <find>TOTAL_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>total de citações de revistas de</replace>
+    </text>
+    <text>
+     <find>PERCENTUAL_ACUMULADO_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>percentual acumulado de citações de revistas de</replace>
+    </text-->
+				<text>
+					<find>PERCENTUAL_DE_CITACOES</find>
+					<replace>percentual de citações</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES</find>
+					<replace>total de citações</replace>
+				</text>
+				<text>
+					<find>PERCENTUAL_ACUMULADO_DE_CITACOES</find>
+					<replace>percentual acumulado de citações</replace>
+				</text>
+				<text>
+					<find>DE_REVISTAS_DE</find>
+					<replace>de revistas de</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_PUBLICADOS_DURANTE_OS_ANOS_INDICADOS</find>
+					<replace>para artigos publicados durante os anos indicados</replace>
+				</text>
+				<text>
+					<find>VIDA_MEDIA</find>
+					<replace>vida média</replace>
+				</text>
+				<text>
+					<find>REVISTA</find>
+					<replace>revista</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_POR_ANO</find>
+					<replace>total de citações por ano</replace>
+				</text>
+				<text>
+					<find>PERCENTUAL_DE_CITACOES_POR_ANO</find>
+					<replace>percentual de citações por ano</replace>
+				</text>
+				<text>
+					<find>TOTAL_CITACOES</find>
+					<replace>tot. cit.</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>LISTAGEM_DE_VIDA_MEDIA_DE_REVISTAS</find>
+					<replace>Listado de vida media de revistas</replace>
+				</text>
+				<text>
+					<find>ANO_BASE</find>
+					<replace>año base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>fueron consideradas solamente las citas de revistas de SciELO</replace>
+				</text>
+				<text>
+					<find>DISTRIBUICAO_CRONOLOGICA_DE_CITACOES_DE_REVISTAS_CITANTES</find>
+					<replace>Distribución cronológica de citas de revistas citantes</replace>
+				</text>
+				<!--text>
+     <find>PERCENTUAL_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>porcentaje de citas de revistas de</replace>
+    </text>
+    <text>
+     <find>TOTAL_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>total de citas de revistas de</replace>
+    </text>
+    <text>
+     <find>PERCENTUAL_ACUMULADO_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>porcentaje acumulado de citas de revistas de</replace>
+    </text-->
+				<text>
+					<find>PERCENTUAL_DE_CITACOES</find>
+					<replace>porcentaje de citas</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES</find>
+					<replace>total de citas</replace>
+				</text>
+				<text>
+					<find>PERCENTUAL_ACUMULADO_DE_CITACOES</find>
+					<replace>porcentaje acumulado de citas</replace>
+				</text>
+				<text>
+					<find>DE_REVISTAS_DE</find>
+					<replace>de revistas de</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_PUBLICADOS_DURANTE_OS_ANOS_INDICADOS</find>
+					<replace>para artículos publicados durante los años indicados</replace>
+				</text>
+				<text>
+					<find>VIDA_MEDIA</find>
+					<replace>vida media</replace>
+				</text>
+				<text>
+					<find>REVISTA</find>
+					<replace>revista</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_POR_ANO</find>
+					<replace>total de citas por año</replace>
+				</text>
+				<text>
+					<find>PERCENTUAL_DE_CITACOES_POR_ANO</find>
+					<replace>porcentaje de citas por año</replace>
+				</text>
+				<text>
+					<find>TOTAL_CITACOES</find>
+					<replace>tot. cit.</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>LISTAGEM_DE_VIDA_MEDIA_DE_REVISTAS</find>
+					<replace>Journal Half-Life Listing</replace>
+				</text>
+				<text>
+					<find>ANO_BASE</find>
+					<replace>year base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>were considered just SciELO journals citations</replace>
+				</text>
+				<text>
+					<find>DISTRIBUICAO_CRONOLOGICA_DE_CITACOES_DE_REVISTAS_CITANTES</find>
+					<replace>Chronological distribution of citations from citing journals</replace>
+				</text>
+				<!--text>
+     <find>PERCENTUAL_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>percentage of citations from journals of</replace>
+    </text>
+    <text>
+     <find>TOTAL_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>total citations from journals of</replace>
+    </text>
+    <text>
+     <find>PERCENTUAL_ACUMULADO_DE_CITACOES_DE_REVISTAS_DE</find>
+     <replace>cumulative percentage of citations from journals of</replace>
+    </text-->
+				<text>
+					<find>PERCENTUAL_DE_CITACOES</find>
+					<replace>percentage of citations</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES</find>
+					<replace>total citations</replace>
+				</text>
+				<text>
+					<find>PERCENTUAL_ACUMULADO_DE_CITACOES</find>
+					<replace>cumulative percentage of citations</replace>
+				</text>
+				<text>
+					<find>DE_REVISTAS_DE</find>
+					<replace>from journals of</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_PUBLICADOS_DURANTE_OS_ANOS_INDICADOS</find>
+					<replace>to articles published during the years indicated</replace>
+				</text>
+				<text>
+					<find>VIDA_MEDIA</find>
+					<replace>half-life</replace>
+				</text>
+				<text>
+					<find>REVISTA</find>
+					<replace>journal</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_POR_ANO</find>
+					<replace>total citations by year</replace>
+				</text>
+				<text>
+					<find>PERCENTUAL_DE_CITACOES_POR_ANO</find>
+					<replace>percentage of citations by year</replace>
+				</text>
+				<text>
+					<find>TOTAL_CITACOES</find>
+					<replace>tot. cit.</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="15">
+			<language id="pt">
+				<text>
+					<find>CLIQUE_PARA_SELECIONAR_A_COLUNA_DE_ORDENACAO</find>
+					<replace>clique para selecionar a coluna de ordenação</replace>
+				</text>
+				<text>
+					<find>INDICA_A_ORDEM_CORRENTE</find>
+					<replace>indica a ordem corrente</replace>
+				</text>
+				<text>
+					<find>LISTA_DE_DADOS_FONTE_REFENTE_AOS_ANOS</find>
+					<replace>Lista de Dados Fonte referente ao(s) ano(s):</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA_ANO</find>
+					<replace>titulo da revista/ano</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>titulo da revista</replace>
+				</text>
+				<text>
+					<find>ANO</find>
+					<replace>ano</replace>
+				</text>
+				<text>
+					<find>N_DE_FASCICULOS</find>
+					<replace>n. de fascículos</replace>
+				</text>
+				<text>
+					<find>N_DE_ARTIGOS</find>
+					<replace>n. de artigos</replace>
+				</text>
+				<text>
+					<find>N_DE_CITACOES_CONCEDIDAS</find>
+					<replace>n. de citações concedidas</replace>
+				</text>
+				<text>
+					<find>N_DE_CITACOES_RECEBIDAS</find>
+					<replace>n. de citações recebidas</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_ARTIGOS_POR_FASCICULO</find>
+					<replace>média de artigos por fascículo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_CONCEDIDAS_POR_FASCICULO</find>
+					<replace>média de citações concedidas por fascículo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_CONCEDIDAS_POR_ARTIGO</find>
+					<replace>média de citações concedidas por artigo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_RECEBIDAS_POR_FASCICULO</find>
+					<replace>média de citações recebidas por fascículo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_RECEBIDAS_POR_ARTIGO</find>
+					<replace>média de citações recebidas por artigo</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>CLIQUE_PARA_SELECIONAR_A_COLUNA_DE_ORDENACAO</find>
+					<replace>haga un click para seleccionar la coluna de ordenación</replace>
+				</text>
+				<text>
+					<find>INDICA_A_ORDEM_CORRENTE</find>
+					<replace>indica el orden actual</replace>
+				</text>
+				<text>
+					<find>LISTA_DE_DADOS_FONTE_REFENTE_AOS_ANOS</find>
+					<replace>Lista de Datos Fuente referente al(los) año(s):</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA_ANO</find>
+					<replace>titulo de la revista/año</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>titulo de la revista</replace>
+				</text>
+				<text>
+					<find>ANO</find>
+					<replace>año</replace>
+				</text>
+				<text>
+					<find>N_DE_FASCICULOS</find>
+					<replace>n. de fascículos</replace>
+				</text>
+				<text>
+					<find>N_DE_ARTIGOS</find>
+					<replace>n. de artículos</replace>
+				</text>
+				<text>
+					<find>N_DE_CITACOES_CONCEDIDAS</find>
+					<replace>n. de citas concedidas</replace>
+				</text>
+				<text>
+					<find>N_DE_CITACOES_RECEBIDAS</find>
+					<replace>n. de citas recibidas</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_ARTIGOS_POR_FASCICULO</find>
+					<replace>media de artículos por fascículo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_CONCEDIDAS_POR_FASCICULO</find>
+					<replace>media de citas concedidas por fascículo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_CONCEDIDAS_POR_ARTIGO</find>
+					<replace>media de citas concedidas por artículo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_RECEBIDAS_POR_FASCICULO</find>
+					<replace>media de citas recibidas por fascículo</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_RECEBIDAS_POR_ARTIGO</find>
+					<replace>media de citas recibidas por artículo</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>CLIQUE_PARA_SELECIONAR_A_COLUNA_DE_ORDENACAO</find>
+					<replace>click to select the sort column</replace>
+				</text>
+				<text>
+					<find>INDICA_A_ORDEM_CORRENTE</find>
+					<replace>indicate current order</replace>
+				</text>
+				<text>
+					<find>LISTA_DE_DADOS_FONTE_REFENTE_AOS_ANOS</find>
+					<replace>Source data listing referring to the year(s):</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA_ANO</find>
+					<replace>journal title/year</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>journal title</replace>
+				</text>
+				<text>
+					<find>ANO</find>
+					<replace>year</replace>
+				</text>
+				<text>
+					<find>N_DE_FASCICULOS</find>
+					<replace>no. of issues</replace>
+				</text>
+				<text>
+					<find>N_DE_ARTIGOS</find>
+					<replace>no. of articles</replace>
+				</text>
+				<text>
+					<find>N_DE_CITACOES_CONCEDIDAS</find>
+					<replace>no. of granted citations</replace>
+				</text>
+				<text>
+					<find>N_DE_CITACOES_RECEBIDAS</find>
+					<replace>no. of received citations</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_ARTIGOS_POR_FASCICULO</find>
+					<replace>average articles per issue</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_CONCEDIDAS_POR_FASCICULO</find>
+					<replace>average granted citations per issue</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_CONCEDIDAS_POR_ARTIGO</find>
+					<replace>average granted citations per article</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_RECEBIDAS_POR_FASCICULO</find>
+					<replace>average received citations per issue</replace>
+				</text>
+				<text>
+					<find>MEDIA_DE_CITACOES_RECEBIDAS_POR_ARTIGO</find>
+					<replace>average received citations per article</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="12">
+			<language id="pt">
+				<text>
+					<find>CITACOES_CONCEDIDAS_PELAS_REVISTAS</find>
+					<replace>citações concedidas por artigos da(s) revista(s)</replace>
+				</text>
+				<text>
+					<find>NOS_ANOS_DE</find>
+					<replace>publicada(s) no(s) ano(s) de</replace>
+				</text>
+				<text>
+					<find>A_REVISTAS_PUBLICADAS_EM</find>
+					<replace>a revista(s) publicada(s) em</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_CONCEDIDAS</find>
+					<replace>Total de citações concedidas</replace>
+				</text>
+				<text>
+					<find>REVISTAS</find>
+					<replace>revistas</replace>
+				</text>
+				<text>
+					<find>CITACOES_AO_TITULO</find>
+					<replace>citações ao título</replace>
+				</text>
+				<text>
+					<find>FONTE_DE_DADOS</find>
+					<replace>indexação</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>título da revista citada</replace>
+				</text>
+				<text>
+					<find>FORMAS_CITADAS</find>
+					<replace>formas citadas</replace>
+				</text>
+				<text>
+					<find>VER</find>
+					<replace>Ver</replace>
+				</text>
+				<text>
+					<find>YEAR_ALL</find>
+					<replace>todos os anos</replace>
+				</text>
+				<text>
+					<find>TITLE_ALL</find>
+					<replace>todas as revistas SciELO</replace>
+				</text>
+				<text>
+					<find>OUTROS</find>
+					<replace>outras</replace>
+				</text>
+				<text>
+					<find>CONCEDIDAS_POR</find>
+					<replace>Citações concedidas por</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>CITACOES_CONCEDIDAS_PELAS_REVISTAS</find>
+					<replace>citas concedidas por artículos de la(s) revista(s)</replace>
+				</text>
+				<text>
+					<find>NOS_ANOS_DE</find>
+					<replace>publicada(s) en el(los) año(s) de</replace>
+				</text>
+				<text>
+					<find>A_REVISTAS_PUBLICADAS_EM</find>
+					<replace>a revista(s) publicada(s) en</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_CONCEDIDAS</find>
+					<replace>Total de citas concedidas</replace>
+				</text>
+				<text>
+					<find>REVISTAS</find>
+					<replace>revistas</replace>
+				</text>
+				<text>
+					<find>CITACOES_AO_TITULO</find>
+					<replace>citas al título</replace>
+				</text>
+				<text>
+					<find>FONTE_DE_DADOS</find>
+					<replace>indexación</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>título de la revista citada</replace>
+				</text>
+				<text>
+					<find>FORMAS_CITADAS</find>
+					<replace>formas citadas</replace>
+				</text>
+				<text>
+					<find>VER</find>
+					<replace>Ver</replace>
+				</text>
+				<text>
+					<find>YEAR_ALL</find>
+					<replace>todos los anos</replace>
+				</text>
+				<text>
+					<find>TITLE_ALL</find>
+					<replace>todas las revistas SciELO</replace>
+				</text>
+				<text>
+					<find>OUTROS</find>
+					<replace>otras</replace>
+				</text>
+				<text>
+					<find>CONCEDIDAS_POR</find>
+					<replace>Citas concedidas por</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>CITACOES_CONCEDIDAS_PELAS_REVISTAS</find>
+					<replace>granted citations per articles of the journal(s)</replace>
+				</text>
+				<text>
+					<find>NOS_ANOS_DE</find>
+					<replace>published in the year(s)</replace>
+				</text>
+				<text>
+					<find>A_REVISTAS_PUBLICADAS_EM</find>
+					<replace>to journal(s) published in</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_CONCEDIDAS</find>
+					<replace>Total granted citations</replace>
+				</text>
+				<text>
+					<find>REVISTAS</find>
+					<replace>journals</replace>
+				</text>
+				<text>
+					<find>CITACOES_AO_TITULO</find>
+					<replace>citations to the title</replace>
+				</text>
+				<text>
+					<find>FONTE_DE_DADOS</find>
+					<replace>indexation</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>cited journal title</replace>
+				</text>
+				<text>
+					<find>FORMAS_CITADAS</find>
+					<replace>cited forms</replace>
+				</text>
+				<text>
+					<find>VER</find>
+					<replace>See</replace>
+				</text>
+				<text>
+					<find>YEAR_ALL</find>
+					<replace>all years</replace>
+				</text>
+				<text>
+					<find>TITLE_ALL</find>
+					<replace>all SciELO journals</replace>
+				</text>
+				<text>
+					<find>OUTROS</find>
+					<replace>others</replace>
+				</text>
+				<text>
+					<find>CONCEDIDAS_POR</find>
+					<replace>Citations granted by</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="10">
+			<language id="pt">
+				<text>
+					<find>CITACOES_RECEBIDAS_EM</find>
+					<replace>citações recebidas em</replace>
+				</text>
+				<text>
+					<find>AS_REVISTAS</find>
+					<replace>por artigos da(s) revista(s)</replace>
+				</text>
+				<text>
+					<find>PUBLICADAS_EM</find>
+					<replace>publicada(s) em</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_RECEBIDAS</find>
+					<replace>Total de citações recebidas</replace>
+				</text>
+				<text>
+					<find>RECEBIDAS_POR</find>
+					<replace>Citações recebidas por</replace>
+				</text>
+				<text>
+					<find>REVISTAS</find>
+					<replace>revistas</replace>
+				</text>
+				<text>
+					<find>CITACOES_CONCEDIDAS</find>
+					<replace>citações concedidas</replace>
+				</text>
+				<text>
+					<find>CITACOES_AO_TITULO</find>
+					<replace>citações ao título</replace>
+				</text>
+				<text>
+					<find>FONTE_DE_DADOS</find>
+					<replace>indexação</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>título da revista citante</replace>
+				</text>
+				<text>
+					<find>FORMAS_CITADAS</find>
+					<replace>formas citadas</replace>
+				</text>
+				<text>
+					<find>VER</find>
+					<replace>Ver</replace>
+				</text>
+				<text>
+					<find>YEAR_ALL</find>
+					<replace>todos os anos</replace>
+				</text>
+				<text>
+					<find>TITLE_ALL</find>
+					<replace>todas as revistas SciELO</replace>
+				</text>
+				<text>
+					<find>OUTROS</find>
+					<replace>outras</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>CITACOES_RECEBIDAS_EM</find>
+					<replace>citas recibidas en</replace>
+				</text>
+				<text>
+					<find>AS_REVISTAS</find>
+					<replace>por artículos de la(s) revista(s)</replace>
+				</text>
+				<text>
+					<find>PUBLICADAS_EM</find>
+					<replace>publicada(s) en</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_RECEBIDAS</find>
+					<replace>Total de citas recibidas</replace>
+				</text>
+				<text>
+					<find>RECEBIDAS_POR</find>
+					<replace>Citas recibidas por</replace>
+				</text>
+				<text>
+					<find>REVISTAS</find>
+					<replace>revistas</replace>
+				</text>
+				<text>
+					<find>CITACOES_CONCEDIDAS</find>
+					<replace>citas concedidas</replace>
+				</text>
+				<text>
+					<find>CITACOES_AO_TITULO</find>
+					<replace>citas al título</replace>
+				</text>
+				<text>
+					<find>FONTE_DE_DADOS</find>
+					<replace>indexación</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>título de la revista citante</replace>
+				</text>
+				<text>
+					<find>FORMAS_CITADAS</find>
+					<replace>formas citadas</replace>
+				</text>
+				<text>
+					<find>VER</find>
+					<replace>Ver</replace>
+				</text>
+				<text>
+					<find>YEAR_ALL</find>
+					<replace>todos los anos</replace>
+				</text>
+				<text>
+					<find>TITLE_ALL</find>
+					<replace>todas las revistas SciELO</replace>
+				</text>
+				<text>
+					<find>OUTROS</find>
+					<replace>otras</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>CITACOES_RECEBIDAS_EM</find>
+					<replace>citations received in</replace>
+				</text>
+				<text>
+					<find>AS_REVISTAS</find>
+					<replace>by articles of the journal(s)</replace>
+				</text>
+				<text>
+					<find>PUBLICADAS_EM</find>
+					<replace>published in</replace>
+				</text>
+				<text>
+					<find>TOTAL_DE_CITACOES_RECEBIDAS</find>
+					<replace>Total received citations</replace>
+				</text>
+				<text>
+					<find>RECEBIDAS_POR</find>
+					<replace>Citations received by</replace>
+				</text>
+				<text>
+					<find>REVISTAS</find>
+					<replace>journals</replace>
+				</text>
+				<text>
+					<find>CITACOES_CONCEDIDAS</find>
+					<replace>granted citations</replace>
+				</text>
+				<text>
+					<find>CITACOES_AO_TITULO</find>
+					<replace>citations to the title</replace>
+				</text>
+				<text>
+					<find>FONTE_DE_DADOS</find>
+					<replace>indexation</replace>
+				</text>
+				<text>
+					<find>TITULO_DA_REVISTA</find>
+					<replace>citing journal title</replace>
+				</text>
+				<text>
+					<find>FORMAS_CITADAS</find>
+					<replace>cited forms</replace>
+				</text>
+				<text>
+					<find>VER</find>
+					<replace>See</replace>
+				</text>
+				<text>
+					<find>YEAR_ALL</find>
+					<replace>all years</replace>
+				</text>
+				<text>
+					<find>TITLE_ALL</find>
+					<replace>all SciELO journals</replace>
+				</text>
+				<text>
+					<find>OUTROS</find>
+					<replace>others</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="13">
+			<language id="pt">
+				<text>
+					<find>CITACOES</find>
+					<replace>Citações</replace>
+				</text>
+				<text>
+					<find>FREQUENCIA</find>
+					<replace>Frequência</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>CITACOES</find>
+					<replace>Citas</replace>
+				</text>
+				<text>
+					<find>FREQUENCIA</find>
+					<replace>Frecuencia</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>CITACOES</find>
+					<replace>Citations</replace>
+				</text>
+				<text>
+					<find>FREQUENCIA</find>
+					<replace>Frequency</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="17">
+			<language id="pt">
+				<text>
+					<find>header_country_one</find>
+					<replace>autores do(a)</replace>
+				</text>
+				<text>
+					<find>header_country_two_list</find>
+					<replace>que publicam com autores do(a)</replace>
+				</text>
+				<text>
+					<find>header_journal</find>
+					<replace>na revista</replace>
+				</text>
+				<text>
+					<find>header_year_source_list</find>
+					<replace>no(s) ano(s) de</replace>
+				</text>
+				<text>
+					<find>empty_cooperation_list</find>
+					<replace>não há</replace>
+				</text>
+				<text>
+					<find>column_year_source</find>
+					<replace>ano</replace>
+				</text>
+				<text>
+					<find>column_country_second</find>
+					<replace>país</replace>
+				</text>
+				<text>
+					<find>column_frequency</find>
+					<replace>frequencia</replace>
+				</text>
+				<text>
+					<find>column_link</find>
+					<replace>links</replace>
+				</text>
+				<text>
+					<find>country_two_list_all</find>
+					<replace>qualquer país</replace>
+				</text>
+				<text>
+					<find>country_two_list_1</find>
+					<replace>autor individual</replace>
+				</text>
+				<text>
+					<find>journal_all</find>
+					<replace>qualquer revista</replace>
+				</text>
+				<text>
+					<find>year_source_list_sum</find>
+					<replace>soma de todos os anos</replace>
+				</text>
+				<text>
+					<find>year_source_list_all</find>
+					<replace>qualquer ano</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>header_country_one</find>
+					<replace>autores de</replace>
+				</text>
+				<text>
+					<find>header_country_two_list</find>
+					<replace>que publican con autores de</replace>
+				</text>
+				<text>
+					<find>header_journal</find>
+					<replace>en la revista</replace>
+				</text>
+				<text>
+					<find>header_year_source_list</find>
+					<replace>el(los) año(s) de</replace>
+				</text>
+				<text>
+					<find>empty_cooperation_list</find>
+					<replace>no hay</replace>
+				</text>
+				<text>
+					<find>column_year_source</find>
+					<replace>año</replace>
+				</text>
+				<text>
+					<find>column_country_second</find>
+					<replace>país</replace>
+				</text>
+				<text>
+					<find>column_frequency</find>
+					<replace>frecuencia</replace>
+				</text>
+				<text>
+					<find>column_link</find>
+					<replace>links</replace>
+				</text>
+				<text>
+					<find>country_two_list_all</find>
+					<replace>cualquier país</replace>
+				</text>
+				<text>
+					<find>country_two_list_1</find>
+					<replace>autor individual</replace>
+				</text>
+				<text>
+					<find>journal_all</find>
+					<replace>cualquier revista</replace>
+				</text>
+				<text>
+					<find>year_source_list_sum</find>
+					<replace>suma de todos los años</replace>
+				</text>
+				<text>
+					<find>year_source_list_all</find>
+					<replace>cualquier año</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>header_country_one</find>
+					<replace>authors of</replace>
+				</text>
+				<text>
+					<find>header_country_two_list</find>
+					<replace>who publish with authors of</replace>
+				</text>
+				<text>
+					<find>header_journal</find>
+					<replace>in the journal</replace>
+				</text>
+				<text>
+					<find>header_year_source_list</find>
+					<replace>in the year(s)</replace>
+				</text>
+				<text>
+					<find>empty_cooperation_list</find>
+					<replace>there isn´t</replace>
+				</text>
+				<text>
+					<find>column_year_source</find>
+					<replace>year</replace>
+				</text>
+				<text>
+					<find>column_country_second</find>
+					<replace>country</replace>
+				</text>
+				<text>
+					<find>column_frequency</find>
+					<replace>frequency</replace>
+				</text>
+				<text>
+					<find>column_link</find>
+					<replace>links</replace>
+				</text>
+				<text>
+					<find>country_two_list_all</find>
+					<replace>any country</replace>
+				</text>
+				<text>
+					<find>country_two_list_1</find>
+					<replace>individual author</replace>
+				</text>
+				<text>
+					<find>journal_all</find>
+					<replace>any journal</replace>
+				</text>
+				<text>
+					<find>year_source_list_sum</find>
+					<replace>sum of all years</replace>
+				</text>
+				<text>
+					<find>year_source_list_all</find>
+					<replace>any year</replace>
+				</text>
+			</language>
+		</xml_file>
+		<xml_file state="03">
+			<language id="pt">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Ano obrigatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obrigatória</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo de itens permitido:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Buscar</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpar</replace>
+                                </text>
+			</language>
+			<language id="es">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Año obligatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obligatória</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo permitido de itens:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Búsqueda</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpiar</replace>
+                                </text>
+
+			</language>
+			<language id="en">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Year required</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Journal required</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Maximum number of itens allowed:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Search</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Reset</replace>
+                                </text>
+
+			</language>
+		</xml_file>
+		<xml_file state="04">
+			<language id="pt">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Ano obrigatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obrigatória</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo de itens permitido:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Buscar</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpar</replace>
+                                </text>
+			</language>
+			<language id="es">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Año obligatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obligatória</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo permitido de itens:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Búsqueda</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpiar</replace>
+                                </text>
+			</language>
+			<language id="en">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Year required</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Journal required</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Maximum number of itens allowed:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Search</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Reset</replace>
+                                </text>
+			</language>
+		</xml_file>
+		<xml_file state="07">
+			<language id="pt">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Ano obrigatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obrigatória</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo de itens permitido:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Buscar</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpar</replace>
+                                </text>
+			</language>
+			<language id="es">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Año obligatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obligatória</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo de itens permitido:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Búsqueda</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpiar</replace>
+                                </text>
+			</language>
+			<language id="en">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Year required</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Journal required</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Maximum number of itens allowed:</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Search</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Reset</replace>
+                                </text>
+			</language>
+		</xml_file>
+		<xml_file state="09">
+			<language id="pt">
+				<text>
+					<find>YED_REQUIRED</find>
+					<replace>Ano de publicação obrigatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obrigatória</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Ano de citação obrigatório</replace>
+				</text>
+				<text>
+					<find>COUNT_SCI_REQUIRED</find>
+					<replace>Quantidade de revistas a listar obrigatório</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo de itens permitido:</replace>
+				</text>
+				<text>
+					<find>AGRUPAR_RESULTADOS</find>
+					<replace>Agrupar os resultados</replace>
+				</text>
+				<text>
+					<find>RESULTADOS_SEPARADOS</find>
+					<replace>Apresentar resultados separadamente</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Buscar</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpar</replace>
+                                </text>
+			</language>
+			<language id="es">
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>año de publicación obligatório</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obligatória</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Año de citación obligatório</replace>
+				</text>
+				<text>
+					<find>COUNT_SCI_REQUIRED</find>
+					<replace>Cantidad de revistas a listar obligatório</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo permitido de itens:</replace>
+				</text>
+				<text>
+					<find>AGRUPAR_RESULTADOS</find>
+					<replace>Agrupar los resultados</replace>
+				</text>
+				<text>
+					<find>RESULTADOS_SEPARADOS</find>
+					<replace>Presentar resultados separadamente</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Búsqueda</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpiar</replace>
+                                </text>
+			</language>
+			<language id="en">
+				<text>
+					<find>YED_REQUIRED</find>
+					<replace>Year of publication required</replace>
+				</text>
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Journal required</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Year of citation required</replace>
+				</text>
+				<text>
+					<find>COUNT_SCI_REQUIRED</find>
+					<replace>Amount of journals to list required</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Maximum number of itens allowed:</replace>
+				</text>
+				<text>
+					<find>AGRUPAR_RESULTADOS</find>
+					<replace>Groups results</replace>
+				</text>
+				<text>
+					<find>RESULTADOS_SEPARADOS</find>
+					<replace>Presents results separately</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Search</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Reset</replace>
+                                </text>
+			</language>
+		</xml_file>
+		<xml_file state="11">
+			<language id="pt">
+				<text>
+					<find>YED_REQUIRED</find>
+					<replace>Ano de publicação obrigatório</replace>
+				</text>
+				<text>
+					<find>CITING_REQUIRED</find>
+					<replace>Revista obrigatória</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Ano de citação obrigatório</replace>
+				</text>
+				<text>
+					<find>COUNT_SCI_REQUIRED</find>
+					<replace>Quantidade de revistas a listar obrigatório</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo de itens permitido:</replace>
+				</text>
+				<text>
+					<find>AGRUPAR_RESULTADOS</find>
+					<replace>Agrupar os resultados</replace>
+				</text>
+				<text>
+					<find>RESULTADOS_SEPARADOS</find>
+					<replace>Apresentar resultados separadamente</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Buscar</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpar</replace>
+                                </text>
+			</language>
+			<language id="es">
+				<text>
+					<find>YED_REQUIRED</find>
+					<replace>Año de publicación obligatório</replace>
+				</text>
+				<text>
+					<find>CITING_REQUIRED</find>
+					<replace>Revista obligatória</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Año de citación obligatório</replace>
+				</text>
+				<text>
+					<find>COUNT_SCI_REQUIRED</find>
+					<replace>Quantidade de revistas a listar obrigatório</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Número máximo permitido de itens:</replace>
+				</text>
+				<text>
+					<find>AGRUPAR_RESULTADOS</find>
+					<replace>Agrupar los resultados</replace>
+				</text>
+				<text>
+					<find>RESULTADOS_SEPARADOS</find>
+					<replace>Presentar resultados separadamente</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Búsqueda</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpiar</replace>
+                                </text>
+			</language>
+			<language id="en">
+				<text>
+					<find>YED_REQUIRED</find>
+					<replace>Year of publication required</replace>
+				</text>
+				<text>
+					<find>CITING_REQUIRED</find>
+					<replace>Journal required</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Year of citation required</replace>
+				</text>
+				<text>
+					<find>COUNT_SCI_REQUIRED</find>
+					<replace>Amount of journals to list required</replace>
+				</text>
+				<text>
+					<find>MAX_SELECTION</find>
+					<replace>Maximum number of itens allowed:</replace>
+				</text>
+				<text>
+					<find>AGRUPAR_RESULTADOS</find>
+					<replace>Groups results</replace>
+				</text>
+				<text>
+					<find>RESULTADOS_SEPARADOS</find>
+					<replace>Presents results separately</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Search</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Reset</replace>
+                                </text>
+			</language>
+		</xml_file>
+		<xml_file state="16">
+			<language id="pt">
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obrigatória</replace>
+				</text>
+				<text>
+					<find>PAIS1_REQUIRED</find>
+					<replace>País de afiliação obrigatório</replace>
+				</text>
+				<text>
+					<find>PAIS2_REQUIRED</find>
+					<replace>País de afiliação obrigatório</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Ano de publicação obrigatório</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Buscar</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpar</replace>
+                                </text>
+			</language>
+			<language id="es">
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Revista obligatória</replace>
+				</text>
+				<text>
+					<find>PAIS1_REQUIRED</find>
+					<replace>País de afiliación obligatório</replace>
+				</text>
+				<text>
+					<find>PAIS2_REQUIRED</find>
+					<replace>País de afiliación obligatório</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Año de publicación obligatório</replace>
+				</text>
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Búsqueda</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpiar</replace>
+                                </text>
+			</language>
+			<language id="en">
+				<text>
+					<find>CITED_REQUIRED</find>
+					<replace>Journal required</replace>
+				</text>
+				<text>
+					<find>PAIS1_REQUIRED</find>
+					<replace>Affiliation country required</replace>
+				</text>
+				<text>
+					<find>PAIS2_REQUIRED</find>
+					<replace>Affiliation country required</replace>
+				</text>
+				<text>
+					<find>YNG_REQUIRED</find>
+					<replace>Year of publication required</replace>
+				</text>
+                <text>
+                        <find>SEND</find>
+                        <replace>Search</replace>
+                </text>
+                <text>
+                        <find>CLEAN</find>
+                        <replace>Reset</replace>
+                </text>
+			</language>
+		</xml_file>
+		<xml_file state="18">
+			<language id="pt">
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Buscar</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpar</replace>
+                                </text>
+			</language>
+			<language id="es">
+                                <text>
+                                        <find>SEND</find>
+                                        <replace>Búsqueda</replace>
+                                </text>
+                                <text>
+                                        <find>CLEAN</find>
+                                        <replace>Limpiar</replace>
+                                </text>
+			</language>
+			<language id="en">
+                <text>
+                        <find>SEND</find>
+                        <replace>Search</replace>
+                </text>
+                <text>
+                        <find>CLEAN</find>
+                        <replace>Reset</replace>
+                </text>
+ 			</language>
+		</xml_file>
+		<xml_file state="19">
+			<language id="pt">
+				<text>
+					<find>ANO_BASE</find>
+					<replace>ano base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>foram consideradas somente as citações de revistas da SciELO</replace>
+				</text>
+				<text>
+					<find>REVISTAS_EM_ORDEM_ALFABETICA</find>
+					<replace>revistas em ordem alfabética</replace>
+				</text>
+				<text>
+					<find>CITACOES_EM</find>
+					<replace>citações em</replace>
+				</text>
+				<text>
+					<find>PARA</find>
+					<replace>para</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artigos publicados em</replace>
+				</text>
+				<text>
+					<find>FATOR_DE_IMPACTO</find>
+					<replace>fator de impacto</replace>
+				</text>
+				<text>
+					<find>CITACOES_FEITAS_EM</find>
+					<replace>citacoes feitas em</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_DE</find>
+					<replace>para artigos de</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artigos publicados em</replace>
+				</text>
+				<text>
+					<find>INDICE_DE_IMEDIATEZ</find>
+					<replace>índice de imediatez</replace>
+				</text>
+				<text>
+					<find>TITULO</find>
+					<replace>título</replace>
+				</text>
+				<text>
+					<find>TODOS_ANOS</find>
+					<replace>todos anos</replace>
+				</text>
+			</language>
+			<language id="es">
+				<text>
+					<find>ANO_BASE</find>
+					<replace>año base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>fueron consideradas solamente las citas de revistas de SciELO</replace>
+				</text>
+				<text>
+					<find>REVISTAS_EM_ORDEM_ALFABETICA</find>
+					<replace>revistas en orden alfabético</replace>
+				</text>
+				<text>
+					<find>CITACOES_EM</find>
+					<replace>citas en</replace>
+				</text>
+				<text>
+					<find>PARA</find>
+					<replace>para</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artículos publicados en</replace>
+				</text>
+				<text>
+					<find>FATOR_DE_IMPACTO</find>
+					<replace>factor de impacto</replace>
+				</text>
+				<text>
+					<find>CITACOES_FEITAS_EM</find>
+					<replace>citas hechas en</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_DE</find>
+					<replace>para artículos de</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>artículos publicados en</replace>
+				</text>
+				<text>
+					<find>INDICE_DE_IMEDIATEZ</find>
+					<replace>índice de inmediatez</replace>
+				</text>
+				<text>
+					<find>TITULO</find>
+					<replace>título</replace>
+				</text>
+				<text>
+					<find>TODOS_ANOS</find>
+					<replace>todos los anos</replace>
+				</text>
+			</language>
+			<language id="en">
+				<text>
+					<find>ANO_BASE</find>
+					<replace>year base</replace>
+				</text>
+				<text>
+					<find>FORAM_CONSIDERADAS_SOMENTE_AS_CITACOES_DE_REVISTAS_DA_SCIELO</find>
+					<replace>were considered just SciELO journals citations</replace>
+				</text>
+				<text>
+					<find>REVISTAS_EM_ORDEM_ALFABETICA</find>
+					<replace>journals in alphabetic order</replace>
+				</text>
+				<text>
+					<find>CITACOES_EM</find>
+					<replace>citations in</replace>
+				</text>
+				<text>
+					<find>PARA</find>
+					<replace>to</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>articles published in</replace>
+				</text>
+				<text>
+					<find>FATOR_DE_IMPACTO</find>
+					<replace>impact fator</replace>
+				</text>
+				<text>
+					<find>CITACOES_FEITAS_EM</find>
+					<replace>citations in</replace>
+				</text>
+				<text>
+					<find>PARA_ARTIGOS_DE</find>
+					<replace>to articles of</replace>
+				</text>
+				<text>
+					<find>ARTIGOS_PUBLICADOS_EM</find>
+					<replace>articles published in</replace>
+				</text>
+				<text>
+					<find>INDICE_DE_IMEDIATEZ</find>
+					<replace>imediacy index</replace>
+				</text>
+				<text>
+					<find>TITULO</find>
+					<replace>title</replace>
+				</text>
+				<text>
+					<find>TODOS_ANOS</find>
+					<replace>all years</replace>
+				</text>
+			</language>
+		</xml_file>
+	</xml_file_list>
+</texts>

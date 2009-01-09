@@ -1,0 +1,83 @@
+                        </option_list>
+                </selection>
+                <selection name="top_cited">
+                        <label_list>
+                                <label lang="pt">Listar</label>
+                                <label lang="en">List</label>
+                                <label lang="es">Lista</label>
+                        </label_list>
+                        <option_list name="COUNT_SCI">
+                                <!--option>
+                                        <label_list>
+                                                <label lang="pt">Todos</label>
+                                                <label lang="en">All</label>
+                                                <label lang="es">Todos</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option-->
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">10</label>
+                                                <label lang="en">10</label>
+                                                <label lang="es">10</label>
+                                        </label_list>
+                                        <value>10</value>
+                                </option>
+                                <option selected="true">
+                                        <label_list>
+                                                <label lang="pt">50</label>
+                                                <label lang="en">50</label>
+                                                <label lang="es">50</label>
+                                        </label_list>
+                                        <value>50</value>
+                                </option>
+				<option>
+                                        <label_list>
+                                                <label lang="pt">100</label>
+                                                <label lang="en">100</label>
+                                                <label lang="es">100</label>
+                                        </label_list>
+                                        <value>100</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">500</label>
+                                                <label lang="en">500</label>
+                                                <label lang="es">500</label>
+                                        </label_list>
+                                        <value>500</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">1000</label>
+                                                <label lang="en">1000</label>
+                                                <label lang="es">1000</label>
+                                        </label_list>
+                                        <value>1000</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">5000</label>
+                                                <label lang="en">5000</label>
+                                                <label lang="es">5000</label>
+                                        </label_list>
+                                        <value>5000</value>
+                                </option>
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">10000</label>
+                                                <label lang="en">10000</label>
+                                                <label lang="es">10000</label>
+                                        </label_list>
+                                        <value>10000</value>
+                                </option>
+                        </option_list>
+                </selection>
+        </selection_list>
+        <form>
+                <action>/cgi-bin/stat_biblio/xml/scielo5b.sh</action>
+                <action2>/cgi-bin/stat_biblio/xml/scielo5.sh</action2>
+                <state>12</state>
+        </form>
+</root>
+

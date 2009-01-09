@@ -1,0 +1,12 @@
+'<TABLE> 
+	<TR><TD><font size="+2" color="Navy">Artigos da(s) revista(s):<br>
+ 			<font face="Courier" size="+1" color="Blue">', v11, '<br>
+			<font size="+2" color="Navy"><b>publicada(s) em</b> 
+			<font face="Courier" size="+1" color="Blue">', v65, '</font>
+			<font size="+2" color="Navy"><b> citados por</b><br> 
+			<font face="Courier" size="+1" color="Green">', v9, '
+			<font size="+2" color="Navy"><b>: </b></font><hr></TD>
+ </TR>
+      </TABLE></center><br>'
+	  
+	

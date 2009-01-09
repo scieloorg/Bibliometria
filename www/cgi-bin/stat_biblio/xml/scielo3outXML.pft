@@ -1,0 +1,93 @@
+
+	'<journal>'/
+		'<link>',
+			'<label_list>',
+  				'<label lang="pt">', v2^t,'</label>'/
+  				'<label lang="en">', v2^t,'</label>'/ 
+				'<label lang="es">', v2^t,'</label>'/ 
+  			'</label_list>'/	
+			'<url>',
+				'<protocol>http</protocol>'/
+				'<host></host>'/
+				'<port></port>'/
+				'<path></path>'/
+				'<script_name>scielo.php</script_name>'/
+				'<param_list>',
+					'<param>',
+						'<name>script</name>'/
+						'<value>sci_serial</value>'/
+					'</param>'/
+					'<param>',
+						'<name>pid</name>'/
+						'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400), '</value>'/
+					'</param>'/
+					'<param>',
+						'<name>lng</name>'/
+						'<value>ptl</value>'/
+					'</param>'/
+					'<param>',
+						'<name>nrm</name>'/
+						'<value>iso</value>'/
+					'</param>'/
+				'</param_list>'/
+			'</url>'/
+		'</link>'/
+	'</journal>'/
+	'<year_source>', v2^a, '</year_source>'/
+	'<citations_all_before>', v10, '</citations_all_before>'/
+	
+	'<year_zero_before>', f(val(v2^a)-0, 1, 0),		'</year_zero_before>'/
+	'<year_one_before>', f(val(v2^a)-1, 1, 0),		'</year_one_before>'/
+	'<year_two_before>', f(val(v2^a)-2, 1, 0),		'</year_two_before>'/
+	'<year_three_before>', f(val(v2^a)-3, 1, 0),	'</year_three_before>'/
+	'<year_four_before>', f(val(v2^a)-4, 1, 0),		'</year_four_before>'/
+	'<year_five_before>', f(val(v2^a)-5, 1, 0),		'</year_five_before>'/
+	'<year_six_before>', f(val(v2^a)-6, 1, 0),		'</year_six_before>'/
+	'<year_seven_before>', f(val(v2^a)-7, 1, 0),	'</year_seven_before>'/
+	'<year_eight_before>', f(val(v2^a)-8, 1, 0),	'</year_eight_before>'/
+	'<year_nine_before>', f(val(v2^a)-9, 1, 0),		'</year_nine_before>'/
+	
+	'<citations_zero_before>', v20^c[1],							'</citations_zero_before>'/
+	'<citations_one_before>', f(val(v20^c[2])-val(v20^c[1]),4,0),	'</citations_one_before>'/
+	'<citations_two_before>', f(val(v20^c[3])-val(v20^c[2]),4,0),	'</citations_two_before>'/
+	'<citations_three_before>', f(val(v20^c[4])-val(v20^c[3]),4,0),	'</citations_three_before>'/
+	'<citations_four_before>', f(val(v20^c[5])-val(v20^c[4]),4,0),	'</citations_four_before>'/
+	'<citations_five_before>', f(val(v20^c[6])-val(v20^c[5]),4,0),	'</citations_five_before>'/
+	'<citations_six_before>', f(val(v20^c[7])-val(v20^c[6]),4,0),	'</citations_six_before>'/
+	'<citations_seven_before>', f(val(v20^c[8])-val(v20^c[7]),4,0),	'</citations_seven_before>'/
+	'<citations_eight_before>', f(val(v20^c[9])-val(v20^c[8]),4,0),	'</citations_eight_before>'/
+	'<citations_nine_before>', f(val(v20^c[10])-val(v20^c[9]),4,0),	'</citations_nine_before>'/
+
+	'<percent_zero_before>', v20^p[1],				'</percent_zero_before>'/
+	'<percent_one_before>', f(val(v20^p[2])-val(v20^p[1]),1,2),	'</percent_one_before>'/
+	'<percent_two_before>', f(val(v20^p[3])-val(v20^p[2]),1,2),	'</percent_two_before>'/
+	'<percent_three_before>',  f(val(v20^p[4])-val(v20^p[3]),1,2),	'</percent_three_before>'/
+	'<percent_four_before>', f(val(v20^p[5])-val(v20^p[4]),1,2),	'</percent_four_before>'/
+	'<percent_five_before>', f(val(v20^p[6])-val(v20^p[5]),1,2),	'</percent_five_before>'/
+	'<percent_six_before>', f(val(v20^p[7])-val(v20^p[6]),1,2),	'</percent_six_before>'/
+	'<percent_seven_before>', f(val(v20^p[8])-val(v20^p[7]),1,2),	'</percent_seven_before>'/
+	'<percent_eight_before>', f(val(v20^p[9])-val(v20^p[8]),1,2),	'</percent_eight_before>'/
+	'<percent_nine_before>', f(val(v20^p[10])-val(v20^p[9]),1,2),	'</percent_nine_before>'/
+	
+	'<percent_acumul_zero_before>', v20^p[1],				'</percent_acumul_zero_before>'/
+	'<percent_acumul_one_before>', f(val(v20^p[2]),1,2),	'</percent_acumul_one_before>'/
+	'<percent_acumul_two_before>', f(val(v20^p[3]),1,2),	'</percent_acumul_two_before>'/
+	'<percent_acumul_three_before>',  f(val(v20^p[4]),1,2),	'</percent_acumul_three_before>'/
+	'<percent_acumul_four_before>', f(val(v20^p[5]),1,2),	'</percent_acumul_four_before>'/
+	'<percent_acumul_five_before>', f(val(v20^p[6]),1,2),	'</percent_acumul_five_before>'/
+	'<percent_acumul_six_before>', f(val(v20^p[7]),1,2),	'</percent_acumul_six_before>'/
+	'<percent_acumul_seven_before>', f(val(v20^p[8]),1,2),	'</percent_acumul_seven_before>'/
+	'<percent_acumul_eight_before>', f(val(v20^p[9]),1,2),	'</percent_acumul_eight_before>'/
+	'<percent_acumul_nine_before>', f(val(v20^p[10]),1,2),	'</percent_acumul_nine_before>'/
+
+ 	'<half_life>'
+		if val(v10)>0 
+		then
+			v100
+		else 
+			'Não estava em SciELO em' v2^a,
+		fi,
+	'</half_life>'/
+
+
+ 

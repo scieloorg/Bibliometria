@@ -1,0 +1,34 @@
+export ROOT=/bases/rogerio/www
+#export ROOTPROD=/home/scieloprod/www
+
+export SCIELO=$ROOT/bases
+
+export CIPATH=$ROOT/scibiblio/bases/estat
+
+export ALLANOS=$ROOT/scibiblio/bases/estat/artigo
+export JCR=$ROOT/scibiblio/bases/estat/jcr
+export TAB30=$ROOT/scibiblio/bases/estat/tab30
+export COAUT=$ROOT/scibiblio/bases/estat/co-autor
+#export TAB30=$ROOTPROD/scibiblio/bases/estat/tab30
+
+export XML=$ROOT/htdocs/stat_biblio/xml
+export CGIXML=$ROOT/cgi-bin/stat_biblio/xml
+
+export CISIS=$ROOT/scibiblio/bases/estat/cisis/cisis
+#export CISIS=$ROOTPROD/scibiblio/bases/estat/cisis/cisis
+export CISIS1660=$ROOT/scibiblio/bases/estat/cisis/cisis1660
+#export CISIS1660=$ROOTPROD/scibiblio/bases/estat/cisis/cisis1660
+export LIND=$ROOT/scibiblio/bases/estat/cisis/lind
+#export LIND=$ROOTPROD/scibiblio/bases/estat/cisis/lind
+export FFI=$ROOT/scibiblio/bases/estat/cisis/cisis1660ffi
+#export FFI=$ROOTPROD/scibiblio/bases/estat/cisis/cisis1660ffi
+export LINDFFI=$ROOT/scibiblio/bases/estat/cisis/lindffi
+#export LINDFFI=$ROOTPROD/scibiblio/bases/estat/cisis/lindffi
+
+export UTL=$LIND
+export HOM=$CGIXML
+export GET=$ROOT/scibiblio/bases/estat/cisis
+#export GET=$ROOTPROD/scibiblio/bases/estat/cisis
+
+
+

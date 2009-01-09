@@ -1,0 +1,110 @@
+	'<header>',
+		'<year_source>', v2^a, '</year_source>'/
+		'<year_one_before>', f(val(v2^a) - 1, 1, 0), '</year_one_before>'/
+		'<year_two_before>', f(val(v2^a) - 2, 1, 0), '</year_two_before>'/
+		'<sum_two_year>', f(val(v2^a) - 1, 1, 0), '+', f(val(v2^a) - 2, 1, 0), '</sum_two_year>'/
+	'</header>'/
+	'<journal_list>',
+		'<journal>'/
+			'<link>',
+				'<label_list>',
+					'<label lang="pt">', v2^t,'</label>'/
+					'<label lang="en">', v2^t,'</label>'/ 
+					'<label lang="es">', v2^t,'</label>'/ 
+				'</label_list>'/	
+				'<url>',
+					'<protocol>http</protocol>'/
+					'<host></host>'/
+					'<port></port>'/
+					'<path></path>'/
+					'<script_name>scielo.php</script_name>'/
+					'<param_list>',
+						'<param>',
+							'<name>script</name>'/
+							'<value>sci_serial</value>'/
+						'</param>'/
+						'<param>',
+							'<name>pid</name>'/
+							'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400), '</value>'/
+						'</param>'/
+						'<param>',
+							'<name>lng</name>'/
+							'<value>ptl</value>'/
+						'</param>'/
+						'<param>',
+							'<name>nrm</name>'/
+							'<value>iso</value>'/
+						'</param>'/
+					'</param_list>'/
+				'</url>'/
+			'</link>'/
+			'<year_before_list>',
+				'<year_before type="zero">',
+					'<year>', f(val(v2^a)-2, 1, 0), '</year>'/
+					'<citations>', v7, '</citations>'/
+					'<articles>',
+						if v9 < '1'
+						then
+							'Não constava em SciELO'
+						else
+							v9
+						fi,
+					'</articles>'/
+				'</year_before>'/
+				'<year_before type="one">',
+					'<year>', f(val(v2^a)-1, 1, 0), '</year>'/
+					'<citations>', v6, '</citations>'/
+					'<articles>',
+						if v8 < '1'
+						then
+							'Não constava em SciELO'
+						else
+							v8
+						fi,
+					'</articles>'/
+				'</year_before>'/
+				'<year_before type="two">',
+					'<year>', v2^a, '</year>'/
+					'<citations>', v4, '</citations>'/
+					'<articles>',
+						if v5 < '1'
+						then
+							'Não constava em SciELO'
+						else
+							v5
+						fi,
+					'</articles>'/
+				'</year_before>'/
+				'<sum_two_year_citations>', f(val(v7)+val(v6),1,0), '</sum_two_year_citations>'/
+				'<sum_two_year_articles>', f(val(v9)+val(v8),1,0), '</sum_two_year_articles>'/
+			'</year_before_list>'/
+			'<citations_all_before>', v10,	'</citations_all_before>'/
+			'<impact_factor>',
+				if v8 > '0' and v9 > '0'
+				then
+					v12
+				else
+					if v8 < '1' and v9 < '1'
+					then
+						'Não houve publicação nos referidos anos'
+					else
+						v12, ' (um ano sem publicação)'
+					fi,
+				fi,
+			'</impact_factor>'/
+			'<imediacy_index>',
+				if v5 > '0' 
+				then
+					v11
+				else
+					' (um ano sem publicação)'
+				fi,
+			'</imediacy_index>'/
+		'</journal>'/
+	'</journal_list>'/
+if val(v2^a)<val(ref([''v5555'.titsanosb']val(f(mfn+1,1,0)),v2^a)) 
+then 
+	'</impact_factor_register>'/
+	'<impact_factor_register>',
+fi
+

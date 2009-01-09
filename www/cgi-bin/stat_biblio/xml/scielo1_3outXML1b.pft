@@ -1,0 +1,115 @@
+if val(v222)>0 then
+			'<journal>',
+				'<link>',
+					'<label_list>',
+						'<label lang="pt"><![CDATA[', v2^t,']]></label>'/
+						'<label lang="en"><![CDATA[', v2^t,']]></label>'/ 
+						'<label lang="es"><![CDATA[', v2^t,']]></label>'/ 
+					'</label_list>'/	
+					'<url>',
+						'<protocol>http</protocol>'/
+						'<host>'v7766'</host>'/
+						'<port></port>'/
+						'<path></path>'/
+						'<script_name>scielo.php</script_name>'/
+						'<param_list>',
+							'<param>',
+								'<name>script</name>'/
+								'<value>sci_serial</value>'/
+							'</param>'/
+							'<param>',
+								'<name>pid</name>'/
+								'<value>', ref(['tab30issn']l(['tab30issn']v2^t),v400), '</value>'/
+							'</param>'/
+							'<param>',
+								'<name>lng</name>'/
+								'<value>', v333, '</value>'/
+							'</param>'/
+							'<param>',
+								'<name>nrm</name>'/
+								'<value>iso</value>'/
+							'</param>'/
+						'</param_list>'/
+					'</url>'/
+				'</link>'/
+				'<year_before_list>',
+					'<year_before type="zero">',
+						'<year>', v2^a, '</year>'/
+						'<citations>', v111, '</citations>'/
+						'<articles>',
+							if v222 < '1' then
+								'-'
+							else
+								v222
+							fi,
+						'</articles>'/
+					'</year_before>'/
+					'<year_before type="one">',
+						'<year>', f(val(v2^a)-1, 1, 0), '</year>'/
+						'<citations>', v4, '</citations>'/
+						'<articles>',
+							if v7 < '1' then
+								'-'
+							else
+								v7
+							fi,
+						'</articles>'/
+					'</year_before>'/
+					'<year_before type="two">',
+						'<year>', f(val(v2^a)-2, 1, 0), '</year>'/
+						'<citations>', v5, '</citations>'/
+						'<articles>',
+							if v8 < '1' then
+								'-'
+							else
+								v8
+							fi,
+						'</articles>'/
+					'</year_before>'/
+					'<year_before type="three">',
+						'<year>', f(val(v2^a)-3, 1, 0), '</year>'/
+						'<citations>', v6, '</citations>'/
+						'<articles>',
+							if v9 < '1' then
+								'-'
+							else
+								v9
+							fi,
+						'</articles>'/
+					'</year_before>'/
+				'</year_before_list>'/
+				'<sum_three_year_citations>', f(val(v6)+val(v5)+val(v4),1,0), '</sum_three_year_citations>'/
+				'<sum_three_year_articles>', f(val(v9)+val(v8)+val(v7),1,0), '</sum_three_year_articles>'/
+				'<citations_all_before>', v10,	'</citations_all_before>'/
+				'<impact_factor>',
+					if v7 > '0' and v8 > '0' and v9 > '0' then 
+						v12 
+					else 
+						'-' 
+					fi,
+				'</impact_factor>'/
+				'<imediacy_index>',
+					if v222 > '0' then
+						v11
+					else
+						'-'
+					fi,
+				'</imediacy_index>'/
+			'</journal>'/
+	if val(v2^a)<>val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) and ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)<>'' 
+	then 
+		'</journal_list>'/
+		'</table>'/
+		'<table year="', ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a), '">',
+		'<header>',
+				'<year_source>', ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a), '</year_source>'/
+				'<year_one_before>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) - 1, 1, 0), '</year_one_before>'/
+				'<year_two_before>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) - 2, 1, 0), '</year_two_before>'/
+				'<year_three_before>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) - 3, 1, 0), '</year_three_before>'/
+				'<sum_three_year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) - 1, 1, 0), '+ ', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) - 2, 1, 0), '+ ', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) - 3, 1, 0), '</sum_three_year>'/
+		'</header>'/
+		'<journal_list>',
+	fi,
+fi
+
+

@@ -1,0 +1,20 @@
+'<current_state>14</current_state>'/
+'<page_title_list>',
+	'<page_title lang="pt">Artigos citados</page_title>'/
+	'<page_title lang="en">Artigos citados</page_title>'/
+	'<page_title lang="es">Artigos citados</page_title>'/
+'</page_title_list>'/
+'<title_list>',
+	'<title lang="pt">Citações recebidas</title>'/
+	'<title lang="en">Citações recebidas</title>'/
+	'<title lang="es">Citações recebidas</title>'/
+'</title_list>'/
+'<subtitle_list>',
+	'<subtitle lang="pt">Artigos citados</subtitle>'/
+	'<subtitle lang="en">Artigos citados</subtitle>'/
+	'<subtitle lang="es">Artigos citados</subtitle>'/
+'</subtitle_list>'/
+'<header>',
+	'<title_cited_list>', v11, '</title_cited_list>'/
+'</header>'/
+'<article_cited_list>',

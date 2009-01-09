@@ -1,0 +1,141 @@
+if val(v10)>0 then
+	'<journal>',
+		'<link>',
+			'<label_list>',
+				'<label lang="pt"><![CDATA[', v2^t,']]></label>'/
+				'<label lang="en"><![CDATA[', v2^t,']]></label>'/ 
+				'<label lang="es"><![CDATA[', v2^t,']]></label>'/ 
+			'</label_list>'/	
+			'<url>',
+				'<protocol>http</protocol>'/
+				'<host>'v7766'</host>'/
+				'<port></port>'/
+				'<path></path>'/
+				'<script_name>scielo.php</script_name>'/
+				'<param_list>',
+					'<param>',
+						'<name>script</name>'/
+						'<value>sci_serial</value>'/
+					'</param>'/
+					'<param>',
+						'<name>pid</name>'/
+						'<value>', ref(['tab30issn']l(['tab30issn']v2^t),v400), '</value>'/
+					'</param>'/
+					'<param>',
+						'<name>lng</name>'/
+						'<value>', v333, '</value>'/
+					'</param>'/
+					'<param>',
+						'<name>nrm</name>'/
+						'<value>iso</value>'/
+					'</param>'/
+				'</param_list>'/
+			'</url>'/
+		'</link>'/
+		'<year_before_list>',
+			'<year_before type="zero">',
+				'<total>', proc('d333a333~', v20^c[1], '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', v20^p[1], '~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', v20^p[1], '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="one">',
+				'<total>', proc('d333a333~', f(val(v20^c[2])-val(v20^c[1]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[2])-val(v20^p[1]),1,2), '~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[2]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="two">',
+				'<total>', proc('d333a333~', f(val(v20^c[3])-val(v20^c[2]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[3])-val(v20^p[2]),1,2), '~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[3]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="three">',
+				'<total>', proc('d333a333~', f(val(v20^c[4])-val(v20^c[3]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[4])-val(v20^p[3]),1,2), '~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[4]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="four">',
+				'<total>', proc('d333a333~', f(val(v20^c[5])-val(v20^c[4]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[5])-val(v20^p[4]),1,2), '~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[5]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="five">',
+				'<total>', proc('d333a333~', f(val(v20^c[6])-val(v20^c[5]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[6])-val(v20^p[5]),1,2),	'~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[6]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="six">',
+				'<total>', proc('d333a333~', f(val(v20^c[7])-val(v20^c[6]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[7])-val(v20^p[6]),1,2),	'~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[7]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="seven">',
+				'<total>', proc('d333a333~', f(val(v20^c[8])-val(v20^c[7]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[8])-val(v20^p[7]),1,2),	'~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[8]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="eight">',
+				'<total>', proc('d333a333~', f(val(v20^c[9])-val(v20^c[8]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[9])-val(v20^p[8]),1,2),	'~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[9]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+			'<year_before type="nine">',
+				'<total>', proc('d333a333~', f(val(v20^c[10])-val(v20^c[9]),1,0), '~'), if val(v333)>0 then v333 else '-' fi, '</total>'/
+				'<percentual>', proc('d444a444~', f(val(v20^p[10])-val(v20^p[9]),1,2),	'~'), if val(v444)>0 then v444 else '-' fi, '</percentual>'/
+				'<percentual_acumuled>', proc('d555a555~', f(val(v20^p[10]),1,2), '~'), if val(v555)>0 then v555 else '-' fi, '</percentual_acumuled>'/
+			'</year_before>'/
+		'</year_before_list>'/
+		'<half_life>',
+			if val(v10)>0 
+			then
+				v100
+			else 
+				'-',
+			fi,
+		'</half_life>'/
+		'<citations_all_before>', v10, '</citations_all_before>'/
+	'</journal>'/
+	if val(v2^a)<>val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)) and ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a)<>'' and ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v10)<>'0'
+	then 
+		'</journal_list>'/
+		'</table>'/
+		'<table year="', ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a), '">',
+			'<header>',
+				'<year_source>', ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a), '</year_source>'/
+				'<year_before_list>',
+					'<year_before type="zero">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-0, 1, 0),	'</year>'/
+					'</year_before>'/
+					'<year_before type="one">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-1, 1, 0),	'</year>'/
+					'</year_before>'/
+					'<year_before type="two">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-2, 1, 0),	'</year>'/
+					'</year_before>'/
+					'<year_before type="three">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-3, 1, 0), '</year>'/
+					'</year_before>'/
+					'<year_before type="four">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-4, 1, 0),	'</year>'/
+					'</year_before>'/
+					'<year_before type="five">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-5, 1, 0),	'</year>'/
+					'</year_before>'/
+					'<year_before type="six">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-6, 1, 0), '</year>'/
+					'</year_before>'/
+					'<year_before type="seven">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-7, 1, 0),	'</year>'/
+					'</year_before>'/
+					'<year_before type="eight">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-8, 1, 0), '</year>'/
+					'</year_before>'/
+					'<year_before type="nine">',
+						'<year>', f(val(ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^a))-9, 1, 0),	'</year>'/
+					'</year_before>'/
+				'</year_before_list>'/
+			'</header>'/
+		'<journal_list>',
+	fi,
+fi
+
+

@@ -1,0 +1,3307 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+        <current_state>16</current_state>
+        <page_title_list>
+                <page_title lang="pt">Co-autoria</page_title>
+                <page_title lang="en">Co-authors</page_title>
+                <page_title lang="es">Co-autoria</page_title>
+        </page_title_list>
+        <title_list>
+                <title lang="pt">Coleção da biblioteca</title>
+                <title lang="en">Library collection</title>
+                <title lang="es">Colección de la biblioteca</title>
+        </title_list>
+        <subtitle_list>
+				<subtitle lang="pt">Co-autoria</subtitle>
+				<subtitle lang="en">Co-authors</subtitle>
+				<subtitle lang="es">Co-autoria</subtitle>
+        </subtitle_list>
+        <selection_list>
+                <selection name="journal">
+                        <label_list>
+                                <label lang="pt">Revistas SciELO</label>
+                                <label lang="en">SciELO journals</label>
+                                <label lang="es">Revistas SciELO</label>
+                        </label_list>
+                        <option_list name="CITED">
+                                <!-- selection_type="multiple"-->
+                                <option selected="true">
+                                        <label_list>
+                                                <label lang="pt">Todas as revistas em SciELO</label>
+                                                <label lang="en">All journals in SciELO</label>
+                                                <label lang="es">Todas las revistas en SciELO</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option>
+<option issn="0044-5967" siglum="aa">
+<label_list>
+<label lang="pt"><![CDATA[Acta Amazonica]]></label>
+<label lang="en"><![CDATA[Acta Amazonica]]></label>
+<label lang="es"><![CDATA[Acta Amazonica]]></label>
+</label_list>
+<value>0044-5967</value>
+</option>
+<option issn="0102-3306" siglum="abb">
+<label_list>
+<label lang="pt"><![CDATA[Acta Botanica Brasilica]]></label>
+<label lang="en"><![CDATA[Acta Botanica Brasilica]]></label>
+<label lang="es"><![CDATA[Acta Botanica Brasilica]]></label>
+</label_list>
+<value>0102-3306</value>
+</option>
+<option issn="0102-8650" siglum="acb">
+<label_list>
+<label lang="pt"><![CDATA[Acta Cirurgica Brasileira]]></label>
+<label lang="en"><![CDATA[Acta Cirurgica Brasileira]]></label>
+<label lang="es"><![CDATA[Acta Cirurgica Brasileira]]></label>
+</label_list>
+<value>0102-8650</value>
+</option>
+<option issn="1413-7852" siglum="aob">
+<label_list>
+<label lang="pt"><![CDATA[Acta Ortopédica Brasileira]]></label>
+<label lang="en"><![CDATA[Acta Ortopédica Brasileira]]></label>
+<label lang="es"><![CDATA[Acta Ortopédica Brasileira]]></label>
+</label_list>
+<value>1413-7852</value>
+</option>
+<option issn="0103-2100" siglum="ape">
+<label_list>
+<label lang="pt"><![CDATA[Acta Paulista de Enfermagem]]></label>
+<label lang="en"><![CDATA[Acta Paulista de Enfermagem]]></label>
+<label lang="es"><![CDATA[Acta Paulista de Enfermagem]]></label>
+</label_list>
+<value>0103-2100</value>
+</option>
+<option issn="1517-106X" siglum="alea">
+<label_list>
+<label lang="pt"><![CDATA[Alea : Estudos Neolatinos]]></label>
+<label lang="en"><![CDATA[Alea : Estudos Neolatinos]]></label>
+<label lang="es"><![CDATA[Alea : Estudos Neolatinos]]></label>
+</label_list>
+<value>1517-106X</value>
+</option>
+<option issn="1414-753X" siglum="asoc">
+<label_list>
+<label lang="pt"><![CDATA[Ambiente & sociedade]]></label>
+<label lang="en"><![CDATA[Ambiente & sociedade]]></label>
+<label lang="es"><![CDATA[Ambiente & sociedade]]></label>
+</label_list>
+<value>1414-753X</value>
+</option>
+<option issn="0365-0596" siglum="abd">
+<label_list>
+<label lang="pt"><![CDATA[Anais Brasileiros de Dermatologia]]></label>
+<label lang="en"><![CDATA[Anais Brasileiros de Dermatologia]]></label>
+<label lang="es"><![CDATA[Anais Brasileiros de Dermatologia]]></label>
+</label_list>
+<value>0365-0596</value>
+</option>
+<option issn="0001-3765" siglum="aabc">
+<label_list>
+<label lang="pt"><![CDATA[Anais da Academia Brasileira de Ciências]]></label>
+<label lang="en"><![CDATA[Anais da Academia Brasileira de Ciências]]></label>
+<label lang="es"><![CDATA[Anais da Academia Brasileira de Ciências]]></label>
+</label_list>
+<value>0001-3765</value>
+</option>
+<option issn="0301-8059" siglum="aseb">
+<label_list>
+<label lang="pt"><![CDATA[Anais da Sociedade Entomológica do Brasil]]></label>
+<label lang="en"><![CDATA[Anais da Sociedade Entomológica do Brasil]]></label>
+<label lang="es"><![CDATA[Anais da Sociedade Entomológica do Brasil]]></label>
+</label_list>
+<value>0301-8059</value>
+</option>
+<option issn="0102-0935" siglum="abmvz">
+<label_list>
+<label lang="pt"><![CDATA[Arquivo Brasileiro de Medicina Veterinária e Zootecnia]]></label>
+<label lang="en"><![CDATA[Arquivo Brasileiro de Medicina Veterinária e Zootecnia]]></label>
+<label lang="es"><![CDATA[Arquivo Brasileiro de Medicina Veterinária e Zootecnia]]></label>
+</label_list>
+<value>0102-0935</value>
+</option>
+<option issn="0066-782X" siglum="abc">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos Brasileiros de Cardiologia]]></label>
+<label lang="en"><![CDATA[Arquivos Brasileiros de Cardiologia]]></label>
+<label lang="es"><![CDATA[Arquivos Brasileiros de Cardiologia]]></label>
+</label_list>
+<value>0066-782X</value>
+</option>
+<option issn="0004-2730" siglum="abem">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos Brasileiros de Endocrinologia & Metabologia]]></label>
+<label lang="en"><![CDATA[Arquivos Brasileiros de Endocrinologia & Metabologia]]></label>
+<label lang="es"><![CDATA[Arquivos Brasileiros de Endocrinologia & Metabologia]]></label>
+</label_list>
+<value>0004-2730</value>
+</option>
+<option issn="0004-2749" siglum="abo">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos Brasileiros de Oftalmologia]]></label>
+<label lang="en"><![CDATA[Arquivos Brasileiros de Oftalmologia]]></label>
+<label lang="es"><![CDATA[Arquivos Brasileiros de Oftalmologia]]></label>
+</label_list>
+<value>0004-2749</value>
+</option>
+<option issn="0004-2803" siglum="ag">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos de Gastroenterologia]]></label>
+<label lang="en"><![CDATA[Arquivos de Gastroenterologia]]></label>
+<label lang="es"><![CDATA[Arquivos de Gastroenterologia]]></label>
+</label_list>
+<value>0004-2803</value>
+</option>
+<option issn="0004-282X" siglum="anp">
+<label_list>
+<label lang="pt"><![CDATA[Arquivos de Neuro-Psiquiatria]]></label>
+<label lang="en"><![CDATA[Arquivos de Neuro-Psiquiatria]]></label>
+<label lang="es"><![CDATA[Arquivos de Neuro-Psiquiatria]]></label>
+</label_list>
+<value>0004-282X</value>
+</option>
+<option issn="1676-0603" siglum="bn">
+<label_list>
+<label lang="pt"><![CDATA[Biota Neotropica]]></label>
+<label lang="en"><![CDATA[Biota Neotropica]]></label>
+<label lang="es"><![CDATA[Biota Neotropica]]></label>
+</label_list>
+<value>1676-0603</value>
+</option>
+<option issn="0006-8705" siglum="brag">
+<label_list>
+<label lang="pt"><![CDATA[Bragantia]]></label>
+<label lang="en"><![CDATA[Bragantia]]></label>
+<label lang="es"><![CDATA[Bragantia]]></label>
+</label_list>
+<value>0006-8705</value>
+</option>
+<option issn="1516-8913" siglum="babt">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Archives of Biology and Technology]]></label>
+<label lang="en"><![CDATA[Brazilian Archives of Biology and Technology]]></label>
+<label lang="es"><![CDATA[Brazilian Archives of Biology and Technology]]></label>
+</label_list>
+<value>1516-8913</value>
+</option>
+<option issn="0103-6440" siglum="bdj">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Dental Journal ]]></label>
+<label lang="en"><![CDATA[Brazilian Dental Journal ]]></label>
+<label lang="es"><![CDATA[Brazilian Dental Journal ]]></label>
+</label_list>
+<value>0103-6440</value>
+</option>
+<option issn="1519-6984" siglum="bjb">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Biology]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Biology]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Biology]]></label>
+</label_list>
+<value>1519-6984</value>
+</option>
+<option issn="1678-9741" siglum="bjcvs">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
+</label_list>
+<value>1678-9741</value>
+</option>
+<option issn="0104-6632" siglum="bjce">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Chemical Engineering]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Chemical Engineering]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Chemical Engineering]]></label>
+</label_list>
+<value>0104-6632</value>
+</option>
+<option issn="0100-8455" siglum="bjg">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Genetics]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Genetics]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Genetics]]></label>
+</label_list>
+<value>0100-8455</value>
+</option>
+<option issn="1413-8670" siglum="bjid">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Infectious Diseases]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Infectious Diseases]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Infectious Diseases]]></label>
+</label_list>
+<value>1413-8670</value>
+</option>
+<option issn="0100-879X" siglum="bjmbr">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Medical and Biological Research]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Medical and Biological Research]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Medical and Biological Research]]></label>
+</label_list>
+<value>0100-879X</value>
+</option>
+<option issn="1517-8382" siglum="bjm">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Microbiology]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Microbiology]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Microbiology]]></label>
+</label_list>
+<value>1517-8382</value>
+</option>
+<option issn="0103-9733" siglum="bjp">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Physics]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Physics]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Physics]]></label>
+</label_list>
+<value>0103-9733</value>
+</option>
+<option issn="1677-0420" siglum="bjpp">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Plant Physiology]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Plant Physiology]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Plant Physiology]]></label>
+</label_list>
+<value>1677-0420</value>
+</option>
+<option issn="1413-9596" siglum="bjvras">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Veterinary Research and Animal Science]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Veterinary Research and Animal Science]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Veterinary Research and Animal Science]]></label>
+</label_list>
+<value>1413-9596</value>
+</option>
+<option issn="1806-8324" siglum="bor">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Oral Research]]></label>
+<label lang="en"><![CDATA[Brazilian Oral Research]]></label>
+<label lang="es"><![CDATA[Brazilian Oral Research]]></label>
+</label_list>
+<value>1806-8324</value>
+</option>
+<option issn="0101-3262" siglum="ccedes">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos CEDES]]></label>
+<label lang="en"><![CDATA[Cadernos CEDES]]></label>
+<label lang="es"><![CDATA[Cadernos CEDES]]></label>
+</label_list>
+<value>0101-3262</value>
+</option>
+<option issn="0104-8333" siglum="cpa">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos Pagu]]></label>
+<label lang="en"><![CDATA[Cadernos Pagu]]></label>
+<label lang="es"><![CDATA[Cadernos Pagu]]></label>
+</label_list>
+<value>0104-8333</value>
+</option>
+<option issn="0100-1574" siglum="cp">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos de Pesquisa]]></label>
+<label lang="en"><![CDATA[Cadernos de Pesquisa]]></label>
+<label lang="es"><![CDATA[Cadernos de Pesquisa]]></label>
+</label_list>
+<value>0100-1574</value>
+</option>
+<option issn="0102-311X" siglum="csp">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos de Saúde Pública]]></label>
+<label lang="en"><![CDATA[Cadernos de Saúde Pública]]></label>
+<label lang="es"><![CDATA[Cadernos de Saúde Pública]]></label>
+</label_list>
+<value>0102-311X</value>
+</option>
+<option issn="0366-6913" siglum="ce">
+<label_list>
+<label lang="pt"><![CDATA[Cerâmica]]></label>
+<label lang="en"><![CDATA[Cerâmica]]></label>
+<label lang="es"><![CDATA[Cerâmica]]></label>
+</label_list>
+<value>0366-6913</value>
+</option>
+<option issn="1413-8123" siglum="csc">
+<label_list>
+<label lang="pt"><![CDATA[Ciência & Saúde Coletiva]]></label>
+<label lang="en"><![CDATA[Ciência & Saúde Coletiva]]></label>
+<label lang="es"><![CDATA[Ciência & Saúde Coletiva]]></label>
+</label_list>
+<value>1413-8123</value>
+</option>
+<option issn="0103-8478" siglum="cr">
+<label_list>
+<label lang="pt"><![CDATA[Ciência Rural]]></label>
+<label lang="en"><![CDATA[Ciência Rural]]></label>
+<label lang="es"><![CDATA[Ciência Rural]]></label>
+</label_list>
+<value>0103-8478</value>
+</option>
+<option issn="0100-1965" siglum="ci">
+<label_list>
+<label lang="pt"><![CDATA[Ciência da Informação]]></label>
+<label lang="en"><![CDATA[Ciência da Informação]]></label>
+<label lang="es"><![CDATA[Ciência da Informação]]></label>
+</label_list>
+<value>0100-1965</value>
+</option>
+<option issn="1413-7054" siglum="cagro">
+<label_list>
+<label lang="pt"><![CDATA[Ciência e Agrotecnologia]]></label>
+<label lang="en"><![CDATA[Ciência e Agrotecnologia]]></label>
+<label lang="es"><![CDATA[Ciência e Agrotecnologia]]></label>
+</label_list>
+<value>1413-7054</value>
+</option>
+<option issn="0101-2061" siglum="cta">
+<label_list>
+<label lang="pt"><![CDATA[Ciência e Tecnologia de Alimentos]]></label>
+<label lang="en"><![CDATA[Ciência e Tecnologia de Alimentos]]></label>
+<label lang="es"><![CDATA[Ciência e Tecnologia de Alimentos]]></label>
+</label_list>
+<value>0101-2061</value>
+</option>
+<option issn="1807-5932" siglum="clin">
+<label_list>
+<label lang="pt"><![CDATA[Clinics]]></label>
+<label lang="en"><![CDATA[Clinics]]></label>
+<label lang="es"><![CDATA[Clinics]]></label>
+</label_list>
+<value>1807-5932</value>
+</option>
+<option issn="0101-8205" siglum="cam">
+<label_list>
+<label lang="pt"><![CDATA[Computational & Applied Mathematics ]]></label>
+<label lang="en"><![CDATA[Computational & Applied Mathematics ]]></label>
+<label lang="es"><![CDATA[Computational & Applied Mathematics ]]></label>
+</label_list>
+<value>0101-8205</value>
+</option>
+<option issn="0102-4450" siglum="delta">
+<label_list>
+<label lang="pt"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+<label lang="en"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+<label lang="es"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+</label_list>
+<value>0102-4450</value>
+</option>
+<option issn="0011-5258" siglum="dados">
+<label_list>
+<label lang="pt"><![CDATA[Dados]]></label>
+<label lang="en"><![CDATA[Dados]]></label>
+<label lang="es"><![CDATA[Dados]]></label>
+</label_list>
+<value>0011-5258</value>
+</option>
+<option issn="0100-4670" siglum="eq">
+<label_list>
+<label lang="pt"><![CDATA[Eclética Química]]></label>
+<label lang="en"><![CDATA[Eclética Química]]></label>
+<label lang="es"><![CDATA[Eclética Química]]></label>
+</label_list>
+<value>0100-4670</value>
+</option>
+<option issn="1413-8050" siglum="ecoa">
+<label_list>
+<label lang="pt"><![CDATA[Economia Aplicada]]></label>
+<label lang="en"><![CDATA[Economia Aplicada]]></label>
+<label lang="es"><![CDATA[Economia Aplicada]]></label>
+</label_list>
+<value>1413-8050</value>
+</option>
+<option issn="0104-4060" siglum="er">
+<label_list>
+<label lang="pt"><![CDATA[Educar em Revista]]></label>
+<label lang="en"><![CDATA[Educar em Revista]]></label>
+<label lang="es"><![CDATA[Educar em Revista]]></label>
+</label_list>
+<value>0104-4060</value>
+</option>
+<option issn="0101-7330" siglum="es">
+<label_list>
+<label lang="pt"><![CDATA[Educação & Sociedade]]></label>
+<label lang="en"><![CDATA[Educação & Sociedade]]></label>
+<label lang="es"><![CDATA[Educação & Sociedade]]></label>
+</label_list>
+<value>0101-7330</value>
+</option>
+<option issn="1517-9702" siglum="ep">
+<label_list>
+<label lang="pt"><![CDATA[Educação e Pesquisa]]></label>
+<label lang="en"><![CDATA[Educação e Pesquisa]]></label>
+<label lang="es"><![CDATA[Educação e Pesquisa]]></label>
+</label_list>
+<value>1517-9702</value>
+</option>
+<option issn="0100-6916" siglum="eagri">
+<label_list>
+<label lang="pt"><![CDATA[Engenharia Agrícola]]></label>
+<label lang="en"><![CDATA[Engenharia Agrícola]]></label>
+<label lang="es"><![CDATA[Engenharia Agrícola]]></label>
+</label_list>
+<value>0100-6916</value>
+</option>
+<option issn="1413-4152" siglum="esa">
+<label_list>
+<label lang="pt"><![CDATA[Engenharia Sanitaria e Ambiental ]]></label>
+<label lang="en"><![CDATA[Engenharia Sanitaria e Ambiental ]]></label>
+<label lang="es"><![CDATA[Engenharia Sanitaria e Ambiental ]]></label>
+</label_list>
+<value>1413-4152</value>
+</option>
+<option issn="0104-4036" siglum="ensaio">
+<label_list>
+<label lang="pt"><![CDATA[Ensaio: Avaliação e Políticas Públicas em Educação]]></label>
+<label lang="en"><![CDATA[Ensaio: Avaliação e Políticas Públicas em Educação]]></label>
+<label lang="es"><![CDATA[Ensaio: Avaliação e Políticas Públicas em Educação]]></label>
+</label_list>
+<value>0104-4036</value>
+</option>
+<option issn="0328-0381" siglum="ev">
+<label_list>
+<label lang="pt"><![CDATA[Entomología y Vectores]]></label>
+<label lang="en"><![CDATA[Entomología y Vectores]]></label>
+<label lang="es"><![CDATA[Entomología y Vectores]]></label>
+</label_list>
+<value>0328-0381</value>
+</option>
+<option issn="0101-546X" siglum="eaa">
+<label_list>
+<label lang="pt"><![CDATA[Estudos Afro-Asiáticos]]></label>
+<label lang="en"><![CDATA[Estudos Afro-Asiáticos]]></label>
+<label lang="es"><![CDATA[Estudos Afro-Asiáticos]]></label>
+</label_list>
+<value>0101-546X</value>
+</option>
+<option issn="0103-4014" siglum="ea">
+<label_list>
+<label lang="pt"><![CDATA[Estudos Avançados]]></label>
+<label lang="en"><![CDATA[Estudos Avançados]]></label>
+<label lang="es"><![CDATA[Estudos Avançados]]></label>
+</label_list>
+<value>0103-4014</value>
+</option>
+<option issn="0101-4161" siglum="ee">
+<label_list>
+<label lang="pt"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+<label lang="en"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+<label lang="es"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+</label_list>
+<value>0101-4161</value>
+</option>
+<option issn="0103-166X" siglum="estpsi">
+<label_list>
+<label lang="pt"><![CDATA[Estudos de Psicologia (Campinas)]]></label>
+<label lang="en"><![CDATA[Estudos de Psicologia (Campinas)]]></label>
+<label lang="es"><![CDATA[Estudos de Psicologia (Campinas)]]></label>
+</label_list>
+<value>0103-166X</value>
+</option>
+<option issn="1413-294X" siglum="epsic">
+<label_list>
+<label lang="pt"><![CDATA[Estudos de Psicologia (Natal)]]></label>
+<label lang="en"><![CDATA[Estudos de Psicologia (Natal)]]></label>
+<label lang="es"><![CDATA[Estudos de Psicologia (Natal)]]></label>
+</label_list>
+<value>1413-294X</value>
+</option>
+<option issn="0100-4158" siglum="fb">
+<label_list>
+<label lang="pt"><![CDATA[Fitopatologia Brasileira]]></label>
+<label lang="en"><![CDATA[Fitopatologia Brasileira]]></label>
+<label lang="es"><![CDATA[Fitopatologia Brasileira]]></label>
+</label_list>
+<value>0100-4158</value>
+</option>
+<option issn="1415-4757" siglum="gmb">
+<label_list>
+<label lang="pt"><![CDATA[Genetics and Molecular Biology]]></label>
+<label lang="en"><![CDATA[Genetics and Molecular Biology]]></label>
+<label lang="es"><![CDATA[Genetics and Molecular Biology]]></label>
+</label_list>
+<value>1415-4757</value>
+</option>
+<option issn="0104-530X" siglum="gp">
+<label_list>
+<label lang="pt"><![CDATA[Gestão & Produção]]></label>
+<label lang="en"><![CDATA[Gestão & Produção]]></label>
+<label lang="es"><![CDATA[Gestão & Produção]]></label>
+</label_list>
+<value>0104-530X</value>
+</option>
+<option issn="0101-9074" siglum="his">
+<label_list>
+<label lang="pt"><![CDATA[História (São Paulo)]]></label>
+<label lang="en"><![CDATA[História (São Paulo)]]></label>
+<label lang="es"><![CDATA[História (São Paulo)]]></label>
+</label_list>
+<value>0101-9074</value>
+</option>
+<option issn="0104-5970" siglum="hcsm">
+<label_list>
+<label lang="pt"><![CDATA[História, Ciências, Saúde-Manguinhos]]></label>
+<label lang="en"><![CDATA[História, Ciências, Saúde-Manguinhos]]></label>
+<label lang="es"><![CDATA[História, Ciências, Saúde-Manguinhos]]></label>
+</label_list>
+<value>0104-5970</value>
+</option>
+<option issn="0104-7183" siglum="ha">
+<label_list>
+<label lang="pt"><![CDATA[Horizontes Antropológicos]]></label>
+<label lang="en"><![CDATA[Horizontes Antropológicos]]></label>
+<label lang="es"><![CDATA[Horizontes Antropológicos]]></label>
+</label_list>
+<value>0104-7183</value>
+</option>
+<option issn="0102-0536" siglum="hb">
+<label_list>
+<label lang="pt"><![CDATA[Horticultura Brasileira]]></label>
+<label lang="en"><![CDATA[Horticultura Brasileira]]></label>
+<label lang="es"><![CDATA[Horticultura Brasileira]]></label>
+</label_list>
+<value>0102-0536</value>
+</option>
+<option issn="0073-4721" siglum="isz">
+<label_list>
+<label lang="pt"><![CDATA[Iheringia. Série Zoologia]]></label>
+<label lang="en"><![CDATA[Iheringia. Série Zoologia]]></label>
+<label lang="es"><![CDATA[Iheringia. Série Zoologia]]></label>
+</label_list>
+<value>0073-4721</value>
+</option>
+<option issn="1414-3283" siglum="icse">
+<label_list>
+<label lang="pt"><![CDATA[Interface - Comunicação, Saúde, Educação]]></label>
+<label lang="en"><![CDATA[Interface - Comunicação, Saúde, Educação]]></label>
+<label lang="es"><![CDATA[Interface - Comunicação, Saúde, Educação]]></label>
+</label_list>
+<value>1414-3283</value>
+</option>
+<option issn="1677-5538" siglum="ibju">
+<label_list>
+<label lang="pt"><![CDATA[International braz j urol]]></label>
+<label lang="en"><![CDATA[International braz j urol]]></label>
+<label lang="es"><![CDATA[International braz j urol]]></label>
+</label_list>
+<value>1677-5538</value>
+</option>
+<option issn="1676-2444" siglum="jbpml">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Brasileiro de Patologia e Medicina Laboratorial]]></label>
+<label lang="en"><![CDATA[Jornal Brasileiro de Patologia e Medicina Laboratorial]]></label>
+<label lang="es"><![CDATA[Jornal Brasileiro de Patologia e Medicina Laboratorial]]></label>
+</label_list>
+<value>1676-2444</value>
+</option>
+<option issn="1806-3713" siglum="jbpneu">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Brasileiro de Pneumologia]]></label>
+<label lang="en"><![CDATA[Jornal Brasileiro de Pneumologia]]></label>
+<label lang="es"><![CDATA[Jornal Brasileiro de Pneumologia]]></label>
+</label_list>
+<value>1806-3713</value>
+</option>
+<option issn="0047-2085" siglum="jbpsiq">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Brasileiro de Psiquiatria]]></label>
+<label lang="en"><![CDATA[Jornal Brasileiro de Psiquiatria]]></label>
+<label lang="es"><![CDATA[Jornal Brasileiro de Psiquiatria]]></label>
+</label_list>
+<value>0047-2085</value>
+</option>
+<option issn="1677-5449" siglum="jvb">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Vascular Brasileiro]]></label>
+<label lang="en"><![CDATA[Jornal Vascular Brasileiro]]></label>
+<label lang="es"><![CDATA[Jornal Vascular Brasileiro]]></label>
+</label_list>
+<value>1677-5449</value>
+</option>
+<option issn="0021-7557" siglum="jped">
+<label_list>
+<label lang="pt"><![CDATA[Jornal de Pediatria]]></label>
+<label lang="en"><![CDATA[Jornal de Pediatria]]></label>
+<label lang="es"><![CDATA[Jornal de Pediatria]]></label>
+</label_list>
+<value>0021-7557</value>
+</option>
+<option issn="0102-3586" siglum="jpneu">
+<label_list>
+<label lang="pt"><![CDATA[Jornal de Pneumologia]]></label>
+<label lang="en"><![CDATA[Jornal de Pneumologia]]></label>
+<label lang="es"><![CDATA[Jornal de Pneumologia]]></label>
+</label_list>
+<value>0102-3586</value>
+</option>
+<option issn="1678-7757" siglum="jaos">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Applied Oral Science]]></label>
+<label lang="en"><![CDATA[Journal of Applied Oral Science]]></label>
+<label lang="es"><![CDATA[Journal of Applied Oral Science]]></label>
+</label_list>
+<value>1678-7757</value>
+</option>
+<option issn="1676-2649" siglum="jecn">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Epilepsy and Clinical Neurophysiology]]></label>
+<label lang="en"><![CDATA[Journal of Epilepsy and Clinical Neurophysiology]]></label>
+<label lang="es"><![CDATA[Journal of Epilepsy and Clinical Neurophysiology]]></label>
+</label_list>
+<value>1676-2649</value>
+</option>
+<option issn="0104-7930" siglum="jvat">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+</label_list>
+<value>0104-7930</value>
+</option>
+<option issn="1678-9199" siglum="jvatitd">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+</label_list>
+<value>1678-9199</value>
+</option>
+<option issn="0103-5053" siglum="jbchs">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Chemical Society]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Chemical Society]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Chemical Society]]></label>
+</label_list>
+<value>0103-5053</value>
+</option>
+<option issn="0104-6500" siglum="jbcos">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Computer Society]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Computer Society]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Computer Society]]></label>
+</label_list>
+<value>0104-6500</value>
+</option>
+<option issn="0100-7386" siglum="jbsms">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences]]></label>
+</label_list>
+<value>0100-7386</value>
+</option>
+<option issn="1678-5878" siglum="jbsmse">
+<label_list>
+<label lang="pt"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences and Engineering]]></label>
+<label lang="en"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences and Engineering]]></label>
+<label lang="es"><![CDATA[Journal of the Brazilian Society of Mechanical Sciences and Engineering]]></label>
+</label_list>
+<value>1678-5878</value>
+</option>
+<option issn="0100-512X" siglum="kr">
+<label_list>
+<label lang="pt"><![CDATA[Kriterion: Revista de Filosofia]]></label>
+<label lang="en"><![CDATA[Kriterion: Revista de Filosofia]]></label>
+<label lang="es"><![CDATA[Kriterion: Revista de Filosofia]]></label>
+</label_list>
+<value>0100-512X</value>
+</option>
+<option issn="0102-6445" siglum="ln">
+<label_list>
+<label lang="pt"><![CDATA[Lua Nova: Revista de Cultura e Política]]></label>
+<label lang="en"><![CDATA[Lua Nova: Revista de Cultura e Política]]></label>
+<label lang="es"><![CDATA[Lua Nova: Revista de Cultura e Política]]></label>
+</label_list>
+<value>0102-6445</value>
+</option>
+<option issn="0104-9313" siglum="mana">
+<label_list>
+<label lang="pt"><![CDATA[Mana]]></label>
+<label lang="en"><![CDATA[Mana]]></label>
+<label lang="es"><![CDATA[Mana]]></label>
+</label_list>
+<value>0104-9313</value>
+</option>
+<option issn="1516-1439" siglum="mr">
+<label_list>
+<label lang="pt"><![CDATA[Materials Research]]></label>
+<label lang="en"><![CDATA[Materials Research]]></label>
+<label lang="es"><![CDATA[Materials Research]]></label>
+</label_list>
+<value>1516-1439</value>
+</option>
+<option issn="1517-7076" siglum="rmat">
+<label_list>
+<label lang="pt"><![CDATA[Matéria (Rio de Janeiro)]]></label>
+<label lang="en"><![CDATA[Matéria (Rio de Janeiro)]]></label>
+<label lang="es"><![CDATA[Matéria (Rio de Janeiro)]]></label>
+</label_list>
+<value>1517-7076</value>
+</option>
+<option issn="0074-0276" siglum="mioc">
+<label_list>
+<label lang="pt"><![CDATA[Memórias do Instituto Oswaldo Cruz]]></label>
+<label lang="en"><![CDATA[Memórias do Instituto Oswaldo Cruz]]></label>
+<label lang="es"><![CDATA[Memórias do Instituto Oswaldo Cruz]]></label>
+</label_list>
+<value>0074-0276</value>
+</option>
+<option issn="1519-566X" siglum="ne">
+<label_list>
+<label lang="pt"><![CDATA[Neotropical Entomology]]></label>
+<label lang="en"><![CDATA[Neotropical Entomology]]></label>
+<label lang="es"><![CDATA[Neotropical Entomology]]></label>
+</label_list>
+<value>1519-566X</value>
+</option>
+<option issn="1679-6225" siglum="ni">
+<label_list>
+<label lang="pt"><![CDATA[Neotropical Ichthyology]]></label>
+<label lang="en"><![CDATA[Neotropical Ichthyology]]></label>
+<label lang="es"><![CDATA[Neotropical Ichthyology]]></label>
+</label_list>
+<value>1679-6225</value>
+</option>
+<option issn="0103-6351" siglum="neco">
+<label_list>
+<label lang="pt"><![CDATA[Nova Economia]]></label>
+<label lang="en"><![CDATA[Nova Economia]]></label>
+<label lang="es"><![CDATA[Nova Economia]]></label>
+</label_list>
+<value>0103-6351</value>
+</option>
+<option issn="0101-3300" siglum="nec">
+<label_list>
+<label lang="pt"><![CDATA[Novos Estudos - CEBRAP]]></label>
+<label lang="en"><![CDATA[Novos Estudos - CEBRAP]]></label>
+<label lang="es"><![CDATA[Novos Estudos - CEBRAP]]></label>
+</label_list>
+<value>0101-3300</value>
+</option>
+<option issn="0104-6276" siglum="op">
+<label_list>
+<label lang="pt"><![CDATA[Opinião Pública]]></label>
+<label lang="en"><![CDATA[Opinião Pública]]></label>
+<label lang="es"><![CDATA[Opinião Pública]]></label>
+</label_list>
+<value>0104-6276</value>
+</option>
+<option issn="0031-1049" siglum="paz">
+<label_list>
+<label lang="pt"><![CDATA[Papéis Avulsos de Zoologia (São Paulo)]]></label>
+<label lang="en"><![CDATA[Papéis Avulsos de Zoologia (São Paulo)]]></label>
+<label lang="es"><![CDATA[Papéis Avulsos de Zoologia (São Paulo)]]></label>
+</label_list>
+<value>0031-1049</value>
+</option>
+<option issn="1413-9936" siglum="pci">
+<label_list>
+<label lang="pt"><![CDATA[Perspectivas em Ciência da Informação]]></label>
+<label lang="en"><![CDATA[Perspectivas em Ciência da Informação]]></label>
+<label lang="es"><![CDATA[Perspectivas em Ciência da Informação]]></label>
+</label_list>
+<value>1413-9936</value>
+</option>
+<option issn="0100-204X" siglum="pab">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Agropecuária Brasileira]]></label>
+<label lang="en"><![CDATA[Pesquisa Agropecuária Brasileira]]></label>
+<label lang="es"><![CDATA[Pesquisa Agropecuária Brasileira]]></label>
+</label_list>
+<value>0100-204X</value>
+</option>
+<option issn="1517-7491" siglum="pob">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Odontológica Brasileira]]></label>
+<label lang="en"><![CDATA[Pesquisa Odontológica Brasileira]]></label>
+<label lang="es"><![CDATA[Pesquisa Odontológica Brasileira]]></label>
+</label_list>
+<value>1517-7491</value>
+</option>
+<option issn="0101-7438" siglum="pope">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Operacional]]></label>
+<label lang="en"><![CDATA[Pesquisa Operacional]]></label>
+<label lang="es"><![CDATA[Pesquisa Operacional]]></label>
+</label_list>
+<value>0101-7438</value>
+</option>
+<option issn="0100-736X" siglum="pvb">
+<label_list>
+<label lang="pt"><![CDATA[Pesquisa Veterinária Brasileira]]></label>
+<label lang="en"><![CDATA[Pesquisa Veterinária Brasileira]]></label>
+<label lang="es"><![CDATA[Pesquisa Veterinária Brasileira]]></label>
+</label_list>
+<value>0100-736X</value>
+</option>
+<option issn="0103-7331" siglum="physis">
+<label_list>
+<label lang="pt"><![CDATA[Physis: Revista de Saúde Coletiva]]></label>
+<label lang="en"><![CDATA[Physis: Revista de Saúde Coletiva]]></label>
+<label lang="es"><![CDATA[Physis: Revista de Saúde Coletiva]]></label>
+</label_list>
+<value>0103-7331</value>
+</option>
+<option issn="0100-8358" siglum="pd">
+<label_list>
+<label lang="pt"><![CDATA[Planta Daninha]]></label>
+<label lang="en"><![CDATA[Planta Daninha]]></label>
+<label lang="es"><![CDATA[Planta Daninha]]></label>
+</label_list>
+<value>0100-8358</value>
+</option>
+<option issn="0104-1428" siglum="po">
+<label_list>
+<label lang="pt"><![CDATA[Polímeros]]></label>
+<label lang="en"><![CDATA[Polímeros]]></label>
+<label lang="es"><![CDATA[Polímeros]]></label>
+</label_list>
+<value>0104-1428</value>
+</option>
+<option issn="0103-6513" siglum="prod">
+<label_list>
+<label lang="pt"><![CDATA[Produção]]></label>
+<label lang="en"><![CDATA[Produção]]></label>
+<label lang="es"><![CDATA[Produção]]></label>
+</label_list>
+<value>0103-6513</value>
+</option>
+<option issn="0104-5687" siglum="pfono">
+<label_list>
+<label lang="pt"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
+<label lang="en"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
+<label lang="es"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
+</label_list>
+<value>0104-5687</value>
+</option>
+<option issn="0102-7182" siglum="psoc">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia & Sociedade]]></label>
+<label lang="en"><![CDATA[Psicologia & Sociedade]]></label>
+<label lang="es"><![CDATA[Psicologia & Sociedade]]></label>
+</label_list>
+<value>0102-7182</value>
+</option>
+<option issn="0103-5665" siglum="pc">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia Clínica]]></label>
+<label lang="en"><![CDATA[Psicologia Clínica]]></label>
+<label lang="es"><![CDATA[Psicologia Clínica]]></label>
+</label_list>
+<value>0103-5665</value>
+</option>
+<option issn="0103-6564" siglum="pusp">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia USP]]></label>
+<label lang="en"><![CDATA[Psicologia USP]]></label>
+<label lang="es"><![CDATA[Psicologia USP]]></label>
+</label_list>
+<value>0103-6564</value>
+</option>
+<option issn="1413-7372" siglum="pe">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia em Estudo]]></label>
+<label lang="en"><![CDATA[Psicologia em Estudo]]></label>
+<label lang="es"><![CDATA[Psicologia em Estudo]]></label>
+</label_list>
+<value>1413-7372</value>
+</option>
+<option issn="0102-7972" siglum="prc">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia: Reflexão e Crítica]]></label>
+<label lang="en"><![CDATA[Psicologia: Reflexão e Crítica]]></label>
+<label lang="es"><![CDATA[Psicologia: Reflexão e Crítica]]></label>
+</label_list>
+<value>0102-7972</value>
+</option>
+<option issn="0102-3772" siglum="ptp">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia: Teoria e Pesquisa]]></label>
+<label lang="en"><![CDATA[Psicologia: Teoria e Pesquisa]]></label>
+<label lang="es"><![CDATA[Psicologia: Teoria e Pesquisa]]></label>
+</label_list>
+<value>0102-3772</value>
+</option>
+<option issn="0100-4042" siglum="qn">
+<label_list>
+<label lang="pt"><![CDATA[Química Nova]]></label>
+<label lang="en"><![CDATA[Química Nova]]></label>
+<label lang="es"><![CDATA[Química Nova]]></label>
+</label_list>
+<value>0100-4042</value>
+</option>
+<option issn="1676-5648" siglum="raeel">
+<label_list>
+<label lang="pt"><![CDATA[RAE eletrônica]]></label>
+<label lang="en"><![CDATA[RAE eletrônica]]></label>
+<label lang="es"><![CDATA[RAE eletrônica]]></label>
+</label_list>
+<value>1676-5648</value>
+</option>
+<option issn="0100-3984" siglum="rb">
+<label_list>
+<label lang="pt"><![CDATA[Radiologia Brasileira]]></label>
+<label lang="en"><![CDATA[Radiologia Brasileira]]></label>
+<label lang="es"><![CDATA[Radiologia Brasileira]]></label>
+</label_list>
+<value>0100-3984</value>
+</option>
+<option issn="0370-4467" siglum="rem">
+<label_list>
+<label lang="pt"><![CDATA[Rem: Revista Escola de Minas]]></label>
+<label lang="en"><![CDATA[Rem: Revista Escola de Minas]]></label>
+<label lang="es"><![CDATA[Rem: Revista Escola de Minas]]></label>
+</label_list>
+<value>0370-4467</value>
+</option>
+<option issn="0034-7094" siglum="rba">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Anestesiologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Anestesiologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Anestesiologia]]></label>
+</label_list>
+<value>0034-7094</value>
+</option>
+<option issn="0034-7108" siglum="rbbio">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Biologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Biologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Biologia]]></label>
+</label_list>
+<value>0034-7108</value>
+</option>
+<option issn="0100-8404" siglum="rbb">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Botânica]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Botânica]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Botânica]]></label>
+</label_list>
+<value>0100-8404</value>
+</option>
+<option issn="0102-7638" siglum="rbccv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+</label_list>
+<value>0102-7638</value>
+</option>
+<option issn="1516-635X" siglum="rbca">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciência Avícola]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciência Avícola]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciência Avícola]]></label>
+</label_list>
+<value>1516-635X</value>
+</option>
+<option issn="0100-0683" siglum="rbcs">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciência do Solo]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciência do Solo]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciência do Solo]]></label>
+</label_list>
+<value>0100-0683</value>
+</option>
+<option issn="1516-9332" siglum="rbcf">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciências Farmacêuticas]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciências Farmacêuticas]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciências Farmacêuticas]]></label>
+</label_list>
+<value>1516-9332</value>
+</option>
+<option issn="0102-6909" siglum="rbcsoc">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ciências Sociais]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ciências Sociais]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ciências Sociais]]></label>
+</label_list>
+<value>0102-6909</value>
+</option>
+<option issn="0101-9880" siglum="rbc">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Coloproctologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Coloproctologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Coloproctologia]]></label>
+</label_list>
+<value>0101-9880</value>
+</option>
+<option issn="0034-7140" siglum="rbe">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Economia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Economia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Economia]]></label>
+</label_list>
+<value>0034-7140</value>
+</option>
+<option issn="1413-2478" siglum="rbedu">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Educação]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Educação]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Educação]]></label>
+</label_list>
+<value>1413-2478</value>
+</option>
+<option issn="1413-6538" siglum="rbee">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Educação Especial]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Educação Especial]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Educação Especial]]></label>
+</label_list>
+<value>1413-6538</value>
+</option>
+<option issn="0100-5502" siglum="rbem">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Educação Médica]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Educação Médica]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Educação Médica]]></label>
+</label_list>
+<value>0100-5502</value>
+</option>
+<option issn="1415-4366" siglum="rbeaa">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Engenharia Agrícola e Ambiental]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Engenharia Agrícola e Ambiental]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Engenharia Agrícola e Ambiental]]></label>
+</label_list>
+<value>1415-4366</value>
+</option>
+<option issn="0102-4744" siglum="rbef">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ensino de Física]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ensino de Física]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ensino de Física]]></label>
+</label_list>
+<value>0102-4744</value>
+</option>
+<option issn="0085-5626" siglum="rbent">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Entomologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Entomologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Entomologia]]></label>
+</label_list>
+<value>0085-5626</value>
+</option>
+<option issn="1415-790X" siglum="rbepid">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Epidemiologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Epidemiologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Epidemiologia]]></label>
+</label_list>
+<value>1415-790X</value>
+</option>
+<option issn="0102-3098" siglum="rbepop">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Estudos de População]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Estudos de População]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Estudos de População]]></label>
+</label_list>
+<value>0102-3098</value>
+</option>
+<option issn="0102-695X" siglum="rbfar">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Farmacognosia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Farmacognosia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Farmacognosia]]></label>
+</label_list>
+<value>0102-695X</value>
+</option>
+<option issn="0103-3131" siglum="rbfv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Fisiologia Vegetal]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Fisiologia Vegetal]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Fisiologia Vegetal]]></label>
+</label_list>
+<value>0103-3131</value>
+</option>
+<option issn="1413-3555" siglum="rbfis">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Fisioterapia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Fisioterapia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Fisioterapia]]></label>
+</label_list>
+<value>1413-3555</value>
+</option>
+<option issn="0100-2945" siglum="rbf">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Fruticultura]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Fruticultura]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Fruticultura]]></label>
+</label_list>
+<value>0100-2945</value>
+</option>
+<option issn="0102-261X" siglum="rbg">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Geofísica]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Geofísica]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Geofísica]]></label>
+</label_list>
+<value>0102-261X</value>
+</option>
+<option issn="0100-7203" siglum="rbgo">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ginecologia e Obstetrícia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ginecologia e Obstetrícia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ginecologia e Obstetrícia]]></label>
+</label_list>
+<value>0100-7203</value>
+</option>
+<option issn="1516-8484" siglum="rbhh">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Hematologia e Hemoterapia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Hematologia e Hemoterapia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Hematologia e Hemoterapia]]></label>
+</label_list>
+<value>1516-8484</value>
+</option>
+<option issn="0102-0188" siglum="rbh">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de História]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de História]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de História]]></label>
+</label_list>
+<value>0102-0188</value>
+</option>
+<option issn="1517-8692" siglum="rbme">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Medicina do Esporte]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Medicina do Esporte]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Medicina do Esporte]]></label>
+</label_list>
+<value>1517-8692</value>
+</option>
+<option issn="0034-7299" siglum="rboto">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
+</label_list>
+<value>0034-7299</value>
+</option>
+<option issn="1516-4446" siglum="rbp">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Psiquiatria]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Psiquiatria]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Psiquiatria]]></label>
+</label_list>
+<value>1516-4446</value>
+</option>
+<option issn="0482-5004" siglum="rbr">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Reumatologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Reumatologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Reumatologia]]></label>
+</label_list>
+<value>0482-5004</value>
+</option>
+<option issn="1519-3829" siglum="rbsmi">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Saúde Materno Infantil ]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Saúde Materno Infantil ]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Saúde Materno Infantil ]]></label>
+</label_list>
+<value>1519-3829</value>
+</option>
+<option issn="0101-3122" siglum="rbs">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Sementes]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Sementes]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Sementes]]></label>
+</label_list>
+<value>0101-3122</value>
+</option>
+<option issn="0101-8175" siglum="rbzool">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Zoologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Zoologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Zoologia]]></label>
+</label_list>
+<value>0101-8175</value>
+</option>
+<option issn="1516-3598" siglum="rbz">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Zootecnia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Zootecnia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Zootecnia]]></label>
+</label_list>
+<value>1516-3598</value>
+</option>
+<option issn="1516-1846" siglum="rcefac">
+<label_list>
+<label lang="pt"><![CDATA[Revista CEFAC]]></label>
+<label lang="en"><![CDATA[Revista CEFAC]]></label>
+<label lang="es"><![CDATA[Revista CEFAC]]></label>
+</label_list>
+<value>1516-1846</value>
+</option>
+<option issn="1415-5419" siglum="dpress">
+<label_list>
+<label lang="pt"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+<label lang="en"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+<label lang="es"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+</label_list>
+<value>1415-5419</value>
+</option>
+<option issn="0104-026X" siglum="ref">
+<label_list>
+<label lang="pt"><![CDATA[Revista Estudos Feministas]]></label>
+<label lang="en"><![CDATA[Revista Estudos Feministas]]></label>
+<label lang="es"><![CDATA[Revista Estudos Feministas]]></label>
+</label_list>
+<value>0104-026X</value>
+</option>
+<option issn="1414-4980" siglum="rk">
+<label_list>
+<label lang="pt"><![CDATA[Revista Katálysis]]></label>
+<label lang="en"><![CDATA[Revista Katálysis]]></label>
+<label lang="es"><![CDATA[Revista Katálysis]]></label>
+</label_list>
+<value>1414-4980</value>
+</option>
+<option issn="0104-1169" siglum="rlae">
+<label_list>
+<label lang="pt"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+<label lang="en"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+<label lang="es"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+</label_list>
+<value>0104-1169</value>
+</option>
+<option issn="0104-4230" siglum="ramb">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Associação Médica Brasileira]]></label>
+<label lang="en"><![CDATA[Revista da Associação Médica Brasileira]]></label>
+<label lang="es"><![CDATA[Revista da Associação Médica Brasileira]]></label>
+</label_list>
+<value>0104-4230</value>
+</option>
+<option issn="0102-2555" siglum="rfe">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Faculdade de Educação]]></label>
+<label lang="en"><![CDATA[Revista da Faculdade de Educação]]></label>
+<label lang="es"><![CDATA[Revista da Faculdade de Educação]]></label>
+</label_list>
+<value>0102-2555</value>
+</option>
+<option issn="1516-8034" siglum="rsbf">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Sociedade Brasileira de Fonoaudiologia]]></label>
+<label lang="en"><![CDATA[Revista da Sociedade Brasileira de Fonoaudiologia]]></label>
+<label lang="es"><![CDATA[Revista da Sociedade Brasileira de Fonoaudiologia]]></label>
+</label_list>
+<value>1516-8034</value>
+</option>
+<option issn="0037-8682" siglum="rsbmt">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Sociedade Brasileira de Medicina Tropical]]></label>
+<label lang="en"><![CDATA[Revista da Sociedade Brasileira de Medicina Tropical]]></label>
+<label lang="es"><![CDATA[Revista da Sociedade Brasileira de Medicina Tropical]]></label>
+</label_list>
+<value>0037-8682</value>
+</option>
+<option issn="0034-7612" siglum="rap">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Administração Pública]]></label>
+<label lang="en"><![CDATA[Revista de Administração Pública]]></label>
+<label lang="es"><![CDATA[Revista de Administração Pública]]></label>
+</label_list>
+<value>0034-7612</value>
+</option>
+<option issn="0034-7701" siglum="ra">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Antropologia]]></label>
+<label lang="en"><![CDATA[Revista de Antropologia]]></label>
+<label lang="es"><![CDATA[Revista de Antropologia]]></label>
+</label_list>
+<value>0034-7701</value>
+</option>
+<option issn="1415-9848" siglum="rec">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Economia Contemporânea]]></label>
+<label lang="en"><![CDATA[Revista de Economia Contemporânea]]></label>
+<label lang="es"><![CDATA[Revista de Economia Contemporânea]]></label>
+</label_list>
+<value>1415-9848</value>
+</option>
+<option issn="0101-3157" siglum="rep">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Economia Política]]></label>
+<label lang="en"><![CDATA[Revista de Economia Política]]></label>
+<label lang="es"><![CDATA[Revista de Economia Política]]></label>
+</label_list>
+<value>0101-3157</value>
+</option>
+<option issn="0103-2003" siglum="resr">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
+<label lang="en"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
+<label lang="es"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
+</label_list>
+<value>0103-2003</value>
+</option>
+<option issn="0001-3714" siglum="rm">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Microbiologia]]></label>
+<label lang="en"><![CDATA[Revista de Microbiologia]]></label>
+<label lang="es"><![CDATA[Revista de Microbiologia]]></label>
+</label_list>
+<value>0001-3714</value>
+</option>
+<option issn="1415-5273" siglum="rn">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Nutrição]]></label>
+<label lang="en"><![CDATA[Revista de Nutrição]]></label>
+<label lang="es"><![CDATA[Revista de Nutrição]]></label>
+</label_list>
+<value>1415-5273</value>
+</option>
+<option issn="0103-0663" siglum="rousp">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Odontologia da Universidade de São Paulo]]></label>
+<label lang="en"><![CDATA[Revista de Odontologia da Universidade de São Paulo]]></label>
+<label lang="es"><![CDATA[Revista de Odontologia da Universidade de São Paulo]]></label>
+</label_list>
+<value>0103-0663</value>
+</option>
+<option issn="0101-6083" siglum="rpc">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Psiquiatria Clínica]]></label>
+<label lang="en"><![CDATA[Revista de Psiquiatria Clínica]]></label>
+<label lang="es"><![CDATA[Revista de Psiquiatria Clínica]]></label>
+</label_list>
+<value>0101-6083</value>
+</option>
+<option issn="0101-8108" siglum="rprs">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Psiquiatria do Rio Grande do Sul]]></label>
+<label lang="en"><![CDATA[Revista de Psiquiatria do Rio Grande do Sul]]></label>
+<label lang="es"><![CDATA[Revista de Psiquiatria do Rio Grande do Sul]]></label>
+</label_list>
+<value>0101-8108</value>
+</option>
+<option issn="0034-8910" siglum="rsp">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Saúde Pública]]></label>
+<label lang="en"><![CDATA[Revista de Saúde Pública]]></label>
+<label lang="es"><![CDATA[Revista de Saúde Pública]]></label>
+</label_list>
+<value>0034-8910</value>
+</option>
+<option issn="0104-4478" siglum="rsocp">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Sociologia e Política]]></label>
+<label lang="en"><![CDATA[Revista de Sociologia e Política]]></label>
+<label lang="es"><![CDATA[Revista de Sociologia e Política]]></label>
+</label_list>
+<value>0104-4478</value>
+</option>
+<option issn="0100-6991" siglum="rcbc">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Colégio Brasileiro de Cirurgiões]]></label>
+<label lang="en"><![CDATA[Revista do Colégio Brasileiro de Cirurgiões]]></label>
+<label lang="es"><![CDATA[Revista do Colégio Brasileiro de Cirurgiões]]></label>
+</label_list>
+<value>0100-6991</value>
+</option>
+<option issn="0104-8023" siglum="rdpsi">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Departamento de Psicologia. UFF]]></label>
+<label lang="en"><![CDATA[Revista do Departamento de Psicologia. UFF]]></label>
+<label lang="es"><![CDATA[Revista do Departamento de Psicologia. UFF]]></label>
+</label_list>
+<value>0104-8023</value>
+</option>
+<option issn="0041-8781" siglum="rhc">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Hospital das Clínicas]]></label>
+<label lang="en"><![CDATA[Revista do Hospital das Clínicas]]></label>
+<label lang="es"><![CDATA[Revista do Hospital das Clínicas]]></label>
+</label_list>
+<value>0041-8781</value>
+</option>
+<option issn="0036-4665" siglum="rimtsp">
+<label_list>
+<label lang="pt"><![CDATA[Revista do Instituto de Medicina Tropical de São Paulo]]></label>
+<label lang="en"><![CDATA[Revista do Instituto de Medicina Tropical de São Paulo]]></label>
+<label lang="es"><![CDATA[Revista do Instituto de Medicina Tropical de São Paulo]]></label>
+</label_list>
+<value>0036-4665</value>
+</option>
+<option issn="0100-6762" siglum="rarv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Árvore]]></label>
+<label lang="en"><![CDATA[Revista Árvore]]></label>
+<label lang="es"><![CDATA[Revista Árvore]]></label>
+</label_list>
+<value>0100-6762</value>
+</option>
+<option issn="1516-3180" siglum="spmj">
+<label_list>
+<label lang="pt"><![CDATA[Sao Paulo Medical Journal]]></label>
+<label lang="en"><![CDATA[Sao Paulo Medical Journal]]></label>
+<label lang="es"><![CDATA[Sao Paulo Medical Journal]]></label>
+</label_list>
+<value>1516-3180</value>
+</option>
+<option issn="0103-1759" siglum="ca">
+<label_list>
+<label lang="pt"><![CDATA[Sba: Controle & Automação Sociedade Brasileira de Automatica]]></label>
+<label lang="en"><![CDATA[Sba: Controle & Automação Sociedade Brasileira de Automatica]]></label>
+<label lang="es"><![CDATA[Sba: Controle & Automação Sociedade Brasileira de Automatica]]></label>
+</label_list>
+<value>0103-1759</value>
+</option>
+<option issn="0103-9016" siglum="sa">
+<label_list>
+<label lang="pt"><![CDATA[Scientia Agricola]]></label>
+<label lang="en"><![CDATA[Scientia Agricola]]></label>
+<label lang="es"><![CDATA[Scientia Agricola]]></label>
+</label_list>
+<value>0103-9016</value>
+</option>
+<option issn="0102-6992" siglum="se">
+<label_list>
+<label lang="pt"><![CDATA[Sociedade e Estado]]></label>
+<label lang="en"><![CDATA[Sociedade e Estado]]></label>
+<label lang="es"><![CDATA[Sociedade e Estado]]></label>
+</label_list>
+<value>0102-6992</value>
+</option>
+<option issn="1517-4522" siglum="soc">
+<label_list>
+<label lang="pt"><![CDATA[Sociologias]]></label>
+<label lang="en"><![CDATA[Sociologias]]></label>
+<label lang="es"><![CDATA[Sociologias]]></label>
+</label_list>
+<value>1517-4522</value>
+</option>
+<option issn="0100-5405" siglum="sp">
+<label_list>
+<label lang="pt"><![CDATA[Summa Phytopathologica]]></label>
+<label lang="en"><![CDATA[Summa Phytopathologica]]></label>
+<label lang="es"><![CDATA[Summa Phytopathologica]]></label>
+</label_list>
+<value>0100-5405</value>
+</option>
+<option issn="0102-8839" siglum="spp">
+<label_list>
+<label lang="pt"><![CDATA[São Paulo em Perspectiva]]></label>
+<label lang="en"><![CDATA[São Paulo em Perspectiva]]></label>
+<label lang="es"><![CDATA[São Paulo em Perspectiva]]></label>
+</label_list>
+<value>0102-8839</value>
+</option>
+<option issn="1413-7704" siglum="tem">
+<label_list>
+<label lang="pt"><![CDATA[Tempo]]></label>
+<label lang="en"><![CDATA[Tempo]]></label>
+<label lang="es"><![CDATA[Tempo]]></label>
+</label_list>
+<value>1413-7704</value>
+</option>
+<option issn="0103-2070" siglum="ts">
+<label_list>
+<label lang="pt"><![CDATA[Tempo Social]]></label>
+<label lang="en"><![CDATA[Tempo Social]]></label>
+<label lang="es"><![CDATA[Tempo Social]]></label>
+</label_list>
+<value>0103-2070</value>
+</option>
+<option issn="0101-3173" siglum="trans">
+<label_list>
+<label lang="pt"><![CDATA[Trans/Form/Ação]]></label>
+<label lang="en"><![CDATA[Trans/Form/Ação]]></label>
+<label lang="es"><![CDATA[Trans/Form/Ação]]></label>
+</label_list>
+<value>0101-3173</value>
+</option>
+<option issn="1516-1498" siglum="agora">
+<label_list>
+<label lang="pt"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+<label lang="en"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+<label lang="es"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+</label_list>
+<value>1516-1498</value>
+</option>
+			</option_list>
+		</selection>
+		<selection name="country1">
+			<label_list>
+				<label lang="pt">Países  de Afiliação</label>
+				<label lang="en">Affiliation countries</label>
+				<label lang="es">Países de afiliación</label>
+			</label_list>
+			<option_list name="PAIS1">
+				<option selected="true">
+					<label_list>
+						<label lang="pt">Brasil</label>
+						<label lang="en">Brazil</label>
+						<label lang="es">Brasil</label>
+					</label_list>
+					<value>BR</value>
+				</option><option>
+<label_list>
+<label lang="pt">África do Sul</label>
+<label lang="en">South Africa</label>
+<label lang="es">Sudafrica</label>
+</label_list>
+<value>ZA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Albania</label>
+<label lang="en">Albania</label>
+<label lang="es">Albania</label>
+</label_list>
+<value>AL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Alemanha</label>
+<label lang="en">Germany</label>
+<label lang="es">Alemania</label>
+</label_list>
+<value>DE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Angola</label>
+<label lang="en">Angola</label>
+<label lang="es">Angola</label>
+</label_list>
+<value>AO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Arábia Saudita</label>
+<label lang="en">Saudi Arabia</label>
+<label lang="es">Arabia Saudita</label>
+</label_list>
+<value>SA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Argentina</label>
+<label lang="en">Argentina</label>
+<label lang="es">Argentina</label>
+</label_list>
+<value>AR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Australia</label>
+<label lang="en">Australia</label>
+<label lang="es">Australia</label>
+</label_list>
+<value>AU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Austria</label>
+<label lang="en">Austria</label>
+<label lang="es">Austria</label>
+</label_list>
+<value>AT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Bangladesh</label>
+<label lang="en">Bangladesh</label>
+<label lang="es">Bangladesh</label>
+</label_list>
+<value>BD</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Bélgica</label>
+<label lang="en">Belgium</label>
+<label lang="es">Belgica</label>
+</label_list>
+<value>BE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Bolívia</label>
+<label lang="en">Bolivia</label>
+<label lang="es">Bolivia</label>
+</label_list>
+<value>BO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Botsuana</label>
+<label lang="en">Botswana</label>
+<label lang="es">Botswana</label>
+</label_list>
+<value>BW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Búlgaria</label>
+<label lang="en">Bulgaria</label>
+<label lang="es">Bulgaria</label>
+</label_list>
+<value>BG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Burquina Fasso</label>
+<label lang="en">Burkina Faso</label>
+<label lang="es">Burquina Faso</label>
+</label_list>
+<value>BF</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Camarões</label>
+<label lang="en">Cameroon</label>
+<label lang="es">Camerun</label>
+</label_list>
+<value>CM</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Canadá</label>
+<label lang="en">Canada</label>
+<label lang="es">Canada</label>
+</label_list>
+<value>CA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Chile</label>
+<label lang="en">Chile</label>
+<label lang="es">Chile</label>
+</label_list>
+<value>CL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">China</label>
+<label lang="en">China</label>
+<label lang="es">China</label>
+</label_list>
+<value>CN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Colômbia</label>
+<label lang="en">Colombia</label>
+<label lang="es">Colombia</label>
+</label_list>
+<value>CO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Coreia do Sul</label>
+<label lang="en">Korea, Republic of</label>
+<label lang="es">Corea del Sur</label>
+</label_list>
+<value>KR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Costa Rica</label>
+<label lang="en">Costa Rica</label>
+<label lang="es">Costa Rica</label>
+</label_list>
+<value>CR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Croácia</label>
+<label lang="en">Croatia</label>
+<label lang="es">Croacia</label>
+</label_list>
+<value>HR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Cuba</label>
+<label lang="en">Cuba</label>
+<label lang="es">Cuba</label>
+</label_list>
+<value>CU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Dinamarca</label>
+<label lang="en">Denmark</label>
+<label lang="es">Dinamarca</label>
+</label_list>
+<value>DK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Dominicana, República</label>
+<label lang="en">Dominican Republic</label>
+<label lang="es">Dominicana, Republica</label>
+</label_list>
+<value>DO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Egito</label>
+<label lang="en">Egypt</label>
+<label lang="es">Egipto</label>
+</label_list>
+<value>EG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">El Salvador</label>
+<label lang="en">El salvador</label>
+<label lang="es">El Salvador</label>
+</label_list>
+<value>SV</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Emirados Árabes Unidos</label>
+<label lang="en">United Arab Emirates</label>
+<label lang="es">Emiratos Arabes Unidos</label>
+</label_list>
+<value>AE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Equador</label>
+<label lang="en">Ecuador</label>
+<label lang="es">Ecuador</label>
+</label_list>
+<value>EC</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Eslovaca, República</label>
+<label lang="en">Slovakia</label>
+<label lang="es">Eslovaquia</label>
+</label_list>
+<value>SK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Eslovênia</label>
+<label lang="en">Slovenia</label>
+<label lang="es">Eslovenia</label>
+</label_list>
+<value>SI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Espanha</label>
+<label lang="en">Spain</label>
+<label lang="es">España</label>
+</label_list>
+<value>ES</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Estados Unidos da América</label>
+<label lang="en">United States</label>
+<label lang="es">Estados Unidos</label>
+</label_list>
+<value>US</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Estônia</label>
+<label lang="en">Estonia</label>
+<label lang="es">Estonia</label>
+</label_list>
+<value>EE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Etiópia</label>
+<label lang="en">Ethiopia</label>
+<label lang="es">Etiopia</label>
+</label_list>
+<value>ET</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Federacao Russa</label>
+<label lang="en">Russian Federation</label>
+<label lang="es">Rusia</label>
+</label_list>
+<value>RU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Fiji</label>
+<label lang="en">Fiji</label>
+<label lang="es">Fidji</label>
+</label_list>
+<value>FJ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Filipinas</label>
+<label lang="en">Philippines</label>
+<label lang="es">Filipinas</label>
+</label_list>
+<value>PH</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Finlândia</label>
+<label lang="en">Finland</label>
+<label lang="es">Finlandia</label>
+</label_list>
+<value>FI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">França</label>
+<label lang="en">France</label>
+<label lang="es">Francia</label>
+</label_list>
+<value>FR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Grécia</label>
+<label lang="en">Greece</label>
+<label lang="es">Grecia</label>
+</label_list>
+<value>GR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Guatemala</label>
+<label lang="en">Guatemala</label>
+<label lang="es">Guatemala</label>
+</label_list>
+<value>GT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Guiana Francesa</label>
+<label lang="en">French Guiana</label>
+<label lang="es">Guyana Francesa</label>
+</label_list>
+<value>GF</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Honduras</label>
+<label lang="en">Honduras</label>
+<label lang="es">Honduras</label>
+</label_list>
+<value>HN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Hungria</label>
+<label lang="en">Hungary</label>
+<label lang="es">Hungria</label>
+</label_list>
+<value>HU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Iemen</label>
+<label lang="en">Yemen</label>
+<label lang="es">Yemen</label>
+</label_list>
+<value>YE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Índia</label>
+<label lang="en">India</label>
+<label lang="es">India</label>
+</label_list>
+<value>IN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Indonésia</label>
+<label lang="en">Indonesia</label>
+<label lang="es">Indonesia</label>
+</label_list>
+<value>ID</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Irã, República Islâmica do</label>
+<label lang="en">Iran, Islamic Republic of</label>
+<label lang="es">Iran</label>
+</label_list>
+<value>IR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Iraque</label>
+<label lang="en">Iraq</label>
+<label lang="es">Irak</label>
+</label_list>
+<value>IQ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Irlanda</label>
+<label lang="en">Ireland</label>
+<label lang="es">Irlanda</label>
+</label_list>
+<value>IE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Israel</label>
+<label lang="en">Israel</label>
+<label lang="es">Israel</label>
+</label_list>
+<value>IL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Itália</label>
+<label lang="en">Italy</label>
+<label lang="es">Italia</label>
+</label_list>
+<value>IT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Iugoslavia</label>
+<label lang="en">Yugoslav</label>
+<label lang="es">Yugoslavia</label>
+</label_list>
+<value>YU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Jamaica</label>
+<label lang="en">Jamaica</label>
+<label lang="es">Jamaica</label>
+</label_list>
+<value>JM</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Japão</label>
+<label lang="en">Japan</label>
+<label lang="es">Japon</label>
+</label_list>
+<value>JP</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Jordânia</label>
+<label lang="en">Jordan</label>
+<label lang="es">Jordania</label>
+</label_list>
+<value>JO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Kuwait</label>
+<label lang="en">Kuwait</label>
+<label lang="es">Kuwait</label>
+</label_list>
+<value>KW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Letônia</label>
+<label lang="en">Latvia</label>
+<label lang="es">Letonia</label>
+</label_list>
+<value>LV</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Líbano</label>
+<label lang="en">Lebanon</label>
+<label lang="es">Libano</label>
+</label_list>
+<value>LB</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Líbia</label>
+<label lang="en">Libyan Arab Jamahiriya</label>
+<label lang="es">Libia</label>
+</label_list>
+<value>LY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Liechtenstein</label>
+<label lang="en">Liechtenstein</label>
+<label lang="es">Liechtenstein</label>
+</label_list>
+<value>LI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Lituânia</label>
+<label lang="en">Lithuania</label>
+<label lang="es">Lituania</label>
+</label_list>
+<value>LT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Malásia</label>
+<label lang="en">Malaysia</label>
+<label lang="es">Malasia</label>
+</label_list>
+<value>MY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Marrocos</label>
+<label lang="en">Morocco</label>
+<label lang="es">Marruecos</label>
+</label_list>
+<value>MA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Maurício, Ilhas</label>
+<label lang="en">Mauritius</label>
+<label lang="es">Mauricio</label>
+</label_list>
+<value>MU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">México</label>
+<label lang="en">Mexico</label>
+<label lang="es">Mexico</label>
+</label_list>
+<value>MX</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Nicarágua</label>
+<label lang="en">Nicaragua</label>
+<label lang="es">Nicaragua</label>
+</label_list>
+<value>NI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Nigéria</label>
+<label lang="en">Nigeria</label>
+<label lang="es">Nigeria</label>
+</label_list>
+<value>NG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Noruega</label>
+<label lang="en">Norway</label>
+<label lang="es">Noruega</label>
+</label_list>
+<value>NO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Nova Zelândia</label>
+<label lang="en">New Zealand</label>
+<label lang="es">Nueva Zelanda</label>
+</label_list>
+<value>NZ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Países Baixos</label>
+<label lang="en">Netherlands</label>
+<label lang="es">Paises Bajos</label>
+</label_list>
+<value>NL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Panamá</label>
+<label lang="en">Panama</label>
+<label lang="es">Panama</label>
+</label_list>
+<value>PA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Paquistão</label>
+<label lang="en">Pakistan</label>
+<label lang="es">Pakistan</label>
+</label_list>
+<value>PK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Paraguai</label>
+<label lang="en">Paraguay</label>
+<label lang="es">Paraguay</label>
+</label_list>
+<value>PY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Perú</label>
+<label lang="en">Peru</label>
+<label lang="es">Peru</label>
+</label_list>
+<value>PE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Polônia</label>
+<label lang="en">Poland</label>
+<label lang="es">Polonia</label>
+</label_list>
+<value>PL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Portugal</label>
+<label lang="en">Portugal</label>
+<label lang="es">Portugal</label>
+</label_list>
+<value>PT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Quênia</label>
+<label lang="en">Kenya</label>
+<label lang="es">Kenia</label>
+</label_list>
+<value>KE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Reino Unido</label>
+<label lang="en">United kingdom</label>
+<label lang="es">Reino Unido</label>
+</label_list>
+<value>GB</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Romênia</label>
+<label lang="en">Romania</label>
+<label lang="es">Rumania</label>
+</label_list>
+<value>RO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Ruanda</label>
+<label lang="en">Rwanda</label>
+<label lang="es">Rwanda</label>
+</label_list>
+<value>RW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Senegal</label>
+<label lang="en">Senegal</label>
+<label lang="es">Senegal</label>
+</label_list>
+<value>SN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Singapura</label>
+<label lang="en">Singapore</label>
+<label lang="es">Singapur</label>
+</label_list>
+<value>SG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Sri Lanka</label>
+<label lang="en">Sri Lanka</label>
+<label lang="es">Sri Lanka</label>
+</label_list>
+<value>LK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Sudão</label>
+<label lang="en">Sudan</label>
+<label lang="es">Sudan</label>
+</label_list>
+<value>SD</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Suécia</label>
+<label lang="en">Sweden</label>
+<label lang="es">Suecia</label>
+</label_list>
+<value>SE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Suiça</label>
+<label lang="en">Switzerland</label>
+<label lang="es">Suiza</label>
+</label_list>
+<value>CH</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Suriname</label>
+<label lang="en">Suriname</label>
+<label lang="es">Suriname</label>
+</label_list>
+<value>SR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tailândia</label>
+<label lang="en">Thailand</label>
+<label lang="es">Tailandia</label>
+</label_list>
+<value>TH</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Taiwan</label>
+<label lang="en">Taiwan, Province of China</label>
+<label lang="es">Taiwan</label>
+</label_list>
+<value>TW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tanzânia</label>
+<label lang="en">Tanzania, United Republic of</label>
+<label lang="es">Tanzania</label>
+</label_list>
+<value>TZ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tcheca, República</label>
+<label lang="en">Czech Republic</label>
+<label lang="es">Checa, Republica</label>
+</label_list>
+<value>CZ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Trinidad e Tobago</label>
+<label lang="en">Trinidad and Tobago</label>
+<label lang="es">Trinidad y Tobago</label>
+</label_list>
+<value>TT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tunísia</label>
+<label lang="en">Tunisia</label>
+<label lang="es">Tunez</label>
+</label_list>
+<value>TN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Turquia</label>
+<label lang="en">Turkey</label>
+<label lang="es">Turquia</label>
+</label_list>
+<value>TR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Ucrânia</label>
+<label lang="en">Ukraine</label>
+<label lang="es">Ucrania</label>
+</label_list>
+<value>UA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Uruguai</label>
+<label lang="en">Uruguay</label>
+<label lang="es">Uruguay</label>
+</label_list>
+<value>UY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Venezuela</label>
+<label lang="en">Venezuela</label>
+<label lang="es">Venezuela</label>
+</label_list>
+<value>VE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Vietnã</label>
+<label lang="en">Viet Nam</label>
+<label lang="es">Vietnam</label>
+</label_list>
+<value>VN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Zimbabue</label>
+<label lang="en">Zimbabwe</label>
+<label lang="es">Zimbabwe</label>
+</label_list>
+<value>ZW</value>
+</option>
+			</option_list>
+		</selection>
+		<selection name="country2">
+			<label_list>
+				<label lang="pt">Países  de Afiliação</label>
+				<label lang="en">Affiliation countries</label>
+				<label lang="es">Países de afiliación</label>
+			</label_list>
+			<option_list name="PAIS2" selection_type="multiple">
+				<option selected="true">
+					<label_list>
+						<label lang="pt">Qualquer</label>
+						<label lang="en">Any</label>
+						<label lang="es">Cualquier</label>
+					</label_list>
+					<value>all</value>
+				</option>
+				<option>
+					<label_list>
+						<label lang="pt">Autor individual</label>
+						<label lang="en">Individual author</label>
+						<label lang="es">Autor individual</label>
+					</label_list>
+					<value>1</value>
+				</option>
+				<option>
+					<label_list>
+						<label lang="pt">Brasil</label>
+						<label lang="en">Brazil</label>
+						<label lang="es">Brasil</label>
+					</label_list>
+					<value>BR</value>
+				</option><option>
+<label_list>
+<label lang="pt">África do Sul</label>
+<label lang="en">South Africa</label>
+<label lang="es">Sudafrica</label>
+</label_list>
+<value>ZA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Albania</label>
+<label lang="en">Albania</label>
+<label lang="es">Albania</label>
+</label_list>
+<value>AL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Alemanha</label>
+<label lang="en">Germany</label>
+<label lang="es">Alemania</label>
+</label_list>
+<value>DE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Angola</label>
+<label lang="en">Angola</label>
+<label lang="es">Angola</label>
+</label_list>
+<value>AO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Arábia Saudita</label>
+<label lang="en">Saudi Arabia</label>
+<label lang="es">Arabia Saudita</label>
+</label_list>
+<value>SA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Argentina</label>
+<label lang="en">Argentina</label>
+<label lang="es">Argentina</label>
+</label_list>
+<value>AR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Australia</label>
+<label lang="en">Australia</label>
+<label lang="es">Australia</label>
+</label_list>
+<value>AU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Austria</label>
+<label lang="en">Austria</label>
+<label lang="es">Austria</label>
+</label_list>
+<value>AT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Bangladesh</label>
+<label lang="en">Bangladesh</label>
+<label lang="es">Bangladesh</label>
+</label_list>
+<value>BD</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Bélgica</label>
+<label lang="en">Belgium</label>
+<label lang="es">Belgica</label>
+</label_list>
+<value>BE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Bolívia</label>
+<label lang="en">Bolivia</label>
+<label lang="es">Bolivia</label>
+</label_list>
+<value>BO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Botsuana</label>
+<label lang="en">Botswana</label>
+<label lang="es">Botswana</label>
+</label_list>
+<value>BW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Búlgaria</label>
+<label lang="en">Bulgaria</label>
+<label lang="es">Bulgaria</label>
+</label_list>
+<value>BG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Burquina Fasso</label>
+<label lang="en">Burkina Faso</label>
+<label lang="es">Burquina Faso</label>
+</label_list>
+<value>BF</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Camarões</label>
+<label lang="en">Cameroon</label>
+<label lang="es">Camerun</label>
+</label_list>
+<value>CM</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Canadá</label>
+<label lang="en">Canada</label>
+<label lang="es">Canada</label>
+</label_list>
+<value>CA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Chile</label>
+<label lang="en">Chile</label>
+<label lang="es">Chile</label>
+</label_list>
+<value>CL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">China</label>
+<label lang="en">China</label>
+<label lang="es">China</label>
+</label_list>
+<value>CN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Colômbia</label>
+<label lang="en">Colombia</label>
+<label lang="es">Colombia</label>
+</label_list>
+<value>CO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Coreia do Sul</label>
+<label lang="en">Korea, Republic of</label>
+<label lang="es">Corea del Sur</label>
+</label_list>
+<value>KR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Costa Rica</label>
+<label lang="en">Costa Rica</label>
+<label lang="es">Costa Rica</label>
+</label_list>
+<value>CR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Croácia</label>
+<label lang="en">Croatia</label>
+<label lang="es">Croacia</label>
+</label_list>
+<value>HR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Cuba</label>
+<label lang="en">Cuba</label>
+<label lang="es">Cuba</label>
+</label_list>
+<value>CU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Dinamarca</label>
+<label lang="en">Denmark</label>
+<label lang="es">Dinamarca</label>
+</label_list>
+<value>DK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Dominicana, República</label>
+<label lang="en">Dominican Republic</label>
+<label lang="es">Dominicana, Republica</label>
+</label_list>
+<value>DO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Egito</label>
+<label lang="en">Egypt</label>
+<label lang="es">Egipto</label>
+</label_list>
+<value>EG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">El Salvador</label>
+<label lang="en">El salvador</label>
+<label lang="es">El Salvador</label>
+</label_list>
+<value>SV</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Emirados Árabes Unidos</label>
+<label lang="en">United Arab Emirates</label>
+<label lang="es">Emiratos Arabes Unidos</label>
+</label_list>
+<value>AE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Equador</label>
+<label lang="en">Ecuador</label>
+<label lang="es">Ecuador</label>
+</label_list>
+<value>EC</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Eslovaca, República</label>
+<label lang="en">Slovakia</label>
+<label lang="es">Eslovaquia</label>
+</label_list>
+<value>SK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Eslovênia</label>
+<label lang="en">Slovenia</label>
+<label lang="es">Eslovenia</label>
+</label_list>
+<value>SI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Espanha</label>
+<label lang="en">Spain</label>
+<label lang="es">España</label>
+</label_list>
+<value>ES</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Estados Unidos da América</label>
+<label lang="en">United States</label>
+<label lang="es">Estados Unidos</label>
+</label_list>
+<value>US</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Estônia</label>
+<label lang="en">Estonia</label>
+<label lang="es">Estonia</label>
+</label_list>
+<value>EE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Etiópia</label>
+<label lang="en">Ethiopia</label>
+<label lang="es">Etiopia</label>
+</label_list>
+<value>ET</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Federacao Russa</label>
+<label lang="en">Russian Federation</label>
+<label lang="es">Rusia</label>
+</label_list>
+<value>RU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Fiji</label>
+<label lang="en">Fiji</label>
+<label lang="es">Fidji</label>
+</label_list>
+<value>FJ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Filipinas</label>
+<label lang="en">Philippines</label>
+<label lang="es">Filipinas</label>
+</label_list>
+<value>PH</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Finlândia</label>
+<label lang="en">Finland</label>
+<label lang="es">Finlandia</label>
+</label_list>
+<value>FI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">França</label>
+<label lang="en">France</label>
+<label lang="es">Francia</label>
+</label_list>
+<value>FR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Grécia</label>
+<label lang="en">Greece</label>
+<label lang="es">Grecia</label>
+</label_list>
+<value>GR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Guatemala</label>
+<label lang="en">Guatemala</label>
+<label lang="es">Guatemala</label>
+</label_list>
+<value>GT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Guiana Francesa</label>
+<label lang="en">French Guiana</label>
+<label lang="es">Guyana Francesa</label>
+</label_list>
+<value>GF</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Honduras</label>
+<label lang="en">Honduras</label>
+<label lang="es">Honduras</label>
+</label_list>
+<value>HN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Hungria</label>
+<label lang="en">Hungary</label>
+<label lang="es">Hungria</label>
+</label_list>
+<value>HU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Iemen</label>
+<label lang="en">Yemen</label>
+<label lang="es">Yemen</label>
+</label_list>
+<value>YE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Índia</label>
+<label lang="en">India</label>
+<label lang="es">India</label>
+</label_list>
+<value>IN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Indonésia</label>
+<label lang="en">Indonesia</label>
+<label lang="es">Indonesia</label>
+</label_list>
+<value>ID</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Irã, República Islâmica do</label>
+<label lang="en">Iran, Islamic Republic of</label>
+<label lang="es">Iran</label>
+</label_list>
+<value>IR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Iraque</label>
+<label lang="en">Iraq</label>
+<label lang="es">Irak</label>
+</label_list>
+<value>IQ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Irlanda</label>
+<label lang="en">Ireland</label>
+<label lang="es">Irlanda</label>
+</label_list>
+<value>IE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Israel</label>
+<label lang="en">Israel</label>
+<label lang="es">Israel</label>
+</label_list>
+<value>IL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Itália</label>
+<label lang="en">Italy</label>
+<label lang="es">Italia</label>
+</label_list>
+<value>IT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Iugoslavia</label>
+<label lang="en">Yugoslav</label>
+<label lang="es">Yugoslavia</label>
+</label_list>
+<value>YU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Jamaica</label>
+<label lang="en">Jamaica</label>
+<label lang="es">Jamaica</label>
+</label_list>
+<value>JM</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Japão</label>
+<label lang="en">Japan</label>
+<label lang="es">Japon</label>
+</label_list>
+<value>JP</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Jordânia</label>
+<label lang="en">Jordan</label>
+<label lang="es">Jordania</label>
+</label_list>
+<value>JO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Kuwait</label>
+<label lang="en">Kuwait</label>
+<label lang="es">Kuwait</label>
+</label_list>
+<value>KW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Letônia</label>
+<label lang="en">Latvia</label>
+<label lang="es">Letonia</label>
+</label_list>
+<value>LV</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Líbano</label>
+<label lang="en">Lebanon</label>
+<label lang="es">Libano</label>
+</label_list>
+<value>LB</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Líbia</label>
+<label lang="en">Libyan Arab Jamahiriya</label>
+<label lang="es">Libia</label>
+</label_list>
+<value>LY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Liechtenstein</label>
+<label lang="en">Liechtenstein</label>
+<label lang="es">Liechtenstein</label>
+</label_list>
+<value>LI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Lituânia</label>
+<label lang="en">Lithuania</label>
+<label lang="es">Lituania</label>
+</label_list>
+<value>LT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Malásia</label>
+<label lang="en">Malaysia</label>
+<label lang="es">Malasia</label>
+</label_list>
+<value>MY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Marrocos</label>
+<label lang="en">Morocco</label>
+<label lang="es">Marruecos</label>
+</label_list>
+<value>MA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Maurício, Ilhas</label>
+<label lang="en">Mauritius</label>
+<label lang="es">Mauricio</label>
+</label_list>
+<value>MU</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">México</label>
+<label lang="en">Mexico</label>
+<label lang="es">Mexico</label>
+</label_list>
+<value>MX</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Nicarágua</label>
+<label lang="en">Nicaragua</label>
+<label lang="es">Nicaragua</label>
+</label_list>
+<value>NI</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Nigéria</label>
+<label lang="en">Nigeria</label>
+<label lang="es">Nigeria</label>
+</label_list>
+<value>NG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Noruega</label>
+<label lang="en">Norway</label>
+<label lang="es">Noruega</label>
+</label_list>
+<value>NO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Nova Zelândia</label>
+<label lang="en">New Zealand</label>
+<label lang="es">Nueva Zelanda</label>
+</label_list>
+<value>NZ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Países Baixos</label>
+<label lang="en">Netherlands</label>
+<label lang="es">Paises Bajos</label>
+</label_list>
+<value>NL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Panamá</label>
+<label lang="en">Panama</label>
+<label lang="es">Panama</label>
+</label_list>
+<value>PA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Paquistão</label>
+<label lang="en">Pakistan</label>
+<label lang="es">Pakistan</label>
+</label_list>
+<value>PK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Paraguai</label>
+<label lang="en">Paraguay</label>
+<label lang="es">Paraguay</label>
+</label_list>
+<value>PY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Perú</label>
+<label lang="en">Peru</label>
+<label lang="es">Peru</label>
+</label_list>
+<value>PE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Polônia</label>
+<label lang="en">Poland</label>
+<label lang="es">Polonia</label>
+</label_list>
+<value>PL</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Portugal</label>
+<label lang="en">Portugal</label>
+<label lang="es">Portugal</label>
+</label_list>
+<value>PT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Quênia</label>
+<label lang="en">Kenya</label>
+<label lang="es">Kenia</label>
+</label_list>
+<value>KE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Reino Unido</label>
+<label lang="en">United kingdom</label>
+<label lang="es">Reino Unido</label>
+</label_list>
+<value>GB</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Romênia</label>
+<label lang="en">Romania</label>
+<label lang="es">Rumania</label>
+</label_list>
+<value>RO</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Ruanda</label>
+<label lang="en">Rwanda</label>
+<label lang="es">Rwanda</label>
+</label_list>
+<value>RW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Senegal</label>
+<label lang="en">Senegal</label>
+<label lang="es">Senegal</label>
+</label_list>
+<value>SN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Singapura</label>
+<label lang="en">Singapore</label>
+<label lang="es">Singapur</label>
+</label_list>
+<value>SG</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Sri Lanka</label>
+<label lang="en">Sri Lanka</label>
+<label lang="es">Sri Lanka</label>
+</label_list>
+<value>LK</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Sudão</label>
+<label lang="en">Sudan</label>
+<label lang="es">Sudan</label>
+</label_list>
+<value>SD</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Suécia</label>
+<label lang="en">Sweden</label>
+<label lang="es">Suecia</label>
+</label_list>
+<value>SE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Suiça</label>
+<label lang="en">Switzerland</label>
+<label lang="es">Suiza</label>
+</label_list>
+<value>CH</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Suriname</label>
+<label lang="en">Suriname</label>
+<label lang="es">Suriname</label>
+</label_list>
+<value>SR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tailândia</label>
+<label lang="en">Thailand</label>
+<label lang="es">Tailandia</label>
+</label_list>
+<value>TH</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Taiwan</label>
+<label lang="en">Taiwan, Province of China</label>
+<label lang="es">Taiwan</label>
+</label_list>
+<value>TW</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tanzânia</label>
+<label lang="en">Tanzania, United Republic of</label>
+<label lang="es">Tanzania</label>
+</label_list>
+<value>TZ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tcheca, República</label>
+<label lang="en">Czech Republic</label>
+<label lang="es">Checa, Republica</label>
+</label_list>
+<value>CZ</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Trinidad e Tobago</label>
+<label lang="en">Trinidad and Tobago</label>
+<label lang="es">Trinidad y Tobago</label>
+</label_list>
+<value>TT</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Tunísia</label>
+<label lang="en">Tunisia</label>
+<label lang="es">Tunez</label>
+</label_list>
+<value>TN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Turquia</label>
+<label lang="en">Turkey</label>
+<label lang="es">Turquia</label>
+</label_list>
+<value>TR</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Ucrânia</label>
+<label lang="en">Ukraine</label>
+<label lang="es">Ucrania</label>
+</label_list>
+<value>UA</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Uruguai</label>
+<label lang="en">Uruguay</label>
+<label lang="es">Uruguay</label>
+</label_list>
+<value>UY</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Venezuela</label>
+<label lang="en">Venezuela</label>
+<label lang="es">Venezuela</label>
+</label_list>
+<value>VE</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Vietnã</label>
+<label lang="en">Viet Nam</label>
+<label lang="es">Vietnam</label>
+</label_list>
+<value>VN</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">Zimbabue</label>
+<label lang="en">Zimbabwe</label>
+<label lang="es">Zimbabwe</label>
+</label_list>
+<value>ZW</value>
+</option>
+		</option_list>
+		</selection>
+		<selection name="year_source">
+			<label_list>
+				<label lang="pt">Ano de Publicação</label>
+				<label lang="en">Year of Publication</label>
+				<label lang="es">Año de Publicación</label>
+			</label_list>
+			<option_list name="YNG" selection_type="multiple">
+				<option>
+					<label_list>
+						<label lang="pt">Soma de todos os anos</label>
+						<label lang="en">Sum of all years</label>
+						<label lang="es">Suma de todos los años</label>
+					</label_list>
+					<value>sum</value>
+				</option>
+				<option selected="true">
+					<label_list>
+						<label lang="pt">Qualquer ano</label>
+						<label lang="en">Any year</label>
+						<label lang="es">Cualquier año</label>
+					</label_list>
+					<value>all</value>
+				</option><option>
+<label_list>
+<label lang="pt">2007</label>
+<label lang="en">2007</label>
+<label lang="es">2007</label>
+</label_list>
+<value>2007</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">2006</label>
+<label lang="en">2006</label>
+<label lang="es">2006</label>
+</label_list>
+<value>2006</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">2005</label>
+<label lang="en">2005</label>
+<label lang="es">2005</label>
+</label_list>
+<value>2005</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">2004</label>
+<label lang="en">2004</label>
+<label lang="es">2004</label>
+</label_list>
+<value>2004</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">2003</label>
+<label lang="en">2003</label>
+<label lang="es">2003</label>
+</label_list>
+<value>2003</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">2002</label>
+<label lang="en">2002</label>
+<label lang="es">2002</label>
+</label_list>
+<value>2002</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">2001</label>
+<label lang="en">2001</label>
+<label lang="es">2001</label>
+</label_list>
+<value>2001</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">2000</label>
+<label lang="en">2000</label>
+<label lang="es">2000</label>
+</label_list>
+<value>2000</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">1999</label>
+<label lang="en">1999</label>
+<label lang="es">1999</label>
+</label_list>
+<value>1999</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">1998</label>
+<label lang="en">1998</label>
+<label lang="es">1998</label>
+</label_list>
+<value>1998</value>
+</option>
+<option>
+<label_list>
+<label lang="pt">1997</label>
+<label lang="en">1997</label>
+<label lang="es">1997</label>
+</label_list>
+<value>1997</value>
+</option>
+			</option_list>
+		</selection>
+	</selection_list>
+	<form>
+		<action>/cgi-bin/stat_biblio/xml/scielo7.sh</action>
+		<state>17</state>
+	</form>
+</root>

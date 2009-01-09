@@ -1,0 +1,20 @@
+'</journal_list>'/
+'</table>'/
+'</table_list>'/
+'<total>',
+	'<issues>', v31, '</issues>'/
+	'<articles>', v32, '</articles>'/
+	'<citing>', v33, '</citing>'/
+	'<cited>', v34, '</cited>'/
+	'<avarages>',
+		'<articles_issue>', v35, '</articles_issue>'/
+		'<citing>',
+			'<issue>', v36, '</issue>'/
+			'<article>', v37, '</article>'/
+		'</citing>'/
+		'<cited>',
+			'<issue>', v38, '</issue>'/
+			'<article>', v39, '</article>'/
+		'</cited>'/
+	'</avarages>'/
+'</total>'/

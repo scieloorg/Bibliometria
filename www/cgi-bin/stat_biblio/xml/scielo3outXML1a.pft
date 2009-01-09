@@ -1,0 +1,70 @@
+	'<current_state>08</current_state>'/
+	'<page_title_list>',
+		'<page_title lang="pt">Vida Média</page_title>'/
+		'<page_title lang="en">Half-life</page_title>'/
+		'<page_title lang="es">Vida Media</page_title>'/
+	'</page_title_list>'/
+	if v3400='' 
+	then 
+		'<title_list>',
+			'<title lang="pt">Coleção da biblioteca</title>'/
+			'<title lang="en">Library collection</title>'/
+			'<title lang="es">Colección de la biblioteca</title>'/
+		'</title_list>'/ 
+	else
+		'<title_list>',
+                '<title lang="pt"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="en"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="es"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+        '</title_list>'/
+		'<journal>',
+			'<issn>', v3400, '</issn>'/
+			'<siglum>', ref(['title']l(['title']v3400),v68), '</siglum>'/
+		'</journal>'/
+	fi, 
+	'<subtitle_list>',
+		'<subtitle lang="pt">Vida Média</subtitle>'/
+		'<subtitle lang="en">Half-life</subtitle>'/
+		'<subtitle lang="es">Vida Media</subtitle>'/
+	'</subtitle_list>'/
+'<table_list stat="half_life">',
+if val(v10)>0 then
+	'<table year="', v2^a, '">',
+		'<header>',
+			'<year_source>', v2^a, '</year_source>'/
+			'<year_before_list>',
+				'<year_before type="zero">',
+					'<year>', f(val(v2^a)-0, 1, 0),	'</year>'/
+				'</year_before>'/
+				'<year_before type="one">',
+					'<year>', f(val(v2^a)-1, 1, 0),	'</year>'/
+				'</year_before>'/
+				'<year_before type="two">',
+					'<year>', f(val(v2^a)-2, 1, 0),	'</year>'/
+				'</year_before>'/
+				'<year_before type="three">',
+					'<year>', f(val(v2^a)-3, 1, 0), '</year>'/
+				'</year_before>'/
+				'<year_before type="four">',
+					'<year>', f(val(v2^a)-4, 1, 0),	'</year>'/
+				'</year_before>'/
+				'<year_before type="five">',
+					'<year>', f(val(v2^a)-5, 1, 0),	'</year>'/
+				'</year_before>'/
+				'<year_before type="six">',
+					'<year>', f(val(v2^a)-6, 1, 0), '</year>'/
+				'</year_before>'/
+				'<year_before type="seven">',
+					'<year>', f(val(v2^a)-7, 1, 0),	'</year>'/
+				'</year_before>'/
+				'<year_before type="eight">',
+					'<year>', f(val(v2^a)-8, 1, 0), '</year>'/
+				'</year_before>'/
+				'<year_before type="nine">',
+					'<year>', f(val(v2^a)-9, 1, 0),	'</year>'/
+				'</year_before>'/
+			'</year_before_list>'/
+		'</header>'/
+		'<journal_list>',
+fi
+	

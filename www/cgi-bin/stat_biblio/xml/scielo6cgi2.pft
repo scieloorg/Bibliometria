@@ -1,0 +1,19 @@
+proc(
+	(if v2000^n='CITANTE' then '<4500 0>'ref(['tab30issn']l(['tab30issn']v2000^v),v222^a)'</4500>' fi)
+	(if v2000^n='CITING' then '<4000 0>'v2000^v'</4000>' fi)
+	(if v2000^n='CITED' then '<3000 0>'ref(['tab30issn']l(['tab30issn']v2000^v),v222^a)'</3000>' fi)
+	(if v2000^n='YED' then '<3001 0>'v2000^v'</3001>' fi)
+	(if v2000^n='formato' then '<5000 0>'v2000^v'</5000>' fi)
+ )
+	
+ 'BOOL|'v4000/
+ 
+ 'BEGIN|'if v5000='html' then 'echo "<html>"'/ else 'echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><root>"'/ fi
+ 'FORMA1|'if v5000='html' then 'pft=@$HOM/scielo6out2a.pft'/ else 'pft=@$HOM/scielo6outXML2a.pft'/ fi
+ 'FORMA2|'if v5000='html' then 'pft=@$HOM/scielo6out2b.pft'/ else 'pft=@$HOM/scielo6outXML2b.pft'/ fi
+ 'EN1|'if v5000='html' then 'echo "<table cellpadding="5">"'/ else / fi
+ 'END|'if v5000='html' then 'echo "</table></html>"'/ else 'echo "</article_cited_list></root>"'/ fi
+ 
+ 'Citante|'if v4500<>'$' and v5000='html' then |&nbsp;&nbsp;&nbsp;&nbsp;- |v4500 fi/
+ 'SHOWrev|'if v3000<>'$' and v5000='html' then |&nbsp;&nbsp;&nbsp;&nbsp;- |v3000+|<br>| else if v3000<>'$' and v5000='xml' then |<title_cited>|v3000|</title_cited>| else 'Todas as revistas SciELO' fi, fi/
+    'AnoC|'if v2000<>'$' and v5000='html' then v3001|, | else 'todas os anos' fi/

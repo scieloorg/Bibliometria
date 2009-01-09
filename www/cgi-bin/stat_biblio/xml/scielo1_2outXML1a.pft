@@ -1,0 +1,43 @@
+	'<current_state>05</current_state>'/
+	'<page_title_list>',
+		'<page_title lang="pt">Fator de impacto em um período de dois anos</page_title>'/
+		'<page_title lang="en">Impact factor on a two-year basis</page_title>'/
+		'<page_title lang="es">Factor de impacto en un período de dos años</page_title>'/
+	'</page_title_list>'/
+	if v3400='' 
+	then 
+		'<title_list>',
+			'<title lang="pt">Coleção da biblioteca</title>'/
+			'<title lang="en">Library collection</title>'/
+			'<title lang="es">Colección de la biblioteca</title>'/
+		'</title_list>'/ 
+	else
+		'<title_list>',
+                '<title lang="pt"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="en"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+                '<title lang="es"><![CDATA[', ref(['title']l(['title']v3400),v100), ']]></title>'/
+        '</title_list>'/
+		'<journal>',
+			'<issn>', v3400, '</issn>'/
+			'<siglum>', ref(['title']l(['title']v3400),v68), '</siglum>'/
+		'</journal>'/
+	fi, 
+	'<subtitle_list>',
+		'<subtitle lang="pt">Fator de impacto em um período de dois anos</subtitle>'/
+		'<subtitle lang="en">Impact factor on a two-year basis</subtitle>'/
+		'<subtitle lang="es">Factor de impacto en un período de dos años</subtitle>'/
+	'</subtitle_list>'/
+'<table_list stat="impact_factor">',
+if val(v5)>0 then
+	'<table year="', v2^a, '">',
+		'<header>',
+			'<year_source>', v2^a, '</year_source>'/
+			'<year_one_before>', f(val(v2^a) - 1, 1, 0), '</year_one_before>'/
+			'<year_two_before>', f(val(v2^a) - 2, 1, 0), '</year_two_before>'/
+			'<sum_two_year>', f(val(v2^a) - 1, 1, 0), '+ ', f(val(v2^a) - 2, 1, 0), '</sum_two_year>'/
+		'</header>'/
+		'<journal_list>',
+fi
+
+	
+

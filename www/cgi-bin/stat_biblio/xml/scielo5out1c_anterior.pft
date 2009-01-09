@@ -1,0 +1,55 @@
+'<tr>
+	<td>
+		<font face="Tahoma" size="2" color="Black"><b>'f(val(mfn),1,0)'.</b></font>
+	</td>
+	<td>
+		<font face="Arial" size="1" color="Black"><i>'f(val(v999)/val(v1111),1,4)'</i></font>
+	</td>
+	<td><font face="Tahoma" size="2" color="Black"><b>'v999'</b></font>
+	</td>'
+,e1:=l(['tab30issn']ref(['tab30issn']l(['tab30issn']v1^c),v400)),e2:=l(['fat_imp']v1^c),
+if e1>0 and e2>0 
+then 
+	'<td>
+		<center><font face="Tahoma" size="1" color="Olive"><b>SciELO / ISI</b></font>
+	</td>
+	<td>
+	<font face="Verdana" size="2"  color="Green"><b>'v1^c'</b></font></td>'
+else 
+	if e1>0 
+	then 
+		'<td>
+			<font face="Verdana" size="2" color="Red"><b><center>SciELO</b></font>
+		</td>
+		<td>
+			<font face="Verdana" size="2" color="Purple"><b>'v1^c'</b></font>
+			</td>'
+	else 
+		if e2>0
+		then 
+			'<td>
+				<font face="Verdana" size="2" color="Blue"><b><center>ISI</b></font>
+			</td>
+			<td>
+				<font face="Verdana" size="2" color="Navy"><b>'v1^c'</b></font>
+			</td>'
+		else
+			if v1^c='' 
+			then 
+				'<td>
+					<center><b>-</b></center>
+				</td>
+				<td>
+					<font face="Verdana" size="2" color="Black"><b>Referências não identificadas</b></font>
+				</td>'
+			else 
+				'<td>
+					<center><b>-</b></center>
+				</td>
+				<td>
+					<font face="Verdana" size="2" color="Black"><b>'v1^c'</b></font>
+					</td>' 
+			fi, 
+		fi,
+	fi,
+fi

@@ -1,0 +1,15 @@
+ 'd700'
+ (if p(v700) then 
+   '<700 0>'
+      if v700^w>'' then v700^*,'^00'v700^w else
+      if v700^x>'' then v700^*,'^01'v700^x else
+      if v700^y>'' then v700^*,'^02'v700^y else
+      if v700^z>'' then v700^*,'^03'v700^z else
+      if v700^q>'' then v700^*,'^0p'v700^q else
+      if v700^b>'' then v700^*,'^0c'v700^b else
+      v700^*,'^0-'
+      fi fi fi fi fi fi 
+      '^7'v700
+    '</700>' 
+   fi
+  )

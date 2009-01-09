@@ -1,0 +1,24 @@
+BIREME/OFI                      Data Base Statistical Analisys
+                  Tag Distribution Analisys
+
+--------------------------------------------------------------
+
+ Data Base name : tabpais          Analisys Date : 04/10/2006
+  Total Records : 239
+
+--------------------------------------------------------------
+ Number Presence Percent  Occur.          Length        Total
+                   (%)                  min    max      Chars
+--------------------------------------------------------------
+
+     1      239   100.0      239          3     43       2342-nome em portugues
+     2      217    90.8      217          4     35       1937-nome em ingles
+     3      217    90.8      217          4     36       1967-nome espanhol
+    20      239   100.0      239          2      2        478-codigo 2 letras
+    30       22     9.2       22          2      2         44-ALatina
+    31       22     9.2       22         14     14        308-
+    32       22     9.2       22         13     13        286-
+    33       22     9.2       22         14     14        308-
+    50        8     3.3       20   R      2     25        197-variacoes
+   950        1     0.4        1         12     12         12-
+

@@ -1,0 +1,30 @@
+'<tr>
+	<td>
+		<font face="Tahoma" size="2" color="Black">', v999, '</b></font>
+	</td>',
+if v1^y<>'0' 
+then
+	'<td>
+		<font face="Tahoma" size="2" color="Black"><b>', v1^y, '</font>
+	</td>'
+fi,
+	'<td>
+		<font face="Verdana" size="2"  color="Black"><b>
+		<a href=http://www.scielo.br/scielo.php?script=sci_serial&pid=', ref(['tab30issn']l(['tab30issn']v1^c),v400)'&amp;lng=pt&nrm=iso target="_blank">'v1^c|</a></b>|
+	'</td>
+	<td>
+		<font face="Tahoma" size="2" color="Black"><b>', v1^n, '</font>
+	</td>
+	<td>
+		<font face="Verdana" size="1"  color="Black"><b>[
+		<a href=scielo6out.sh?CITING=',ref(['tab30issn']l(['tab30issn']v1^c),v400)|%20and%20|,v230|%20and%20|,v1^y|%20and%20|,v265,'&amp;CITANTE=',ref(['tab30issn']l(['tab30issn']v1^c),v400),'&amp;CITED=',v11,'&amp;YED=',v1211,'&amp;formato=',v5000,' target="_blank"> Ver artigos citados</a> ]
+	</td>	
+</tr>'
+
+
+/*
+<td>
+		<font face="Tahoma" size="2" color="Black"><b>'f(val(mfn),1,0)'.</b></font>
+	</td>
+	
+*/

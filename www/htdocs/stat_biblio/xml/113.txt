@@ -1,0 +1,17 @@
+                        </option_list>
+                </selection>
+                <selection name="year_cited">
+                        <label_list>
+                                <label lang="pt">Publicadas em</label>
+                                <label lang="en">Published in</label>
+                                <label lang="es">Publicadas en</label>
+                        </label_list>
+                        <option_list name="YED" selection_type="multiple">
+                                <option>
+                                        <label_list>
+                                                <label lang="pt">Todos</label>
+                                                <label lang="en">All</label>
+                                                <label lang="es">Todos</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option>

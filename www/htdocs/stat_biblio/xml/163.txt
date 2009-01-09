@@ -1,0 +1,33 @@
+			</option_list>
+		</selection>
+		<selection name="country2">
+			<label_list>
+				<label lang="pt">Países  de Afiliação</label>
+				<label lang="en">Affiliation countries</label>
+				<label lang="es">Países de afiliación</label>
+			</label_list>
+			<option_list name="PAIS2" selection_type="multiple">
+				<option selected="true">
+					<label_list>
+						<label lang="pt">Qualquer</label>
+						<label lang="en">Any</label>
+						<label lang="es">Cualquier</label>
+					</label_list>
+					<value>all</value>
+				</option>
+				<option>
+					<label_list>
+						<label lang="pt">Autor individual</label>
+						<label lang="en">Individual author</label>
+						<label lang="es">Autor individual</label>
+					</label_list>
+					<value>1</value>
+				</option>
+				<option>
+					<label_list>
+						<label lang="pt">Pais</label>
+						<label lang="en">Pais</label>
+						<label lang="es">Pais</label>
+					</label_list>
+					<value>PP</value>
+				</option>

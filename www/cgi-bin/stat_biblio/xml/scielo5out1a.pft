@@ -1,0 +1,10 @@
+'<TABLE bordercolor="Blue" border="1"><center>
+		<TR><TD><font size="+1">Harmonização apenas usando <b>tab30issn</b><br>
+								Citações concedidas pela(s) revista(s):<br><br></font>
+         		<font face="Courier" size="1" color="Blue"><b>', v11, '</b><br><br></font>
+				<font size="+1">no(s) ano(s) de <font face="Courier" size="+1" color="Blue"><b>', v22, '</b></font> 
+		 		<font size="+1"> a revista(s) publicada(s) em 
+				<font face="Courier" size="+1" color="Purple"><b>', v65, '</b></font>.
+			</TD>
+		</TR>
+	</TABLE></center><br>'

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+	<xsl:include href="file:///bases/home/rogerio/cuba/www/htdocs/stat_biblio/xsl/common.xsl" />	
+
+    <xsl:variable name="journal">
+        <xsl:copy-of select="//root/journal"/>
+    </xsl:variable>
+    
+	<xsl:template match="*" mode="html-body">
+		<xsl:comment>
+	
+		**** File: 12.xsl
+		template match="*" mode="html-body"
+		
+		</xsl:comment>
+		<body>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td width="20%">
+						<p align="center">
+                            <xsl:choose>
+                                <xsl:when test="$journal/*">
+    								<a href="/scielo.php?script=sci_serial&amp;pid={$journal/journal/issn}&amp;lng={$lang}">
+    									<img align="bottom" border="0">
+    										<xsl:attribute name="src">
+    											<xsl:value-of select="concat($path_image_revistas,$journal/journal/siglum,'/plogo.gif')" />
+    										</xsl:attribute>
+    									</img>
+    								</a>
+                                </xsl:when>
+                                <xsl:otherwise>
+    								<a href="/scielo.php?lng={$lang}">
+    									<img align="bottom" border="0">
+    										<xsl:attribute name="src">
+    											<xsl:value-of select="$path_image_logo" />
+    										</xsl:attribute>
+    									</img>
+    								</a>
+                                </xsl:otherwise>
+                            </xsl:choose>
+						</p>
+					</td>
+					<td align="center" width="80%">
+						<blockquote>
+							<p align="left">
+								<font size="+1" color="#000080">
+									<xsl:value-of select="$root/title_list/title[@lang = $lang]" />
+								</font>
+                                <xsl:if test="$journal/*">
+                                    <br/><font class="nomodel" color="#000080">ISSN <xsl:value-of select="$journal/journal/issn"/></font>
+                                </xsl:if>                                
+							</p>
+						</blockquote>
+					</td>
+				</tr>
+				<tr>
+					<td>&#160;</td>
+					<td>
+						<blockquote>
+							<p>
+								<font color="#800000">
+									<xsl:value-of select="$root/subtitle_list/subtitle[@lang = $lang]" />
+								</font>
+							</p>
+						</blockquote>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">&#160;</td>
+				</tr>
+				<xsl:apply-templates select="$root/header" />
+				<xsl:apply-templates select="$root/citation_list" />
+			</table>
+			<xsl:call-template name="footer"></xsl:call-template>
+		</body>
+	</xsl:template>
+
+							
+	<xsl:template match="header">
+		<xsl:comment>
+	
+		**** File: 12.xsl
+		template match="header"
+		
+		</xsl:comment>
+
+		<tr>
+			<td colspan="2">	
+				<table border="0" align="center" cellpadding="2" cellspacing="2" width="40%">
+					<tr width="100%" bgcolor="#dfebeb">
+						<td width="35%" align="left">
+							<small>
+								<strong>
+									<xsl:value-of select="$texts/text[find='CITACOES_CONCEDIDAS_PELAS_REVISTAS']/replace" />
+								</strong>
+							</small>
+						</td>
+					</tr>
+                    <xsl:if test="not(title_list/title) and normalize-space(title_list) = 'all'">
+                		<tr>
+                			<xsl:attribute name="bgcolor">#F2F2F2</xsl:attribute>
+                			<xsl:attribute name="onMouseOver">this.style.backgroundColor='#DBE5EA';this.style.color='#1a1aff'</xsl:attribute>
+                			<xsl:attribute name="onMouseOut">this.style.backgroundColor='#F2F2F2';this.style.color='#000000'</xsl:attribute>
+                			<td>
+                				<xsl:attribute name="width">35%</xsl:attribute>
+                				<xsl:attribute name="nowrap">nowrap</xsl:attribute>
+                				<xsl:value-of select="$texts/text[find='TITLE_ALL']/replace" />
+                			</td>
+                		</tr>
+                    </xsl:if>                    
+					<xsl:apply-templates select="title_list/title" />
+					<tr width="100%" bgcolor="#dfebeb">
+						<td width="35%" align="left">
+							<small>
+								<strong>
+									<xsl:value-of select="$texts/text[find='NOS_ANOS_DE']/replace" />
+								</strong>
+							</small>
+						</td>
+					</tr>
+					<xsl:apply-templates select="year_list[@type='source']" />	
+					<tr width="100%" bgcolor="#dfebeb">
+						<td width="35%" align="left">
+							<small>
+								<strong>
+									<xsl:value-of select="$texts/text[find='A_REVISTAS_PUBLICADAS_EM']/replace" />
+								</strong>
+							</small>
+						</td>
+					</tr>
+					<xsl:apply-templates select="year_list[@type='before']" />
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">&#160;</td>
+		</tr>
+	</xsl:template>
+
+	<xsl:template match="title">
+		<xsl:comment>
+	
+		**** File: 12.xsl
+		template match="title"
+		
+		</xsl:comment>
+		<tr>
+			<xsl:attribute name="bgcolor">#F2F2F2</xsl:attribute>
+			<xsl:attribute name="onMouseOver">this.style.backgroundColor='#DBE5EA';this.style.color='#1a1aff'</xsl:attribute>
+			<xsl:attribute name="onMouseOut">this.style.backgroundColor='#F2F2F2';this.style.color='#000000'</xsl:attribute>
+			<td>
+				<xsl:attribute name="width">35%</xsl:attribute>
+				<xsl:attribute name="nowrap">nowrap</xsl:attribute>
+				<xsl:value-of select="." />
+			</td>
+		</tr>
+	</xsl:template>
+
+
+
+	<xsl:template match="year_list">
+		<xsl:comment>
+	
+		**** File: 12.xsl
+		template match="year_list"
+		
+		</xsl:comment>
+		<tr>
+			<xsl:attribute name="bgcolor">#F2F2F2</xsl:attribute>
+			<xsl:attribute name="onMouseOver">this.style.backgroundColor='#DBE5EA';this.style.color='#1a1aff'</xsl:attribute>
+			<xsl:attribute name="onMouseOut">this.style.backgroundColor='#F2F2F2';this.style.color='#000000'</xsl:attribute>
+			<td>
+				<xsl:attribute name="width">35%</xsl:attribute>
+				<xsl:attribute name="nowrap">nowrap</xsl:attribute>
+                <xsl:if test="not(year) and normalize-space(.) = 'all'">
+                    <xsl:value-of select="$texts/text[find='YEAR_ALL']/replace"/>
+                </xsl:if>                
+				<xsl:apply-templates select="year" />
+			</td>
+		</tr>
+	</xsl:template>
+	
+	
+	<xsl:template match="year">
+		<xsl:comment>
+	
+		**** File: 12.xsl
+		template match="year_list"
+		
+		</xsl:comment>
+			<xsl:value-of select="concat(.,'&#160;&#160;')" />
+	</xsl:template>
+	
+	
+	
+	<xsl:template match="citation_list">
+		<xsl:comment>
+	
+		**** File: 12.xsl
+		template match="citation_list"
+		
+		</xsl:comment>
+        <xsl:variable name="total_given" select="../totals/citations_given_total"/>        
+		<xsl:variable name="table_title">
+			<xsl:value-of select="$texts/text[find='TOTAL_DE_CITACOES_CONCEDIDAS']/replace" />
+			<xsl:value-of select="': '" />
+			<xsl:value-of select="$total_given" />
+		</xsl:variable>
+        <xsl:variable name="sum_citation" select="sum(citation/citations_to_title_cited)"/>        
+		<tr>
+			<td colspan="2">	
+				<table border="0" align="center" cellpadding="2" cellspacing="2" width="70%">
+				
+					<tr>
+						<td colspan="2">
+							<font face="arial" size="2" color="#0000A0">
+								<xsl:value-of select="$table_title" />
+							</font>
+						</td>
+					</tr>
+				
+                    <xsl:if test="$total_given != '0' ">
+    					<tr width="100%" bgcolor="#dfebeb">
+                            <td width="1">&#160;</td>					    
+    						<td>
+    							<xsl:attribute name="width">70%</xsl:attribute>
+    							<xsl:attribute name="align">left</xsl:attribute>
+    							<b>
+    								<xsl:value-of select="$texts/text[find='TITULO_DA_REVISTA']/replace" />
+    							</b>
+    						</td>
+    
+    						<td>
+    							<xsl:attribute name="width">20%</xsl:attribute>
+    							<xsl:attribute name="align">left</xsl:attribute>
+    							<b>
+    								<xsl:value-of select="$texts/text[find='FONTE_DE_DADOS']/replace" />
+    							</b>
+    						</td>
+    
+    						<td>
+    							<xsl:attribute name="width">5%</xsl:attribute>
+    							<xsl:attribute name="align">left</xsl:attribute>
+    							<b>
+    								<xsl:value-of select="$texts/text[find='CITACOES_AO_TITULO']/replace" />
+    							</b>
+    						</td>
+    						<!--
+    					     ver um dia mais a frente, o servidor nao retorna o XML, o problema deve
+    					     ser o parametro CITED que vem com parenteses e espacos. Faca debug no
+    						 index.php para conseguir o xml_url que esta´ sendo passado para a
+    						 aplicacao servidora. 23/12/2003
+    						-->
+    						<td>
+    							<xsl:attribute name="width">5%</xsl:attribute>
+    							<xsl:attribute name="align">left</xsl:attribute>
+    							<b>
+    								<xsl:value-of select="$texts/text[find='FORMAS_CITADAS']/replace" />
+    							</b>
+    						</td>
+    						
+    					</tr>
+    					<xsl:apply-templates select="citation" />
+                        <xsl:if test="$total_given != $sum_citation">
+                            <xsl:call-template name="insertOtherWithSum">
+                                <xsl:with-param name="diff_citation" select="$total_given - $sum_citation"/>
+                            </xsl:call-template>
+                        </xsl:if>
+                    </xsl:if>	
+				</table>
+			</td>
+		</tr>		
+	</xsl:template>
+
+	
+	<xsl:template match="citation">
+		<xsl:comment>
+	
+		**** File: 12.xsl
+		template match="citation_list"
+		
+		</xsl:comment>
+		<tr>
+			<xsl:attribute name="bgcolor">#F2F2F2</xsl:attribute>
+			<xsl:attribute name="onMouseOver">this.style.backgroundColor='#DBE5EA';this.style.color='#1a1aff'</xsl:attribute>
+			<xsl:attribute name="onMouseOut">this.style.backgroundColor='#F2F2F2';this.style.color='#000000'</xsl:attribute>
+            <td width="1"><xsl:value-of select="position()"/>.&#160;</td>
+			<td>
+				<xsl:attribute name="title">
+					<xsl:value-of select="$texts/text[find='TITULO_DA_REVISTA']/replace" />
+				</xsl:attribute>
+				<xsl:attribute name="width">70%</xsl:attribute>
+				<xsl:attribute name="align">left</xsl:attribute>
+				<xsl:choose>
+					<xsl:when test="title_cited/link_list/link [@type='scielo']">
+						<xsl:apply-templates select="title_cited/link_list/link [@type='scielo']" mode="externo" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="title_cited/label" />
+					</xsl:otherwise>
+				</xsl:choose>
+			</td>
+
+			<td>
+				<xsl:attribute name="title">
+					<xsl:value-of select="$texts/text[find='FONTE_DE_DADOS']/replace" />
+				</xsl:attribute>
+				<xsl:attribute name="width">20%</xsl:attribute>
+				<xsl:attribute name="align">left</xsl:attribute>
+				<xsl:value-of select="database_title_cited" />
+			</td>
+
+			<td>
+				<xsl:attribute name="title">
+					<xsl:value-of select="$texts/text[find='CITACOES_AO_TITULO']/replace" />
+				</xsl:attribute>
+				<xsl:attribute name="width">5%</xsl:attribute>
+				<xsl:attribute name="align">left</xsl:attribute>
+				<xsl:value-of select="citations_to_title_cited" />
+			</td>
+			<!--
+			     ver um dia mais a frente, o servidor nao retorna o XML, o problema deve
+			     ser o parametro CITED que vem com parenteses e espacos. Faca debug no
+				 index.php para conseguir o xml_url que esta´ sendo passado para a
+				 aplicacao servidora. 23/12/2003
+			-->
+			<td>
+				<xsl:attribute name="title">
+					<xsl:value-of select="$texts/text[find='FORMAS_CITADAS']/replace" />
+				</xsl:attribute>
+				<xsl:attribute name="width">5%</xsl:attribute>
+				<xsl:attribute name="align">left</xsl:attribute>
+				<xsl:apply-templates select="title_cited/link_list/link [@type='popup']" mode="popup" />
+			</td>
+		</tr>
+	</xsl:template>
+
+    <xsl:template name="insertOtherWithSum">
+        <xsl:param name="diff_citation"/>
+        <tr>
+			<xsl:attribute name="bgcolor">#F2F2F2</xsl:attribute>
+			<xsl:attribute name="onMouseOver">this.style.backgroundColor='#DBE5EA';this.style.color='#1a1aff'</xsl:attribute>
+			<xsl:attribute name="onMouseOut">this.style.backgroundColor='#F2F2F2';this.style.color='#000000'</xsl:attribute>
+            <td width="1">&#160;</td>
+			<td>
+				<xsl:attribute name="title">
+					<xsl:value-of select="$texts/text[find='TITULO_DA_REVISTA']/replace" />
+				</xsl:attribute>
+				<xsl:attribute name="width">88%</xsl:attribute>
+				<xsl:attribute name="align">left</xsl:attribute>
+                <b>
+				<xsl:value-of select="$texts/text[find='OUTROS']/replace" />
+                </b>
+			</td>
+            <td>&#160;</td>
+			<td>
+				<xsl:attribute name="title">
+					<xsl:value-of select="$texts/text[find='CITACOES_AO_TITULO']/replace" />
+				</xsl:attribute>
+				<xsl:attribute name="width">12%</xsl:attribute>
+				<xsl:attribute name="align">left</xsl:attribute>
+                <b>
+				<xsl:value-of select="$diff_citation" />
+                </b>
+			</td>
+            <td>&#160;</td>
+        </tr>
+    </xsl:template>
+	
+	
+	
+</xsl:stylesheet>

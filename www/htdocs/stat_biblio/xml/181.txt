@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+        <current_state>18</current_state>
+        <page_title_list>
+                <page_title lang="pt">Fator de impacto em um período de três anos</page_title>
+                <page_title lang="en">Impact factor on a three-year basis</page_title>
+                <page_title lang="es">Factor de impacto en un período de tres años</page_title>
+        </page_title_list>
+        <title_list>
+                <title lang="pt">Coleção da biblioteca</title>
+                <title lang="en">Library collection</title>
+                <title lang="es">Colección de la biblioteca</title>
+        </title_list>
+        <subtitle_list>
+                <subtitle lang="pt">Fator de impacto em um período de três anos</subtitle>
+                <subtitle lang="en">Impact factor on a three-year basis</subtitle>
+                <subtitle lang="es">Factor de impacto en un período de tres años</subtitle>
+        </subtitle_list>
+        <selection_list>
+                <selection name="journal">
+                        <label_list>
+                                <label lang="pt">Revistas SciELO</label>
+                                <label lang="en">SciELO journals</label>
+                                <label lang="es">Revistas SciELO</label>
+                        </label_list>
+                        <option_list name="CITED" selection_type="multiple">
+				<option selected="true">
+                                        <label_list>
+                                                <label lang="pt">Todas as revistas em SciELO</label>
+                                                <label lang="en">All journals in SciELO</label>
+                                                <label lang="es">Todas las revistas en SciELO</label>
+                                        </label_list>
+                                        <value>all</value>
+                                </option>

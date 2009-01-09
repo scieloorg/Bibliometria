@@ -1,0 +1,129 @@
+<html> 
+ <head>
+ <page_title>cits_conceds</page_title>
+ </head>
+ <body> 
+ <h1><center><font size="+3,5">Citações concedidas por revistas SciELO Cuba</font></center></h1> 
+ <center>
+
+ <form action="/cgi-bin/stat_biblio/xml/scielo5.sh" method="get">
+ 
+<table border="0" width="99%">
+<tr><td align="right">
+<font size="+2,5" face="" color="Blue">Revistas SciELO: &nbsp;</font>
+</td><td>
+<SELECT NAME="CITING" multiple>
+<option value="all" selected>TODAS AS REVISTAS CITADAS EM SciELO</option>
+<option value="1024-9435">ACIMED</option>
+<option value="0004-2730">ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA E MATABOLOGIA</option>
+<option value="0034-7493">REVISTA CUBANA DE CIRUGIA</option>
+<option value="0864-2141">REVISTA CUBANA DE EDUCACION MEDICA SUPERIOR</option>
+<option value="0864-0319">REVISTA CUBANA DE ENFERMERIA</option>
+<option value="0034-7507">REVISTA CUBANA DE ESTOMATOLOGIA</option>
+<option value="0034-7515">REVISTA CUBANA DE FARMACIA</option>
+<option value="0253-1751">REVISTA CUBANA DE HIGIENE Y EPIDEMIOLOGIA</option>
+<option value="0864-0300">REVISTA CUBANA DE INVESTIGACIONES BIOMEDICAS</option>
+<option value="0034-7523">REVISTA CUBANA DE MEDICINA</option>
+<option value="0864-2125">REVISTA CUBANA DE MEDICINA GENERAL INTEGRAL</option>
+<option value="0138-6557">REVISTA CUBANA DE MEDICINA MILITAR</option>
+<option value="0375-0760">REVISTA CUBANA DE MEDICINA TROPICAL</option>
+<option value="0034-7531">REVISTA CUBANA DE PEDIATRIA</option>
+<option value="1028-4796">REVISTA CUBANA DE PLANTAS MEDICINALES</option>
+<option value="0864-3466">REVISTA CUBANA DE SALUD PUBLICA</option>
+</SELECT> 
+</td></tr>
+
+<tr><td align="right"><font size="+2,5" face="" color="Blue">Citações concedidas em &nbsp;</font>
+</td><td>
+<SELECT NAME="YNG" multiple>
+<OPTION VALUE="all" selected>TODOS
+<OPTION VALUE="2003">2003
+<OPTION VALUE="2002">2002
+<OPTION VALUE="2001">2001
+<OPTION VALUE="2000">2000
+<OPTION VALUE="1999">1999
+<OPTION VALUE="1998">1998
+<OPTION VALUE="1997">1997
+</SELECT>
+</td></tr>
+
+
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td align="right">
+<font size="+2,5" face="" color="Red">a publicações de: &nbsp;</font>
+</td><td>
+<SELECT NAME="YED" multiple>
+<OPTION VALUE="all" selected>TODOS
+<OPTION VALUE="2003">2003
+<OPTION VALUE="2002">2002
+<OPTION VALUE="2001">2001
+<OPTION VALUE="2000">2000
+<OPTION VALUE="1999">1999
+<OPTION VALUE="1998">1998
+<OPTION VALUE="1997">1997
+</SELECT>
+</td></tr>
+
+
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td align="right">
+<font size="+2,5" face="" color="Red">Top citados por SciELO: &nbsp;</font>
+</td><td>
+                <select name="COUNT_SCI" size="1">
+<option value="10">10</option>
+<option value="50">50</option>
+<option value="100" selected>100</option>
+<option value="500">500</option>
+<option value="1000">1000</option>
+<option value="5000">5000</option>
+<option value="10000">10000</option>
+              </select>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr><td></td><td>
+<SELECT NAME="formato"> 
+<OPTION VALUE="xml">XML
+<OPTION VALUE="html">HTML
+</SELECT>
+</td></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+<!--
+<tr><td align="right">
+<font size="+2,5" face="" color="Red">Top citantes ISI: &nbsp;</font>
+</td><td>
+                <select name="COUNT_ISI" size="1">
+<option value="10" selected>10</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="500">500</option>
+<option value="1000">1000</option>
+<option value="5000">5000</option>
+<option value="10000">10000</option>
+              </select>
+</td></tr>
+-->
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+
+<tr><td>&nbsp;
+</td><td><input type="submit" value="mostra">
+&nbsp;
+<input type="reset" value="limpa">
+</td></tr>
+
+</table>
+
+<!-- <input type="hidden" name="pft1" value="lw(8000),newline('<br>'),@/home/rogerio/www/htdocs/sel/cited1.pft">
+   <input type="hidden" name="pft2" value="lw(8000),newline('<br>'),@/home/rogerio/www/httpd/htdocs/sel/cited2.pft">
+	 <input type="hidden" name="pft3" value="lw(8000),newline('<br>'),@/home/rogerio/www/htdocs/sel/cited3.pft">
+-->
+
+
+
+  </form> 
+ 
+  </center>
+ </body> 
+</html>

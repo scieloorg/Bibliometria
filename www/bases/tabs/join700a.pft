@@ -1,0 +1,51 @@
+ 'd*'
+ |<880 200>|v880|</880>|,
+ |<123 200>|v123|</123>|,
+ |<10 200>|v10|</10>|,
+ |<70 200>|v70|</70>|,
+
+ (if p(v70) then 
+   if iocc>30 then break fi
+   '<700 200>'
+        if p(v70^*) then                           
+                          proc('d7<7 200>',mpu,v70^*,mpl,'</7>')
+                          putenv('XAF='v7[1]),proc('d7<7 0>'ref->null(1,proc('<1>',getenv('XAF')'</1>'),proc('Gsplit=1=letters'),v1+| |)'</7>')
+                          ''  v7[1],
+                              e1:=l->tbstpi(v7[1])
+                              if e1>0 then ref->tbstpi(e1,if val(v4)>=0.90 or size(v11^*)>3 and val(v4)>=0.83 then '^w'v3[1].2 fi) fi
+        fi
+        if p(v70^1) then                           
+                          proc('d7<7 200>',mpu,v70^1,mpl,'</7>')
+                          putenv('XAF='v7[1]),proc('d7<7 0>'ref->null(1,proc('<1>',getenv('XAF')'</1>'),proc('Gsplit=1=letters'),v1+| |)'</7>')
+                          '^1'v7[1],
+                              e1:=l->tbstpi(v7[1])
+                              if e1>0 then ref->tbstpi(e1,if val(v4)>=0.90 or size(v11^*)>3 and val(v4)>=0.83 then '^x'v3[1].2 fi) fi
+        fi
+        if p(v70^2) then                           
+                          proc('d7<7 200>',mpu,v70^2,mpl,'</7>')
+                          putenv('XAF='v7[1]),proc('d7<7 0>'ref->null(1,proc('<1>',getenv('XAF')'</1>'),proc('Gsplit=1=letters'),v1+| |)'</7>')
+                          '^2'v7[1],
+                              e1:=l->tbstpi(v7[1])
+                              if e1>0 then ref->tbstpi(e1,if val(v4)>=0.90 or size(v11^*)>3 and val(v4)>=0.83 then '^y'v3[1].2 fi) fi
+        fi
+        if p(v70^3) then                           
+                          proc('d7<7 200>',mpu,v70^3,mpl,'</7>')
+                          putenv('XAF='v7[1]),proc('d7<7 0>'ref->null(1,proc('<1>',getenv('XAF')'</1>'),proc('Gsplit=1=letters'),v1+| |)'</7>')
+                          '^3'v7[1],
+                              e1:=l->tbstpi(v7[1])
+                              if e1>0 then ref->tbstpi(e1,if val(v4)>=0.90 or size(v11^*)>3 and val(v4)>=0.83 then '^z'v3[1].2 fi) fi
+        fi
+        if p(v70^p) then                           
+                          '^p'mpu,v70^p,mpl,
+                              e1:=l->tabpais(v70^p)
+                              if e1>0 then ref->tabpais(e1,'^q'v20) fi
+        fi
+        if p(v70^c) then                           
+                          '^c'mpu,v70^c,mpl,
+                              e1:=l->tabcida(v70^c)
+                              if e1>0 then ref->tabcida(e1,'^b'v20) fi
+        fi
+        '^i'if v70^i>'' then v70^i.1,f(val(v70^i*1),1,0) fi,
+    '</700>' 
+   fi
+  )

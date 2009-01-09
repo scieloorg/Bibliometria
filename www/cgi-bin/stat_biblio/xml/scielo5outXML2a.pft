@@ -1,0 +1,20 @@
+'<current_state>13</current_state>'/
+'<page_title_list>',
+	'<page_title lang="pt">Formas de citação</page_title>'/
+	'<page_title lang="en">Citation forms</page_title>'/
+	'<page_title lang="es">Formas citadas</page_title>'/
+'</page_title_list>'/
+'<title_list>',
+	'<title lang="pt">Citações concedidas</title>'/
+	'<title lang="en">Granted citations</title>'/
+	'<title lang="es">Citas concedidas</title>'/
+'</title_list>'/
+'<subtitle_list>',
+	'<subtitle lang="pt">Formas de citação</subtitle>'/
+	'<subtitle lang="en">Citation forms</subtitle>'/
+	'<subtitle lang="es">Formas citadas</subtitle>'/
+'</subtitle_list>'/
+'<header>',
+	'<title_cited><![CDATA[', ref(['tab30issn']l(['tab30issn']v44),mpu,v222^a,mpl), ']]></title_cited>'/
+'</header>'/
+'<citation_form_list>',

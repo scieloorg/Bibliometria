@@ -1,0 +1,272 @@
+<html> 
+ <head>
+  <title>Scielo - co-autoria</title>
+ </head>
+ <body> 
+ <h1><center><font size="+3,5">Co-autoria em SciELO Cuba</font></center></h1> 
+ <center>
+
+ <form action="/cgi-bin/stat_biblio/xml/scielo7.sh" method="get">
+ 
+<table border="0" width="99%">
+<tr><td align="right">
+<font size="+2,5" face="" color="Blue">País(es): &nbsp;</font>
+</td><td>
+<SELECT NAME="PAIS1">
+<!--option value="TODAS" selected>TODAS AS REVISTAS DE SciELO</OPTION-->
+<option value="BRASIL" selected>BRASIL</option>
+<option value="AFRICA DO SUL">AFRICA DO SUL</option>
+<option value="ALEMANHA">ALEMANHA</option>
+<option value="ARABIA SAUDITA">ARABIA SAUDITA</option>
+<option value="ARGENTINA">ARGENTINA</option>
+<option value="AUSTRALIA">AUSTRALIA</option>
+<option value="AUSTRIA">AUSTRIA</option>
+<option value="BELGICA">BELGICA</option>
+<option value="BOLIVIA">BOLIVIA</option>
+<option value="BULGARIA">BULGARIA</option>
+<option value="BURKINA FASSO">BURKINA FASSO</option>
+<option value="CAMAROES">CAMAROES</option>
+<option value="CANADA">CANADA</option>
+<option value="CHILE">CHILE</option>
+<option value="CHINA">CHINA</option>
+<option value="COLOMBIA">COLOMBIA</option>
+<option value="COSTA RICA">COSTA RICA</option>
+<option value="CROACIA">CROACIA</option>
+<option value="CUBA">CUBA</option>
+<option value="DINAMARCA">DINAMARCA</option>
+<option value="EGITO">EGITO</option>
+<option value="EQUADOR">EQUADOR</option>
+<option value="ESLOVAQUIA">ESLOVAQUIA</option>
+<option value="ESLOVENIA">ESLOVENIA</option>
+<option value="ESPANHA">ESPANHA</option>
+<option value="ESTADOS UNIDOS">ESTADOS UNIDOS</option>
+<option value="FEDERACAO RUSSA">FEDERACAO RUSSA</option>
+<option value="FINLANDIA">FINLANDIA</option>
+<option value="FRANCA">FRANCA</option>
+<option value="GRECIA">GRECIA</option>
+<option value="GUATEMALA">GUATEMALA</option>
+<option value="GUIANA FRANCESA">GUIANA FRANCESA</option>
+<option value="HOLANDA">HOLANDA</option>
+<option value="HONDURAS">HONDURAS</option>
+<option value="HONG KONG">HONG KONG</option>
+<option value="HUNGRIA">HUNGRIA</option>
+<option value="INDIA">INDIA</option>
+<option value="INDONESIA">INDONESIA</option>
+<option value="IRA">IRA</option>
+<option value="IRLANDA">IRLANDA</option>
+<option value="ISRAEL">ISRAEL</option>
+<option value="ITALIA">ITALIA</option>
+<option value="IUGOSLAVIA">IUGOSLAVIA</option>
+<option value="JAMAICA">JAMAICA</option>
+<option value="JAPAO">JAPAO</option>
+<option value="KUWEIT">KUWEIT</option>
+<option value="LETONIA">LETONIA</option>
+<option value="LIBIA">LIBIA</option>
+<option value="LITUANIA">LITUANIA</option>
+<option value="MALASIA">MALASIA</option>
+<option value="MARROCOS">MARROCOS</option>
+<option value="MEXICO">MEXICO</option>
+<option value="NICARAGUA">NICARAGUA</option>
+<option value="NIGERIA">NIGERIA</option>
+<option value="NORUEGA">NORUEGA</option>
+<option value="NOVA ZELANDIA">NOVA ZELANDIA</option>
+<option value="PANAMA">PANAMA</option>
+<option value="PARAGUAI">PARAGUAI</option>
+<option value="PERU">PERU</option>
+<option value="POLONIA">POLONIA</option>
+<option value="PORTUGAL">PORTUGAL</option>
+<option value="QUENIA">QUENIA</option>
+<option value="REINO UNIDO">REINO UNIDO</option>
+<option value="REPUBLICA TCHECA">REPUBLICA TCHECA</option>
+<option value="ROMENIA">ROMENIA</option>
+<option value="RUANDA">RUANDA</option>
+<option value="SENEGAL">SENEGAL</option>
+<option value="SINGAPURA">SINGAPURA</option>
+<option value="SRI LANKA">SRI LANKA</option>
+<option value="SUECIA">SUECIA</option>
+<option value="SUICA">SUICA</option>
+<option value="TAILANDIA">TAILANDIA</option>
+<option value="TAIWAN">TAIWAN</option>
+<option value="TOGO">TOGO</option>
+<option value="TRINIDAD E TOBAGO">TRINIDAD E TOBAGO</option>
+<option value="TUNISIA">TUNISIA</option>
+<option value="TURQUIA">TURQUIA</option>
+<option value="UCRANIA">UCRANIA</option>
+<option value="URUGUAI">URUGUAI</option>
+<option value="VENEZUELA">VENEZUELA</option>
+<option value="VIETNA">VIETNA</option>
+<option value="ZIMBABUE">ZIMBABUE</option>
+<option value="OUTROS">OUTROS</option>
+</SELECT> 
+</td></tr>
+
+<tr><td align="right"><font size="+2,5" face="" color="Blue">País(es): &nbsp;</font>
+</td><td>
+<SELECT NAME="PAIS2" multiple>
+<option value="all" selected>TODOS</option>
+<option value="1">Autor individual</option>
+<option value="BRASIL">BRASIL</option>
+<option value="AFRICA DO SUL">AFRICA DO SUL</option>
+<option value="ALEMANHA">ALEMANHA</option>
+<option value="ARABIA SAUDITA">ARABIA SAUDITA</option>
+<option value="ARGENTINA">ARGENTINA</option>
+<option value="AUSTRALIA">AUSTRALIA</option>
+<option value="AUSTRIA">AUSTRIA</option>
+<option value="BELGICA">BELGICA</option>
+<option value="BOLIVIA">BOLIVIA</option>
+<option value="BULGARIA">BULGARIA</option>
+<option value="BURKINA FASO">BURKINA FASO</option>
+<option value="CAMAROES">CAMAROES</option>
+<option value="CANADA">CANADA</option>
+<option value="CHILE">CHILE</option>
+<option value="CHINA">CHINA</option>
+<option value="COLOMBIA">COLOMBIA</option>
+<option value="COSTA RICA">COSTA RICA</option>
+<option value="CROACIA">CROACIA</option>
+<option value="CUBA">CUBA</option>
+<option value="DINAMARCA">DINAMARCA</option>
+<option value="EGITO">EGITO</option>
+<option value="EQUADOR">EQUADOR</option>
+<option value="ESLOVAQUIA">ESLOVAQUIA</option>
+<option value="ESLOVENIA">ESLOVENIA</option>
+<option value="ESPANHA">ESPANHA</option>
+<option value="ESTADOS UNIDOS">ESTADOS UNIDOS</option>
+<option value="FEDERACAO RUSSA">FEDERACAO RUSSA</option>
+<option value="FINLANDIA">FINLANDIA</option>
+<option value="FRANCA">FRANCA</option>
+<option value="GRECIA">GRECIA</option>
+<option value="GUATEMALA">GUATEMALA</option>
+<option value="GUIANA FRANCESA">GUIANA FRANCESA</option>
+<option value="HOLANDA">HOLANDA</option>
+<option value="HONDURAS">HONDURAS</option>
+<option value="HONG KONG">HONG KONG</option>
+<option value="HUNGRIA">HUNGRIA</option>
+<option value="INDIA">INDIA</option>
+<option value="INDONESIA">INDONESIA</option>
+<option value="IRA">IRA</option>
+<option value="IRLANDA">IRLANDA</option>
+<option value="ISRAEL">ISRAEL</option>
+<option value="ITALIA">ITALIA</option>
+<option value="IUGOSLAVIA">IUGOSLAVIA</option>
+<option value="JAMAICA">JAMAICA</option>
+<option value="JAPAO">JAPAO</option>
+<option value="KUWEIT">KUWEIT</option>
+<option value="LETONIA">LETONIA</option>
+<option value="LIBIA">LIBIA</option>
+<option value="LITUANIA">LITUANIA</option>
+<option value="MALASIA">MALASIA</option>
+<option value="MARROCOS">MARROCOS</option>
+<option value="MEXICO">MEXICO</option>
+<option value="NICARAGUA">NICARAGUA</option>
+<option value="NIGERIA">NIGERIA</option>
+<option value="NORUEGA">NORUEGA</option>
+<option value="NOVA ZELANDIA">NOVA ZELANDIA</option>
+<option value="PANAMA">PANAMA</option>
+<option value="PARAGUAI">PARAGUAI</option>
+<option value="PERU">PERU</option>
+<option value="POLONIA">POLONIA</option>
+<option value="PORTUGAL">PORTUGAL</option>
+<option value="QUENIA">QUENIA</option>
+<option value="REINO UNIDO">REINO UNIDO</option>
+<option value="REPUBLICA TCHECA">REPUBLICA TCHECA</option>
+<option value="ROMENIA">ROMENIA</option>
+<option value="RUANDA">RUANDA</option>
+<option value="SENEGAL">SENEGAL</option>
+<option value="SINGAPURA">SINGAPURA</option>
+<option value="SRI LANKA">SRI LANKA</option>
+<option value="SUECIA">SUECIA</option>
+<option value="SUICA">SUICA</option>
+<option value="TAILANDIA">TAILANDIA</option>
+<option value="TAIWAN">TAIWAN</option>
+<option value="TOGO">TOGO</option>
+<option value="TRINIDAD E TOBAGO">TRINIDAD E TOBAGO</option>
+<option value="TUNISIA">TUNISIA</option>
+<option value="TURQUIA">TURQUIA</option>
+<option value="UCRANIA">UCRANIA</option>
+<option value="URUGUAI">URUGUAI</option>
+<option value="VENEZUELA">VENEZUELA</option>
+<option value="VIETNA">VIETNA</option>
+<option value="ZIMBABUE">ZIMBABUE</option>
+<option value="OUTROS">OUTROS</option>
+</SELECT>
+</td></tr>
+
+
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td align="right">
+<font size="+2,5" face="" color="Red">Ano de Publicação: &nbsp;</font>
+</td><td>
+<SELECT NAME="YNG" multiple>
+<OPTION VALUE="sum">Soma de todos os anos
+<OPTION VALUE="all" selected>Todos os anos
+<OPTION VALUE="2003">2003
+<OPTION VALUE="2002">2002
+<OPTION VALUE="2001">2001
+<OPTION VALUE="2000">2000
+<OPTION VALUE="1999">1999
+<OPTION VALUE="1998">1998
+<OPTION VALUE="1997">1997
+<OPTION VALUE="1996">1996
+<OPTION VALUE="1995">1995
+<OPTION VALUE="1994">1994
+<OPTION VALUE="1993">1993
+</SELECT>
+</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr><td colspan="2">
+<font size="+2,5" face="" color="Blue">Revistas SciELO:</font>&nbsp;&nbsp;&nbsp;
+<SELECT NAME="CITED">
+<option value="all" selected>TODAS AS REVISTAS EM SciELO</option>
+<option value="1024-9435">ACIMED</option>
+<option value="0004-2730">ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA E MATABOLOGIA</option>
+<option value="0034-7493">REVISTA CUBANA DE CIRUGIA</option>
+<option value="0864-2141">REVISTA CUBANA DE EDUCACION MEDICA SUPERIOR</option>
+<option value="0864-0319">REVISTA CUBANA DE ENFERMERIA</option>
+<option value="0034-7507">REVISTA CUBANA DE ESTOMATOLOGIA</option>
+<option value="0034-7515">REVISTA CUBANA DE FARMACIA</option>
+<option value="0253-1751">REVISTA CUBANA DE HIGIENE Y EPIDEMIOLOGIA</option>
+<option value="0864-0300">REVISTA CUBANA DE INVESTIGACIONES BIOMEDICAS</option>
+<option value="0034-7523">REVISTA CUBANA DE MEDICINA</option>
+<option value="0864-2125">REVISTA CUBANA DE MEDICINA GENERAL INTEGRAL</option>
+<option value="0138-6557">REVISTA CUBANA DE MEDICINA MILITAR</option>
+<option value="0375-0760">REVISTA CUBANA DE MEDICINA TROPICAL</option>
+<option value="0034-7531">REVISTA CUBANA DE PEDIATRIA</option>
+<option value="1028-4796">REVISTA CUBANA DE PLANTAS MEDICINALES</option>
+<option value="0864-3466">REVISTA CUBANA DE SALUD PUBLICA</option>
+</SELECT> 
+</td></tr>	
+
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr><td></td><td>
+<SELECT NAME="formato"> 
+<OPTION VALUE="html">HTML
+<OPTION VALUE="xml">XML
+</SELECT>
+</td></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+
+<tr><td>&nbsp;
+</td><td><input type="submit" value="mostra">
+&nbsp;
+<input type="reset" value="limpa">
+</td></tr>
+
+</table>
+
+<!-- <input type="hidden" name="pft1" value="lw(8000),newline('<br>'),@/home/rogerio/www/htdocs/sel/cited1.pft">
+   <input type="hidden" name="pft2" value="lw(8000),newline('<br>'),@/home/rogerio/www/httpd/htdocs/sel/cited2.pft">
+	 <input type="hidden" name="pft3" value="lw(8000),newline('<br>'),@/home/rogerio/www/htdocs/sel/cited3.pft">
+-->
+
+
+
+  </form> 
+ 
+  </center>
+ </body> 
+</html>

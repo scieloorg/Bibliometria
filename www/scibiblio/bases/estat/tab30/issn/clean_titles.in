@@ -1,0 +1,12 @@
+
+proc=proc('d*',|<210 0>|v210|</210>|,|<222 0>|v222|</222>|,|<245 0>|v245|</245>|,|<246 0>|v246|</246>|,'<22 0>',if v22^a<>'' then v22^a else v22 fi,'</22>'),
+
+proc=proc('Gclean_titles'),proc('Gclean_titles'),proc('Gclean_titles'),proc('Gclean_titles'),
+
+proc=if p(v222) then proc('d10<10 0>'mpu,v222^a.60,mpl'</10>') fi
+proc=proc('Gsplit/clean=10')
+
+proc=@clean_v210.prc
+proc=@clean_v222.prc
+proc=@clean_v246.prc
+proc=@create_v155.prc

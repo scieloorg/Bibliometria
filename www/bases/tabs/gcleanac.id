@@ -1,0 +1,1245 @@
+!ID 0
+!v001!032
+!v002!032
+!v011!asc
+!v021!asc
+!v050!espaco
+!ID 0
+!v001!033
+!v011!asc
+!v021!asc
+!v050!exclama
+!ID 0
+!v001!034
+!v011!asc
+!v021!asc
+!v050!aspas
+!ID 0
+!v001!035
+!v011!asc
+!v021!asc
+!v050!number
+!ID 0
+!v001!036
+!v011!asc
+!v021!asc
+!v050!cifrao
+!ID 0
+!v001!037
+!v011!asc
+!v021!asc
+!v050!percent
+!ID 0
+!v001!038
+!v011!asc
+!v021!asc
+!v050!ampersent
+!ID 0
+!v001!039
+!v011!asc
+!v021!asc
+!v050!apostrofe
+!ID 0
+!v001!040
+!v011!asc
+!v021!asc
+!v050!abre parentese
+!ID 0
+!v001!041
+!v011!asc
+!v021!asc
+!v050!fecha parentese
+!ID 0
+!v001!042
+!v011!asc
+!v021!asc
+!v050!asterisco
+!ID 0
+!v001!043
+!v011!asc
+!v021!asc
+!v050!mais
+!ID 0
+!v001!044
+!v011!asc
+!v021!asc
+!v050!virgula
+!ID 0
+!v001!045
+!v011!asc
+!v021!asc
+!v050!hifen
+!ID 0
+!v001!046
+!v011!asc
+!v021!asc
+!v050!ponto
+!ID 0
+!v001!047
+!v011!asc
+!v021!asc
+!v050!barra
+!ID 0
+!v001!048
+!v002!048
+!v011!asc
+!v021!asc
+!v050!digito 0
+!ID 0
+!v001!049
+!v002!049
+!v011!asc
+!v021!asc
+!v050!digito 1
+!ID 0
+!v001!050
+!v002!050
+!v011!asc
+!v021!asc
+!v050!digito 2
+!ID 0
+!v001!051
+!v002!051
+!v011!asc
+!v021!asc
+!v050!digito 3
+!ID 0
+!v001!052
+!v002!052
+!v011!asc
+!v021!asc
+!v050!digito 4
+!ID 0
+!v001!053
+!v002!053
+!v011!asc
+!v021!asc
+!v050!digito 5
+!ID 0
+!v001!054
+!v002!054
+!v011!asc
+!v021!asc
+!v050!digito 6
+!ID 0
+!v001!055
+!v002!055
+!v011!asc
+!v021!asc
+!v050!digito 7
+!ID 0
+!v001!056
+!v002!056
+!v011!asc
+!v021!asc
+!v050!digito 8
+!ID 0
+!v001!057
+!v002!057
+!v011!asc
+!v021!asc
+!v050!digito 9
+!ID 0
+!v001!058
+!v011!asc
+!v021!asc
+!v050!dois pontos
+!ID 0
+!v001!059
+!v011!asc
+!v021!asc
+!v050!ponto e virgula
+!ID 0
+!v001!060
+!v011!asc
+!v021!asc
+!v050!menor que
+!ID 0
+!v001!061
+!v011!asc
+!v021!asc
+!v050!igual
+!ID 0
+!v001!062
+!v011!asc
+!v021!asc
+!v050!maior que
+!ID 0
+!v001!063
+!v011!asc
+!v021!asc
+!v050!interrogacao
+!ID 0
+!v001!064
+!v011!asc
+!v021!asc
+!v050!arroba
+!ID 0
+!v001!065
+!v002!065
+!v011!asc
+!v021!asc
+!v050!letra A maiuscula
+!ID 0
+!v001!066
+!v002!066
+!v011!asc
+!v021!asc
+!v050!letra B maiuscula
+!ID 0
+!v001!067
+!v002!067
+!v011!asc
+!v021!asc
+!v050!letra C maiuscula
+!ID 0
+!v001!068
+!v002!068
+!v011!asc
+!v021!asc
+!v050!letra D maiuscula
+!ID 0
+!v001!069
+!v002!069
+!v011!asc
+!v021!asc
+!v050!letra E maiuscula
+!ID 0
+!v001!070
+!v002!070
+!v011!asc
+!v021!asc
+!v050!letra F maiuscula
+!ID 0
+!v001!071
+!v002!071
+!v011!asc
+!v021!asc
+!v050!letra G maiuscula
+!ID 0
+!v001!072
+!v002!072
+!v011!asc
+!v021!asc
+!v050!letra H maiuscula
+!ID 0
+!v001!073
+!v002!073
+!v011!asc
+!v021!asc
+!v050!letra I maiuscula
+!ID 0
+!v001!074
+!v002!074
+!v011!asc
+!v021!asc
+!v050!letra J maiuscula
+!ID 0
+!v001!075
+!v002!075
+!v011!asc
+!v021!asc
+!v050!letra K maiuscula
+!ID 0
+!v001!076
+!v002!076
+!v011!asc
+!v021!asc
+!v050!letra L maiuscula
+!ID 0
+!v001!077
+!v002!077
+!v011!asc
+!v021!asc
+!v050!letra M maiuscula
+!ID 0
+!v001!078
+!v002!078
+!v011!asc
+!v021!asc
+!v050!letra N maiuscula
+!ID 0
+!v001!079
+!v002!079
+!v011!asc
+!v021!asc
+!v050!letra O maiuscula
+!ID 0
+!v001!080
+!v002!080
+!v011!asc
+!v021!asc
+!v050!letra P maiuscula
+!ID 0
+!v001!081
+!v002!081
+!v011!asc
+!v021!asc
+!v050!letra Q maiuscula
+!ID 0
+!v001!082
+!v002!082
+!v011!asc
+!v021!asc
+!v050!letra R maiuscula
+!ID 0
+!v001!083
+!v002!083
+!v011!asc
+!v021!asc
+!v050!letra S maiuscula
+!ID 0
+!v001!084
+!v002!084
+!v011!asc
+!v021!asc
+!v050!letra T maiuscula
+!ID 0
+!v001!085
+!v002!085
+!v011!asc
+!v021!asc
+!v050!letra U maiuscula
+!ID 0
+!v001!086
+!v002!086
+!v011!asc
+!v021!asc
+!v050!letra V maiuscula
+!ID 0
+!v001!087
+!v002!087
+!v011!asc
+!v021!asc
+!v050!letra W maiuscula
+!ID 0
+!v001!088
+!v002!088
+!v011!asc
+!v021!asc
+!v050!letra X maiuscula
+!ID 0
+!v001!089
+!v002!089
+!v011!asc
+!v021!asc
+!v050!letra Y maiuscula
+!ID 0
+!v001!090
+!v002!090
+!v011!asc
+!v021!asc
+!v050!letra Z maiuscula
+!ID 0
+!v001!091
+!v011!asc
+!v021!asc
+!v050!abre colchete
+!ID 0
+!v001!092
+!v011!asc
+!v021!asc
+!v050!barra invertida
+!ID 0
+!v001!093
+!v011!asc
+!v021!asc
+!v050!fecha colchete
+!ID 0
+!v001!094
+!v002!094
+!v011!asc
+!v021!asc
+!v050!Circunflexo (delimitador de subcampo)
+!ID 0
+!v001!095
+!v011!asc
+!v021!asc
+!v050!sublinhado
+!ID 0
+!v001!096
+!v011!asc
+!v021!asc
+!v050!crase
+!ID 0
+!v001!097
+!v002!097
+!v011!asc
+!v021!asc
+!v050!letra a minuscula
+!ID 0
+!v001!098
+!v002!098
+!v011!asc
+!v021!asc
+!v050!letra b minuscula
+!ID 0
+!v001!099
+!v002!099
+!v011!asc
+!v021!asc
+!v050!letra c minuscula
+!ID 0
+!v001!100
+!v002!100
+!v011!asc
+!v021!asc
+!v050!letra d minuscula
+!ID 0
+!v001!101
+!v002!101
+!v011!asc
+!v021!asc
+!v050!letra e minuscula
+!ID 0
+!v001!102
+!v002!102
+!v011!asc
+!v021!asc
+!v050!letra f minuscula
+!ID 0
+!v001!103
+!v002!103
+!v011!asc
+!v021!asc
+!v050!letra g minuscula
+!ID 0
+!v001!104
+!v002!104
+!v011!asc
+!v021!asc
+!v050!letra h minuscula
+!ID 0
+!v001!105
+!v002!105
+!v011!asc
+!v021!asc
+!v050!letra i minuscula
+!ID 0
+!v001!106
+!v002!106
+!v011!asc
+!v021!asc
+!v050!letra j minuscula
+!ID 0
+!v001!107
+!v002!107
+!v011!asc
+!v021!asc
+!v050!letra k minuscula
+!ID 0
+!v001!108
+!v002!108
+!v011!asc
+!v021!asc
+!v050!letra l minuscula
+!ID 0
+!v001!109
+!v002!109
+!v011!asc
+!v021!asc
+!v050!letra m minuscula
+!ID 0
+!v001!110
+!v002!110
+!v011!asc
+!v021!asc
+!v050!letra n minuscula
+!ID 0
+!v001!111
+!v002!111
+!v011!asc
+!v021!asc
+!v050!letra o minuscula
+!ID 0
+!v001!112
+!v002!112
+!v011!asc
+!v021!asc
+!v050!letra p minuscula
+!ID 0
+!v001!113
+!v002!113
+!v011!asc
+!v021!asc
+!v050!letra q minuscula
+!ID 0
+!v001!114
+!v002!114
+!v011!asc
+!v021!asc
+!v050!letra r minuscula
+!ID 0
+!v001!115
+!v002!115
+!v011!asc
+!v021!asc
+!v050!letra s minuscula
+!ID 0
+!v001!116
+!v002!116
+!v011!asc
+!v021!asc
+!v050!letra t minuscula
+!ID 0
+!v001!117
+!v002!117
+!v011!asc
+!v021!asc
+!v050!letra u minuscula
+!ID 0
+!v001!118
+!v002!118
+!v011!asc
+!v021!asc
+!v050!letra v minuscula
+!ID 0
+!v001!119
+!v002!119
+!v011!asc
+!v021!asc
+!v050!letra w minuscula
+!ID 0
+!v001!120
+!v002!120
+!v011!asc
+!v021!asc
+!v050!letra x minuscula
+!ID 0
+!v001!121
+!v002!121
+!v011!asc
+!v021!asc
+!v050!letra y minuscula
+!ID 0
+!v001!122
+!v002!122
+!v011!asc
+!v021!asc
+!v050!letra z minuscula
+!ID 0
+!v001!123
+!v011!asc
+!v021!asc
+!v050!abre chave
+!ID 0
+!v001!124
+!v011!asc
+!v021!asc
+!v050!pipe
+!ID 0
+!v001!125
+!v011!asc
+!v021!asc
+!v050!fecha chave
+!ID 0
+!v001!126
+!v011!asc
+!v021!asc
+!v050!tilde
+!ID 0
+!v001!127
+!v011!asc
+!v021!asc
+!v050!DELETE
+!ID 0
+!v001!128
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!129
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!130
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!131
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!132
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!133
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!134
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!135
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!136
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!137
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!138
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!139
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!140
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!141
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!142
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!143
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!144
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!145
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!146
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!147
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!148
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!149
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!150
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!151
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!152
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!153
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!154
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!155
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!156
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!157
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!158
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!159
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!160
+!v002!032
+!v011!asc
+!v021!asc
+!v050!espaco
+!ID 0
+!v001!161
+!v011!asc
+!v021!asc
+!v050!exclamacao invertida
+!ID 0
+!v001!162
+!v011!asc
+!v021!asc
+!v050!cents
+!ID 0
+!v001!163
+!v011!asc
+!v021!asc
+!v050!libra
+!ID 0
+!v001!164
+!v011!asc
+!v021!asc
+!v050!currency
+!ID 0
+!v001!165
+!v011!asc
+!v021!asc
+!v050!yene
+!ID 0
+!v001!166
+!v011!asc
+!v021!asc
+!v050!vertical broken bar
+!ID 0
+!v001!167
+!v011!asc
+!v021!asc
+!v050!paragrafo
+!ID 0
+!v001!168
+!v011!asc
+!v021!asc
+!v050!trema
+!ID 0
+!v001!169
+!v011!asc
+!v021!asc
+!v050!copyright
+!ID 0
+!v001!170
+!v011!asc
+!v021!asc
+!v050!ordinal feminino
+!ID 0
+!v001!171
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!172
+!v011!asc
+!v021!asc
+!v050!not
+!ID 0
+!v001!173
+!v011!asc
+!v021!asc
+!v050!SHY
+!ID 0
+!v001!174
+!v011!asc
+!v021!asc
+!v050!marca registrada
+!ID 0
+!v001!175
+!v011!asc
+!v021!asc
+!v050!macron
+!ID 0
+!v001!176
+!v011!asc
+!v021!asc
+!v050!degree
+!ID 0
+!v001!177
+!v011!asc
+!v021!asc
+!v050!mais ou menos
+!ID 0
+!v001!178
+!v011!asc
+!v021!asc
+!v050!potencia de dois
+!ID 0
+!v001!179
+!v011!asc
+!v021!asc
+!v050!potencia de tres
+!ID 0
+!v001!180
+!v011!asc
+!v021!asc
+!v050!agudo
+!ID 0
+!v001!181
+!v011!asc
+!v021!asc
+!v050!micro
+!ID 0
+!v001!182
+!v011!asc
+!v021!asc
+!v050!pilcrow
+!ID 0
+!v001!183
+!v011!asc
+!v021!asc
+!v050!middle dot
+!ID 0
+!v001!184
+!v011!asc
+!v021!asc
+!v050!cedilha
+!ID 0
+!v001!185
+!v011!asc
+!v021!asc
+!v050!potencia de um
+!ID 0
+!v001!186
+!v011!asc
+!v021!asc
+!v050!ordinal masculino
+!ID 0
+!v001!187
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!188
+!v011!asc
+!v021!asc
+!v050!um quarto
+!ID 0
+!v001!189
+!v011!asc
+!v021!asc
+!v050!meio
+!ID 0
+!v001!190
+!v011!asc
+!v021!asc
+!v050!tres quartos
+!ID 0
+!v001!191
+!v011!asc
+!v021!asc
+!v050!interrogacao invetida
+!ID 0
+!v001!192
+!v002!192
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!193
+!v002!193
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!194
+!v002!194
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!195
+!v002!195
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!196
+!v002!196
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!197
+!v002!065
+!v011!asc
+!v021!asc
+!v050!A maiusculo ring
+!ID 0
+!v001!198
+!v002!198
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!199
+!v002!199
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!200
+!v002!200
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!201
+!v002!201
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!202
+!v002!202
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!203
+!v002!203
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!204
+!v002!204
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!205
+!v002!205
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!206
+!v002!206
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!207
+!v002!207
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!208
+!v002!208
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!209
+!v002!209
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!210
+!v002!210
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!211
+!v002!211
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!212
+!v002!212
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!213
+!v002!213
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!214
+!v002!214
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!215
+!v011!asc
+!v021!asc
+!v050!multiplicacao
+!ID 0
+!v001!216
+!v002!216
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!217
+!v002!217
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!218
+!v002!218
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!219
+!v002!219
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!220
+!v002!220
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!221
+!v002!221
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!222
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!223
+!v002!066
+!v011!asc
+!v021!asc
+!v050!B ligadura
+!ID 0
+!v001!224
+!v002!224
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!225
+!v002!225
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!226
+!v002!226
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!227
+!v002!227
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!228
+!v002!228
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!229
+!v002!229
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!230
+!v002!230
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!231
+!v002!231
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!232
+!v002!232
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!233
+!v002!233
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!234
+!v002!234
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!235
+!v002!235
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!236
+!v002!236
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!237
+!v002!237
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!238
+!v002!238
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!239
+!v002!239
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!240
+!v002!240
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!241
+!v002!241
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!242
+!v002!242
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!243
+!v002!243
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!244
+!v002!244
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!245
+!v002!245
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!246
+!v002!246
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!247
+!v011!asc
+!v021!asc
+!v050!divisao
+!ID 0
+!v001!248
+!v002!248
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!249
+!v002!249
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!250
+!v002!250
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!251
+!v002!251
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!252
+!v002!252
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!253
+!v002!253
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!254
+!v011!asc
+!v021!asc
+!v050!
+!ID 0
+!v001!255
+!v002!255
+!v011!asc
+!v021!asc
+!v050!

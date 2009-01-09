@@ -1,0 +1,75 @@
+'<tr>
+	<td>
+		<font face="Tahoma" size="2" color="Black"><b>'f(val(mfn),1,0)'.</b></font>
+	</td>
+	<td>
+		<font face="Arial" size="1" color="Black"><i>'v1^s'</i></font>
+	</td>
+	<td><font face="Tahoma" size="2" color="Black"><b>'v999'</b></font>
+	</td>'
+,e1:=l(['tab30issn']ref(['tab30issn']l(['tab30issn']v1^c),v400)),e2:=l(['fat_imp']v1^c),
+if e1>0 and e2>0 
+then 
+	'<td>
+		<center><font face="Tahoma" size="1" color="Olive"><b>SciELO / ISI</b></font>
+	</td>'
+else 
+	if e1>0 
+	then 
+		'<td>
+			<font face="Verdana" size="2" color="Red"><b><center>SciELO</b></font>
+		</td>'
+	else 
+		if e2>0
+		then 
+			'<td>
+				<font face="Verdana" size="2" color="Blue"><b><center>ISI</b></font>
+			</td>'
+		else
+			'<td>
+					<center><b>-</b></center>
+			</td>' 
+		fi,
+	fi,
+fi,
+	'<td>',
+		if e1>0
+		then 
+			'<font face="Verdana" size="2"  color="Black"><b>
+			<a href=http://www.scielo.br/scielo.php?script=sci_serial&pid=', ref(['tab30issn']l(['tab30issn']v1^c),v400)'&amp;lng=',v333,'&nrm=iso target="_blank">'v1^c|</a></font>|
+		else,
+			if e2>0 and e1=0
+			then
+				'<font face="Verdana" size="2"  color="Green"><b>'v1^c'</font>' 
+			else, 
+				if v1^c.1='~'
+				then
+					'<font face="Verdana" size="2"  color="Black"><i>'v1^c*4'</font>'
+				else 
+					'<font face="Verdana" size="2"  color="Black"><b>'v1^c'</font>'
+				fi,
+			fi,
+		fi,
+	'</td>
+	<td>
+		<font face="Verdana" size="1"  color="Black"><b>',
+		if e1>0 
+		then 
+			'[<a href=scielo5out.sh?CITED=44I_',v1^i,|%20and%20|,v1^n,|%20and%20|,v288,|%20and%20|,v265,'&amp;formato=html target=\"_blank\"> Ver formas citadas </a>]' 
+		else,
+			if e2>0
+			then 
+				'[<a href=scielo5out.sh?CITED=44I_',ref(['fat_imp']e2,v4),|%20and%20|,v1^n,|%20and%20|,v288,|%20and%20|,v265,'&amp;formato=html target=\"_blank\"> Ver formas citadas </a>]' 
+			fi,
+		fi,
+	'</td>
+<td>
+		<font face="Verdana" size="1"  color="Black"><b>'if v1^i<>'' then v1^i else, if e2>0 then ref(['fat_imp']e2,v4) else 'Não corrigido' fi, fi'</b></font>
+	</td>
+	</tr>'
+	
+/*
+<td>
+		<font face="Verdana" size="2"  color="Black"><b>'v1^c'</b></font>
+	</td>
+*/

@@ -1,0 +1,80 @@
+if v2^i<>ref([''v5555'.titsanosg']val(f(mfn-1,1,0)),v2^i) 
+then 
+	'<journal>'/
+		'<link>',
+			'<label_list>',
+				'<label lang="pt"><![CDATA[', ref(['title']l(['title']v2^t),if p(v151) then v151 else v150 fi),']]></label>'/
+				'<label lang="en"><![CDATA[', ref(['title']l(['title']v2^t),if p(v151) then v151 else v150 fi),']]></label>'/ 
+				'<label lang="es"><![CDATA[', ref(['title']l(['title']v2^t),if p(v151) then v151 else v150 fi),']]></label>'/ 
+			'</label_list>'/	
+			'<url>',
+				'<protocol>http</protocol>'/
+				'<host>'v7766'</host>'/
+				'<port></port>'/
+				'<path></path>'/
+				'<script_name>scielo.php</script_name>'/
+				'<param_list>',
+					'<param>',
+						'<name>script</name>'/
+						'<value>sci_serial</value>'/
+					'</param>'/
+					'<param>',
+						'<name>pid</name>'/
+						'<value>', ref(['tab30issn']l(['tab30issn']v2^t),v400), '</value>'/
+					'</param>'/
+					'<param>',
+						'<name>lng</name>'/
+						'<value>', v333, '</value>'/
+					'</param>'/
+					'<param>',
+						'<name>nrm</name>'/
+						'<value>iso</value>'/
+					'</param>'/
+				'</param_list>'/
+			'</url>'/
+		'</link>'/
+		'<totals>',
+			'<issues>', v21, '</issues>'/
+			'<articles>', v22, '</articles>'/
+			'<citing>', v23, '</citing>'/
+			'<cited>', v24, '</cited>'/
+			'<avarages>',
+				'<articles_issue>', v25, '</articles_issue>'/
+				'<citing>',
+						'<issue>', v26, '</issue>'/
+						'<article>', v27, '</article>'/
+				'</citing>'/
+				'<cited>',
+					'<issue>', v28, '</issue>'/
+					'<article>', v29, '</article>'/
+				'</cited>'/
+			'</avarages>'/
+		'</totals>'/
+		'<stat_list>',
+fi,
+	if v12<>'0' 
+		then 
+			'<stat year="', v2^a, '">',
+				'<year>', v2^a, '</year>'/
+				'<issues>', v11, '</issues>'/
+				'<articles>', v12, '</articles>'/
+				'<citing>', v13, '</citing>'/
+				'<cited>', v14, '</cited>'/
+				'<avarages>',
+					'<articles_issue>', v15, '</articles_issue>'/
+					'<citing>',
+						'<issue>', v16, '</issue>'/
+						'<article>', v17, '</article>'/
+					'</citing>'/
+					'<cited>',
+						'<issue>', v18, '</issue>'/
+						'<article>', v19, '</article>'/
+					'</cited>'/
+				'</avarages>'/
+			'</stat>'/
+	fi,
+if v2^i<>ref([''v5555'.titsanosg']val(f(mfn+1,1,0)),v2^i) 
+then 
+		'</stat_list>'/
+	'</journal>'/
+fi

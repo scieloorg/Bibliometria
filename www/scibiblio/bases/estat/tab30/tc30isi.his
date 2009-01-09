@@ -1,0 +1,2000 @@
+   59  du -h coc.001
+   60  cd coc.000
+   61  ll xml.rec
+   62  ll
+   63  cd coc.coc
+   64  ll
+   65  cd ../xml.rec
+   66  ll
+   67  mv centre.imp centres.imp
+   68  mv dare_abstract.imp DARE_abstract.imp
+   69  ll
+   70  mv dare_biblio.imp DARE_biblio.imp 
+   71  mv eed_abstract.imp EED_abstract.imp 
+   72  mv eed_biblio.imp EED_biblio.imp 
+   73  ll
+   74  mv fields.imp Fields.imp 
+   75  ll
+   76  mv mgroups.imp method_groups.imp
+   77  mv mgroup.imp method_groups.imp
+   78  ll
+   79  mv network.imp networks.imp 
+   80  ll
+   81  mv cdsr_protocol.imp protocols.imp 
+   82  mv cdsr_review.imp reviews.imp 
+   83  ll
+   84  mv DARE_abstract.imp DARE_abstracts.imp 
+   85  ll
+   86  mv EED_abstract.imp EED_abstracts.imp 
+   87  ll
+   88  cd ../coc.coc
+   89  ll
+   90  nohup time ../tpl.coc/gencocall.sh >&tenta1.out &
+   91  ll
+   92  tail tenta1.out 
+   93  cd ../tpl.coc/
+   94  ll
+   95  chmod 755 *.sh
+   96  ll
+   97  cd ..
+   98  cd coc.coc
+   99  cd /bases/coc.000/coc.coc
+  100  nohup time ../tpl.coc/gencocall.sh >&tenta1.out &
+  101  tail tenta1.out 
+  102  mv ../xml.rec/DARE_abstracts.imp ../xml.rec/Dare_abstracts.imp 
+  103  ll
+  104  nohup time ../tpl.coc/gencocall.sh >&tenta1.out &
+  105  tail tenta1.out 
+  106  mv ../xml.rec/Fields.imp ../xml.rec/fields.imp 
+  107  nohup time ../tpl.coc/gencocall.sh >&tenta1.out &
+  108  tail tenta1.out 
+  109  mv ../xml.rec/DARE_biblio.imp ../xml.rec/Dare_biblio.imp 
+  110  nohup time ../tpl.coc/gencocall.sh >&tenta1.out &
+  111  ll
+  112  run
+  113  ll
+  114  tail ../tpl.coc/gencocall.sh 
+  115  ll ../tabs
+  116  less ../tabs/uadm.txt 
+  117  ll
+  118  ll
+  119  ll
+  120  ll ..
+  121  tail ../coc.000.log 
+  122  ll
+  123  /utl/lindffi/mx work
+  124  /utl/lindffi/mx work +control count=1
+  125  /utl/lindffi/mx work
+  126  ll
+  127  tail ../coc.000.log 
+  128  ll
+  129  rm work.*
+  130  ll
+  131  rm coc.par
+  132  ll 
+  133  rm -rf *
+  134  ll
+  135  cd ..
+  136  ll
+  137  rm *.log
+  138  ll
+  139  cd coc.coc
+  140  ll
+  141  ll
+  142  l ..
+  143  ll ..
+  144  nohup time ../tpl.coc/gencocall.sh >&../tenta02.out &
+  145  run
+  146  run
+  147  ll ..
+  148  tail ../tenta02.out 
+  149  tail ../tenta02.out 
+  150  ll
+  151  run
+  152  ll ..
+  153  tail ../tenta02.out 
+  154  tail ../tenta02.out 
+  155  tail -50 ../tenta02.out 
+  156  tail -60 ../tenta02.out 
+  157  tail ../tenta02.out 
+  158  tail ../tenta02.out 
+  159  tail ../tenta02.out 
+  160  tail ../tenta02.out 
+  161  tail ../tenta02.out 
+  162  tail ../tenta02.out 
+  163  tail ../tenta02.out 
+  164  tail ../tenta02.out 
+  165  tail ../tenta02.out 
+  166  tail ../tenta02.out 
+  167  tail ../tenta02.out 
+  168  tail ../tenta02.out 
+  169  exit
+  170  cd /bases
+  171  ls
+  172  cd gizmoart
+  173  ls
+  174  mx artigo
+  175  mx artigo "TP=H"
+  176  mx artigo "TP=H" "pft=v70" 
+  177  ls
+  178  /bases/cdrom/mxf0sfld
+  179  ls -l /bases/cdrom/mxf0sfld
+  180  ls -l /bases/cdrom
+  181  ls -l /home/cdrom
+  182  ls -l /home/cdrom
+  183  ls -l /bases/home/cdrom/mxf0sfld
+  184  ls -l /bases/home/cdrom/mxf0sfld/cisis
+  185  /bases/home/cdrom/mxf0sfld/cisis/mxf0sfld
+  186  ls
+  187  /bases/home/cdrom/mxf0sfld/cisis/mxf0sfld
+  188  /bases/home/cdrom/mxf0sfld/cisis/mxf0sfld artigo create=artigoSFLD 1000000
+  189  ls
+  190  /bases/home/cdrom/mxf0sfld/cisis/mxf0sfld artigo create=artigoSFLD 4000000
+  191  mx artigoSFLD
+  192  mx artigoSFLD | more
+  193  mx artigo +control
+  194  exit
+  195  cd /bases/lnk.000/spa.lnk
+  196  nohup time ../tpl.lnk/gennlinks.sh spa 2002 2003 >&nnlnkspa.out &
+  197  ll
+  198  exit
+  199  cd /bases/coc.000
+  200  ll
+  201  tail tenta02.out 
+  202  cd coc.coc
+  203  cp -p ../tpl.coc/gencocti.sh k
+  204  vi k
+  205  /utl/lindffi/mx protocols/protocols "proc=@../tabs/protocol.prc" create=protocols/protocols_t -all now tell=500
+  206  /utl/lindffi/mx protocols/protocols "proc=@../tabs/protocol.prc" create=protocols/protocols_t -all now tell=1
+  207  /utl/lindffi/mx protocols/protocols "proc=@../tabs/protocol.prc" create=protocols/protocols_t -all tell=1 from=973
+  208  /utl/lindffi/mx protocols/protocols tell=1 from=973
+  209  /utl/lindffi/mx protocols/protocols "proc=@../tabs/protocol.prc" from=973
+  210  /utl/lindffi/mx protocols/protocols "proc=@../tabs/protocol.prc" from=974
+  211  /utl/lindffi/mx protocols/protocols "proc=@../tabs/protocol.prc" from=975
+  212  /utl/lindffi/mx protocols/protocols "proc=@../tabs/protocol.prc" from=975 now -all
+  213  /utl/lindffi/mx protocols/protocols  from=974 count=1
+  214  /utl/lindffi/mx protocols/protocols  from=974 "pft=f(size(v1),1,0)/"count=1
+  215  /utl/lindffi/mx protocols/protocols  from=974 "pft=f(size(v1),1,0)/" count=1
+  216  less ../tabs/protocol.prc 
+  217  /utl/lindffi/mx protocols/protocols  from=974 "pft=left(v1,instr(v1,'>'))/"
+  218  /utl/lindffi/mx protocols/protocols  from=974 "pft=right(v1,size('PROTOCOL'))/"
+  219  /utl/lindffi/mx protocols/protocols  from=974 "pft=right(v1,size('PROTOCOL')+3)/"
+  220  /utl/lindffi/mx protocols/protocols  from=974 "pft=mid(v1,instr(v1,'<TITLE>'),instr(v1,'</TITLE>')-instr(v1,'<TITLE>')+size('TITLE')+3)/"
+  221  /utl/lindffi/mx protocols/protocols  from=974 "pft@=../tabs/protocol.prc"
+  222  /utl/lindffi/mx protocols/protocols  from=974 "pft=@../tabs/protocol.prc"
+  223  /utl/lindffi/mx protocols/protocols  from=974 "proc=@../tabs/protocol.prc"
+  224  /utl/lindffi/mx protocols/protocols  from=973 "proc=@../tabs/protocol.prc"
+  225  /utl/lindffi/mx protocols/protocols  from=975 "proc=@../tabs/protocol.prc"
+  226  /utl/lindffi/mx protocols/protocols  from=975 "proc=@../tabs/protocol.prc" now
+  227  /utl/lindffi/mx protocols/protocols  from=974 "proc=@../tabs/protocol.prc"
+  228  /utl/lindffi/mx protocols/protocols  from=974 "pft=@../tabs/protocol.prc"
+  229  cp -p ../tabs/protocol.prc 
+  230  cp -p ../tabs/protocol.prc  ./k.prc
+  231  vi k.prc
+  232  /utl/lindffi/mx protocols/protocols  from=974 "pft=@k.prc"
+  233  /utl/lindffi/mx protocols/protocols  from=974 "proc=@k.prc"
+  234  vi k.prc
+  235  /utl/lindffi/mx protocols/protocols  from=974 "pft=@k.prc"
+  236  vi k.prc
+  237  /utl/lindffi/mx protocols/protocols  from=974 "pft=@k.prc"
+  238  /utl/lindffi/mx protocols/protocols  from=974 "pft=@k.prc"
+  239  vi ../tabs/protocol.prc 
+  240  /utl/lindffi/mx protocols/protocols  from=974 "proc=@../tabs/protocol.prc"
+  241  /utl/lindffi/mx protocols/protocols -all now "proc=@../tabs/protocol.prc"
+  242  ll
+  243  rm -rf *
+  244  ll
+  245  cd ..
+  246  ll
+  247  rm *.log
+  248  ll
+  249  cd coc.coc
+  250  nohup time ../tpl.coc/gencocall.sh >&../tenta3.out &
+  251  run
+  252  tail ../tenta3.out 
+  253  tail ../tenta3.out 
+  254  tail ../tenta3.out 
+  255  tail ../tenta3.out 
+  256  tail ../tenta3.out 
+  257  tail ../tenta3.out 
+  258  tail ../tenta3.out 
+  259  tail ../tenta3.out 
+  260  tail ../tenta3.out 
+  261  tail ../tenta3.out 
+  262  tail ../tenta3.out 
+  263  tail ../tenta3.out 
+  264  tail ../tenta3.out 
+  265  tail ../tenta3.out 
+  266  tail ../tenta3.out 
+  267  tail ../tenta3.out 
+  268  tail ../tenta3.out 
+  269  run
+  270  tail ../tenta3.out 
+  271  tail ../tenta3.out 
+  272  tail ../tenta3.out 
+  273  tail ../tenta3.out 
+  274  exit
+  275  cd /bases/estat/artigo
+  276  grep cipar ../h2
+  277   CIPAR=/bases/estat/cipar.cip; export CIPAR
+  278  CIPAR=/bases/estat/cipar.cip; export CIPAR
+  279  mx artigoc 
+  280  mx artigoc "ARQUIVOS BRASILEIROS DE OFTALMOLOGIA"
+  281  mx artigoc "30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA"
+  282  mx artigoc "30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA" "2000"
+  283  mx artigoc "30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA" "2002"
+  284  mx artigoc "BOOL=30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA AND 2002"
+  285  mx artigoc "BOOL=30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA AND 65_2002"
+  286  mx artigoc "bool=30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA AND 65_2002"
+  287  mx artigoc "bool=30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA AND 2002"
+  288  exit
+  289  cd ..
+  290  cd ..
+  291  cd /bases/wtrig2/lilacs
+  292  ls
+  293  vi reg.sh
+  294  exit
+  295  cd ..
+  296  cd ..
+  297  cd /bases/wtrig2/lilacs
+  298  cd ..
+  299  ls
+  300  cd presentacion
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd rogerio
+  305  ls
+  306  cd ..
+  307  ls
+  308  mkdir regina
+  309  cd regina
+  310  ls
+  311  cd ..
+  312  cd lilacs
+  313  ls
+  314  ls
+  315  ls lil*.*
+  316  ./mx Aarea
+  317  ./mx Aarea1
+  318  ./mx Aarea
+  319  /utl/lindffi/mxtb z3 create=art_pais_area "120:(if v5='S' then s(mpu,v444[1]'|'v870,mpl), fi/)/" class=100000 tell=10000
+  320  /utl/lindffi/mxtb x5 create=art_pais_area "120:(if v5='S' then s(mpu,v444[1]'|'v870,mpl), fi/)/" class=100000 tell=10000
+  321  ./mx art_pais_area
+  322  /utl/lindffi/mxtb x5 create=art_pais_area "120:(if v5='S' then if p(v870) then s(mpu,v444[1]'|'v870,mpl), else s(mpu,v444[1]'|'SEM AREA,mpl) fi/)/" class=100000 tell=10000
+  323  /utl/lindffi/mxtb x5 create=art_pais_area "120:(if v5='S' then if p(v870) then s(mpu,v444[1]'|'v870,mpl), else s(mpu,v444[1]'|'SEM AREA,mpl)fi fi/)/" class=100000 tell=10000
+  324  /utl/lindffi/mxtb x5 create=art_pais_area "120:(if v5='S' then if p(v870) then s(mpu,v444[1]'|'v870,mpl), else s(mpu,v444[1],mpl)'|'SEM AREA fi fi/)/" class=100000 tell=10000
+  325  /utl/lindffi/mxtb x5 create=art_pais_area "120:(if v5='S' then if p(v870) then s(mpu,v444[1]'|'v870,mpl), else s(mpu,v444[1],mpl)'|''SEM AREA' fi fi/)/" class=100000 tell=10000
+  326  ./mx art_pais_area
+  327  /utl/lindffi/mxtb art_pais_area create=teste "80:v1/" class=100000 tell=1000
+  328  ./mx teste
+  329  ./mx art_pais_area
+  330  ./mx art_pais_area +control
+  331  ./mx Aarea
+  332  /utl/lindffi/mxtb x5 create=teste "80:if v5='S' then v30 fi/" class=10000 tell=10000
+  333  ./mx tese
+  334  ./mx teste
+  335  /utl/lindffi/mxtb x5 create=teste "80:if v5='S' then s(mpu,v30'|'v444,mpl) fi/" class=10000 tell=10000
+  336  ./mx teste
+  337  /utl/lindffi/mxtb x5 create=teste "80:if v5='S' then s(mpu,v444'|'v30,mpl) fi/" class=10000 tell=10000
+  338  ./mx teste
+  339  /utl/lindffi/msrt teste 100,v1
+  340  /utl/lindffi/msrt teste 100 v1
+  341  ./mx teste
+  342  /utl/lindffi/msrt teste 100 v1 v999
+  343  ./mx teste
+  344  /utl/lindffi/msrt teste 100 v1,v999
+  345  ./mx teste
+  346  /utl/lindffi/mxtb x5 create=teste "80:if v5='S' then s(mpu,v444,mpl) fi/" class=10000 tell=10000
+  347  ./mx teste
+  348  /utl/lindffi/msrt teste 100 v1
+  349  ./mx teste
+  350  ./mx teste "pft=v1'|'v999" 
+  351  ./mx Aarea
+  352  /utl/lindffi/mxtb x5 create=teste "120:(if v5='S' then if p(v870) then s(mpu,v30'|'v870,mpl), else s(mpu,v30,mpl)'|''SEM AREA' fi fi/)/" class=100000 tell=10000
+  353  ./mx teste
+  354  ./mx teste
+  355  ./mx teste "pft=v1/" -all now > rev_area.seq tell=100
+  356  ./mx seq=rev_area.seq create=rev_area1 -all now tell=100
+  357  ./mx rev_area1
+  358  /utl/lindffi/mxtb rev_area1 create=teste1 "80:v1/" class=10000 tell=100
+  359  ./mx rev_area1
+  360  ./mx rev_area1 +control
+  361  /utl/lindffi/mxtb rev_area1 create=teste1 "80:v2/" class=10000 tell=100
+  362  ./mx teste1
+  363  ./mx teste1 +control
+  364  ./mx teste1
+  365  /utl/lindffi/mxtb x5 create=teste "150:(if v5='S' then if p(v870) then s(mpu,v30'|'v870,mpl), else s(mpu,v30,mpl)'|''SEM AREA' fi fi/)/" class=100000 tell=10000
+  366  ./mx teste
+  367  ./mx teste lw=9999 "pft=v1/" -all now > rev_area.seq tell=1000
+  368  ./mx seq=rev_area.seq create=rev_area1 -all now tell=1000
+  369  /utl/lindffi/mxtb rev_area1 create=teste1 "120:v2/" class=10000 tell=1000
+  370  ./mx teste1
+  371  /utl/lindffi/mxtb rev_area2 100 v1
+  372  /utl/lindffi/mxtb teste1 100 v1
+  373  /utl/lindffi/mxtb teste1 100 v1
+  374  /utl/lindffi/msrt teste1 100 v1
+  375  ./mx teste1
+  376  /utl/lindffi/mxtb x5 create=teste "80:if v5='S' then s(mpu,v444'|'v30,mpl) fi/" class=10000 tell=10000
+  377  ./mx teste
+  378  ./mx teste "pft=v1/" -all now >rev_pais.seq tell=1000
+  379  ./mx seq=rev_pais.seq create=teste -all now tell=1000
+  380  ./mx teste
+  381  ./mx teste +control
+  382  /utl/lindffi/mxtb teste create=teste1 "80:v1/" class=100000 tell=100
+  383  ./mx teste1
+  384  ./mx teste1
+  385  /utl/lindffi/msrt teste1 100 v1
+  386  ./mx teste1
+  387  ./mx x5 "pft=if p(v83) and a(v65) then mfn fi/"
+  388  ./mx x5 "pft=if p(v83) and a(v65) then mfn fi/" now
+  389  /utl/lindffi/mxtb x5 create=resumoxpais "60:if p(v83) then v444 fi"
+  390  ./mx respta
+  391  /utl/lindffi/msrt respta 100 v1
+  392  /utl/lindffi/msrt respta 100 v1
+  393  /utl/lindffi/msrt respta 100 v1 tell=10000
+  394  ./mx respta
+  395  ./mx respta +control
+  396  ./mx x5 "pft=if v323='180' then mfn fi/"
+  397  ./mx x5 "pft=if v323='180' then mfn fi/" now
+  398  ./mx rev_pais_fas_ano "text=180"
+  399  ./mx rev_pais_fas_ano
+  400  ./mx rev_pais_fas_ano1
+  401  ./mx rev_pais_fas_ano1 +control
+  402  /utl/lindffi/mxtb rev_pais_fas_ano create=teste "60:v4/" class=100000 tell=10000
+  403  ./mx teste
+  404  /utl/lindffi/mxtb rev_pais_fas_ano1 create=teste "60:v4/" class=100000 tell=10000
+  405  ./mx teste
+  406  /utl/lindffi/mxtb rev_pais_fas_ano1 create=teste "60:v4/" class=100000 tell=10000 tab=v3
+  407  ./mx teste
+  408  /utl/lindffi/mx rev_pais_fas_ano1 "fst=4 0 v4/" fullinv=rev_pais_fas_ano1
+  409  ./mx rev_pais_fas_ano1 1993 now "pft=v3/"
+  410  ./mx rev_pais_fas_ano1 1993 now "pft=v3/" >fasciculos1993.txt
+  411  ./mx rev_pais_fas_ano
+  412  ./mx rev_pais_fas_ano1
+  413  ./mx rev_pais_fas_ano1 control
+  414  ./mx rev_pais_fas_ano1 +control 
+  415  ./mx rev_pais_fas_ano1
+  416  /utl/lindffi/msrt rev_pais_fas_ano1 120 s(v1,v4 )
+  417  /utl/lindffi/msrt rev_pais_fas_ano1 120 s(v1,v4)
+  418  /utl/lindffi/msrt rev_pais_fas_ano1 120 v1,v4
+  419  /utl/lindffi/msrt rev_pais_fas_ano1 120 v1,v4 tell=10000
+  420  ./mx rev_pais_fas_ano1
+  421  /utl/lindffi/mtb rev_pais_fas_ano1 create=teste 120:v1,'|',v4 tell=10000
+  422  /utl/lindffi/mxtb rev_pais_fas_ano1 create=teste 120:v1,'|',v4 tell=10000
+  423  /utl/lindffi/mxtb rev_pais_fas_ano1 create=teste 120:v1,'|',v4 tell=10000 class=100000
+  424  /utl/lindffi/mxtb rev_pais_fas_ano1 create=teste "120:v1,'|',v4" class=100000 tell=10000
+  425  ./mx teste
+  426  /utl/lindffi/msrtxtb rev_pais_fas_ano1 create=teste "120:v1,'|',v4" class=100000 tell=10000
+  427  /utl/lindffi/msrt teste  120 v1 tell=10000
+  428  ./mx teste
+  429  /utl/lindffi/mxtb rev_pais_fas_ano1 create=teste "120:v1,'|',v4'|'v2" class=100000 tell=10000
+  430  /utl/lindffi/msrt teste  120 v1 tell=10000
+  431  ./mx teste
+  432  ./mx teste
+  433  ./mx teste
+  434  ./mx rev_pais_fas_ano
+  435  ./mx x5 lw=9999 "pft=(if v5='S' and p(v32) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v870,mpl)/ fi) /" -all now >num_rev_pais_fasc_ano_area.seq tell=10000
+  436  /utl/lindffi/mxtb x5  "150:(if v5='S' and p(v32) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v870,mpl)/ fi) /" class=1000000 tell=10000
+  437  /utl/lindffi/mxtb x5 create=teste "150:(if v5='S' and p(v32) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v870,mpl)/ fi) /" class=1000000 tell=10000
+  438  /utl/lindffi/mxtb x5 create=teste "150:(if v5='S' and p(v32) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v870,mpl)/ fi) /" class=100000 tell=10000
+  439  ./mx teste
+  440  /utl/lindffi/mxtb x5 create=teste "150:(if v5='S' and p(v32) then if p(v870) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v870,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) / fi/ fi) /" class=100000 tell=10000
+  441  ./mx teste
+  442  ./mx teste "pft=v1/" -all now >rev_pais_fas_ano_area.seq tell=1000
+  443  ./mx teste "pft=v1/" -all now >rev_pais_fas_ano_area.seq tell=10000
+  444  ./mx seq=rev_pais_fas_ano_area.seq create=rev_pais_fas_ano_area1 -all now tell=1000
+  445  ./mx seq=rev_pais_fas_ano_area.seq create=rev_pais_fas_ano_area1 -all now tell=10000
+  446  ./mx rev_pais_fas_ano_area
+  447  ./mx rev_pais_fas_ano_area1
+  448  ./mx seq=rev_pais_fas_ano_area.seq lw=9999 create=rev_pais_fas_ano_area1 -all now tell=10000
+  449  ./mx rev_pais_fas_ano_area1
+  450  ./mx rev_pais_fas_ano_area1
+  451  ./mx teste lw=9999 "pft=v1/" -all now >rev_pais_fas_ano_area.seq tell=10000
+  452  ./mx seq=rev_pais_fas_ano_area.seq lw=9999 create=rev_pais_fas_ano_area1 -all now tell=10000
+  453  ./mx rev_pais_fas_ano_area1
+  454  ./mx rev_pais_fas_ano_area1 +control
+  455  ./mx teste
+  456  /utl/lindffi/msrt teste 150 v1 tell=10000
+  457  ./mx teste
+  458  /utl/lindffi/mxtb rev_pais_fas_ano_area1 create=num_fas_rev_pais_ano_areatb "150:v1'|'v2'|'v4'|'v5/" class=100000 tell=10000
+  459  ./mx num_fas_rev_pais_ano_area
+  460  ./mx num_fas_rev_pais_ano_areatb
+  461  /utl/lindffi/msrt num_fas_rev_pais_ano_areatb 150 v1 tell=10000
+  462  ./mx num_fas_rev_pais_ano_areatb
+  463  ./mx num_fas_rev_pais_ano_areatb
+  464  exit
+  465  cd ..
+  466  cd ..
+  467  cd /bases/wtrig2/lilacs
+  468  cd ..
+  469  cd regina
+  470  cp ../lilacs/mx .
+  471  cp ../lilacs/reg.sh .
+  472  cp ../lilacs/iso3166.* .
+  473  cp ../lilacs/0pais*.* .
+  474  cp ../lilacs/loadisoffi.sh
+  475  cp ../lilacs/loadisoffi.sh .
+  476  cp ../lilacs/loadisoffi .
+  477  ls
+  478  cp ../lilacs/paises_errados.seq
+  479  cp ../lilacs/lilas.fst
+  480  cp ../lilacs/lilas.fst .
+  481  cp ../lilacs/lil.iso .
+  482  cp ../lilacs/lilser*.*.
+  483  cp ../lilacs/lilser*.* .
+  484  cp ../lilacs/lil_t*.* .
+  485  ls
+  486  cp ../lilacs/fixrepdup.prc .
+  487  cd ..
+  488  cd lilacs
+  489  ./mx x5"pft=if v5='S' and a(v30) then mfn fi/"
+  490  ./mx x5 "pft=if v5='S' and a(v30) then mfn fi/"
+  491  ./mx x5 "pft=if v5='S' and a(v30) then mfn fi/" now
+  492  ./mx x5 "pft=if v5='S' and a(v444) then mfn fi/" now
+  493  ./mx respta
+  494  ./mx resptatb
+  495  ./mx resptatb +control
+  496  ./mx respta +control
+  497  ./mx 555tb
+  498  ./mx 555
+  499  ./mx 55
+  500  ./mx 555
+  501  ./mx 555
+  502  /utl/lindffi/mxtb x5 create=rev_pais_fas_ano "150:if v5='S' and p(v32) then s(mpu,v30'|'v444'|'v32'|'v65.4,mpl) fi/" class=100000 tell=10000
+  503  ./mx rev_pais_fas_ano
+  504  ./mx rev_pais_fas_ano "pft=v1/" -all now >rev_pais_fas_ano.seq tell=1000
+  505  ./mx seq=rev_pais_fas_ano.seq create=rev_pais_fas_ano1 -all now tell=1000
+  506  ./mx rev_pais_fas_ano1
+  507  /utl/lindffi/mxtb rev_pais_fas_ano1 create=fas_ano "60:v3'|'v4/" class=10000
+  508  0 tell=10000
+  509    4  "1996"
+  510  /utl/lindffi/mxtb rev_pais_fas_ano1 create=fas_ano "60:v3'|'v4/" class=10000
+  511  /utl/lindffi/mxtb rev_pais_fas_ano1 create=fas_ano "60:v3'|'v4/" class=10000 tell=10000
+  512  ./mx fas_ano
+  513  ./mx x5 "pft=if v32='180' then mfn fi/" now
+  514  ./mx x5 from=131378
+  515  ./mx fas_ano
+  516  vi regina.sh]
+  517  vi regina.sh
+  518  ./mx fas_ano
+  519  ./mx x8
+  520  exit
+  521  cd ..
+  522  cd ..
+  523  cd /bases/wtrig2/lilacs
+  524  /utl/lindffi/mxtb rev_pais_fas_ano1 create=rev_pais_fas_anotb "120:v1,'|',v4'|'v2" class=100000 tell=10000
+  525  ./mx rev_pais_fas_ano_area 
+  526  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "150:(if v5='S' and p(v32) then if p(v870) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v870,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) / fi/ fi) /" class=100000 tell=10000
+  527  /utl/lindffi/mxtb x5 create=rev_pais_fas_ano_area "150:(if v5='S' and p(v32) then if p(v870) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v870,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) / fi/ fi) /" class=100000 tell=10000
+  528  /utl/lindffi/msrt rev_pais_fas_ano_area 150 v1 tell=10000
+  529  ./mx rev_pais_fas_ano_area 
+  530  ./mx rev_pais_fas_ano_area lw=9999 "pft=v1/" -all now >rev_pais_fas_ano_area.seq tell=10000
+  531  ./mx seq=rev_pais_fas_ano_area.seq lw=9999 create=rev_pais_fas_ano_area1 -all now tell=10000
+  532  ./mx rev_pais_fas_ano_area1
+  533  /utl/lindffi/mxtb rev_pais_fas_ano_area1 create=num_fas_rev_pais_ano_areatb "150:v1'|'v2'|'v4'|'v5/" class=100000 tell=10000
+  534  /utl/lindffi/msrt num_fas_rev_pais_ano_areatb 150 v1 tell=10000
+  535  ./mx num_fas_rev_pais_ano_areatb
+  536  ./mx rev_res_ing_pais 
+  537  ./mx rev_res_ingtb
+  538  ./mx rev_res_ingtb +control
+  539  ./mx decsct1
+  540  ./mx decsct1 "text=MEETING REPORT"
+  541  ./mx x8 "pft=(v71'|'v171/) from=121066"
+  542  ./mx x8 "pft=(v71'|'v171/)" from=121066
+  543  ./mx x8 "pft=(v71'|'v171/)" from=120638
+  544  ./mx x8 "pft=(v71'|'v171/)" now|sort -u 
+  545  ./mx x8 "pft=(v71'|'v171/)" now|sort -u >ttt.txt
+  546  ./mx x8 "pft=(if p(v71) then v71'|'v171/ fi)" now|sort -u >ttt.txt
+  547  more ttt.txt
+  548  ./mx x8 "pft=if nocc(v71) <> nocc(v171) then (v71'|'v171)/ fi" now
+  549  ./mx x8 "pft=if nocc(v71) <> nocc(v171) then (v71'|'v171,mfn)/ fi" now
+  550  ./mx x8 "pft=if nocc(v71) <> nocc(v171) then (v71'|'v171'|'mfn)/ fi" now
+  551  ./mx x8 "pft=(v71'|'v171/)" from=97679
+  552  ./mx x8 from=110102
+  553  ls *.txt
+  554  exit
+  555  cd ..
+  556  cd ..
+  557  cd /bases/wtrig2/lilacs
+  558  /utl/lindffi/mxtb x5 create=tot_art_area "60:if v5='S' then (s(mpu,v870,mpl)/) fi/" class=100000
+  559  /utl/lindffi/mxtb x5 create=tot_art_area "60:if v5='S' then (s(mpu,v870,mpl)/) fi/" class=100000 tell=10000
+  560  ./mx tot_art_area
+  561  ./mx rev_pais_fas_ano
+  562  ./mx rev_pais_fas_ano1
+  563  ./mx rev_pais_fas_anotb
+  564  ./mx rev_pais_fas_ano1
+  565  ./mx fas_ano
+  566  ./mx rev_pais_fas_ano
+  567  ./mx rev_pais_fas_anotb
+  568  ./mx rev_pais_fas_ano
+  569  more num_fas_rev_ano_pais.txt
+  570  /utl/lindffi/msrt rev_pais_fas_anotb  120 v1 tell=10000
+  571  ./mx rev_pais_fas_anotb
+  572  ./mx rev_pais_fas_anotb +controlç
+  573  ./mx rev_pais_fas_anotb +control
+  574  /utl/lindffi/mxtb x5 create=teste "120:if v5='S' and v41:'EN' then s(mpu,v30'|'v444,mpl) fi/" class=100000 tell=10000
+  575  ./mx teste
+  576  ./mx teste +control
+  577  ./mx res_ing_rev_paistb 
+  578  /utl/lindffi/msrt  teste 120 v1
+  579  ./mx teste
+  580  ./mx res_ing_rev_paistb 
+  581  ./mx teste
+  582  ./mx res_ing_rev_paistb 
+  583  more art_res_ing_rev_pais.txt tell=100
+  584  ./mx teste
+  585  ./mx teste
+  586  ./mx x5 "pft=if v5='S' and a(v91) then mfn fi/" now|wc -l
+  587  ./mx x5 "pft=if v5='S' and p(v91) then mfn fi/" now|wc -l
+  588  ./mx x5 "pft=if v5='S' and a(v91) and p(v84) then mfn fi/" now|sort -u
+  589  ./mx x5 "pft=if v5='S' and a(v91) and p(v84) then mfn fi/" now|wc -l
+  590  ./mx x5 "pft=v91/" now|sort -u
+  591  ./mx x5 "pft=if v5='S' then v91 fi//" now|sort -u >tt.txt
+  592  more tt.txt
+  593  ./mx x5 "pft=if v5='S' and a(v65)  then mfn fi/" now|wc -l
+  594  /utl/lindffi/mxtb x5  create=teste "120:if v5='S' then s(mpu,v30'|'v65.4,mpl) fi/" class=100000 tell=10000
+  595  ./mx teste
+  596  /utl/lindffi/msrt teste 120 v1
+  597  /utl/lindffi/msrt teste 120 v1 tell=10000
+  598  ./mx teste
+  599  ./mx teste "pft=v1'|'v999/" -all now > rev_ano.seq
+  600  ./mx seq=rev_ano.seq create=rev_ano1 -all now tell=1000
+  601  ./mx rev_ano1
+  602  /utl/lindffi/mxtb rev_ano1 create=tot_art_rev "120:v1/" class=100000 tab=v3 
+  603  ./mx tot_art_rev
+  604  ./mx rev_ano1 "pft=v1'|'v2/" -all now >rev_ind_ano.txt
+  605  more rev_ind_ano.txt
+  606  ./mx x8
+  607  ./mx x8tb
+  608  ./mx x5 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "pft=if p(v71) then mfn,c12,v71,c40,v171/ fi" now
+  609  ./mx x5 "pft=v71 /" now|sort -u
+  610  t1
+  611  ../mx x5 "join=decsct1=s(mpu,|PT |v71,mpl)"
+  612  ./mx x5 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "pft=if p(v71) then mfn,c12,v71,c40,v171/ fi" now
+  613  ./mx x5 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "proc=if v32001^m>0 then 'd32001d171a171~'right(v171,size(v171)-3)'~' fi"
+  614  ./mx x5 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "proc=if v32001^m>'' then 'd32001d171a171~'right(v171,size(v171)-3)'~' fi"
+  615  ./mx x5 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "proc=if v32001^m>'' then 'd32001d171a171~'right(v171,size(v171)-3)'~' fi"
+  616  ./mx decsct
+  617  ./mx decsct1
+  618  ./mx x5 "join=decsct1,171:703=s(mpu,(v71/),mpl)" "proc='d32001'" "proc=if v171>'' then 'd171',|a171~|v171*3|~| fi" now -all tell=50000
+  619  ./mx x5 "join=decsct1,171:703=s(mpu,(v71/),mpl)" "proc='d32001'" "proc=if v171>'' then 'd171',|a171~|v171*3|~| fi" now -all tell=50000 c -all now tell=10000
+  620  ./mx x5 "join=decsct1,171:1=s(mpu,(|PT |v71/),mpl)" "proc='d32001'" "proc=if v171>'' then 'd171',|a171~|v171*3|~| fi" now
+  621  ./mx x5 "join=decsct1,171:703=s(mpu,(v71/),mpl)" "proc='d32001'" "proc=if v171>'' then 'd171',|a171~|v171*3|~| fi" now -all tell=50000 create=x8 -all now tell=10000
+  622  ./MX X8
+  623  ./MX X8
+  624  ./mx x8
+  625  ./mx x8 "pft=if p(v171) then v171 fi/" now
+  626  ./mx x8 "pft=if nocc(v71) <> nocc(v171) then mfn fi/" now
+  627  ./mx x8 from=97679
+  628  ./mx x8 "pft=if nocc(v71) <> nocc(v171) then mfn fi/" now
+  629  ./mx x8 from=115189
+  630  ./mx x8 from=111740
+  631  ./mx x8 "pft=if nocc(v71) <> nocc(v171) then mfn fi/" now
+  632  su - root
+  633  exit
+  634  cd ..
+  635  cd ..
+  636  cd /bases/wtrig2/lilacs
+  637  vi reg.sh
+  638  ls *.txt
+  639  exit
+  640  cd /bases/coc.000
+  641  ll
+  642  tail tenta3.out 
+  643  vi tpl.coc/gencocall.sh 
+  644  ll
+  645  vi tenta3.out 
+  646  vi tpl.coc/gencocall.sh 
+  647  vi tpl.coc/NOTAS.txt 
+  648  ll
+  649  cd coc.coc
+  650  ll
+  651  less groups.new 
+  652  cd ..
+  653  ll
+  654  rm *.tgz
+  655  rm *.log
+  656  rm *.out
+  657  cd coc.coc
+  658  rm -rf *
+  659  ll
+  660  nohup time ../tpl.coc/gencocall.sh >&../tentat1.out &
+  661  ll
+  662  run
+  663  ll
+  664  ll ..
+  665  less ../tentat1.out 
+  666  ll
+  667  run
+  668  cd /bases/lnk.000/iah.lnk
+  669  ll
+  670  nohup time ../tpl.lnk/geniahlinks.sh spa >&iah2spa.out &
+  671  ll
+  672  less niahspa.out 
+  673  ll
+  674  less niahscl.out 
+  675  ll
+  676  rm niah*
+  677  ll
+  678  wc -l ado.lst
+  679  wc -l lil.lst
+  680  ll
+  681  run
+  682  ll
+  683  rm -r 2003070*
+  684  ll
+  685  rm -r 2003071*
+  686  ll
+  687  cd /bases/coc.000
+  688  ll
+  689  less tentat1.out 
+  690  ll
+  691  less coctar.log
+  692  ll coc.coc
+  693  clear
+  694  run
+  695  exit
+  696  cd ..
+  697  cd ..
+  698  cd /bases/wtrig2/lilacs
+  699  ls .*
+  700  ls *.txt
+  701  exit
+  702  cdc /bases
+  703  ls
+  704  cd /bases
+  705  ls
+  706  cd ..
+  707  ls -l
+  708  cd bqases
+  709  cd bases
+  710  ls
+  711  cd wtrig2
+  712  ls
+  713  cd ..
+  714  ls -l
+  715  cd wtrig2
+  716  ls -l
+  717  ls -l *.txt
+  718  ls -l 
+  719  cd lilacs
+  720  ls
+  721  ls -l *.txt
+  722  exit
+  723  cd /bases/estat/jcr
+  724  grep cipar
+  725  grep cipar ../h2
+  726  CIPAR=/bases/estat/cipar.cip; export CIPAR
+  727  mx fat_imp
+  728  mx fat_imp "J Clin Oncol"
+  729  mx fat_imp "text=J "
+  730  mx fat_imp "text=J Cl"
+  731  mx fat_imp "text=Oncol"
+  732  mx fat_imp "text=Onc"
+  733  mx fat_imp "text=ONCOL"
+  734  mx fat_imp "text=EUR J PAIN"
+  735  mx fat_imp "text=CLIN N MED"
+  736  mx fat_imp "text=CLIN N "
+  737  mx fat_imp "text=AM J PHYSIOL"
+  738  mx fat_imp "text=CHIN MED J"
+  739  mx fat_imp "text=CLIN MED J"
+  740  mx fat_imp "text=CLIN MED"
+  741  mx fat_imp "text=CHIN MED"
+  742  mx fat_imp "text=CHINESE"
+  743  mx fat_imp "text=CLIN N"
+  744  mx fat_imp "text=EURO"
+  745  mx fat_imp "text=NEW ENGLAND"
+  746  mx fat_imp "text="
+  747  mx fat_imp "text="
+  748  mx fat_imp "text="
+  749  mx fat_imp "text="
+  750  mx fat_imp "text=ENVIRONMENTAL MEDICINE"
+  751  cd ..
+  752  cd tab30
+  753  ls
+  754  mx tc30giz
+  755  mx tc30title
+  756  mx tc30title "text="
+  757  mx tc30title "text="
+  758  mx tc30title "text=ENVIRONMENTAL MEDICINE"
+  759  mx tc30title "text=NEW ENGLAND JOURNAL OF MEDICINE"
+  760  mx tc30title "text="
+  761  mx tc30title "text="
+  762  mx tc30title "text="
+  763  mx tc30title "text=NEW ENGLAND JOURNAL OF MEDICINE"
+  764  mx tc30title "text=JAMA"
+  765  mx fat_imp "text=JAMA"
+  766  mx tc30title "text=JAMA"
+  767  ftp scielo3
+  768  ftp scielo3
+  769  ftp scielo3
+  770  cd /home/rogerio/www/cgi-bin
+  771  ls
+  772  ls meneg05*
+  773  cp meneg05cgi.pft indica01cgi.pft
+  774  cp meneg05mod.sh indica01mod.sh
+  775  cp meneg05.sh indica01.sh
+  776  cd /home/rogerio/www/htdocs
+  777  ls meneg05*
+  778  cp meneg05.htm indica01.htm
+  779  chmod 777 indica01.htm
+  780  cd /home/rogerio/www/cgi-bin
+  781  chmod 777 indica01*
+  782  ll
+  783  mv indica01.htm indilil/indica01.htm
+  784  mkdir indilil
+  785  mv indica01.htm indilil/indica01.htm
+  786  ls
+  787  ls indilil
+  788  mv indica01.sh indilil/indica01.h
+  789  mv indica01mod.sh indilil/indica01mod.sh
+  790  mv indica01cgi.pft indilil/indica01cgi.pft
+  791  cd indilil
+  792  chmod 777 indica01*
+  793  ll
+  794  cd /home/rogerio/www/htdocs
+  795  mv indica01.htm indilil/indica01.htm
+  796  cd indilil
+  797  chmod 777 indica01*
+  798  ll
+  799  cd /home/rogerio/www/cgi-bin
+  800  cd indlil
+  801  cd indilil
+  802  mx seq=t_idioma.txt
+  803  mx seq=t_idio.txt
+  804  mx seq=t_idio.txt create=x
+  805  ls
+  806  mx seq=@../../htdocs/indilil/t_idio.txt
+  807  mx seq=../../htdocs/indilil/t_idio.txt
+  808  cd /home/rogerio/www/htdocs
+  809  ls
+  810  cd indilil
+  811  mx *.txt 
+  812  mv *.txt ../../cgi-bin/indilil
+  813  cd /home/rogerio/www/cgi-bin
+  814  cd indilil
+  815  mx seq=../../htdocs/indilil/t_idio.txt
+  816  mx seq=t_idio.txt
+  817  mx seq=t_idio.txt
+  818  mx seq=t_idio.txt now
+  819  mx seq=t_idio.txt now "pft=v1,x9,v2/"
+  820  mx seq=patb.txt now "pft=v1,x9,v2/"
+  821  cat patb.txt
+  822  cat tot_idioma_ano.txt
+  823  cat tot_idioma_pais.txt
+  824  ll
+  825  chmod 777 *
+  826  ll
+  827  vi tot_idioma_pais.txt.pft
+  828  mx seq=tot_idioma_ano.txt now lw=9999 "pft=@tot_idioma_ano.txt.pft/"
+  829  ls tot_idioma_ano.txt.pft
+  830  cp tot_idioma_pais.txt.pft tot_idioma_ano.txt.pft
+  831  vi tot_idioma_ano.txt.pft
+  832  mx seq=tot_idioma_ano.txt now lw=9999 "pft=@tot_idioma_ano.txt.pft/"
+  833  cat tot_idioma_ano.txt.pft
+  834  mx seq=tot_idioma_ano.txt now lw=9999 "pft=/"
+  835  mx seq=tot_idioma_ano.txt now lw=9999 
+  836  mx seq=tot_idioma_ano.txt now lw=9999 "pft=v1,x3,v2,x3,v3/"
+  837  cat tot_idioma_ano.txt.pft
+  838  mx seq=tot_idioma_ano.txt now lw=9999 "pft=tot_idioma_ano.txt.pft/"
+  839  mx seq=tot_idioma_ano.txt now lw=9999 "pft=@tot_idioma_ano.txt.pft/"
+  840  mx seq=tot_idioma_ano.txt now lw=9999 "pft=@tot_idioma_ano.txt.pft"
+  841  vi t_idio.txt.pft
+  842  vi respta.txt.pft
+  843  cat tot_idioma_ano.txt.pft
+  844  cat respta.txt|more
+  845  vi respta.txt.pft
+  846  catrespta.txt.pft
+  847  cat respta.txt.pft
+  848  vi respta.txt.pft
+  849  mx null
+  850  mx null count=1 "proc='a1~IDIOMA~'" 
+  851  mx null count=1 "proc='a111~IDIOMA~'" "pft=if v111<>'IDIOMA' then '<TABLE border="1"> <TR> <TD colspan="3"><font size="+3,5">Tabelas LILACS</TD></TR>' fi"
+  852  mx null count=1 "proc='a111~IDIOMA~'" "pft=if v111:'IDIOMA' then '<TABLE border="1"> <TR> <TD colspan="3"><font size="+3,5">Tabelas LILACS</TD></TR>' fi"
+  853  mx null count=1 "proc='a111~IDIOMA~'" "pft=if v111:'IDIOMA' then '<TABLE border="1"> <TR> <TD colspan="3"><font size="+3,5">Tabelas LILACS</TD></TR>' fi"
+  854  mx null count=1 "proc='a111~IDIOMA~'" "pft=if v111='IDIOMA' then '<TABLE border="1"> <TR> <TD colspan="3"><font size="+3,5">Tabelas LILACS</TD></TR>' fi"
+  855  mx null count=1 "proc='a111~IDIOMA~'" "pft=if v111='IDIOMA' then '<TABLE border="1"> <TR> <TD colspan="3"><font size="+3,5">Tabelas LILACS</TD></TR>' fi/"
+  856  mx null count=1 "proc='a111~IDIOMA~'" "pft=if v111<>'IDIOMA' then '<TABLE border="1">' fi" "pft=if v111='IDIOMA' then '<TR> <TD colspan="3"><font size="+3,5">Tabelas LILACS</TD></TR>' fi/"
+  857  mx null count=1 "proc='a111~IDIOMA~'" "pft=if v111<>'IDIOMA' then '<TABLE border="1">' fi/" "pft=if v111='IDIOMA' then '<TR> <TD><font size="+3,5">Tabelas LILACS</TD></TR>' fi/"
+  858  vi t_idio.txt.pft
+  859  vi t_idio.txt.pft
+  860  vi t_idio.txt.pft
+  861  exit
+  862  cd /bases/estat/jcr
+  863  grep cipar ../h2
+  864  CIPAR=/bases/estat/cipar.cip; export CIPAR
+  865  mx fat_imp
+  866  mx artigo_jcr
+  867  mx artigo_jcr "text=NEW ENGLAND JOURNAL OF MEDICINE"
+  868  mx tab30title
+  869  mx tab30title "text=NEW ENGLAND JOURNAL OF MEDICINE"
+  870  mx artigo_jcr "text=NEW ENGLAND JOURNAL OF MEDICINE"
+  871  mx tab30title "text=NEW ENGLAND JOURNAL OF MEDICINE"
+  872  mx fat_imp "text="
+  873  mx fat_imp "text="
+  874  mx fat_imp "text=AMERICAN DENTAL ASSOCIATION"
+  875  mx fat_imp "text=JAMA"
+  876  mx fat_imp "text=TRANSACTIONS OF THE ROYAL SOCIETY"
+  877  mx fat_imp "text=TRANSACTIONS OF THE ROYAL SOCIETY OF TROPICAL "
+  878  mx fat_imp "text=J AM COLL CARDIOL"
+  879  vi fat_imp.fst
+  880  grep fat_imp.fst ../h2
+  881  /utl/lind/mx fat_imp fst=@fat_imp.fst fullinv/ansi=fat_imp tell=10000
+  882  mx fat_imp "bool=J AM COLL CARDIOL"
+  883  mx null 
+  884  mx null "pft=ref(['fat_imp']l['fat_imp']'J AM COLL CARDIOL',v3"
+  885  mx null "pft=ref(['fat_imp']l['fat_imp']'J AM COLL CARDIOL'),v3"
+  886  mx null "pft=ref(['fat_imp']l['fat_imp']'J AM COLL CARDIOL'),v3)"
+  887  mx null "pft=ref(['fat_imp']l(['fat_imp']'J AM COLL CARDIOL'),v3)"
+  888  mx artigo_jcr "text=CADERNOS"
+  889  mx artigo_jcr "text=0102-311X"
+  890  mx artigo_jcr "bool=0102-311X"
+  891  cat ../artigoartigo_jcr.fst
+  892  cat ../artigo/artigo_jcr.fst
+  893  ls ../artigo
+  894  ls
+  895  cat ../artigo/cipar.cip
+  896  cat ../cipar.cip
+  897  cat ../artigo_jcr.fst
+  898  ls ../artigo
+  899  mx artigo_jcr "bool=0102-311X"
+  900  mx artigo_jcr "text=CADERNOS"
+  901  mx artigo_jcr "text=0102-311X"
+  902  ls
+  903  cd ..
+  904  ls
+  905  cd /tmp
+  906  ls 19110.*
+  907  ls 19110.in*
+  908  ls 19110.indica01*
+  909  ls 19110.indica01
+  910  ls 19110.indica01*
+  911  ls 19112.*
+  912  ls 19111.*
+  913  ls 20693.indica01*
+  914  cat 20693.indica01.gizmo.seq
+  915  ls *.indica01.gizmo.seq
+  916  ls 24531.indica01*
+  917  cat 24531.indica01.gizmo.seq
+  918  mx 24531.indica01.gizmo
+  919  cat 24531.indica01.sh
+  920  cat 24532.indica01.sh
+  921  cat 24531.indica01.sh
+  922  cat 24531.indica01.sh
+  923  cat 24531.indica01.*
+  924  ls 24531.indica01.*
+  925  cat 20693.indica01.sh
+  926  exit
+  927  cd ..
+  928  cd ..
+  929  cd /bases/wtrig2/lilacs
+  930  vi regina.sh
+  931  /utl/lindffi/mxtb x5 create=tot_id_pais_ti_ano "120:(v40'|'v444[1]'|'v5[1].1'|'v65[1].4, /)" class=100000 tell=100000
+  932  /utl/lindffi/msrt tot_id_pais_ti_ano 120 v1,v999
+  933  ./mx tot_id_pais_ti_ano "pft=v1'|'v999/" now >tot_id_pais_ti_ano.txt
+  934  ls *.txt
+  935  exit
+  936  cd ..
+  937  cd ..
+  938  cd /bases/wtrig2/lilacs
+  939  vi reg.sh
+  940  exit
+  941  cd ..
+  942  cd ..
+  943  cd rogerio/www
+  944  cd /home/rogerio/www
+  945  cd htdocs/indilil
+  946  cp /bases/wtrig2/lilacs/*.txt .
+  947  cp /bases/wtrig2/lilacs/tot_id_pais_ti_ano.txt.txt .
+  948  cp /bases/wtrig2/lilacs/tot_id_pais_ti_ano.txt .
+  949  exit
+  950  cd ..
+  951  cd ..
+  952  cd /bases/wtrig2/lilacs
+  953  vi reg.sh
+  954  vi reg.sh
+  955  cd /home/rogerio/www
+  956  cd htdocs
+  957  cd indilil
+  958  ls
+  959  cd ..
+  960  cd ..
+  961  cd cgi-bin
+  962  cd indilil
+  963  ls
+  964  cp /bases/wtrig2/lilacs/*.txt .
+  965  cd /bases/wtrig2/lilacs
+  966  ls *.txt
+  967  ls
+  968  cp LILACS.cip LILACS1.cip .
+  969  vi LILACS.cip
+  970  vi LILACS1.cip
+  971  vi 0pais0.sh
+  972  ls
+  973  cd /home
+  974  s
+  975  ls
+  976  cd /bases
+  977  ls
+  978  ls
+  979  cd /home/rogerio/www/cg-bin
+  980  cd /home/rogerio/www/cgi-bin
+  981  ls
+  982  ls -l *.pft
+  983  more simi_ef.pft
+  984  more saida.pft
+  985  ls -l *.pft
+  986  cd ../../
+  987  cd ../aot
+  988  ls
+  989  cd www
+  990  ls
+  991  cd cgi-bin
+  992  ls
+  993  ls -l *.pft
+  994  more simiartigoau.getcgi.pft
+  995  ls -l *.pft
+  996  more gerasimi1.pft
+  997  exit
+  998  cd /bases/estat
+  999  grep cipar h2
+ 1000  CIPAR=/bases/estat/cipar.cip; export CIPAR
+ 1001  mx fat_imp
+ 1002  cd jcr
+ 1003  mxtb fat_imp create=full_jcr 100:v3'^i'v4
+ 1004  mxtb fat_imp create=full_jcr 100:v3'^i'v4 class=10000 tell=2000
+ 1005  mx full_jcr
+ 1006  mx full_jcr
+ 1007  mxtb fat_imp create=full_jcr "100:v3'^i'v4" class=10000 tell=2000
+ 1008  mx full_jcr
+ 1009  msrt full_jcr 130 v1
+ 1010  mx full_jcr
+ 1011  mx tc30title
+ 1012  mx tab30title
+ 1013  mxtbansi tab30title create=full_tab30title uctab=ansi "100:mpu,v222^a"
+ 1014  mxtbansi tab30title create=full_tab30title uctab=ansi "100:mpu,v222^a" class=10000
+ 1015  mx full_tab30title
+ 1016  msrt full_tab30title 130 v1
+ 1017  mx full_tab30title +control
+ 1018  mx full_tab30title
+ 1019  cd /usr/scielo/scielo-prod/bases/bib/jlist
+ 1020  cd ..
+ 1021  cd tab30
+ 1022  ls
+ 1023  vi tc30isi.seq
+ 1024  mx seq=tc30isi.seq create=tc30isi -all now
+ 1025  mx tc30isi
+ 1026  mx tc30isi "fst=1 0 v1" fullinv=tc30isi
+ 1027  mz tc30isi
+ 1028  vi ../cipar.cip
+ 1029  cd ../jcr
+ 1030  ls
+ 1031  cd ../tab30
+ 1032  ls
+ 1033  ls ../artigo
+ 1034  history>ro.txt
+ 1035  cat ro.txt|more
+ 1036  grep jcr ro.txt
+ 1037  mxtb fat_imp create=full_jcr "100:v3" class=10000 tell=2000
+ 1038  msrt full_jcr 130 v1
+ 1039  mx full_jcr
+ 1040  mxtb fat_imp create=full_jcr "200:v3" class=10000 tell=2000
+ 1041  msrt full_jcr 130 v1
+ 1042  mx full_jcr
+ 1043  mxtb fat_imp create=ro "100:v30" class=10000 tell=2000
+ 1044  mx fat_imp
+ 1045  mxtb fat_imp create=ro "100:v7" class=10000 tell=2000
+ 1046  msrt ro 130 v1
+ 1047  mx ro
+ 1048  ll /bases/estat/fat_imp
+ 1049* ll /bajcr/fat_imp
+ 1050  ll /bases/estat/fat_imp.*
+ 1051  ll /bases/estat/jcr/fat_imp.*
+ 1052  mx full_jcr +control
+ 1053  vi tc30isi.seq
+ 1054  mx seq=tc30isi.seq create=tc30isi -all now
+ 1055  mx tc30isi.seq
+ 1056  mx tc30isi
+ 1057  mx tc30isi "fst=1 0 v1" fullinv=tc30isi
+ 1058  history>tc30isi.his
+   61  cd ../tpl.coc
+   62  ll
+   63  del coc.par
+   64  rm coc.par
+   65  vi gencoctp.sh
+   66  ll
+   67  vi NOTAS.txt 
+   68  ll
+   69  vi README.txt 
+   70  ll
+   71  vi progr.txt
+   72  ll
+   73  vi gencocall.sh
+   74  ll
+   75  mv emailme.sh anterior
+   76  ll
+   77  cd ..
+   78  ll
+   79  exit
+   80  cd /bases/wtrig2/lilacs
+   81  ./mx z3 "pft=if v5='S' and p(v8) then v8/" now
+   82  ./mx z3 "pft=if v5='S' and p(v8) then v8 fi/" now
+   83  vi reg.sh
+   84  vi regina.sh
+   85  vi reg.sh
+   86  exit
+   87  cd /bases/wtrig2/lilacs
+   88  vi rapf
+   89  vi rapf.pft
+   90  ./mx rpfaa3
+   91  ./mx rpfaa1 "text=PSICOLOGIAACTA PSIQUIATR. PSICOL. AM. LAT"
+   92  ./mx rpfaa from=6427
+   93  ./mx rpfaa1 from=6427
+   94  ~
+   95  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:if v5='S' and p(v32) then (if v440>'' then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v440,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) /fi)  fi) " class=100000 tell=10000
+   96  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:if v5='S' and p(v32) then (if v440>'' then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v440,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) /fi)  fi " class=100000 tell=10000
+   97  ./mx rev_pais_fas_ano_area
+   98  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:if v5='S' and p(v32) then (if v440>'' then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v440,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) fi/) fi " class=100000 tell=10000
+   99  ./mx rev_pais_fas_ano_area 
+  100  ./mx rev_pais_fas_ano_area lw=9999 "pft=v1/" -all now >rpfaa1.seq               ./mx seq=rpfaa1.seq create=rpfaa1 -all now
+  101  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v4'|'v5" class=100000 tell=10000
+  102  ./mx rpfaa2 lw=9999 "pft=v1'|'v999/" -all now >rpfaa3.seq
+  103  ./mx seq=rpfaa3.seq create=rpfaa3 -all now
+  104  /utl/lindffi/msrt rpfaa3 100 v2
+  105  ./mx rpfaa3
+  106  ./mx rev_pais_fas_ano_area 
+  107  ./mx rpfaa3
+  108  ./mx rev_pais_fas_ano_area 
+  109  ./mx rev_pais_fas_ano_area  "text=ODONTOLOGIABOL. INF. SOC. ARGENT. ENDOD"
+  110  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:if v5='S' and p(v32) then (if v440>'' then s(mpu,v30'|'v444'|'v32'|'v65.4'|'v440,mpl) else s(mpu,v30'|'v444'|'v32'|'v65.4'|''SEM AREA',mpl) fi/) fi " class=100000 tell=10000
+  111  ./mx rev_pais_fas_ano_area 
+  112  ./mx rev_pais_fas_ano_area lw=9999 "pft=v1/" -all now >rpfaa1.seq               ./mx seq=rpfaa1.seq create=rpfaa1 -all now
+  113  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v4'|'v5" class=100000 tell=10000
+  114  ./mx rpfaa2 lw=9999 "pft=v1'|'v999/" -all now >rpfaa3.seq
+  115  ./mx seq=rpfaa3.seq create=rpfaa3 -all now
+  116  /utl/lindffi/msrt rpfaa3 100 v2
+  117  ./mx rpfaa3
+  118  ./mx rpfaa1
+  119  ./mx rpfaa3
+  120  ./mx rpfaa1 "text=BOL. INF. SOC. ARGENT. ENDOD"
+  121  ./mx lilser "text =Bol"
+  122  ./mx lilser "text=Bol"
+  123  ./mx lilser "text=Bol inf.soc."
+  124  ./mx lilser "text=Bol inf."
+  125  ./mx lilser "text=Bol inf"
+  126  ./mx lilser "text=Bol "
+  127  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:(if v5='S' and p(v32) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v440,mpl) fi/) " class=100000 tell=10000
+  128  ./mx rev_pais_fas_ano_area lw=9999 "pft=v1/" -all now >rpfaa1.seq    
+  129  ./mx seq=rpfaa1.seq create=rpfaa1 -all now
+  130  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v4'|'v5" class=100000 tell=10000
+  131  ./mx rpfaa2 lw=9999 "pft=v1'|'v999/" -all now >rpfaa3.seq
+  132  ./mx seq=rpfaa3.seq create=rpfaa3 -all now
+  133  /utl/lindffi/msrt rpfaa3 100 v2
+  134  ./mx rpfaa3
+  135  ./mx rpfaa3 lw=999 "pft=@rpfaa.pft" now > tab0rpfaa.htm
+  136  echo "</table>" >>tab0rpfaa.htm
+  137  cp -p tab0rpfaa.htm /home/galvao/www/bvs/htdocs/ccs
+  138  ./mx z3 "join=decsct1,171:703=s(mpu,(v71/),mpl)" "proc='d32001'" "proc=if v171>'' then 'd171',|a171~|v171*3|~| fi" now -all tell=50000 create=z33 -all now tell=10000
+  139  ./mx z33
+  140  ./mx z33 "pft=if p(v171) and p(v71) then v71'|'v171 fi/" now
+  141  ./mx z33 "pft=if p(v171) and p(v71) then v71'|'v171 fi/" now
+  142  ./mx z33 "pft=if p(v171) and p(v71) then v71'|'v171 fi/" now
+  143  ./mx z33 "pft=if a(v171) and p(v71) then v71'|'v171 fi/" now
+  144  ./mx z33 "pft=if p(v171) and a(v71) then v71'|'v171 fi/" now
+  145  ./mx z33 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v444 fi/)" -all now 
+  146  ./mx z33 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v444 fi/)" -all now >td1.seq
+  147  ./mx z33 lw=9999 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v444 fi/)" -all now >td1.seq
+  148  ./mx z33 lw=9999 "pft=(if a(v171) and p(v71) then v71'|'v71'|'v444 fi/)" -all now >td2.seq
+  149  ./mx td1
+  150  ./mx td1 +control
+  151  ./mx td2 +control
+  152  ./mx td3 +control
+  153  ./mx td1 +control
+  154  ./mx td1 +control
+  155  vi rpfaa.pft
+  156  ./mx td5
+  157  ./mx td5
+  158  vi rpfaa.pft
+  159  ./mx td33a
+  160  ./mx td3
+  161  ./mx td33a
+  162  ./mx td33a "text=1338"
+  163  ./mx td3 "text=1338"
+  164  ./mx z33 lw=999 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v444[1] fi/)" -all now >td1.seq
+  165  ./mx seq=td1.seq create=td1 -all now
+  166  ./mx z33 lw=9999 "pft=(if a(v171) and p(v71) then v71'|'v71'|'v444[1] fi/)" -all now >td2.seq
+  167  ./mx seq=td2.seq create=td2 -all now
+  168  ./mx td2 append=td1  -all now tell=10000
+  169  /utl/lindffi/mxtb td1 create=td3 "150:v2'|'v3" class=100000 tell=10000
+  170  /utl/lindffi/msrt td3 50 v998
+  171  ./mx td3 "pft=v1'|'v999/" -all now >td33.seq
+  172  ./mx seq=td33.seq create=td33a -all now
+  173  ./mx td33a "pft=v1,c40,'|'v2,c70,'|'v3/" -all now >td33a.txt
+  174  ./mx td33a lw=999 "pft=@td33a.pft" now > tab0td33a.htm
+  175  echo "</table>" >>tab0td33a.htm
+  176  cp -p tab0td33a.htm /home/galvao/www/bvs/htdocs/ccs
+  177  ./mx z33 lw=999 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v65[1].4 fi/)" -all now >tda1.seq
+  178  ./mx seq=tda1.seq create=tda1 -all now
+  179  ./mx z33 lw=9999 "pft=(if a(v171) and p(v71) then v71'|'v71'|'v65[1].4 fi/)" -all now >tda2.seq
+  180  ./mx seq=td2.seq create=tda2 -all now
+  181  ./mx tda2 append=tda1  -all now tell=10000
+  182  ./mx tda1
+  183  ./mx tda1 +control
+  184  ./mx tda33
+  185  ./mx tda33a
+  186  ./mx tda1
+  187  /utl/lindffi/mxtb tda1 create=tda3 "150:v2'|'v3" class=100000 tell=10000
+  188  /utl/lindffi/msrt tda3 50 v998
+  189  ./mx tda1
+  190  ./mx tda3
+  191  ./mx z33 from=97679
+  192  ./mx z33 from=97798
+  193  ./mx z33 from=11740
+  194  ./mx z33 from=111740
+  195  ./mx tda33
+  196  ./mx tda3
+  197  ./mx z33 "pft=if nocc(v71)>1 and nocc(v71)>nocc(v171) then mfn fi/" now
+  198  ./mx z33 from=142218
+  199  ./mx z33 "pft=if nocc(v71)>1 and nocc(v71)>nocc(v171) then mfn fi/" now
+  200  ./mx z33 "pft=if nocc(v71)>1 and nocc(v71)>nocc(v171) then v71'|'v171 fi/" now|sort -u
+  201  ./mx z33 "pft=if nocc(v71)>1 and nocc(v71)>nocc(v171) then (v71'|'v171/) fi/" now|sort -u
+  202  ./mx z33 "pft=if nocc(v71)>1 and nocc(v71)>nocc(v171) then (v71'|'v171/) fi/" now|sort -u
+  203  ./mx z33 from=119286
+  204  ./mx z33 from=122865
+  205  ./mx z33 from=122865
+  206  ./mx z33 from=129819
+  207  ./mx decsct1 "text=REUNIOES DE CONSENSO"
+  208  ./mx decsct1 "text=REUNI"
+  209  ./mx decsct1 "text=REVISION MULTICASUAL"
+  210  ./mx decsct1 "text=ARTICULO CLASICO"
+  211  ./mx decsct1 "text=ARTICULO"
+  212  ./mx decsct1 "text=b"
+  213  ./mx decsct1 "text=B"
+  214  ./mx decsct1 "text=BIB"
+  215  ./mx decsct1 "text=BI
+  216  ./mx decsct1 "text=BI"
+  217  ./mx decsct1 "text=CA"
+  218  ./mx decsct1 "text=CAR"
+  219  ./mx decsct1 "text=COM"
+  220  ./mx decsct1 "text=CON"
+  221  ./mx decsct1 "text=ED"
+  222  ./mx decsct1 "text=EDI"
+  223  ./mx decsct1 "text=EF"
+  224  ./mx decsct1 "text=EN"
+  225  ./mx decsct1 "text=ENT"
+  226  ./mx decsct1 "text=ENTRE"
+  227  ./mx decsct1 "text=GUI"
+  228  ./mx decsct1 "text=INF"
+  229  ./mx decsct1 "text=INFOR"
+  230  ./mx decsct1 "text=META"
+  231  ./mx decsct1 "text=MONOG"
+  232  ./mx decsct1 "text=NO"
+  233  ./mx decsct1 "text=NOTI"
+  234  ./mx decsct1 "text=OVER"
+  235  ./mx decsct1 "text=RELA"
+  236  ./mx decsct1 "text=RELAT"
+  237  ./mx decsct1 "text=RELATORIO DE EVENTO"
+  238  ./mx decsct1 "text=RESU"
+  239  ./mx decsct1 "text=REUN"
+  240  ./mx decsct1 "text=REVI"
+  241  ./mx z33 "text=EFEMERAS"
+  242  ./mx z33 "text=INFORME DE EVENTO"
+  243  ./mx z33 "text=META-ANALISIS"
+  244  ./mx z33 "pft=v71'META-ANALISIS'" now
+  245  ./mx z33 "pft=v71='META-ANALISIS'" now
+  246  ./mx z33 "pft=if v71='META-ANALISIS' then mfn fi/" now
+  247  ./mx z33 from=197882
+  248  ./mx z33 "pft=v71='RELATORIO DE EVENTO'" now
+  249  ./mx z33 "pft=if v71='RELATORIO DE EVENTO' then mfn fi/" now
+  250  ./mx z33 from=113635
+  251  ./mx z33 "pft=if v71='REUNIOES DE CONSENSO' then mfn fi/" now
+  252  ./mx z33 from=147234
+  253  REUNIONES DE CONSENSO
+  254  ./mx z33 "pft=if v71='REUNIOnES DE CONSENSO' then mfn fi/" now
+  255  ./mx z33 "pft=if v71='REUNIONES DE CONSENSO' then mfn fi/" now
+  256  ./mx z33 from=119863
+  257  /utl/lindffi/mxtb z3 create=z35 "80:if v5='S' and p(v10^*) then v30[1]'|'v444[1]'|'(v440/) fi" class=10000000 tell=10000
+  258  /utl/lindffi/mxtb z3 create=z35 "80:if v5='S' and p(v10^*) then v30[1]'|'v444[1]'|'(v440/) fi" class=1000000 tell=10000
+  259  /utl/lindffi/mxtb z3 create=z35 "80:if v5='S' and p(v10^*) then v30[1]'|'v444[1]'|'(v440/) fi" class=100000 tell=10000
+  260  ./mx z35
+  261  /utl/lindffi/msrt z35  80 v998
+  262  ./mx z35
+  263  ./mx z33 "pft=if v71='REUNIONES DE CONSENSO' then mfn fi/" now
+  264  ./mx z33 "pft=if v71='REUNIOES DE CONSENSO' then mfn fi/" now
+  265  ./mx z33 "pft=if v71='EFEMERAS' then mfn fi/" now
+  266  ./mx z33 "pft=if v71='EFÉMERAS' then mfn fi/" now
+  267  exit
+  268   cd /bases/wtrig2/lilacs
+  269  ./mx z3 "pft=if v5='S' and p(v8) then v8 fi/" now|sort -u
+  270  ./mx z3 "pft=if v6='as' then (s1:=(v30),ref(['lilser']l(['lilser']v30),(s1'|'v440/))) fi" from=23040
+  271  ./mx z3 "proc=if v6='as' then (s1:=(v30),ref(['lilser']l(['lilser']v30),('a~'v440,'~'))) fi" from=23040
+  272  ./mx z3 "proc=if v6='as' then (s1:=(v30),ref(['lilser']l(['lilser']v30),('a~440'v440,'~'))) fi" from=23040
+  273  ./mx z3 "proc=if v6='as' then (s1:=(v30),ref(['lilser']l(['lilser']v30),('a~440'v440,'~')/)) fi" from=23040
+  274  ./mx z3 "proc=if v6='as' then (s1:=(v30),ref(['lilser']l(['lilser']v30),'a~440'v440,'~')) fi" from=23040
+  275  ./mx z3 "proc=if v5='S' then (s1:=(v30),ref(['lilser']l(['lilser']v30),'a~440'v440,'~')/) fi" from=23040
+  276  ./mx z3 "proc=if v5='S' then (ref(['lilser']l(['lilser']v30),'a~440'v440,'~')/) fi" from=23040
+  277  ./mx z3 "proc=if v5='S' then (ref(['lilser']l(['lilser']v30),'a~440'v440,'~') fi" from=23040
+  278  ./mx z3 "proc=if v5='S' then (ref(['lilser']l(['lilser']v30),'a~440'v440,'~')) fi" from=23040
+  279  ./mx z3 "proc=if v5='S' then (ref(['lilser']l(['lilser']v30),('a~440'v440,'~'))) fi" from=23040
+  280  ./mx z3 "proc=if v5='S' then (ref(['lilser']l(['lilser']v30),('a~440'v440,'~')))/ fi" from=23040
+  281  ./mx z3 "proc=if v5='S' then (ref(['lilser']l(['lilser']v30),('a440~'v440,'~')))/ fi" from=23040
+  282  ./mx z3 "proc=if v5='S' then (ref(['lilser']l(['lilser']v30),('a440~'v440,'~')))/ fi" copy=z3 -all now tell=10000
+  283  ./mx z3
+  284  ./mx z3 "pft=if v5='
+  285  '
+  286  ./mx z3 "pft=if v5='S' and a(v440) then mfn fi/" now
+  287  ./mx z3 from=44820
+  288  ./mx lilser "text=HFA publ. tc. cient"
+  289  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "150:(if v5='S' and p(v32) and v440>'' then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v440,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) /  fi) /" class=100000 tell=10000
+  290  ./mx rev_pais_fas_ano_area
+  291  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:(if v5='S' and p(v32) and v440>'' then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v440,mpl) else s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|''SEM AREA',mpl) /  fi) /" class=100000 tell=10000
+  292  ./mx rev_pais_fas_ano_area lw=9999 "pft=v1'|'v999/" -all now >rpfaa.seq
+  293  ./mx seq=rpfaa.seq create=rpfaa -all now
+  294  ./mx rpfaa
+  295  ./mx rev_pais_fas_ano_area
+  296  ./mx rev_pais_fas_ano_area lw=9999 "pft=v1/" -all now >rpfaa1.seq
+  297  ./mx seq=rpfaa1.seq create=rpfaa1 -all now
+  298  ./mx rpfaa1
+  299  /utl/linndffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v3'|'v4'|'v5" class=100000 tell=10000
+  300  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v3'|'v4'|'v5" class=100000 tell=10000
+  301  ./mx rpfaa2
+  302  ./mx rpfaa2 "pft=if v999>'1' then mfn fi/" now
+  303  ./mx rpfaa
+  304  ./mx rpfaa1
+  305  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v4'|'v5" class=100000 tell=10000
+  306  ./mx rpfaa1
+  307  ./mx rpfaa2
+  308  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:xv1'|'v2'|'v4'|'v5" class=100000 tell=10000
+  309  ./mx rpfaa1
+  310  ./mx rpfaa1
+  311  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v4'|'v5" class=100000 tell=10000
+  312  ./mx rpfaa2
+  313  ./mx rpfaa2 lw=9999 "pft=v1'|'v999/" -all now >rpfaa3.seq
+  314  ./mx seq=rpfaa3.seq create=rpfaa3 -all now
+  315  /utl/lindffi/msrt rpfaa3 100 v2
+  316  ./mx rpfaa3
+  317  vi rpfaa.pft
+  318  ./mx z3 "text=BOL. INF. SOC. ARGENT. ENDOD"
+  319  ./mx z3 "pft=if v5='S' and nocc(v440>1 then mfn fi/" now
+  320  ./mx z3 "pft=if v5='S' and nocc(v440>'1' then mfn fi/" now
+  321  ./mx z3 "pft=if v5='S' and f(nocc(v440,2,3))>'1' then mfn fi/" now
+  322  ./mx z3 "pft=if v5='S' and nocc(v440)>1 then mfn fi/" now
+  323  ./mx z3 from=24734
+  324  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:(if v5='S' and p(v32) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65.4[1]'|'v440,mpl)) " class=100000 tell=10000
+  325  /utl/lindffi/mxtb z3 create=rev_pais_fas_ano_area "250:(if v5='S' and p(v32) then s(mpu,v30[1]'|'v444[1]'|'v32[1]'|'v65[1].4'|'v440,mpl)) " class=100000 tell=10000
+  326  ./mx rev_pais_fas_ano_area
+  327  ./mx rev_pais_fas_ano_area lw=9999 "pft=v1/" -all now >rpfaa1.seq               ./mx seq=rpfaa1.seq create=rpfaa1 -all now
+  328  /utl/lindffi/mxtb rpfaa1 create=rpfaa2 "200:v1'|'v2'|'v4'|'v5" class=100000 tell=10000
+  329  ./mx rpfaa2 lw=9999 "pft=v1'|'v999/" -all now >rpfaa3.seq
+  330  ./mx seq=rpfaa3.seq create=rpfaa3 -all now
+  331  /utl/lindffi/msrt rpfaa3 100 v2
+  332  ./mx rpfaa3
+  333  vi rpfaa.pft
+  334  vi rpfaa.pft
+  335  ./mx rpfaa3
+  336  vi rpfaa.pft
+  337  ./mx rpfaa3 lw=999 "pft=@rpfaa.pft" now > tab0rpfaa.htm
+  338  echo "</table>" >>tab0rpfaa.htm
+  339  cp -p tab0rpfaa.htm /home/galvao/www/bvs/htdocs/ccs
+  340  ./mx z3 "pft=v71/"
+  341  ./mx z3 "pft=v71/" from=234444
+  342  ./mx z3 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "pft=if p(v71) then mfn,c12,v71,c40,v171/ fi" now
+  343  ./mx decsct
+  344  ./mx decsct1
+  345  ./mx decsct1 "PT
+  346  ./mx decsct1 "PT"
+  347  ./mx decsct1 "text=PT"
+  348  ./mx z3 "join=decsct1=s(mpu,|PT |v71,mpl)"
+  349  ./mx z3 "join=decsct1=s(mpu,|PT |v71,mpl)" from=234444
+  350  ./mx z3 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "pft=if p(v71) then mfn,c12,v71,c40,v171/ fi" now
+  351  ./mx z3 "join=decsct1,171:703=s(mpu,|PT |v71,mpl)" "proc=if v3201^m>0 then 'd32001d171a171~'right(v171,size(v171)-3)'~' fi"
+  352  ./mx z3 "join=decsct1,171:1=s(mpu,(|PT |v71/),mpl)" "proc='d32001'" "proc=if v171>'' then 'd171',|a171~|v171*3|~| fi" now -all 
+  353  ./mx z3 "join=decsct1,171:1=s(mpu,(|PT |v71/),mpl)" "proc='d32001'" "proc=if v171>'' then 'd171',|a171~|v171*3|~| fi" now
+  354  ./mx z33 "pft=if nocc(v71)>1 then mfn fi/" now
+  355  ./mx z33 from=1836
+  356  ./mx z33 "pft=v171/" now|sort -u
+  357  ./mx seq=td1.seq create=td1 -all now
+  358  ./mx td1
+  359  ./mx seq=td1.seq create=td1 -all now
+  360  ./mx seq=td2.seq create=td2 -all now
+  361  ./mx td2
+  362  ./mx td2 append=td1 create=td3
+  363  ./mx td2 append=td1 create=td3 -all now tell=10000
+  364  ./mx td2 append=td1 -all now
+  365  ./mx td1 +control
+  366  ./mx td1
+  367  /utl/lindffi/mxtb td1 create=td3 "150:v2'|'v3" class=100000 tell=10000
+  368  ./mx td3
+  369  ./mx td1
+  370  ./mx td1 "pft=if a(v3) then mfn'|'v1'|'v2/" now
+  371  ./mx td1 "pft=if a(v3) then mfn'|'v1'|'v2 fi/" now
+  372  ./mx td1 "pft=if a(v3) then mfn'|'v1       '|'v2 fi/" now
+  373  ./mx td1 "pft=if a(v3) then mfn'|'v1,c15'|'v2 fi/" now
+  374  ./mx td1 "pft=if a(v3) then mfn'|'v1,c40'|'v2 fi/" now
+  375  ./mx td1 "pft=if a(v3) then mfn'|'v1,c50'|'v2 fi/" now
+  376  ./mx td3
+  377  ./mx td3 "pft=v1/" now|sort -u
+  378  ./mx td1 "pft=v1/" now|sort -u
+  379  ./mx td1 "pft=v2/" now|sort -u
+  380  ./mx td1 "pft=if a(v2) then mfn fi/" now
+  381  ./mx td1
+  382  ./mx td3
+  383  /utl/lindffi/mxtb td1 create=td4 "150:v2" class=100000 tell=10000
+  384  ./mx td4
+  385  ./mx td4 
+  386  /utl/lindffi/msrt td4 40 v998
+  387  ./mx td4 
+  388  ./mx td4 
+  389  ./mx td4 "pft=v1,c50,'|'v2"
+  390  ./mx td4 "pft=v1,c50,'|'v999"
+  391  ./mx td4 "pft=v1,c40,'|'v999"
+  392  ./mx td4 "pft=v1,c37,'|'v999"
+  393  ./mx td4 "pft=v1,c38,'|'v999"
+  394  ./mx td4 "pft=v1,c38,'|'v999" -all now >td4.txt
+  395  ./mx seq=td4.txt create=td5 -all now
+  396  vi td5.pft
+  397  ./mx td5
+  398  ./mx td4 lw=999 "pft=v1,c38,'|'v999" -all now >td4.txt
+  399  less td4.txt
+  400  ./mx td4 lw=999 "pft=v1,c38,'|'v999/" -all now >td4.txt
+  401  less td4.txt
+  402  ./mx seq=td4.txt create=td5 -all now
+  403  ./mx td5
+  404  ./mx td5 lw=999 "pft=@td5.pft" now > tab0td5.htm
+  405  echo "</table>" >>tab0td5.htm
+  406  cp -p tab0td5.htm /home/galvao/www/bvs/htdocs/ccs
+  407  ./mx td3
+  408  ./mx td3 "pft=v1'|'v999/" -all now >td33.seq
+  409  ./mx seq=td33.seq create=td33a -all now
+  410  ./mx td3a
+  411  ./mx td33a
+  412  /utl/lindffi/msrt td33a 20 v2
+  413  ./mx td33a
+  414  ./mx td33
+  415  ./mx td3 "pft=v1'|'v999/" -all now >td33.seq
+  416  ./mx seq=td33 create=td33a -all now
+  417  ./mx seq=td33.seq create=td33a -all now
+  418  ./mx td33a
+  419  ./mx td3
+  420  /utl/lindffi/msrt td3 50 v998
+  421  ./mx td3
+  422  ./mx td3 "pft=v1'|'v999/" -all now >td33.seq
+  423  ./mx seq=td33.seq create=td33a -all now
+  424  ./mx td33a
+  425  ./mx td33a "pft=v1,c40,'|'v2,c70,'|'v3/" 
+  426  ./mx td33a "pft=v1,c40,'|'v2,c70,'|'v3/" >td33a.txt
+  427  ./mx td33a "pft=v1,c40,'|'v2,c70,'|'v3/" -all now >td33a.txt
+  428  vi td33a.pft
+  429  ./mx td33a
+  430  ./mx td33a lw=999 "pft=@td33a.pft" now > tab0td33a.htm
+  431  echo "</table>" >>tab0td33a.htm
+  432  cp -p tab0td33a.htm /home/galvao/www/bvs/htdocs/ccs
+  433  ./mx z33
+  434  ./mx z33 lw=999 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v65.4 fi/)" -all now >tda1.seq
+  435  ./mx seq=tda1.seq create=tda1 -all now
+  436  ./mx z33 lw=9999 "pft=(if a(v171) and p(v71) then v71'|'v71'|'v65.4 fi/)" -all now >tda2.seq
+  437  ./mx seq=td2.seq create=tda2 -all now
+  438  ./mx tda2 append=tda1  -all now tell=10000
+  439  ./mx tda1
+  440  ./mx tda1 +control
+  441  ./mxtda3
+  442  ./mxxtda3
+  443  ./mx tda3
+  444  vi linhas.prc
+  445  ./mx e4
+  446  ./mx tda3 lw=9999 "pft=v1'|'v999/" now > tda7.seq
+  447  ./mx seq=tda7.seq create=tda7 now
+  448  ./mx td7 "pft=v1/" now|sort -u > linhastda7.seq
+  449  ./mx seq=linhastda7.seq create=linhastda7 now
+  450  ./mx tda3 lw=9999 "pft=v1'|'v999/" now > tda7.seq
+  451  ./mx seq=tda7.seq create=tda7 now
+  452  ./mx tda7 "pft=v1/" now|sort -u > linhastda7.seq
+  453  ./mx seq=linhastda7.seq create=linhastda7 now
+  454  ./mx tda7 "fst=1 0 v1/" fullinv=tda7
+  455  ./mx tda7
+  456  ./mx tda3
+  457  ./mx tda7
+  458  ./mx tda7
+  459  ./mx tda3
+  460  ./mx tda1 "text=MEETING REPORT"
+  461  l now >tda1.seq                                                                 ./mx seq=tda1.seq create=tda1 -all now
+  462  ./mx z33 lw=9999 "pft=(if a(v171) and p(v71) then v71'|'v71'|'v65[1].4 fi/)" -all now >tda2.seq                                                                 ./mx seq=tda2.seq create=tda2 -all now
+  463  ./mx tda2 append=tda1  -all now tell=10000    
+  464  ./mx z33 lw=999 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v65[1].4 fi/)" -all now >tda1.seq                                                                 ./mx seq=tda1.seq create=tda1 -all now
+  465  ./mx z33 lw=9999 "pft=(if a(v171) and p(v71) then v71'|'v71'|'v65[1].4 fi/)" -all now >tda2.seq                                                                 ./mx seq=tda2.seq create=tda2 -all now
+  466  ./mx tda2 append=tda1  -all now tell=10000    x
+  467  ./mx z33 lw=999 "pft=(if p(v171) and p(v71) then v71'|'v171'|'v65[1].4 fi/)" -all now >tda1.seq   
+  468  ./mx seq=tda1.seq create=tda1 -all now
+  469  ./mx z33 lw=9999 "pft=(if a(v171) and p(v71) then v71'|'v71'|'v65[1].4 fi/)" -all now >tda2.seq 
+  470  ./mx seq=tda2.seq create=tda2 -all now
+  471  ./mx tda2 append=tda1  -all now tell=10000 
+  472  ./mx tda1 +control
+  473  ./mx tda1 "text=MEETING REPORT"
+  474  ./mx z33 "pft=if v71='MEETING REPORT' and v171='RESUMOS' then mfn fi/" now
+  475  ./mx z33 "pft=if v71='MEETING REPORT' then  mfn fi/" now
+  476  ./mx tda1 "text=MEETING REPORT"
+  477  ./mx decsct "text=INFORME DE EVENTO"
+  478  ./mx decsct1 "text=INFORME DE EVENTO"
+  479  ./mx decsct1 "text=INFORME"
+  480  ./mx z33 from=124659
+  481  ./mx decsct1 "text=REVISION TUTORIAL"
+  482  vi pa_af
+  483  ls pa_af*.*
+  484  vi pa_af.seq
+  485  ./mx z33 "text=REVISION TUTORIAL"
+  486  ./mx z33 "pft=if nocc(v71)>1 and nocc(v171)=0 then mfn fi/" now
+  487  ../mx decsct1 "text=INFORME DE EVENTO"
+  488  ../mx decsct1 "text=INFORME"
+  489  ./mx z33 "pft=if nocc(v71)>1 and nocc(v171)=0 then mfn fi/" now|sort -u
+  490  ./mx z33 "pft=if nocc(v71)>1 and nocc(v171)=0 then (v71/) fi/" now|sort -u
+  491  ./mx decsct1 "text=REUNIONES"
+  492  ./mx decsct1 "text=REUN"
+  493  ./mx z33 "pft=if nocc(v71)>1 and nocc(v71)>nocc(v171) then (v71/) fi/" now|sort -u
+  494  ./mx z33 "pft=v71/" now
+  495  ./mx "pft=if v71='EFEMERAS' then mfn fi/" now
+  496  ./mx z33 "pft=if v71='EFEMERAS' then mfn fi/" now
+  497  ./mx z33 "pft= (v71/)" now|sort -u
+  498  /utl/lindffi/mxtb z3 create=z34 "50:if p(v10^*) then (v10^*/) fi" class=100000 tell=10000
+  499  /utl/lindffi/mxtb z3 create=z34 "50:if v5='S' and p(v10^*) then (v10^*/) fi" class=100000 tell=10000
+  500  /utl/lindffi/mxtb z3 create=z34 "50:if v5='S' and p(v10^*) then (v10^*/) fi" class=1000000 tell=10000
+  501  ./mx z34
+  502  /utl/lindffi/msrt z34 50 v998
+  503  ./mx z34
+  504  /utl/lindffi/mxtb z3 create=z341 "50:if v5='S' and p(v10^*) then (v30'|'v10^*/) fi" class=1000000 tell=10000
+  505  ./mx z34
+  506  ./mx z341
+  507  /utl/lindffi/mxtb z3 create=z341 "50:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=1000000 tell=10000
+  508  ./mx z341
+  509  /utl/lindffi/mxtb z3 create=z341 "200:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=1000000 tell=10000
+  510  /utl/lindffi/mxtb z3 create=z341 "150:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=1000000 tell=10000
+  511  /utl/lindffi/mxtb z3 create=z341 "100:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=1000000 tell=10000
+  512  /utl/lindffi/mxtb z3 create=z341 "80:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=1000000 tell=10000
+  513  ./mx x341
+  514  ./mx z341
+  515  /utl/lindffi/mxtb z3 create=z341 "180:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=10000 tell=10000
+  516  /utl/lindffi/mxtb z3 create=z341 "180:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=100000 tell=10000
+  517  /utl/lindffi/mxtb z3 create=z341 "100:if v5='S' and p(v10^*) then (v30[1]'|'v444[1]'|'v10^*/) fi" class=100000 tell=10000
+  518  ./mx z34
+  519  ./mx z34
+  520  ./mx decsct1 "text=REUN
+  521  ./mx decsct1 "text=REUN"
+  522  ./mx z4
+  523  ./mx z4 "pft=if p(v171) then mfn fi/" now
+  524  ls *.*
+  525  rm x5.*
+  526  rm x6.*
+  527  rm x7.*
+  528  rm x8.*
+  529  rm x8tb.*
+  530  ls *.*
+  531  ll
+  532  ls *.* |more
+  533  ll *.* |more
+  534  ./mx z2
+  535  ./mx yy
+  536  ./mx yyy
+  537  ./mx yyy +control
+  538  ./mx x61
+  539  ./mx x61 +control
+  540  ./mx x55 +control
+  541  ./mx x4 +control
+  542  ./mx x4 
+  543  ./mx w
+  544  ./mx ww
+  545  ./mx y
+  546  ./mx ./mx z
+  547  ./mx z
+  548  ./mx sas
+  549  rm z2.*
+  550  rm yy.*
+  551  rm yyy.*
+  552  rm x61.*
+  553  rm x55.*
+  554  rm x4.*
+  555  rm ww.*
+  556  ls
+  557  rm fin_*.*
+  558  ls
+  559  x
+  560  ll *.* |more
+  561  rm fin*.*
+  562  ll *.* |more
+  563  rm titu_*.*
+  564  rm sas*.*
+  565  ll *.* |more
+  566  ls
+  567  ls*.* >ls.txt
+  568  ls *.* >ls.txt
+  569  less ls.txt
+  570  exit
+  571  cd /bases/estat
+  572  grep cipar h2
+  573  CIPAR=/bases/estat/cipar.cip; export CIPAR
+  574  mx tab30title
+  575  mx tab30title "text=brazilian journal of g"
+  576  mx tab30title "text=BRAZILIAN JOURNAL OF G"
+  577  mx tab30title "text=REVISTA BRASILEIRA DE G"
+  578  mx artigoc "text="
+  579  mxtbansi artigoc create=test16c uctab=ansi btell=50000 "bool=$" "100:proc('d30<30 99>',e1:=l(['tab30title']v880*1.9),if e1>0 then ref(['tab30title']e1,v222^a) else v30 fi,'</30>'),'^c',mpu,v30.60,mpl,'^y'v880*10.4" class=100000
+  580  mxtbansi artigoc create=test16c uctab=ansi btell=0 "bool=$" "100:proc('d30<30 99>',e1:=l(['tab30title']v880*1.9),if e1>0 then ref(['tab30title']e1,v222^a) else v30 fi,'</30>'),'^c',mpu,v30.60,mpl,'^y'v880*10.4" class=100000
+  581  mx test16c
+  582  msrt test16c v998,v1
+  583  msrt test16c 100 v998,v1
+  584  mx test16c
+  585  mx test16c
+  586  msrt test16c 100 v999,v1
+  587  mx test16c
+  588  mxtbansi artigoc create=test16c uctab=ansi btell=0 "bool=$" "100:proc('d30<30 99>',e1:=l(['tab30title']v880*1.9),if e1>0 then ref(['tab30title']e1,v222^a) else v30 fi,'</30>'),'^c',mpu,v30.60,mpl,'^y'v880*10.4" class=100000
+  589  msrt test16c 100 v999,v1
+  590  mx test16c
+  591  mx artigoc "text=erontol"
+  592  mx artigoc "text=erontol" $
+  593  mx artigoc "text=dedalus" 
+  594  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v30),v222^a)"
+  595  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v30),v400)"
+  596  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>0 then ref(['tab30title']l(['tab30title']v30),v222^a)"
+  597  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'0' then ref(['tab30title']l(['tab30title']v30),v222^a)"
+  598  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'0' then ref(['tab30title']l(['tab30title']v30),v222^a) fi"
+  599  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'0' then ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn fi"
+  600  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'0' then ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn fi" from=272
+  601  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v30),v400)" from=272
+  602  mx tab30title
+  603  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)='0' then ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn fi" from=272
+  604  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)='' then ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn fi" from=272
+  605  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn fi" from=272
+  606  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn fi" from=27200
+  607  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn fi" from=272000
+  608  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn fi" from=272000
+  609  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn fi" 
+  610  mx artigoc "text=cientific am" 
+  611  mx artigoc "2000 and 65_1993 and 0104-1428"
+  612  mx artigoc "bool=$" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn fi" from=820419
+  613  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn fi" from=820419
+  614  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn" from=820419
+  615  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn" from=820419
+  616  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn,v30" from=820419
+  617  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn" from=820419
+  618  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v880*1.9),v30),x5,mfn" from=820419
+  619  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v30),v222^a),x5,mfn" from=820419
+  620  mx artigoc "bool=$" "pft=ref(['tab30title']l(['tab30title']v30),v400),x5,mfn" from=820419
+  621  mx artigoc "bool=30_ACTA CIRURGICA BRASILEIRA" "pft=ref(['tab30title']l(['tab30title']v30),v400),x5,mfn" from=820419
+  622  mx artigoc "bool=30_ACTA CIRURGICA BRASILEIRA" "pft=ref(['tab30title']l(['tab30title']v30),v400),x5,mfn" 
+  623  mx artigoc "bool=30_ACTA CIRURGICA BRASILEIRA" "pft=ref(['tab30title']l(['tab30title']v30),v400),x5,mfn,x2,v30" 
+  624  mx artigoc "bool=$" "proc=d30a30~'ref(['tab30title']l(['tab30title']v30),v222^a)'~'" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn fi" from=820419
+  625  mx artigoc "bool=$" "proc='d30a30~'ref(['tab30title']l(['tab30title']v30),v222^a)'~'" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn fi" from=820419
+  626  mx artigoc "bool=$" "proc='d30a30~'ref(['tab30title']l(['tab30title']v30),v222^a)'~'" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn,x2,v30 fi" from=6203
+  627  mx artigoc "bool=$" "proc='d30a30~'ref(['tab30title']l(['tab30title']v30),v222^a)'~'" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn,x2,v30 fi" from=6215
+  628  mx artigoc "bool=30_ACTA CIRURGICA BRASILEIRA" "proc='d30a30~'ref(['tab30title']l(['tab30title']v30),v222^a)'~'" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn,x2,v30 fi" from=6215
+  629  mx artigoc "bool=30_ACTA CIRURGICA BRASILEIRA" "pft=v30,x2" "proc='d30a30~'ref(['tab30title']l(['tab30title']v30),v222^a)'~'" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x2,mfn,x2,v30 fi" from=6215
+  630  mx artigoc "bool=30_ACTA CIRURGICA BRASILEIRA" "proc='d30a30~'ref(['tab30title']l(['tab30title']v30),v222^a)'~'" "pft=if ref(['tab30title']l(['tab30title']v30),v400)<>'' then ref(['tab30title']l(['tab30title']v880*1.9),v222^a),x5,mfn,x2,v30 fi" from=6215
+  631  history>>h2
+  632  exit
+  633  cd /bases/lnk.000/scl.lnk
+  634  ll
+  635  wc -l m6689.lst
+  636  cd ..
+  637  cd spa.lnk
+  638  ll
+  639  ll ../art.spa
+  640  nohup time ../tpl.lnk/gennlinks.sh spa 2002 2003 >&nlnkspa.out &
+  641  ll
+  642  ll
+  643  top
+  644  ll
+  645  run
+  646  run
+  647  ll
+  648  mx mdl28997 +control count=1
+  649  wc -l m6689.lst 
+  650  ll
+  651  ssh -l scielospp scielo3
+  652  exit
+  653  run
+  654  cd /bases/lnk.000/scl.lnk
+  655  ll
+  656  wc -l m6689.lst 
+  657  wc -l m9002.lst 
+  658  wc -l m9002.lst 
+  659  cd ..
+  660  ll
+  661  cd art.chl
+  662  ll
+  663  mv artigo.iso artigo.20030725.iso
+  664  cd ../b4c.chl
+  665  ll
+  666  mv bib4cit.iso bib4cit.20030725.iso
+  667  ll
+  668  ftp -i ftp.bireme.br
+  669  ll
+  670  rm *.mst *.xrf
+  671  ll
+  672  cd ../art.chl
+  673  ll
+  674  rm *.mst *.xrf *.prc *.n0? *.l??
+  675  ll
+  676  rm art_*
+  677  ll
+  678  cd ../chl.lnk
+  679  ll
+  680  rm nlinks.*
+  681  mv last_nlinks lastnlinks
+  682  ll
+  683  nohup time ../tpl.lnk/chlnlinks.sh chl >&nlnkchl.out &
+  684  ll
+  685  run
+  686  run
+  687  ll
+  688  mx mdl11391 +control count=1
+  689  exit
+  690  cd /bases/estat
+  691  cd tmp
+  692  cd /tmp
+  693  cat 19111.meneg16.sh
+  694  cat 19113.meneg16.sh
+  695  cd /bases/estat
+  696  grep cipar h2
+  697  CIPAR=/bases/estat/cipar.cip; export CIPAR
+  698  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA or 30_REVISTA BRASILEIRA DE ENSINO DE FISICA or 30_REVISTA BRASILEIRA DE FISIOLOGIA VEGETAL or 30_REVISTA BRASILEIRA DE FRUTICULTURA) and |v1^y| and (65_TODOS or $)\" target=\"_blank\">|v1^c|</a>|x1,ref(['fat_imp']l(['fat_imp']v1^c),'<font size="+1,5" color="Olive"><b>(ISI)</b></font>'),'</td></tr>' else '<tr><td><b>'v999'</b></td><td>'v1^y,'</td><td><a href=\"http://serverofi.bireme.br:2424/cgi-bin/meneg16out.sh?CITING=',ref(['tab30title']l(['tab30title']v1^c),v400),| and (30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA or 30_REVISTA BRASILEIRA DE ENSINO DE FISICA or 30_REVISTA BRASILEIRA DE FISIOLOGIA VEGETAL or 30_REVISTA BRASILEIRA DE FRUTICULTURA) and 1998 and (65_TODOS or $)"
+  699  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA or 30_REVISTA BRASILEIRA DE ENSINO DE FISICA or 30_REVISTA BRASILEIRA DE FISIOLOGIA VEGETAL or 30_REVISTA BRASILEIRA DE FRUTICULTURA) and |v1^y| and (65_TODOS or $)\" target=\"_blank\">|v1^c|</a>|x1,ref(['fat_imp']l(['fat_imp']v1^c),'<font size="+1,5" color="Olive"><b>(ISI)</b></font>'),'</td></tr>' else '<tr><td><b>'v999'</b></td><td>'v1^y,'</td><td><a href=\"http://serverofi.bireme.br:2424/cgi-bin/meneg16out.sh?CITING=',ref(['tab30title']l(['tab30title']v1^c),v400),| and (30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA or 30_REVISTA BRASILEIRA DE ENSINO DE FISICA or 30_REVISTA BRASILEIRA DE FISIOLOGIA VEGETAL or 30_REVISTA BRASILEIRA DE FRUTICULTURA)  and (65_TODOS or $)"
+  700  vi string.txt
+  701  vi string.txt
+  702  mx artigoc "bool=@string.txt"
+  703  vi string.txt
+  704  mx artigoc "bool=@string.txt"
+  705  vi string.txt
+  706  mx artigoc "bool=@string.txt"
+  707  mx artigoc "bool=1999"
+  708  mx artigoc "bool=@string.txt"
+  709  vi string.txt
+  710  mx artigoc "bool=@string.txt"
+  711  mx artigoc bool=@string.txt
+  712  vi string.txt
+  713  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA or 30_REVISTA BRASILEIRA DE ENSINO DE FISICA or 30_REVISTA BRASILEIRA DE FISIOLOGIA VEGETAL or 30_REVISTA BRASILEIRA DE FRUTICULTURA"
+  714  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA"
+  715  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA)"
+  716  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA or 30_REVISTA BRASILEIRA DE CIENCIAS SOCIAIS or 30_REVISTA BRASILEIRA DE ECONOMIA) and $"
+  717  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA or 30_REM: REVISTA ESCOLA DE MINAS or 30_REVISTA BRASILEIRA DE ANESTESIOLOGIA or 30_REVISTA BRASILEIRA DE BIOLOGIA or 30_REVISTA BRASILEIRA DE BOTANICA or 30_REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR or 30_REVISTA BRASILEIRA DE CIENCIA AVICOLA) and $"
+  718  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA) and $"
+  719  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP or 30_PSICOLOGIA: REFLEXAO E CRITICA or 30_PSICOLOGIA: TEORIA E PESQUISA or 30_QUIMICA NOVA or 30_RADIOLOGIA BRASILEIRA)"
+  720  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ or 30_NEOTROPICAL ENTOMOLOGY or 30_OPINIAO PUBLICA or 30_PAPEIS AVULSOS DE ZOOLOGIA (SAO PAULO) or 30_PESQUISA AGROPECUARIA BRASILEIRA or 30_PESQUISA ODONTOLOGICA BRASILEIRA or 30_PESQUISA OPERACIONAL or 30_PESQUISA VETERINARIA BRASILEIRA or 30_POLIMEROS or 30_PSICOLOGIA USP)"
+  721  mx artigoc "bool=@string.txt"
+  722  mx artigoc "bool=(30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ)"
+  723  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY or 30_JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES or 30_LUA NOVA: REVISTA DE CULTURA E POLITICA or 30_MANA or 30_MATERIALS RESEARCH or 30_MEMORIAS DO INSTITUTO OSWALDO CRUZ"
+  724  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY"
+  725  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA"
+  726  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL"
+  727  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY"
+  728  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA"
+  729  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL) or 30_FITOPATOLOGIA BRASILEIRA or 30_GENETICS AND MOLECULAR BIOLOGY or 30_GESTAO & PRODUCAO or 30_HISTORIA, CIENCIAS, SAUDE or 30_HORTICULTURA BRASILEIRA or 30_IHERINGIA. SERIE ZOOLOGIA or 30_JORNAL BRASILEIRO DE PATOLOGIA E MEDICINA LABORATORIAL or 30_JORNAL DE PEDIATRIA or 30_JORNAL DE PNEUMOLOGIA or 30_JOURNAL OF VENOMOUS ANIMALS AND TOXINS or 30_JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY or 30_JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY"
+  730  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS or 30_ESTUDOS DE PSICOLOGIA (NATAL)"
+  731  mx artigoc "bool=30_ACTA BOTANICA BRASILICA or 30_ACTA CIRURGICA BRASILEIRA or 30_ACTA ORTOPEDICA BRASILEIRA or 30_ANAIS DA ACADEMIA BRASILEIRA DE CIENCIAS or 30_ARQUIVO BRASILEIRO DE MEDICINA VETERINARIA E ZOOTECNIA or 30_ARQUIVOS BRASILEIROS DE CARDIOLOGIA or 30_ARQUIVOS BRASILEIROS DE ENDOCRINOLOGIA & METABOLOGIA or 30_ARQUIVOS BRASILEIROS DE OFTALMOLOGIA or 30_ARQUIVOS DE GASTROENTEROLOGIA or 30_ARQUIVOS DE NEURO-PSIQUIATRIA or 30_BRAGANTIA or 30_BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY or 30_BRAZILIAN DENTAL JOURNAL  or 30_BRAZILIAN JOURNAL OF BIOLOGY or 30_BRAZILIAN JOURNAL OF CHEMICAL ENGINEERING or 30_BRAZILIAN JOURNAL OF GENETICS or 30_BRAZILIAN JOURNAL OF INFECTIOUS DISEASES or 30_BRAZILIAN JOURNAL OF MEDICAL AND BIOLOGICAL RESEARCH or 30_BRAZILIAN JOURNAL OF MICROBIOLOGY or 30_BRAZILIAN JOURNAL OF PHYSICS or 30_BRAZILIAN JOURNAL OF PLANT PHYSIOLOGY or 30_BRAZILIAN JOURNAL OF VETERINARY RESEARCH AND ANIMAL SCIENCE or 30_CADERNOS CEDES or 30_CADERNOS DE PESQUISA or 30_CADERNOS DE SAUDE PUBLICA or 30_CERAMICA or 30_CIENCIA & SAUDE COLETIVA or 30_CIENCIA RURAL or 30_CIENCIA DA INFORMACAO or 30_CIENCIA E TECNOLOGIA DE ALIMENTOS or 30_DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA or 30_DADOS or 30_ECLETICA QUIMICA or 30_EDUCACAO & SOCIEDADE or 30_EDUCACAO E PESQUISA or 30_ESTUDOS AFRO-ASIATICOS"
+  732  vi string.txt
+  733  vi string.txt
+  734  vi string.txt
+  735  mx artigoc "bool=@string.txt"
+  736  vi string.txt
+  737  mx artigoc "bool=@string.txt"
+  738  vi string.txt
+  739  mx artigoc "bool=@string.txt"
+  740  ls
+  741  cat cipar.cip
+  742  mx artigo_jcr
+  743  vi cipar.cip
+  744  cd artigo
+  745  ls
+  746  cat getartigo-cr.sh
+  747  cd ../tab30
+  748  ls
+  749  cattc30title.sh
+  750  cat tc30title.sh
+  751  cat tabc30issn.sh
+  752  cat tabc30.sh
+  753  ls
+  754  cd ..
+  755  ls
+  756  cd jcr
+  757  ls
+  758  cat gizmo_unm.txt 
+  759  cd ..
+  760  cd artigo
+  761  ls
+  762  cat artigoc.fst
+  763  vi artigoc.fst
+  764  grep @artigoc ../h2|more
+  765  /utl/lind/mx artigo-cr "bool=tp=c" fst=@artigoc.fst fullinv/ansi=artigoc tell=100000
+  766  exit
+  767  cd /bases/wtrig2/lilacs
+  768  ./mx minre6
+  769  ./mx z34
+  770  ./mx z34
+  771  ./mx z34 -all now to=100 create=autprod
+  772  ./mx autprod
+  773  ./mx autprod "pft=v1'|'v999/" -all now>autprod1 
+  774  ./mx seq=autprod1.seq create=autprod1
+  775  ./mx autprod "pft=v1'|'v999/" -all now>autprod1.seq 
+  776  ./mx seq=autprod1.seq create=autprod1
+  777  ./mx seq=autprod1.seq create=autprod1 -all now
+  778  ./mx autprod
+  779  ./mx autprod1
+  780  ./mx autprod1 +control
+  781  ./mx autprod lw=9999 "pft=s(mpu,v1'|'v999,mpl)/" -all now>autprod1.seq 
+  782  ./mx seq=autprod1.seq create=autprod1
+  783  ./mx seq=autprod1.seq create=autprod1 -all now
+  784  ./mx autprod1
+  785  vi tabrpfaa
+  786  vi tabrpfaa.pft
+  787  vi tab3.pft
+  788  ## 100 autores mais produtivos.
+  789  ./mx autprod1 lw=999 "pft=@autprod.ft" now > tab0autprod.htm
+  790  echo "</table>" >>tab0autprod.htm
+  791  cp -p tab0autprod.htm /home/galvao/www/bvs/htdocs/ccs
+  792  ./mx z341
+  793  rm z341
+  794  rm z341.*
+  795  vi duplicados.prc
+  796  ./mx minre6 lw=999 "pft=@duplicados.prc" create=xminre -all now
+  797  ./m xminre
+  798  ./mx xminre
+  799  vi duplicados.prc
+  800  ./mx minre6 lw=999 "pft=@duplicados.prc" create=xminre -all now
+  801  ./mx xminre
+  802  /utl/lindffi/mxtb xminre create=xminre1 "90:if nocc(v5)>1 then v2'|'v3 fi" class=100000 tell=10000
+  803  ./mx xminre1
+  804  /utl/lindffi/mxtb xminre create=xminre1 "90:if nocc(v5)>1 then s(mpu,v2'|'v3,mpl) fi" class=100000 tell=10000
+  805  ./mx xminre1
+  806  ./mx xminre1
+  807  ./mx xminre1
+  808  ./mx xminre1 lw=999 "pft=v1'|'v999/" -all now >xminre2
+  809  ./mx xminre1 lw=999 "pft=v1'|'v999/" -all now >xminre2.seq
+  810  ./mx seq=xminre2.seq create=xminre2 -all now
+  811  ./mx xminre2
+  812  vi xminre2.pft
+  813  ./mx xminre2 lw=999 "pft=@xminre2.pft" now > tab0xminre2.htm
+  814  echo "</table>" >>tab0xminre2.htm
+  815  cp -p tab0xminre2.htm /home/galvao/www/bvs/htdocs/ccs
+  816  ./mx z3 "pft=v444/" now|sort -u
+  817  ./mx tot_idioma_pais
+  818  ./mx totais_idioma
+  819  less pa_af.seq
+  820  ls z.*
+  821  ./mx z
+  822  ./mx z +control
+  823  ./mx z1 +control
+  824  ./mx z "pft=if p(v222) then v222 fi/" now
+  825  ./mx z "pft=if p(v870) then v870 fi/" now
+  826  ./mx autprod1
+  827  ./mx autprod1 "text=PARROCHIA"
+  828  ./mx autprod1 "text=PARR"
+  829  ./mx autprod1 "text=PA"
+  830  ./mx tot_idioma_pais
+  831  ./mx m5
+  832  ./mx linhas
+  833  ./mx z3 "pft=v10^/" now|sort -u
+  834  ./mx z3 "pft=v10^p/" now|sort -u
+  835  ./mx z3 "pft=s(mpu,(v10^p/),mpl)" now|sort -u
+  836  ./mx z3 "pft=s(mpu,(v10^p/),mpl)" now|sort -u >sel.txt
+  837   cd /bases/lil.000/lil.lil
+  838  ls
+  839  mx lil
+  840  mx lil "pft=(v10^p/)"
+  841  mx lil "pft=(v10^p/)" now|sort -u
+  842  mx lil "pft=(v10^p/)" now|sort -u >/bases/wtrig2/lilacs/sel.txt
+  843  ls
+  844  cd /bases/wtrig2/lilacs
+  845  ls 
+  846  less sel.txt
+  847  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),mfn) fi /"
+  848  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),mfn) fi /" from=234555
+  849  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),310) fi /" from=234555
+  850  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),v310) fi /" from=234555
+  851  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),v310) fi /" 
+  852  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),v310) fi /" 
+  853  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),v310) fi /" now
+  854  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),v310) fi /" -all now tell=10000
+  855  ./mx z "pft=if v6='as' and a(v67) then ref(['lilser']l(['lilser']v30),v310) fi /" -all now tell=10000
+  856  ls *.pft
+  857  ls *.fst
+  858  less lilacs.fst
+  859  ./mx z "pft=if v6='as' and a(v67) then 'a222~'ref(['lilser']l(['lilser']v30),v310)'~' fi /" create=zz1
+  860  ./mx z "pft=if v6='as' and a(v67) then 'a222~'ref(['lilser']l(['lilser']v30),v310)'~' fi /" create=zz1 -all now tell=10000
+  861  ./mx z "proc=if v6='as' and a(v67) then 'a222~'ref(['lilser']l(['lilser']v30),v310)'~' fi /" create=zz1 -all now tell=10000
+  862  ./mx zz1
+  863  ./mx zz1 "pft=v222/" now|wc
+  864  ./mx zz1 "pft=if p(v222) then mfn fi/" now|wc
+  865  ./mx zz1 join=iso3166,333:2=mpu,v67,v222,mpl "pft=if v32001^m='' then v67,v222/ fi" tell=30000 now|sort -u>paises_errados.txt
+  866  ./mx zz1 "proc='d32001'" copy=zz1 -all now tell=10000
+  867  ./mx zz1 gizmo=paises_errados,67 copy=zz1 -all now tell=30000
+  868  ./mx zz1 join=iso3166,333:2,444:21=mpu,v67,v222,mpl "proc='d32001'" "proc='s'" tell=30000 -all now create=zzz1
+  869  ./mx zzz1
+  870  rm zz1.*
+  871  ./mx zzz1 "pft=@fixrepdup.prc" copy=zzz1 -all now tell=30000
+  872  ./mx zzz1 "proc='s40'" -all now copy=zzz1 tell=10000
+  873  ./mx zzz1 gizmo=../tabs/g850uc,40,41 create=z1 -all now
+  874  ./mx z1
+  875  ./mx z1 "proc='s41'" -all now create=z2 tell=10000
+  876  rm z1.*
+  877  ./mx z2 lw=9999 "proc=if a(v444) then 'd444<444 0>~SEM PAIS</444>' fi, if a(v65) then 'd65<65 0>SD</65>' fi/" -all now create=z3 tell=10000
+  878  ./mx z3 "proc='s'" -all now copy=z3 tell=10000
+  879  ./mx z3
+  880  rm z2.*
+  881  /utl/lindffi/mxtb z3 create=z34 "50:if v6='as' and p(v10^*) then (v10^*/) fi" class=1000000 tell=10000
+  882  ./mx autprod1
+  883  ./mx z34
+  884  ./mx z34
+  885  ./mx z34
+  886  ./mx z34 "text=Parrochia " 
+  887  ./mx z34
+  888  ./mx z34 "text=Parrochia " 
+  889  ll /bases/lil.000/tabs/*au*
+  890  ll /bases/lil.000/tabs/autor.iso
+  891  ./mx iso=/bases/lil.000/tabs/autor.iso
+  892  i./mx iso=/bases/lil.000/tabs/autor.iso create=autor "fst=920 0 (v920/)" fullinv=autor
+  893  vi autor.fst
+  894  ./mx iso=/bases/lil.000/tabs/autor.iso create=autor "fst=@" fullinv=autor tell=10000
+  895  ./mx iso=/bases/lil.000/tabs/autor.iso create=autor fst=@ fullinv=autor tell=10000
+  896  ./mx iso=/bases/lil.000/tabs/autor.iso create=autor fst=@autor.fst fullinv=autor tell=10000
+  897  ./mx autor
+  898  ./mx z34
+  899  ./mx z3
+  900  ./mx z3 "pft=(ref(['autor']l(['autor'],v10^*),v910/)"
+  901  ./mx z3 "pft=(ref(['autor']l(['autor'],v10^*),v910/))"
+  902  /utl/lindffi/mxtb z3 create=chico "150:(ref(['autor']l(['autor'],v10^*),v910/))" class=100000 tell=50000
+  903  /utl/lindffi/mxtb z3 create=chico "50:(ref(['autor']l(['autor'],v10^*),v910/))" class=100000 tell=50000
+  904  /utl/lindffi/mxtb z3 create=chico "50:if v6='as' (ref(['autor']l(['autor'],v10^*),v910/)) fi" class=100000 tell=50000
+  905  /utl/lindffi/mxtb z3 create=chico "50:if v6='as' then (ref(['autor']l(['autor'],v10^*),v910/)) fi" class=100000 tell=50000
+  906  /utl/lindffi/mxtb z3 create=chico "50:if v6='as' then (ref(['autor']l(['autor'],v10^*),v910/)) fi" class=100000 tell=10000
+  907  /utl/lindffi/mxtb z3 create=chico "50:if v6='as' then (ref(['autor']l(['autor'],v10^*),v910/)) fi" class=1000000 tell=10000
+  908  ./mx chico
+  909  /utl/lindffi/msrt chico 50 v998
+  910  ./mx chico
+  911  ./mx chico "text=Parrochia Beguin"
+  912  ./mx chico "text=Parrochia Beguin"
+  913  exity]
+  914  exit
+  915  cd /bases/wtrig2/lilacs
+  916  ./mx z34
+  917  /utl/lindffi/mxtb z3 create=z341 "70:if v5='S' and p(v10^*) then mfn'|'(v10^*/) fi" class=1000000 tell=10000
+  918  /utl/lindffi/mxtb z3 create=z341 "50:if v5='S' and p(v10^*) then mfn'|'(v10^*/) fi" class=1000000 tell=10000
+  919  ./mx z341
+  920  /utl/lindffi/mxtb z3 create=z341 "70:if v5='S' and p(v10^*) then mfn[1]'|'(v10^*/) fi" class=1000000 tell=10000
+  921  /utl/lindffi/mxtb z3 create=z341 "70:if v5='S' and p(v10^*) then (mfn'|'v10^*/) fi" class=1000000 tell=10000
+  922  /utl/lindffi/mxtb z3 create=z341 "50:if v5='S' and p(v10^*) then (mfn'|'v10^*/) fi" class=1000000 tell=10000
+  923  ./mx z341
+  924  ./mx z341 +control
+  925  vi autprod.pft
+  926  ./mx autprod1 lw=999 "pft=@autprod.pft" now > tab0autprod.htm
+  927  echo "</table>" >>tab0autprod.htm
+  928  cp -p tab0autprod.htm /home/galvao/www/bvs/htdocs/ccs
+  929  ls *.pft
+  930  ls *.prc
+  931  vi fixrepdup
+  932  vi fixrepdup.prc
+  933  ./mx xminre "pft=v5/" now|sort -u
+  934  ./mx xminre "pft=if nocc(v5)>1 then (v5/)" now|sort -u
+  935  ./mx xminre "pft=if nocc(v5)>1 then (v5/) fi" now|sort -u
+  936  ./mx xminre "pft=if nocc(v5)>1 then v5/ fi" now|sort -u
+  937  ls *.pft
+  938  vi tab1.pft
+  939  ls *.pft
+  940  vi rapf.pft
+  941  ./mx xminre2
+  942  ./mx z3
+  943  ./mx z3 "pft=440/" now
+  944  ./mx z3 "pft=v440/" now
+  945  ./mx m2
+  946  vi linhas.prc
+  947  vi tab1.pft
+  948  vi tab1.pft
+  949  vi regina.sh
+  950  vi tab1.pft
+  951  ./mx z2
+  952  ./mx z lw=9999 "proc=if v6='as' and a(v67) and (s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v150,mpl)) or s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v110,mpl)) or s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v180,mpl)) or s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v100,mpl))) then '<222 0>',ref(['lilser']l(['lilser']v30),v310), '</222>' fi/" -all now create=zz tell=10000
+  953  ./mx zz
+  954  ./mx zz join=iso3166,333:2=mpu,v67,v222,mpl "pft=if v32001^m='' then v67,v222/ fi" tell=30000 now|sort -u>paises_errados.txt
+  955  ./mx zz "proc='d32001'" copy=zz -all now tell=10000
+  956  ./mx zz gizmo=paises_errados,67 copy=zz -all now tell=30000
+  957  ./mx zz1 join=iso3166,333:2,444:21=mpu,v67,v222,mpl "proc='d32001'" "proc='s'" tell=30000 -all now create=zzz
+  958  rm zz.*
+  959  rm zz1.*
+  960  ./mx zz1 join=iso3166,333:2,444:21=mpu,v67,v222,mpl "proc='d32001'" "proc='s'" tell=30000 -all now create=zzz
+  961  rm zz.*
+  962  rm zz1.*
+  963  ./mx zz join=iso3166,333:2,444:21=mpu,v67,v222,mpl "proc='d32001'" "proc='s'" tell=30000 -all now create=zzz
+  964  rm zz.*
+  965  rm zz1.*
+  966  ./mx zz join=iso3166,333:2,444:21=mpu,v67,v222,mpl "proc='d32001'" "proc='s'" tell=30000 -all now create=zzz
+  967  rm zz.*
+  968  rm zz1.*
+  969  ./mx zz
+  970  ./mx zz
+  971  ./mx z
+  972  ./mx zz
+  973  ./mx z lw=9999 "proc=if v6='as' and a(v67) and (s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v150,mpl)) or s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v110,mpl)) or s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v180,mpl)) or s(mpu,v30,mpl)=ref(['lilser']l(['lilser']v30),s(mpu,v100,mpl))) then '<222 0>',ref(['lilser']l(['lilser']v30),v310), '</222>' fi/" -all now create=zz tell=10000
+  974  ./mx zz 
+  975  ./mx zz  "pft=if p(v222) then mfn / fi" now|wc
+  976  rm zz.*
+  977  ./mx z3
+  978  ./mx z
+  979  /utl/lindffi/msrt z34 60 v998
+  980  ./mx autor
+  981  exirt
+  982  exi
+  983  t
+  984  exit
+  985  cd /bases/wtrig2/lilacs
+  986  vi reg.sh
+  987  ./mx z3 "pft=v91/" now|sort -u
+  988  vi reg.sh
+  989  exirt
+  990  exit
+  991  run
+  992  cd /bases/lnk.000/chl.lnk
+  993  ll
+  994  wc -l m6689.lst 
+  995  exit
+  996  cd /bases/estat
+  997  grep cipar h2|more
+  998  CIPAR=/bases/estat/cipar.cip; export CIPAR
+  999  mx artigoc create=rr "bool=2003 and 65_2003" -all now
+ 1000  mx rr
+ 1001  mx null create=rr count=0
+ 1002  mx rr
+ 1003  mx artigoc append=rr "bool=2003 and 65_2003" -all now
+ 1004  mx rr
+ 1005  x
+ 1006  mx artigoc "bool=0004-2749 and (30i_0102-3306 or 30i_0102-8650 or 30i_1413-7852 or 30i_0001-3765 or 30i_0102-0935 or 30i_0066-782X or 30i_0004-2730 or 30i_0004-2749 or 30i_0004-2803 or 30i_0004-282X or 30i_0006-8705 or 30i_1516-8913 or 30i_0103-6440 or 30i_1519-6984 or 30i_0104-6632 or 30i_0100-8455 or 30i_1413-8670 or 30i_0100-879X or 30i_1517-8382 or 30i_0103-9733 or 30i_1677-0420 or 30i_1413-9596 or 30i_0101-3262 or 30i_0100-1574 or 30i_0102-311X or 30i_0366-6913 or 30i_1413-8123 or 30i_0103-8478 or 30i_0100-1965 or 30i_0101-2061 or 30i_0102-4450 or 30i_0011-5258 or 30i_0100-4670 or 30i_0101-7330 or 30i_1517-9702 or 30i_0101-546X or 30i_1413-294X or 30i_0100-4158 or 30i_1415-4757 or 30i_0104-530X or 30i_0104-5970 or 30i_0102-0536 or 30i_0073-4721 or 30i_1676-2444 or 30i_0021-7557 or 30i_0102-3586 or 30i_0104-7930 or 30i_0103-5053 or 30i_0104-6500 or 30i_0100-7386 or 30i_0102-6445 or 30i_0104-9313 or 30i_1516-1439 or 30i_0074-0276 or 30i_1519-566X or 30i_0104-6276 or 30i_0031-1049 or 30i_0100-204X or 30i_1517-7491 or 30i_0101-7438 or 30i_0100-736X or 30i_0104-1428 or 30i_0103-6564) and 2002"
+ 1007  mx artigoc "bool=0004-2749 and (30i_0102-3306 or 30i_0102-8650 or 30i_1413-7852 or 30i_0001-3765 or 30i_0102-0935 or 30i_0066-782X or 30i_0004-2730 or 30i_0004-2749 or 30i_0004-2803 or 30i_0004-282X or 30i_0006-8705 or 30i_1516-8913 or 30i_0103-6440 or 30i_1519-6984 or 30i_0104-6632 or 30i_0100-8455 or 30i_1413-8670 or 30i_0100-879X or 30i_1517-8382 or 30i_0103-9733 or 30i_1677-0420 or 30i_1413-9596 or 30i_0101-3262 or 30i_0100-1574 or 30i_0102-311X or 30i_0366-6913 or 30i_1413-8123 or 30i_0103-8478 or 30i_0100-1965 or 30i_0101-2061 or 30i_0102-4450 or 30i_0011-5258 or 30i_0100-4670 or 30i_0101-7330 or 30i_1517-9702 or 30i_0101-546X or 30i_1413-294X or 30i_0100-4158 or 30i_1415-4757 or 30i_0104-530X or 30i_0104-5970 or 30i_0102-0536 or 30i_0073-4721 or 30i_1676-2444 or 30i_0021-7557 or 30i_0102-3586 or 30i_0104-7930 or 30i_0103-5053 or 30i_0104-6500 or 30i_0100-7386 or 30i_0102-6445 or 30i_0104-9313 or 30i_1516-1439 or 30i_0074-0276 or 30i_1519-566X or 30i_0104-6276 or 30i_0031-1049 or 30i_0100-204X or 30i_1517-7491 or 30i_0101-7438 or 30i_0100-736X or 30i_0104-1428 or 30i_0103-6564) and 2002"
+ 1008  cd jcr
+ 1009  ls
+ 1010  cd ..
+ 1011  cd tab30
+ 1012  ls
+ 1013  mx tc30isi
+ 1014  mx tc30isi "text=J ENDOD"
+ 1015  mx tc30isi "text=JOURNAL OF PERIOD"
+ 1016  mx tc30isi "text=JOURNAL OF PERIODONTOLOGY"
+ 1017  mx tc30isi "text=THE JOURNAL OF PERIODONTOLOGY"
+ 1018  mx tc30isi "pft=if l(['fat_imp']'JOURNAL OF PERIODONTOLOGY')<>'' then 'SIM' else 'NÃO' fi"
+ 1019  mx tc30isi "pft=if ref(['fat_imp']l(['fat_imp']'JOURNAL OF PERIODONTOLOGY'),v7)<>'' then 'SIM' else 'NÃO' fi"
+ 1020  mx tc30isi "pft=if ref(['fat_imp']l(['fat_imp']'ORAL SURGERY'),v7)<>'' then 'SIM' else 'NÃO' fi"
+ 1021  mx tc30isi "text=ORAL SURGERY"
+ 1022  mx tc30isi "pft=if ref(['fat_imp']l(['fat_imp']'ORAL SURGERY ORAL MEDICINE ORAL PATHOLOGY ORAL RADIOLOGY AND ENDODONTICS'),v7)<>'' then 'SIM' else 'NÃO' fi"
+ 1023  mx tc30TITLE "text=ORAL SURGERY"
+ 1024  mx tc30title "text=ORAL SURGERY"
+ 1025  mx tc30title "text=J ENDOD"
+ 1026  mx tc30isi "pft=if ref(['fat_imp']l(['fat_imp']'JOURNAL OF ENDODONTICS'),v7)<>'' then 'SIM' else 'NÃO' fi"
+ 1027  mx tc30TITLE "pft=if ref(['fat_imp']l(['fat_imp']'JOURNAL OF ENDODONTICS'),v7)<>'' then 'SIM' else 'NÃO' fi"
+ 1028  mx tc30title "pft=if ref(['fat_imp']l(['fat_imp']'JOURNAL OF ENDODONTICS'),v7)<>'' then 'SIM' else 'NÃO' fi"
+ 1029  mx tc30title "pft=ref(['fat_imp']l(['fat_imp']''),v7)<>'' then 'SIM' else 'NÃO' fi"
+ 1030  mx tc30title "text=J ENDOD"
+ 1031  mx tc30title "pft=ref(['tc30title']l(['tc30title']'J ENDOD'),v222^a)/"
+ 1032  mx tc30title "pft=ref(['tc30title']l(['tc30title']'J ENDOD'),v222^a)/" from=275
+ 1033  mx tc30title "pft=ref(['tc30title']l(['tc30title']'J ENDOD'),v222^a)/" from=13903
+ 1034  cat tc30title.fst
+ 1035  cat tc30isi.fst
+ 1036  mx tc30title "bool=J ENDOD"
+ 1037  mx tc30title "bool=J ENDOD" create=rr now
+ 1038  mx rr
+ 1039  mx null count=0 create=rr now
+ 1040  mx tc30title "bool=J ENDOD" append=rr now
+ 1041  mx rr
+ 1042  msrt rr 1 v222
+ 1043  mx rr
+ 1044  mx tc30title "bool=J ENDOD" append=rr now
+ 1045  mx rr
+ 1046  msrt rr 1 v222
+ 1047  mx rr
+ 1048  msrt rr 19 v222
+ 1049  mx rr
+ 1050  mx tc30title "bool=J DENT RES"
+ 1051  mx tc30title "bool=ACTA CIRURG. BRAS."
+ 1052  mx tc30title "bool=ACTA CIRURG BRAS"
+ 1053  mx tc30title "text=ACTA CIRURG. BRAS."
+ 1054  mx tc30title "text=ACTA CIRURG BRAS"
+ 1055  mx tc30title "text=ACTA CIR"
+ 1056  mx tc30title "text=ACTA CIRURG BRAS"
+ 1057  mx tc30isi "text=J ENDOD"
+ 1058  mx tc30isi "text=ENDOD"
+ 1059  ls
+ 1060  history>>tc30isi.his

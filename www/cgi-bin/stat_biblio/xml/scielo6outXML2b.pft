@@ -1,0 +1,36 @@
+		'<article_cited>',
+			'<authors>', (v10^s|, |v10^n+| ; |), '</authors>'/
+			'<article_title>', v12^*, '</article_title>'/
+			'<journal_title_list>',
+				'<journal_title lang="pt">',ref(['tab30title']l(['tab30title']v30),mpu,v222^a,mpl), '</journal_title>'/
+				'<journal_title lang="en">',ref(['tab30title']l(['tab30title']v30),mpu,v222^a,mpl), '</journal_title>'/
+				'<journal_title lang="es">',ref(['tab30title']l(['tab30title']v30),mpu,v222^a,mpl) , '</journal_title>'/
+			'</journal_title_list>'/
+			'<volume>', v31, '</volume>'/
+			'<issue>', v32, '</issue>'/
+			'<page>', v14, '</page>'/
+			'<year>', v65.4, '</year>'/
+			'<citing_article>',
+			'<link>',
+				'<label>[ Ver artigo citante ]</label>'/
+				'<url>',
+					'<protocol>http</protocol>'/
+					'<host>'v7777'</host>'/
+					'<port></port>'/
+					'<path></path>'/
+					'<script_name>scielo.php</script_name>'/
+					'<param_list>',
+						'<param>',
+							'<name>script</name>'/
+							'<value>sci_arttext</value>'/
+						'</param>'/
+						'<param>',
+							'<name>pid</name>'/
+							'<value>', v880.23, '</value>'/
+						'</param>'/
+					'</param_list>'/
+				'</url>'/
+			'</link>'/
+			'</citing_article>'/
+		'</article_cited>'/
+		

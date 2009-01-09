@@ -1,0 +1,31 @@
+/* 
+710 = v70 precedido de codigo de pais e v10 precedido de A01 normalizado
+      -               = missing
+      codpais^0p Pais = codpais dado 
+      codpais^0i Inst = codpais via tbstpi 
+      ^i A1
+      ^7 v70
+      |^r|v10^r,
+      |^n|v10^n,
+      |^s|v10^s,
+*/
+   proc('d710'
+     (if p(v10) then 
+       if iocc>100 then break fi
+       '<710 0>'
+         putenv('X101='if v10^1>'' then v10^1.1,f(val(v10^1*1),1,0) else '-' fi)
+         ref(mfn,
+           s1:=(getenv('X101')),
+           (if p(v700) then 
+             if iocc>100 then break fi
+             if v700^i=s1 then v700,break fi
+            fi
+           )
+         )
+         |^r|v10^r,
+         |^n|v10^n,
+         |^s|v10^s,
+       '</710>' 
+      fi
+     )
+   )

@@ -1,0 +1,26 @@
+f(val(mfn),1,0)'.',
+c8,
+v999,
+c13,
+e1:=l(['../tc30issn']ref(['../tc30issn']l(['../tc30issn']v1^c),v400)),
+e2:=l(['fat_imp']v1^c),
+e3:=l(['titlelilmdl']'LL_'v1^c),
+e4:=l(['titlelilmdl']'IM_'v1^c),
+if e1>0 or e2>0 or e3>0 or e4>0 then
+	proc('a2~'
+		if e1>0 then ',SciELO '
+		fi,
+		if e2>0 then ',ISI '
+		fi,
+		if e3>0 then ',LILACS '
+		fi,
+		if e4>0 then ',MEDLINE '
+		fi,
+	'~'),
+	v2*1
+else, 
+	if v1^c.2:'~~' then 'arrumar' 
+	else '-'
+	fi,
+fi,
+'|'v1^c/"

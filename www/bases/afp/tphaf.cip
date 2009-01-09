@@ -1,0 +1,7 @@
+/
+artigos.*=../artigos.*
+tabpais.*=../tabs/tabpais.*
+tabcida.*=../tabs/tabcida.*
+join700a.pft=../tabs/join700a.pft
+join700b.pft=../tabs/join700b.pft
+join710a.pft=../tabs/join710a.pft

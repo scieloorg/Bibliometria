@@ -1,0 +1,76 @@
+/*
+replace(replace(replace(s(mhu,v210^a/v222^a/(v245^a/)(v246^a/)),'  ',' '),'.',' '),'  ',' ')
+
+proc('d210d1210',if v210^a*1>'' then if s(v210^b,v210^c)='' then '<210 0>'v210^a'</210>' else if v210^b>'' then '<210 0>'v210^a,| (|v210^b|)</210>| fi,if v210^c>'' then '<210 0>'v210^a,' ('v210^c')</210>' fi fi fi),v210/,proc('<1210 0>'replace(s(v210' '),'. ',' ')'</1210>'),if v1210<>s(v210' ') then v1210 fi
+
+222 0 if v222*1.1>'0' then proc('<222 0>^a'mid(v222^a,val(v222*1.1),999),|^b|v222^b,'</222>') fi,(if v222^a*1>'' then if v222^b='' then v222^a/ else if v222^a>'' then v222^a,| (|v222^b|)| fi/ fi fi)
+
+'********************************************'/
+ #mfn/
+ |210:|v210/
+ |222:|v222/
+ |245:|v245/
+( |246:|v246/)
+'---------------------------------------------'/
+*/
+
+/*titulo abreviado, 210*/
+ if v210>'' then ,
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v210^a,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi
+ if v210^b>'' then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v210^a' 'v210^b,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi
+ if v210^c>'' then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v210^a' 'v210^c,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi
+ if v210^b>'' and v210^c>'' then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v210^a' 'v210^b' 'v210^c,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi
+
+ 
+ /*titulo completo, 222*/
+ if v222>''  then,
+ if v222^a<>v210^a then 
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v222^a,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi fi
+ if v222^b>'' then,
+ if s(v222^a' 'v222^b)<>s(v210^a' 'v210^b) then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v222^a' 'v222^b,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi fi
+ if v222*1.1>'0' and mid(v222^a,val(f(val(v222*1.1)-1,1,0)),999)<>v210^a then 
+ proc('d9<9 99 1>'mid(v222^a,val(f(val(v222*1.1)-1,1,0)),999)' 'v222^b,'</9>')
+ mpu,v9,mpl/ 
+ fi
+
+ /*titulo proprio, 245*/
+ if v245>'' then ,
+ if v245^a<>v222^a and v245^a<>v210^a then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v245^a,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi fi
+ if v245^s>'' then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v245^a' 'v245^s,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi
+ if v245^u>'' then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v245^a' 'v245^u,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi
+ if v245^s>'' and v245^u>'' then
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,v245^a' 'v245^s' 'v245^u,mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi
+
+ /*titulo variantes, 246*/
+ if v246>'' then ,
+ if v246^a<>v210^a and v246^a<>v222^a then,
+ proc('d9<9 99 1>',replace(replace(replace(s(mhu,(v246^a/),mpl),'  ',' '),'.',' '),'  ',' '),'</9>')
+ v9/
+ fi fi

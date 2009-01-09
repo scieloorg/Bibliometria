@@ -1,0 +1,402 @@
+|8|BR|UFPEL|0|Pelotas
+|11|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|12|BR|Embrapa Gado de Corte|0|Campo Grande
+|13|BR|Embrapa Gado de Corte|0|Campo Grande
+|14|BR|Universidade Federal do Ceará|0|Fortaleza
+|14|IT|Universitá degli Studi di Firenze|0
+|18|BR|Universidade Estadual de Londrina|0|Londrina
+|20|BR|Ceval Alimentos|0|Dourados
+|21|BR|Ceval Alimentos|0|Dourados
+|23|BR|UFPI|0|Teresina
+|27|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|28|BR|UENF|0|Campos dos Goytacazes
+|28|BR|EMBRAPA|0|Juiz de Fora
+|34|US|Cornell University|0
+|35|US|Cornell University|0
+|42|BR|UFSCar|0|Araras
+|43|BR|UFPEL|0|Pelotas
+|44|BR|UFPEL|0|Pelotas
+|46|BR|UFMG|0|Belo Horizonte
+|48|BR|UENF|0|Campos dos Goytacazes
+|48|BR|UFMG|0|Belo Horizonte
+|48|BR|EMBRAPA|0|Juiz de Fora
+|49|BR|Universidade Federal do Ceará|0|Fortaleza
+|51|BR|UFSM|0|Santa Maria
+|53|BR|UNESP|0|Botucatu
+|53|BR|UNESP|0|Botucatu
+|56|BR|UFSM|0|Santa Maria
+|62|BR|Universidade Estadual Paulista|0|Bauru
+|63|BR|Embrapa|0|Juiz de Fora
+|64|BR|Embrapa Gado de Corte|0|Campo Grande
+|66|BR|Universidade Estadual Paulista|0|Botucatu
+|67|BR|Universidade Estadual Paulista|0|Botucatu
+|68|BR|PROGEPEC Consultores Associados Ltda|0|Santa Maria
+|69|BR|UENF|0|Campos dos Goytacazes
+|70|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|72|BR|Universidade Estadual do Norte Fluminense|0|Campos dos Goytacazes
+|73|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|73|BR|BUPESA|0|Recife
+|75|BR|Fundação do Ensino Superior de Rio Verde|0|Rio Verde
+|76|BR|Fundação do Ensino Superior de Rio Verde|0|Rio Verde
+|77|BR|Fundação do Ensino Superior de Rio Verde|0|Rio Verde
+|82|BR|Universidade Estadual Paulista|0
+|82|BR|Universidade Estadual de Maringá|0
+|82|BR|Universidade Estadual Paulista|0
+|82|BR|Universidade Federal de Viçosa|0
+|88|BR|Universidade Federal do Paraná|0|Curitiba
+|88|BR|Universidade Federal do Paraná|0|Curitiba
+|89|BR|Universidade Estadual de Ponta Grossa|0|Ponta Grossa
+|91|BR|Universidade Estadual de Ponta Grossa|0|Ponta Grossa
+|92|BR|Universidade de Passo Fundo|0|Passo Fundo
+|92|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Passo Fundo
+|93|BR|Universidade Federal do Mato Grosso do Sul|0|Dourados
+|93|BR|IAPAR|0|Curitiba
+|96|BR|Universidade Estadual Paulista|0|Botucatu
+|97|BR|Universidade Estadual Paulista|0|Botucatu
+|98|BR|Universidade Federal do Mato Grosso do Sul|0|Dourados
+|100|BR|Ceval Alimentos|0|Dourados
+|101|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|103|BR|Universidade Federal do Ceará|0|Fortaleza
+|106|BR|Universidade Estadual de Londrina|0|Londrina
+|111|BR|Universdade Federal de Santa Maria|0|Santa Maria
+|112|BR|Universidade Federal do Rio Grande do Sul|0|Porto Alegre
+|112|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|113|BR|Universidade Estadual Paulista|0|Botucatu
+|113|BR|Universidade Estadual Paulista|0|Botucatu
+|114|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Juiz de Fora
+|121|BR|Universidade Estadual Paulista|0|Botucatu
+|121|BR|Universidade Estadual Paulista|0|Botucatu
+|122|BR|Fundação Universidade Federal do Rio Grande|0|Rio Grande
+|122|BR|Universidade Estadual Paulista|0|Botucatu
+|123|BR|Universidade Estadual de Maringá|0
+|124|BR|Universidade Estadual Vale do Acaraú|0|Sobral
+|124|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Sobral
+|126|BR|Universidade Estadual Paulista|0|Botucatu
+|126|BR|Universidade Estadual Paulista|0|Botucatu
+|127|BR|Universidade Estadual Paulista|0|Botucatu
+|130|BR|Universidade de Passo Fundo|0|Passo Fundo
+|130|BR|Universidade Federal do Rio Grande do Sul|0|Porto Alegre
+|132|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Juiz de Fora
+|133|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Juiz de Fora
+|135|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Campo Grande
+|141|BR|Universidade Estadual Paulista|0
+|142|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|143|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|151|BR|Fundação Univ. Federal do Rio Grande|0|Rio Grande
+|151|BR|UNESP|0|Botucatu
+|152|BR|UNESP|0|Botucatu
+|160|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|161|BR|EMBRAPA|0|Juiz de Fora
+|163|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|163|BR|Universidade Federal do Ceará|0|Fortaleza
+|164|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|164|BR|Universidade Federal do Ceará|0|Fortaleza
+|165|BR|Secretaria Estadual de Agricultura e Abastecimento|0|Pindamonhangaba
+|166|BR|Secretaria Estadual de Agricultura e Abastecimento|0|Pindamonhangaba
+|167|BR|PUC|0|Uruguaiana
+|168|BR|PUC|0|Uruguaiana
+|169|BR|UFRPE|0|Recife
+|172|BR|UFRGS|0|Porto Alegre
+|173|BR|UFPR|0|Curitiba
+|175|BR|UNESP|0|Botucatu
+|175|BR|UNESP|0|Botucatu
+|189|BR|UNIANDRADE|0
+|189|BR|EPAGRI S.A./UNIVALI|0
+|190|BR|EPAGRI S.A./UNIVALI|0
+|190|BR|UNIANDRADE|0
+|192|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|192|BR|UNESP|0|Botucatu
+|192|BR|UNESP|0|Botucatu
+|195|BR|Embrapa|0
+|195|BR|UECE|0
+|196|BR|Embrapa|0
+|196|BR|UECE|0
+|196|BR|UFC|0
+|197|US|Oklahoma State University|0
+|200|BR|UFRGS|0|Porto Alegre
+|203|BR|Universidade Estadual Paulista|0
+|203|BR|Universidade Federal de Pelotas|0
+|203|BR|UNESP|0|Botucatu
+|204|BR|UFPI|0|Teresina
+|204|BR|USP|0|Piracicaba
+|208|BR|USP|0|Piracicaba
+|208|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|213|BR|USP|0|Piracicaba
+|214|BR|UNESP|0|Botucatu
+|227|BR|Universidade Federal do Ceará|0|Fortaleza
+|236|BR|Universidade Estadual Paulista|0|Botucatu
+|236|BR|Universidade Estadual Paulista|0|Botucatu
+|236|BR|Universidade Estadual Paulista|0|Botucatu
+|236|BR|Universidade Estadual Paulista|0|Botucatu
+|237|BR|Agroceres|0|Rio Claro
+|238|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|239|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|240|BR|Embrapa Semi-Árido|0|Petrolina
+|251|BR|Embrapa|0|Juiz de Fora
+|258|BR|Universidade Estadual do Norte Fluminense|0|Campos dos Goytacazes
+|260|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|260|BR|Associação Brasileira de Criadores de Zebu|0|Uberaba
+|262|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|264|BR|Universidade Estadual Paulista|0|Botucatu
+|270|BR|Universidade Federal de Juiz de Fora|0|Juiz de Fora
+|271|BR|Universidade Federal de Juiz de Fora|0|Juiz de Fora
+|272|BR|Universidade Federal de Juiz de Fora|0|Juiz de Fora
+|274|BR|Universidade Estadual Paulista|0|Botucatu
+|275|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|276|BR|Universidade Estadual do Norte Fluminense|0|Campos dos Goytacazes
+|279|BR|Universidade Estadual Norte Fluminense|0|Campos dos Goytacazes
+|279|BR|Universidade Estadual Norte Fluminense|0|Campos dos Goytacazes
+|284|BR|Universidade Estadual Paulista|0|Botucatu
+|284|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|286|CO|Universidad de los Llanos|0|Villavicencio
+|287|BR|UFSM - Campus Camobi|0|Santa Maria
+|288|BR|UFSM - Campus Camobi|0|Santa Maria
+|289|BR|Universidade Estadual do Norte Fluminense (UENF)|0|Campos dos Goytacazes
+|291|BR|Embrapa Gado de Corte|0|Campo Grande
+|294|BR|UFSM|0|Santa Maria
+|296|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|297|BR|Progepec Consultores Associados Ltda.|0|Santa Maria
+|302|BR|Departamento de Zootecnia|0|Santa Maria
+|303|BR|UENF|0|Campos dos Goytacazes
+|304|BR|USP|0|Piracicaba
+|305|BR|USP|0|Piracicaba
+|308|BR|UFPEL|0|Pelotas
+|310|BR|UENF|0|Campos dos Goytacazes
+|311|BR|Universidade Católica Dom Bosco|0|Campo Grande
+|312|BR|Universidade Católica Dom Bosco|0|Campo Grande
+|313|BR|Universidade Católica Dom Bosco|0|Campo Grande
+|317|BR|Embrapa|0|Sobral
+|317|BR|Universidade Estadual Vale do Acaraú|0|Sobral
+|320|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|321|BR|Universiodade Federal Rural de Pernambuco|0|Recife
+|324|BR|Universidade Estadual Paulista|0
+|324|BR|Universidade Federal de Pelotas|0
+|324|BR|Universidade Federal de Pelotas|0|Botucatu
+|329|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|330|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|331|BR|Agroceres Nutrição Animal|0|Rio Claro
+|332|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|335|BR|Progepec Consultores Associados Ltda|0|Santa Maria
+|335|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|336|BR|Universidade de Passo Fundo|0|Passo Fundo
+|336|BR|Universidade Federal do Rio Grande do Sul|0|Porto Alegre
+|346|BR|EMBRAPA|0|Juiz de Fora
+|349|BR|Embrapa|0|Campo Grande
+|351|BR|UFRPE|0|Recife
+|351|BR|UNESP|0|Botucatu
+|351|BR|UEL|0|Londrina
+|351|BR|UNESP|0|Botucatu
+|353|BR|UNESP|0|Botucatu
+|361|BR|UNESP|0|Botucatu
+|363|BR|UFMG|0|Belo Horizonte
+|363|BR|UNESP|0|Botucatu
+|364|BR|UENF|0|Campos dos Goytacazes
+|370|BR|Universidade Estadual de Londrina|0|Londrina
+|370|BR|Seghers Hybrid do Brasil Agropecuária Ltda|0|Patos de Minas
+|371|BR|UFPB|0
+|372|BR|UFV|0
+|373|BR|UFV|0
+|374|BR|Instituto de Zootecnia|0|Itapetininga
+|375|BR|Universidade Federal de Pelotas|0
+|376|BR|Universidade Federal de Pelotas|0
+|377|BR|UENF|0|Campos dos Goytacazes
+|378|BR|UENF|0|Campos dos Goytacazes
+|379|BR|UNESP|0|Botucatu
+|380|BR|UNESP|0|Botucatu
+|383|BR|USP|0|Piracicaba
+|385|BR|UFSM|0|Santa Maria
+|389|BR|Universidade de São Paulo|0|Piracicaba
+|393|BR|Universidade Estadual Paulista|0|Botucatu
+|394|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Juiz de Fora
+|396|BR|Universidade Estadual Paulista|0|Botucatu
+|398|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|399|BR|Universidade de São Paulo|0|Piracicaba
+|404|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|405|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|406|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|407|BR|Universidade Federal do Ceará|0|Fortaleza
+|409|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|410|BR|Universidade Estadual Paulista|0|Botucatu
+|417|BR|Universidade Federal do Rio Grande do Sul|0|Porto Alegre
+|417|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Pelotas
+|418|BR|Empresa Brasileira de Pesquisa Agropecuária|0|Campo Grande
+|420|BR|AGROCERES|0|Rio Claro
+|421|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|426|BR|UNESP|0|Botucatu
+|428|BR|UNESP|0|Botucatu
+|429|BR|UDESC|0|Lages
+|430|BR|UDESC|0|Lages
+|433|BR|UFLA|0
+|435|BR|Embrapa Acre|0
+|435|BR|UFC|0
+|435|BR|UECE|0
+|435|BR|UFC|0
+|436|BR|EMBRAPA|0|Juiz de Fora
+|437|BR|UFSM|0|Santa Maria
+|438|BR|Universidade Federal do Ceará|0|Fortaleza
+|438|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|439|BR|Universidade Federal do Ceará|0|Fortaleza
+|439|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|440|BR|UFSM|0|Santa Maria
+|441|BR|ABCZ|0|Uberaba
+|447|BR|UFV|0
+|450|BR|UNESP|0|Botucatu
+|453|BR|Universidade Católica Dom Bosco|0|Campo Grande
+|454|BR|Universidade Católica Dom Bosco|0|Campo Grande
+|455|BR|Universidade Católica Dom Bosco|0|Campo Grande
+|456|BR|Universidade Católica Dom Bosco|0|Campo Grande
+|459|BR|UNESP|0|Botucatu
+|459|BR|UNESP|0|Botucatu
+|468|BR|Universidade Estadual Paulista|0
+|469|BR|Embrapa Gado de Corte|0|Campo Grande
+|470|BR|Embrapa Gado de Corte,|0|Campo Grande
+|471|BR|Embrapa|0|Juiz de Fora
+|472|BR|EMBRAPA|0|Campo Grande
+|477|BR|Embrapa Gado de Leite|0
+|477|BR|Universidade Federal de Viçosa|0
+|485|BR|UFPB|0
+|488|BR|Perdigão Agroindustrial|0|Rio Verde
+|491|BR|Universidade de São Paulo|0
+|493|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|493|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|495|BR|Universidade Federal do Ceará|0|Fortaleza
+|496|BR|Universidade do Oeste Paulista|0|Presidente Prudente
+|496|BR|Universidade Estadual Paulista|0|Botucatu
+|496|BR|Universidade Estadual Paulista|0|Botucatu
+|496|BR|Universidade Estadual Paulista|0|Botucatu
+|504|BR|Universidade Estadual Paulista|0|Botucatu
+|508|BR|Ajinomoto|0
+|512|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|513|BR|Universidade Federal do Rio Gande do Sul|0|Santa Maria
+|513|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|514|AR|Instituto de Tecnologia Agropecuária|0
+|515|BR|Universidade Federal Rural de Pernambuco|0|Recife
+|516|BR|Universidade Federal de Pelotas|0|Pelotas
+|519|BR|Universidade Federal de Santa Maria|0|Santa Maria
+|523|BR|Universidade Estadual de Montes Claros|0|Montes Claros
+|523|BR|Universidade Federal de MInas Gerais|0|Belo Horizonte
+|526|BR|Universidade Estadual de Montes Claros|0|Montes Claros
+|526|BR|Universidade Federal de MInas Gerais|0|Belo Horizonte
+|527|BR|UNESP|0|Botucatu
+|528|BR|UNESP|0|Botucatu
+|529|BR|USP|0|Piracicaba
+|529|BR|USP|0|Piracicaba
+|529|BR|CENA|0|Piracicaba
+|535|BR|Embrapa Gado de Corte|0|Campo Grande
+|536|BR|UFSM|0|Santa Maria
+|536|BR|IAPAR|0|Ponta Grossa
+|539|TR|Çanakkale Onsekiz Mart Univ|0
+|539|TR|Çukurova Univ|0
+|541|BR|UFSM|0|Santa Maria
+|542|BR|UFSM|0|Santa Maria
+|547|BR|UNESP|0|Botucatu
+|548|BR|Progepec Consultores Associados Ltda.|0|Santa Maria
+|548|BR|UFSM|0|Santa Maria
+|549|BR|USP|0|Piracicaba
+|553|BR|Universidade Estadual de Londrina|0|Londrina
+|556|BR|UFRPE|0|Recife
+|557|BR|CAUNESP|0
+|557|BR|UNESP|0
+|559|BR|EMBRAPA Gado de Leite|0|Aracaju
+|561|BR|UFRGS|0|Porto Alegre
+|562|BR|UFRPE|0|Recife
+|567|BR|UFMG|0|Belo Horizonte
+|567|US|Cornell University|0
+|567|BR|Embrapa Gado de Corte|0|Campo Grande
+|568|BR|UFRPE|0|Recife
+|569|BR|UFRPE|0|Recife
+|571|BR|UFMG|0|Belo Horizonte
+|574|BR|UNESP|0|Botucatu
+|574|BR|UNESP|0|Botucatu
+|574|BR|UNESP|0|Botucatu
+|575|BR|FEAD|0|Belo Horizonte
+|577|BR|UFRGS|0|Londrina
+|577|BR|UFRGS|0|Porto Alegre
+|577|BR|UFRGS|0|Porto Alegre
+|578|BR|Fundação do Ensino Superior de Rio Verde|0|Rio Verde
+|579|BR|Universidade Estadual de Londrina|0|Londrina
+|582|BR|UNESP|0|Botucatu
+|583|BR|UNESP|0|Botucatu
+|584|BR|Fundação Ezequiel Dias|0|Belo Horizonte
+|584|BR|UFMG|0|Belo Horizonte
+|584|BR|UFMG|0|Belo Horizonte
+|585|BR|USP|0|Piracicaba
+|587|BR|UFV|0
+|588|BR|EMBRAPA - Gado de Corte|0|Campo Grande
+|589|BR|EMBRAPA - Gado de Corte|0|Campo Grande
+|591|BR|Universidade de Passo Fundo|0|Passo Fundo
+|592|BR|USP|0|Piracicaba
+|592|BR|USP|0|Piracicaba
+|593|BR|Universidade Federal do Rio Grande do Sul|0|Porto Alegre
+|595|BR|UFSM|0|Santa Maria
+|597|BR|Embrapa Gado de Corte|0|Campo Grande
+|598|BR|USP|0|Piracicaba
+|607|BR|Embrapa Gado de Corte|0|Campo Grande
+|609|BR|USP|0|Piracicaba
+|610|BR|UFRGS|0|Porto Alegre
+|613|BR|Embrapa - Centro Nacional de Pesquisa de Gado de Leite|0|Juiz de Fora
+|616|BR|UNESP|0|Botucatu
+|621|BR|UNESP|0|Botucatu
+|624|BR|EMBRAPA|0|Juiz de Fora
+|625|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|637|CO|Universidad de Los Llanos|0|Villavicencio
+|637|BR|Universidade Federal de Lavras|0
+|643|BR|USP|0|Piracicaba
+|643|BR|EMBRAPA|0|Campo Grande
+|644|BR|Embrapa Gado de Corte|0|Campo Grande
+|645|BR|USP|0|Piracicaba
+|647|BR|PUCRS|0|Uruguaiana
+|647|BR|UFRGS|0|Porto Alegre
+|660|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|661|BR|Embrapa-Gado de Leite|0|Juiz de Fora
+|666|BR|UFSM|0|Santa Maria
+|667|BR|UFSM|0|Santa Maria
+|670|BR|IAPAR|0|Curitiba
+|670|BR|IAPAR|0|Ponta Grossa
+|671|BR|IAPAR|0|Ponta Grossa
+|671|BR|UFMS|0|Dourados
+|672|BR|UFSM|0|Santa Maria
+|675|BR|UFMG|0|Belo Horizonte
+|675|BR|Empresa de Pesquisa Agropecuária de Minas Gerais|0|Sete Lagoas
+|676|BR|EMBRAPA - Gado de Leite|0|Juiz de Fora
+|678|BR|Embrapa Trigo|0
+|683|BR|UDESC|0|Lages
+|684|BR|UDESC|0|Lages
+|685|BR|UDESC|0|Lages
+|686|BR|UDESC|0|Lages
+|687|BR|Núcleo de Pesquisas Zootécnicas do Sudoeste|0|Itapetininga
+|692|BR|USP|0|Piracicaba
+|693|BR|EPAGRI|0|Lages
+|693|BR|UFRGS|0|Porto Alegre
+|693|BR|UPF|0|Passo Fundo
+|693|BR|UFRGS|0|Porto Alegre
+|694|BR|Estação Experimental de Lages|0|Lages
+|694|BR|UFRGS|0|Porto Alegre
+|694|BR|UPF|0|Passo Fundo
+|694|BR|UFRGS|0|Porto Alegre
+|695|BR|UNESP|0|Botucatu
+|698|BR|UENF|0|Campos dos Goytacazes
+|699|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|702|BR|UFSM|0|Santa Maria
+|703|BR|Universidade Federal do Ceará|0|Fortaleza
+|704|BR|Universidade Estadual de Londrina|0|Londrina
+|704|BR|USP|0|Piracicaba
+|705|BR|UENF|0|Campos dos Goytacazes
+|705|BR|UENF|0|Campos dos Goytacazes
+|706|BR|UFPI|0|Teresina
+|711|BR|UFSM|0|Santa Maria
+|712|BR|Fazenda Minuano|0|Dourados
+|712|BR|UFMG|0|Belo Horizonte
+|714|BR|Embrapa Gado de Leite|0|Juiz de Fora
+|714|CH|Swiss Federal Institute of Technology|0
+|718|BR|Agroceres|0|Ponta Grossa
+|734|BR|UENF|0|Campos dos Goytacazes
+|734|BR|UENF|0|Campos dos Goytacazes
+|735|BR|UENF|0|Campos dos Goytacazes
+|735|BR|UENF|0|Campos dos Goytacazes
+|740|BR|Universidade Federal de Minas Gerais|0|Belo Horizonte
+|744|BR|Universidade Federal do Piauí|0
+|744|BR|Universidade Estadual de Maringá|0
+|744|BR|Centro de Energia Nuclear na Agricultura|0
+|744|BR|Universidade Paulista|0
+|744|BR|Escola Superior de Agricultura Luiz de Queiroz|0

@@ -1,0 +1,8 @@
+  
+#mx null create=tc30issn_BR count=0
+
+#mx tc30issn append=tc30issn_BR "proc=if v222^a='' then 'd*' fi"  -all now
+
+#Esta tc30issn foi trazida do SciELO BR para correção dos títulos citados no ScELO Chile - aplicação na criação da base wtrig_titles2
+ 
+#mx tc30issn_BR "fst=@../tc30issn.fst" fullinv/ansi=tc30issn_BR tell=10000
