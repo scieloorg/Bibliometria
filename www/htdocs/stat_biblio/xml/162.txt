@@ -9,9 +9,9 @@
 			<option_list name="PAIS1">
 				<option selected="true">
 					<label_list>
-						<label lang="pt">Pais</label>
-						<label lang="en">Pais</label>
-						<label lang="es">Pais</label>
+						<label lang="pt">Brasil</label>
+						<label lang="en">Brazil</label>
+						<label lang="es">Brasil</label>
 					</label_list>
-					<value>PP</value>
+					<value>BR</value>
 				</option>

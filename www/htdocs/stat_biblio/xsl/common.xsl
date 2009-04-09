@@ -14,8 +14,9 @@
 	<xsl:variable name="max_selection" select="/statistics/ini/forms/max_selection" />
 	
 	<xsl:variable name="root" select="//root"/>
-
+	<xsl:variable name="country" select="/statistics/request-vars/country" />
 	<xsl:variable name="lang_aux" select="/statistics/request-vars/lang" />
+		
 	<xsl:variable name="lang">	
 		<xsl:choose>
 			<xsl:when test="string-length($lang_aux) >= 1">
@@ -374,11 +375,16 @@
 		<xsl:variable name="state">
 			<xsl:value-of select="state" />
 		</xsl:variable>
+		<xsl:variable name="country">
+			<xsl:value-of select="country" />
+		</xsl:variable>
+		
 		<a>
 			<xsl:attribute name="href">
 				<xsl:value-of select="$url" />
 				<xsl:value-of select="concat('&amp;state=',$state)"/>
 				<xsl:value-of select="concat('&amp;lang=',$lang)"/>
+				<xsl:value-of select="concat('&amp;country=',$country)"/>		
                 <xsl:if test="$issn != ''">
                     <xsl:value-of select="concat('&amp;issn=',$issn)"/>
                 </xsl:if>
@@ -508,6 +514,17 @@
 					<xsl:value-of select="$CITED_values" />
 				</xsl:attribute>
 			</input>
+				<input>
+					<xsl:attribute name="type">
+						<xsl:value-of select="'hidden'" />
+					</xsl:attribute>
+					<xsl:attribute name="name">
+						<xsl:value-of select="'country'" />
+					</xsl:attribute>
+					<xsl:attribute name="value">
+						<xsl:value-of select="$country" />
+					</xsl:attribute>
+				</input>					
 			<!-- 
 			<input>
 				<xsl:attribute name="type">

@@ -57,6 +57,17 @@
 						<xsl:value-of select="$lang" />
 					</xsl:attribute>
 				</input>
+				<input>
+					<xsl:attribute name="type">
+						<xsl:value-of select="'hidden'" />
+					</xsl:attribute>
+					<xsl:attribute name="name">
+						<xsl:value-of select="'country'" />
+					</xsl:attribute>
+					<xsl:attribute name="value">
+						<xsl:value-of select="$country" />
+					</xsl:attribute>
+				</input>				
 				<!-- 
 				<input>
 					<xsl:attribute name="type">

@@ -3,7 +3,7 @@
 	include_once("functions.php");
 	include_once("class.IniFile.php");
 	include_once("class.RequestVars.php");
-	
+
 	$iniObj = new IniFile("ini/stat.ini");
 	$iniArr = $iniObj->parse();
 	$xml_node_ini =  $iniObj->getXML();
@@ -25,6 +25,9 @@
 	echo(NL); echo(NL);
 	die();
 	*/
+	
+	
+	
 	if ($array_request_vars["state"] != "")
 	{
 		$state = $array_request_vars["state"];
@@ -45,7 +48,7 @@
 	else
 	{
 //		$xml_url = "http://serverofi.bireme.br:2424/xml/02.xml";
-		$xml_url = "http://" . $iniArr["hosts"]["server"] . $iniArr["hosts"]["static_xml"] . "/" . $state . ".xml";
+		$xml_url = "http://" . $iniArr["hosts"]["server"] . $iniArr["hosts"]["static_xml"] . "/".$_REQUEST["country"]."/" . $state . ".xml";
 	}
 
 	if ($array_request_vars["server_action"] != "")
@@ -149,6 +152,10 @@
 		echo(NL); echo(NL);
 		die();
 		*/
+    	if ($array_request_vars["country"] != "")
+	    {
+		$server_parameters .= "&country=" . $_REQUEST["country"];
+		}
 
 		$host_server = $iniArr["hosts"]["server"];
 		$xml_url = "http://" . $host_server . $server_action . "?formato=xml" . $server_parameters;

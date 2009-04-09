@@ -72,6 +72,14 @@
 </label_list>
 <value><![CDATA[ACTA PAULISTA DE ENFERMAGEM]]></value>
 </option>
+<option issn="1516-1498" siglum="agora">
+<label_list>
+<label lang="pt"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+<label lang="en"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+<label lang="es"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+</label_list>
+<value><![CDATA[AGORA: ESTUDOS EM TEORIA PSICANALITICA]]></value>
+</option>
 <option issn="1517-106X" siglum="alea">
 <label_list>
 <label lang="pt"><![CDATA[Alea : Estudos Neolatinos]]></label>
@@ -111,6 +119,14 @@
 <label lang="es"><![CDATA[Anais da Sociedade Entomológica do Brasil]]></label>
 </label_list>
 <value><![CDATA[ANAIS DA SOCIEDADE ENTOMOLOGICA DO BRASIL]]></value>
+</option>
+<option issn="0101-4714" siglum="anaismp">
+<label_list>
+<label lang="pt"><![CDATA[Anais do Museu Paulista: História e Cultura Material]]></label>
+<label lang="en"><![CDATA[Anais do Museu Paulista: História e Cultura Material]]></label>
+<label lang="es"><![CDATA[Anais do Museu Paulista: História e Cultura Material]]></label>
+</label_list>
+<value><![CDATA[ANAIS DO MUSEU PAULISTA: HISTORIA E CULTURA MATERIAL]]></value>
 </option>
 <option issn="0102-0935" siglum="abmvz">
 <label_list>
@@ -160,6 +176,14 @@
 </label_list>
 <value><![CDATA[ARQUIVOS DE NEURO-PSIQUIATRIA]]></value>
 </option>
+<option issn="1414-4077" siglum="aval">
+<label_list>
+<label lang="pt"><![CDATA[Avaliação: Revista da Avaliação da Educação Superior (Campinas)]]></label>
+<label lang="en"><![CDATA[Avaliação: Revista da Avaliação da Educação Superior (Campinas)]]></label>
+<label lang="es"><![CDATA[Avaliação: Revista da Avaliação da Educação Superior (Campinas)]]></label>
+</label_list>
+<value><![CDATA[AVALIACAO: REVISTA DA AVALIACAO DA EDUCACAO SUPERIOR (CAMPINAS)]]></value>
+</option>
 <option issn="1676-0603" siglum="bn">
 <label_list>
 <label lang="pt"><![CDATA[Biota Neotropica]]></label>
@@ -199,14 +223,6 @@
 <label lang="es"><![CDATA[Brazilian Journal of Biology]]></label>
 </label_list>
 <value><![CDATA[BRAZILIAN JOURNAL OF BIOLOGY]]></value>
-</option>
-<option issn="1678-9741" siglum="bjcvs">
-<label_list>
-<label lang="pt"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
-<label lang="en"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
-<label lang="es"><![CDATA[Brazilian Journal of Cardiovascular Surgery]]></label>
-</label_list>
-<value><![CDATA[BRAZILIAN JOURNAL OF CARDIOVASCULAR SURGERY]]></value>
 </option>
 <option issn="0104-6632" siglum="bjce">
 <label_list>
@@ -248,6 +264,14 @@
 </label_list>
 <value><![CDATA[BRAZILIAN JOURNAL OF MICROBIOLOGY]]></value>
 </option>
+<option issn="1679-8759" siglum="bjoce">
+<label_list>
+<label lang="pt"><![CDATA[Brazilian Journal of Oceanography]]></label>
+<label lang="en"><![CDATA[Brazilian Journal of Oceanography]]></label>
+<label lang="es"><![CDATA[Brazilian Journal of Oceanography]]></label>
+</label_list>
+<value><![CDATA[BRAZILIAN JOURNAL OF OCEANOGRAPHY]]></value>
+</option>
 <option issn="0103-9733" siglum="bjp">
 <label_list>
 <label lang="pt"><![CDATA[Brazilian Journal of Physics]]></label>
@@ -280,6 +304,14 @@
 </label_list>
 <value><![CDATA[BRAZILIAN ORAL RESEARCH]]></value>
 </option>
+<option issn="0103-4979" siglum="ccrh">
+<label_list>
+<label lang="pt"><![CDATA[Caderno CRH]]></label>
+<label lang="en"><![CDATA[Caderno CRH]]></label>
+<label lang="es"><![CDATA[Caderno CRH]]></label>
+</label_list>
+<value><![CDATA[CADERNO CRH]]></value>
+</option>
 <option issn="0101-3262" siglum="ccedes">
 <label_list>
 <label lang="pt"><![CDATA[Cadernos CEDES]]></label>
@@ -287,14 +319,6 @@
 <label lang="es"><![CDATA[Cadernos CEDES]]></label>
 </label_list>
 <value><![CDATA[CADERNOS CEDES]]></value>
-</option>
-<option issn="0104-8333" siglum="cpa">
-<label_list>
-<label lang="pt"><![CDATA[Cadernos Pagu]]></label>
-<label lang="en"><![CDATA[Cadernos Pagu]]></label>
-<label lang="es"><![CDATA[Cadernos Pagu]]></label>
-</label_list>
-<value><![CDATA[CADERNOS PAGU]]></value>
 </option>
 <option issn="0100-1574" siglum="cp">
 <label_list>
@@ -312,6 +336,14 @@
 </label_list>
 <value><![CDATA[CADERNOS DE SAUDE PUBLICA]]></value>
 </option>
+<option issn="0104-8333" siglum="cpa">
+<label_list>
+<label lang="pt"><![CDATA[Cadernos Pagu]]></label>
+<label lang="en"><![CDATA[Cadernos Pagu]]></label>
+<label lang="es"><![CDATA[Cadernos Pagu]]></label>
+</label_list>
+<value><![CDATA[CADERNOS PAGU]]></value>
+</option>
 <option issn="0366-6913" siglum="ce">
 <label_list>
 <label lang="pt"><![CDATA[Cerâmica]]></label>
@@ -320,6 +352,14 @@
 </label_list>
 <value><![CDATA[CERAMICA]]></value>
 </option>
+<option issn="1516-7313" siglum="ciedu">
+<label_list>
+<label lang="pt"><![CDATA[Ciência & Educação (Bauru)]]></label>
+<label lang="en"><![CDATA[Ciência & Educação (Bauru)]]></label>
+<label lang="es"><![CDATA[Ciência & Educação (Bauru)]]></label>
+</label_list>
+<value><![CDATA[CIENCIA & EDUCACAO (BAURU)]]></value>
+</option>
 <option issn="1413-8123" siglum="csc">
 <label_list>
 <label lang="pt"><![CDATA[Ciência & Saúde Coletiva]]></label>
@@ -327,14 +367,6 @@
 <label lang="es"><![CDATA[Ciência & Saúde Coletiva]]></label>
 </label_list>
 <value><![CDATA[CIENCIA & SAUDE COLETIVA]]></value>
-</option>
-<option issn="0103-8478" siglum="cr">
-<label_list>
-<label lang="pt"><![CDATA[Ciência Rural]]></label>
-<label lang="en"><![CDATA[Ciência Rural]]></label>
-<label lang="es"><![CDATA[Ciência Rural]]></label>
-</label_list>
-<value><![CDATA[CIENCIA RURAL]]></value>
 </option>
 <option issn="0100-1965" siglum="ci">
 <label_list>
@@ -360,6 +392,14 @@
 </label_list>
 <value><![CDATA[CIENCIA E TECNOLOGIA DE ALIMENTOS]]></value>
 </option>
+<option issn="0103-8478" siglum="cr">
+<label_list>
+<label lang="pt"><![CDATA[Ciência Rural]]></label>
+<label lang="en"><![CDATA[Ciência Rural]]></label>
+<label lang="es"><![CDATA[Ciência Rural]]></label>
+</label_list>
+<value><![CDATA[CIENCIA RURAL]]></value>
+</option>
 <option issn="1807-5932" siglum="clin">
 <label_list>
 <label lang="pt"><![CDATA[Clinics]]></label>
@@ -370,19 +410,19 @@
 </option>
 <option issn="0101-8205" siglum="cam">
 <label_list>
-<label lang="pt"><![CDATA[Computational & Applied Mathematics ]]></label>
-<label lang="en"><![CDATA[Computational & Applied Mathematics ]]></label>
-<label lang="es"><![CDATA[Computational & Applied Mathematics ]]></label>
+<label lang="pt"><![CDATA[Computational & Applied Mathematics]]></label>
+<label lang="en"><![CDATA[Computational & Applied Mathematics]]></label>
+<label lang="es"><![CDATA[Computational & Applied Mathematics]]></label>
 </label_list>
-<value><![CDATA[COMPUTATIONAL & APPLIED MATHEMATICS ]]></value>
+<value><![CDATA[COMPUTATIONAL & APPLIED MATHEMATICS]]></value>
 </option>
-<option issn="0102-4450" siglum="delta">
+<option issn="0102-8529" siglum="cint">
 <label_list>
-<label lang="pt"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
-<label lang="en"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
-<label lang="es"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+<label lang="pt"><![CDATA[Contexto Internacional]]></label>
+<label lang="en"><![CDATA[Contexto Internacional]]></label>
+<label lang="es"><![CDATA[Contexto Internacional]]></label>
 </label_list>
-<value><![CDATA[DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA]]></value>
+<value><![CDATA[CONTEXTO INTERNACIONAL]]></value>
 </option>
 <option issn="0011-5258" siglum="dados">
 <label_list>
@@ -391,6 +431,14 @@
 <label lang="es"><![CDATA[Dados]]></label>
 </label_list>
 <value><![CDATA[DADOS]]></value>
+</option>
+<option issn="0102-4450" siglum="delta">
+<label_list>
+<label lang="pt"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+<label lang="en"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+<label lang="es"><![CDATA[DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada]]></label>
+</label_list>
+<value><![CDATA[DELTA: DOCUMENTACAO DE ESTUDOS EM LINGUISTICA TEORICA E APLICADA]]></value>
 </option>
 <option issn="0100-4670" siglum="eq">
 <label_list>
@@ -408,13 +456,13 @@
 </label_list>
 <value><![CDATA[ECONOMIA APLICADA]]></value>
 </option>
-<option issn="0104-4060" siglum="er">
+<option issn="0104-0618" siglum="ecos">
 <label_list>
-<label lang="pt"><![CDATA[Educar em Revista]]></label>
-<label lang="en"><![CDATA[Educar em Revista]]></label>
-<label lang="es"><![CDATA[Educar em Revista]]></label>
+<label lang="pt"><![CDATA[Economia e Sociedade]]></label>
+<label lang="en"><![CDATA[Economia e Sociedade]]></label>
+<label lang="es"><![CDATA[Economia e Sociedade]]></label>
 </label_list>
-<value><![CDATA[EDUCAR EM REVISTA]]></value>
+<value><![CDATA[ECONOMIA E SOCIEDADE]]></value>
 </option>
 <option issn="0101-7330" siglum="es">
 <label_list>
@@ -431,6 +479,22 @@
 <label lang="es"><![CDATA[Educação e Pesquisa]]></label>
 </label_list>
 <value><![CDATA[EDUCACAO E PESQUISA]]></value>
+</option>
+<option issn="0102-4698" siglum="edur">
+<label_list>
+<label lang="pt"><![CDATA[Educação em Revista]]></label>
+<label lang="en"><![CDATA[Educação em Revista]]></label>
+<label lang="es"><![CDATA[Educação em Revista]]></label>
+</label_list>
+<value><![CDATA[EDUCACAO EM REVISTA]]></value>
+</option>
+<option issn="0104-4060" siglum="er">
+<label_list>
+<label lang="pt"><![CDATA[Educar em Revista]]></label>
+<label lang="en"><![CDATA[Educar em Revista]]></label>
+<label lang="es"><![CDATA[Educar em Revista]]></label>
+</label_list>
+<value><![CDATA[EDUCAR EM REVISTA]]></value>
 </option>
 <option issn="0100-6916" siglum="eagri">
 <label_list>
@@ -480,14 +544,6 @@
 </label_list>
 <value><![CDATA[ESTUDOS AVANCADOS]]></value>
 </option>
-<option issn="0101-4161" siglum="ee">
-<label_list>
-<label lang="pt"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
-<label lang="en"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
-<label lang="es"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
-</label_list>
-<value><![CDATA[ESTUDOS ECONOMICOS (SAO PAULO)]]></value>
-</option>
 <option issn="0103-166X" siglum="estpsi">
 <label_list>
 <label lang="pt"><![CDATA[Estudos de Psicologia (Campinas)]]></label>
@@ -504,6 +560,14 @@
 </label_list>
 <value><![CDATA[ESTUDOS DE PSICOLOGIA (NATAL)]]></value>
 </option>
+<option issn="0101-4161" siglum="ee">
+<label_list>
+<label lang="pt"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+<label lang="en"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+<label lang="es"><![CDATA[Estudos Econômicos (São Paulo)]]></label>
+</label_list>
+<value><![CDATA[ESTUDOS ECONOMICOS (SAO PAULO)]]></value>
+</option>
 <option issn="0100-4158" siglum="fb">
 <label_list>
 <label lang="pt"><![CDATA[Fitopatologia Brasileira]]></label>
@@ -511,6 +575,14 @@
 <label lang="es"><![CDATA[Fitopatologia Brasileira]]></label>
 </label_list>
 <value><![CDATA[FITOPATOLOGIA BRASILEIRA]]></value>
+</option>
+<option issn="1984-0292" siglum="fractal">
+<label_list>
+<label lang="pt"><![CDATA[Fractal : Revista de Psicologia]]></label>
+<label lang="en"><![CDATA[Fractal : Revista de Psicologia]]></label>
+<label lang="es"><![CDATA[Fractal : Revista de Psicologia]]></label>
+</label_list>
+<value><![CDATA[FRACTAL : REVISTA DE PSICOLOGIA]]></value>
 </option>
 <option issn="1415-4757" siglum="gmb">
 <label_list>
@@ -568,6 +640,14 @@
 </label_list>
 <value><![CDATA[IHERINGIA. SERIE ZOOLOGIA]]></value>
 </option>
+<option issn="1518-7012" siglum="inter">
+<label_list>
+<label lang="pt"><![CDATA[Interações (Campo Grande)]]></label>
+<label lang="en"><![CDATA[Interações (Campo Grande)]]></label>
+<label lang="es"><![CDATA[Interações (Campo Grande)]]></label>
+</label_list>
+<value><![CDATA[INTERACOES (CAMPO GRANDE)]]></value>
+</option>
 <option issn="1414-3283" siglum="icse">
 <label_list>
 <label lang="pt"><![CDATA[Interface - Comunicação, Saúde, Educação]]></label>
@@ -608,14 +688,6 @@
 </label_list>
 <value><![CDATA[JORNAL BRASILEIRO DE PSIQUIATRIA]]></value>
 </option>
-<option issn="1677-5449" siglum="jvb">
-<label_list>
-<label lang="pt"><![CDATA[Jornal Vascular Brasileiro]]></label>
-<label lang="en"><![CDATA[Jornal Vascular Brasileiro]]></label>
-<label lang="es"><![CDATA[Jornal Vascular Brasileiro]]></label>
-</label_list>
-<value><![CDATA[JORNAL VASCULAR BRASILEIRO]]></value>
-</option>
 <option issn="0021-7557" siglum="jped">
 <label_list>
 <label lang="pt"><![CDATA[Jornal de Pediatria]]></label>
@@ -632,6 +704,14 @@
 </label_list>
 <value><![CDATA[JORNAL DE PNEUMOLOGIA]]></value>
 </option>
+<option issn="1677-5449" siglum="jvb">
+<label_list>
+<label lang="pt"><![CDATA[Jornal Vascular Brasileiro]]></label>
+<label lang="en"><![CDATA[Jornal Vascular Brasileiro]]></label>
+<label lang="es"><![CDATA[Jornal Vascular Brasileiro]]></label>
+</label_list>
+<value><![CDATA[JORNAL VASCULAR BRASILEIRO]]></value>
+</option>
 <option issn="1678-7757" siglum="jaos">
 <label_list>
 <label lang="pt"><![CDATA[Journal of Applied Oral Science]]></label>
@@ -647,22 +727,6 @@
 <label lang="es"><![CDATA[Journal of Epilepsy and Clinical Neurophysiology]]></label>
 </label_list>
 <value><![CDATA[JOURNAL OF EPILEPSY AND CLINICAL NEUROPHYSIOLOGY]]></value>
-</option>
-<option issn="0104-7930" siglum="jvat">
-<label_list>
-<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
-<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
-<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
-</label_list>
-<value><![CDATA[JOURNAL OF VENOMOUS ANIMALS AND TOXINS]]></value>
-</option>
-<option issn="1678-9199" siglum="jvatitd">
-<label_list>
-<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
-<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
-<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
-</label_list>
-<value><![CDATA[JOURNAL OF VENOMOUS ANIMALS AND TOXINS INCLUDING TROPICAL DISEASES]]></value>
 </option>
 <option issn="0103-5053" siglum="jbchs">
 <label_list>
@@ -696,6 +760,22 @@
 </label_list>
 <value><![CDATA[JOURNAL OF THE BRAZILIAN SOCIETY OF MECHANICAL SCIENCES AND ENGINEERING]]></value>
 </option>
+<option issn="0104-7930" siglum="jvat">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF VENOMOUS ANIMALS AND TOXINS]]></value>
+</option>
+<option issn="1678-9199" siglum="jvatitd">
+<label_list>
+<label lang="pt"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+<label lang="en"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+<label lang="es"><![CDATA[Journal of Venomous Animals and Toxins including Tropical Diseases]]></label>
+</label_list>
+<value><![CDATA[JOURNAL OF VENOMOUS ANIMALS AND TOXINS INCLUDING TROPICAL DISEASES]]></value>
+</option>
 <option issn="0100-512X" siglum="kr">
 <label_list>
 <label lang="pt"><![CDATA[Kriterion: Revista de Filosofia]]></label>
@@ -720,14 +800,6 @@
 </label_list>
 <value><![CDATA[MANA]]></value>
 </option>
-<option issn="1516-1439" siglum="mr">
-<label_list>
-<label lang="pt"><![CDATA[Materials Research]]></label>
-<label lang="en"><![CDATA[Materials Research]]></label>
-<label lang="es"><![CDATA[Materials Research]]></label>
-</label_list>
-<value><![CDATA[MATERIALS RESEARCH]]></value>
-</option>
 <option issn="1517-7076" siglum="rmat">
 <label_list>
 <label lang="pt"><![CDATA[Matéria (Rio de Janeiro)]]></label>
@@ -735,6 +807,14 @@
 <label lang="es"><![CDATA[Matéria (Rio de Janeiro)]]></label>
 </label_list>
 <value><![CDATA[MATERIA (RIO DE JANEIRO)]]></value>
+</option>
+<option issn="1516-1439" siglum="mr">
+<label_list>
+<label lang="pt"><![CDATA[Materials Research]]></label>
+<label lang="en"><![CDATA[Materials Research]]></label>
+<label lang="es"><![CDATA[Materials Research]]></label>
+</label_list>
+<value><![CDATA[MATERIALS RESEARCH]]></value>
 </option>
 <option issn="0074-0276" siglum="mioc">
 <label_list>
@@ -783,6 +863,14 @@
 <label lang="es"><![CDATA[Opinião Pública]]></label>
 </label_list>
 <value><![CDATA[OPINIAO PUBLICA]]></value>
+</option>
+<option issn="0103-863X" siglum="paideia">
+<label_list>
+<label lang="pt"><![CDATA[Paidéia (Ribeirão Preto)]]></label>
+<label lang="en"><![CDATA[Paidéia (Ribeirão Preto)]]></label>
+<label lang="es"><![CDATA[Paidéia (Ribeirão Preto)]]></label>
+</label_list>
+<value><![CDATA[PAIDEIA (RIBEIRAO PRETO)]]></value>
 </option>
 <option issn="0031-1049" siglum="paz">
 <label_list>
@@ -856,14 +944,6 @@
 </label_list>
 <value><![CDATA[POLIMEROS]]></value>
 </option>
-<option issn="0103-6513" siglum="prod">
-<label_list>
-<label lang="pt"><![CDATA[Produção]]></label>
-<label lang="en"><![CDATA[Produção]]></label>
-<label lang="es"><![CDATA[Produção]]></label>
-</label_list>
-<value><![CDATA[PRODUCAO]]></value>
-</option>
 <option issn="0104-5687" siglum="pfono">
 <label_list>
 <label lang="pt"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
@@ -871,6 +951,22 @@
 <label lang="es"><![CDATA[Pró-Fono Revista de Atualização Científica]]></label>
 </label_list>
 <value><![CDATA[PRO-FONO REVISTA DE ATUALIZACAO CIENTIFICA]]></value>
+</option>
+<option issn="0103-7307" siglum="pp">
+<label_list>
+<label lang="pt"><![CDATA[Pro-Posições]]></label>
+<label lang="en"><![CDATA[Pro-Posições]]></label>
+<label lang="es"><![CDATA[Pro-Posições]]></label>
+</label_list>
+<value><![CDATA[PRO-POSICOES]]></value>
+</option>
+<option issn="0103-6513" siglum="prod">
+<label_list>
+<label lang="pt"><![CDATA[Produção]]></label>
+<label lang="en"><![CDATA[Produção]]></label>
+<label lang="es"><![CDATA[Produção]]></label>
+</label_list>
+<value><![CDATA[PRODUCAO]]></value>
 </option>
 <option issn="0102-7182" siglum="psoc">
 <label_list>
@@ -888,14 +984,6 @@
 </label_list>
 <value><![CDATA[PSICOLOGIA CLINICA]]></value>
 </option>
-<option issn="0103-6564" siglum="pusp">
-<label_list>
-<label lang="pt"><![CDATA[Psicologia USP]]></label>
-<label lang="en"><![CDATA[Psicologia USP]]></label>
-<label lang="es"><![CDATA[Psicologia USP]]></label>
-</label_list>
-<value><![CDATA[PSICOLOGIA USP]]></value>
-</option>
 <option issn="1413-7372" siglum="pe">
 <label_list>
 <label lang="pt"><![CDATA[Psicologia em Estudo]]></label>
@@ -903,6 +991,14 @@
 <label lang="es"><![CDATA[Psicologia em Estudo]]></label>
 </label_list>
 <value><![CDATA[PSICOLOGIA EM ESTUDO]]></value>
+</option>
+<option issn="0103-6564" siglum="pusp">
+<label_list>
+<label lang="pt"><![CDATA[Psicologia USP]]></label>
+<label lang="en"><![CDATA[Psicologia USP]]></label>
+<label lang="es"><![CDATA[Psicologia USP]]></label>
+</label_list>
+<value><![CDATA[PSICOLOGIA USP]]></value>
 </option>
 <option issn="0102-7972" siglum="prc">
 <label_list>
@@ -928,14 +1024,6 @@
 </label_list>
 <value><![CDATA[QUIMICA NOVA]]></value>
 </option>
-<option issn="1676-5648" siglum="raeel">
-<label_list>
-<label lang="pt"><![CDATA[RAE eletrônica]]></label>
-<label lang="en"><![CDATA[RAE eletrônica]]></label>
-<label lang="es"><![CDATA[RAE eletrônica]]></label>
-</label_list>
-<value><![CDATA[RAE ELETRONICA]]></value>
-</option>
 <option issn="0100-3984" siglum="rb">
 <label_list>
 <label lang="pt"><![CDATA[Radiologia Brasileira]]></label>
@@ -944,6 +1032,22 @@
 </label_list>
 <value><![CDATA[RADIOLOGIA BRASILEIRA]]></value>
 </option>
+<option issn="1676-5648" siglum="raeel">
+<label_list>
+<label lang="pt"><![CDATA[RAE eletrônica]]></label>
+<label lang="en"><![CDATA[RAE eletrônica]]></label>
+<label lang="es"><![CDATA[RAE eletrônica]]></label>
+</label_list>
+<value><![CDATA[RAE ELETRONICA]]></value>
+</option>
+<option issn="0100-8587" siglum="rs">
+<label_list>
+<label lang="pt"><![CDATA[Religião & Sociedade]]></label>
+<label lang="en"><![CDATA[Religião & Sociedade]]></label>
+<label lang="es"><![CDATA[Religião & Sociedade]]></label>
+</label_list>
+<value><![CDATA[RELIGIAO & SOCIEDADE]]></value>
+</option>
 <option issn="0370-4467" siglum="rem">
 <label_list>
 <label lang="pt"><![CDATA[Rem: Revista Escola de Minas]]></label>
@@ -951,6 +1055,14 @@
 <label lang="es"><![CDATA[Rem: Revista Escola de Minas]]></label>
 </label_list>
 <value><![CDATA[REM: REVISTA ESCOLA DE MINAS]]></value>
+</option>
+<option issn="0100-6762" siglum="rarv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Árvore]]></label>
+<label lang="en"><![CDATA[Revista Árvore]]></label>
+<label lang="es"><![CDATA[Revista Árvore]]></label>
+</label_list>
+<value><![CDATA[REVISTA ARVORE]]></value>
 </option>
 <option issn="0034-7094" siglum="rba">
 <label_list>
@@ -975,14 +1087,6 @@
 <label lang="es"><![CDATA[Revista Brasileira de Botânica]]></label>
 </label_list>
 <value><![CDATA[REVISTA BRASILEIRA DE BOTANICA]]></value>
-</option>
-<option issn="0102-7638" siglum="rbccv">
-<label_list>
-<label lang="pt"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
-<label lang="en"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
-<label lang="es"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
-</label_list>
-<value><![CDATA[REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR]]></value>
 </option>
 <option issn="1516-635X" siglum="rbca">
 <label_list>
@@ -1015,6 +1119,14 @@
 <label lang="es"><![CDATA[Revista Brasileira de Ciências Sociais]]></label>
 </label_list>
 <value><![CDATA[REVISTA BRASILEIRA DE CIENCIAS SOCIAIS]]></value>
+</option>
+<option issn="0102-7638" siglum="rbccv">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Cirurgia Cardiovascular]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE CIRURGIA CARDIOVASCULAR]]></value>
 </option>
 <option issn="0101-9880" siglum="rbc">
 <label_list>
@@ -1055,6 +1167,14 @@
 <label lang="es"><![CDATA[Revista Brasileira de Educação Médica]]></label>
 </label_list>
 <value><![CDATA[REVISTA BRASILEIRA DE EDUCACAO MEDICA]]></value>
+</option>
+<option issn="0034-7167" siglum="reben">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Enfermagem]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Enfermagem]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Enfermagem]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ENFERMAGEM]]></value>
 </option>
 <option issn="1415-4366" siglum="rbeaa">
 <label_list>
@@ -1168,6 +1288,30 @@
 </label_list>
 <value><![CDATA[REVISTA BRASILEIRA DE MEDICINA DO ESPORTE]]></value>
 </option>
+<option issn="0102-7786" siglum="rbmet">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Meteorologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Meteorologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Meteorologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE METEOROLOGIA]]></value>
+</option>
+<option issn="0034-7280" siglum="rbof">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Oftalmologia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Oftalmologia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Oftalmologia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE OFTALMOLOGIA]]></value>
+</option>
+<option issn="0102-3616" siglum="rbort">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Ortopedia]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Ortopedia]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Ortopedia]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE ORTOPEDIA]]></value>
+</option>
 <option issn="0034-7299" siglum="rboto">
 <label_list>
 <label lang="pt"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
@@ -1175,6 +1319,14 @@
 <label lang="es"><![CDATA[Revista Brasileira de Otorrinolaringologia]]></label>
 </label_list>
 <value><![CDATA[REVISTA BRASILEIRA DE OTORRINOLARINGOLOGIA]]></value>
+</option>
+<option issn="0034-7329" siglum="rbpi">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Política Internacional]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Política Internacional]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Política Internacional]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE POLITICA INTERNACIONAL]]></value>
 </option>
 <option issn="1516-4446" siglum="rbp">
 <label_list>
@@ -1208,6 +1360,14 @@
 </label_list>
 <value><![CDATA[REVISTA BRASILEIRA DE SEMENTES]]></value>
 </option>
+<option issn="0103-507X" siglum="rbti">
+<label_list>
+<label lang="pt"><![CDATA[Revista Brasileira de Terapia Intensiva]]></label>
+<label lang="en"><![CDATA[Revista Brasileira de Terapia Intensiva]]></label>
+<label lang="es"><![CDATA[Revista Brasileira de Terapia Intensiva]]></label>
+</label_list>
+<value><![CDATA[REVISTA BRASILEIRA DE TERAPIA INTENSIVA]]></value>
+</option>
 <option issn="0101-8175" siglum="rbzool">
 <label_list>
 <label lang="pt"><![CDATA[Revista Brasileira de Zoologia]]></label>
@@ -1232,37 +1392,13 @@
 </label_list>
 <value><![CDATA[REVISTA CEFAC]]></value>
 </option>
-<option issn="1415-5419" siglum="dpress">
+<option issn="1519-7077" siglum="rcf">
 <label_list>
-<label lang="pt"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
-<label lang="en"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
-<label lang="es"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+<label lang="pt"><![CDATA[Revista Contabilidade & Finanças]]></label>
+<label lang="en"><![CDATA[Revista Contabilidade & Finanças]]></label>
+<label lang="es"><![CDATA[Revista Contabilidade & Finanças]]></label>
 </label_list>
-<value><![CDATA[REVISTA DENTAL PRESS DE ORTODONTIA E ORTOPEDIA FACIAL]]></value>
-</option>
-<option issn="0104-026X" siglum="ref">
-<label_list>
-<label lang="pt"><![CDATA[Revista Estudos Feministas]]></label>
-<label lang="en"><![CDATA[Revista Estudos Feministas]]></label>
-<label lang="es"><![CDATA[Revista Estudos Feministas]]></label>
-</label_list>
-<value><![CDATA[REVISTA ESTUDOS FEMINISTAS]]></value>
-</option>
-<option issn="1414-4980" siglum="rk">
-<label_list>
-<label lang="pt"><![CDATA[Revista Katálysis]]></label>
-<label lang="en"><![CDATA[Revista Katálysis]]></label>
-<label lang="es"><![CDATA[Revista Katálysis]]></label>
-</label_list>
-<value><![CDATA[REVISTA KATALYSIS]]></value>
-</option>
-<option issn="0104-1169" siglum="rlae">
-<label_list>
-<label lang="pt"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
-<label lang="en"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
-<label lang="es"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
-</label_list>
-<value><![CDATA[REVISTA LATINO-AMERICANA DE ENFERMAGEM]]></value>
+<value><![CDATA[REVISTA CONTABILIDADE & FINANCAS]]></value>
 </option>
 <option issn="0104-4230" siglum="ramb">
 <label_list>
@@ -1271,6 +1407,14 @@
 <label lang="es"><![CDATA[Revista da Associação Médica Brasileira]]></label>
 </label_list>
 <value><![CDATA[REVISTA DA ASSOCIACAO MEDICA BRASILEIRA]]></value>
+</option>
+<option issn="0080-6234" siglum="reeusp">
+<label_list>
+<label lang="pt"><![CDATA[Revista da Escola de Enfermagem da USP]]></label>
+<label lang="en"><![CDATA[Revista da Escola de Enfermagem da USP]]></label>
+<label lang="es"><![CDATA[Revista da Escola de Enfermagem da USP]]></label>
+</label_list>
+<value><![CDATA[REVISTA DA ESCOLA DE ENFERMAGEM DA USP]]></value>
 </option>
 <option issn="0102-2555" siglum="rfe">
 <label_list>
@@ -1296,6 +1440,22 @@
 </label_list>
 <value><![CDATA[REVISTA DA SOCIEDADE BRASILEIRA DE MEDICINA TROPICAL]]></value>
 </option>
+<option issn="1415-6555" siglum="rac">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Administração Contemporânea]]></label>
+<label lang="en"><![CDATA[Revista de Administração Contemporânea]]></label>
+<label lang="es"><![CDATA[Revista de Administração Contemporânea]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ADMINISTRACAO CONTEMPORANEA]]></value>
+</option>
+<option issn="0034-7590" siglum="rae">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Administração de Empresas]]></label>
+<label lang="en"><![CDATA[Revista de Administração de Empresas]]></label>
+<label lang="es"><![CDATA[Revista de Administração de Empresas]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ADMINISTRACAO DE EMPRESAS]]></value>
+</option>
 <option issn="0034-7612" siglum="rap">
 <label_list>
 <label lang="pt"><![CDATA[Revista de Administração Pública]]></label>
@@ -1320,14 +1480,6 @@
 </label_list>
 <value><![CDATA[REVISTA DE ECONOMIA CONTEMPORANEA]]></value>
 </option>
-<option issn="0101-3157" siglum="rep">
-<label_list>
-<label lang="pt"><![CDATA[Revista de Economia Política]]></label>
-<label lang="en"><![CDATA[Revista de Economia Política]]></label>
-<label lang="es"><![CDATA[Revista de Economia Política]]></label>
-</label_list>
-<value><![CDATA[REVISTA DE ECONOMIA POLITICA]]></value>
-</option>
 <option issn="0103-2003" siglum="resr">
 <label_list>
 <label lang="pt"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
@@ -1335,6 +1487,14 @@
 <label lang="es"><![CDATA[Revista de Economia e Sociologia Rural]]></label>
 </label_list>
 <value><![CDATA[REVISTA DE ECONOMIA E SOCIOLOGIA RURAL]]></value>
+</option>
+<option issn="0101-3157" siglum="rep">
+<label_list>
+<label lang="pt"><![CDATA[Revista de Economia Política]]></label>
+<label lang="en"><![CDATA[Revista de Economia Política]]></label>
+<label lang="es"><![CDATA[Revista de Economia Política]]></label>
+</label_list>
+<value><![CDATA[REVISTA DE ECONOMIA POLITICA]]></value>
 </option>
 <option issn="0001-3714" siglum="rm">
 <label_list>
@@ -1392,6 +1552,14 @@
 </label_list>
 <value><![CDATA[REVISTA DE SOCIOLOGIA E POLITICA]]></value>
 </option>
+<option issn="1415-5419" siglum="dpress">
+<label_list>
+<label lang="pt"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+<label lang="en"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+<label lang="es"><![CDATA[Revista Dental Press de Ortodontia e Ortopedia Facial]]></label>
+</label_list>
+<value><![CDATA[REVISTA DENTAL PRESS DE ORTODONTIA E ORTOPEDIA FACIAL]]></value>
+</option>
 <option issn="0100-6991" siglum="rcbc">
 <label_list>
 <label lang="pt"><![CDATA[Revista do Colégio Brasileiro de Cirurgiões]]></label>
@@ -1424,13 +1592,53 @@
 </label_list>
 <value><![CDATA[REVISTA DO INSTITUTO DE MEDICINA TROPICAL DE SAO PAULO]]></value>
 </option>
-<option issn="0100-6762" siglum="rarv">
+<option issn="0104-026X" siglum="ref">
 <label_list>
-<label lang="pt"><![CDATA[Revista Árvore]]></label>
-<label lang="en"><![CDATA[Revista Árvore]]></label>
-<label lang="es"><![CDATA[Revista Árvore]]></label>
+<label lang="pt"><![CDATA[Revista Estudos Feministas]]></label>
+<label lang="en"><![CDATA[Revista Estudos Feministas]]></label>
+<label lang="es"><![CDATA[Revista Estudos Feministas]]></label>
 </label_list>
-<value><![CDATA[REVISTA ARVORE]]></value>
+<value><![CDATA[REVISTA ESTUDOS FEMINISTAS]]></value>
+</option>
+<option issn="1414-4980" siglum="rk">
+<label_list>
+<label lang="pt"><![CDATA[Revista Katálysis]]></label>
+<label lang="en"><![CDATA[Revista Katálysis]]></label>
+<label lang="es"><![CDATA[Revista Katálysis]]></label>
+</label_list>
+<value><![CDATA[REVISTA KATALYSIS]]></value>
+</option>
+<option issn="0104-1169" siglum="rlae">
+<label_list>
+<label lang="pt"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+<label lang="en"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+<label lang="es"><![CDATA[Revista Latino-Americana de Enfermagem]]></label>
+</label_list>
+<value><![CDATA[REVISTA LATINO-AMERICANA DE ENFERMAGEM]]></value>
+</option>
+<option issn="1415-4714" siglum="rlpf">
+<label_list>
+<label lang="pt"><![CDATA[Revista Latinoamericana de Psicopatologia Fundamental]]></label>
+<label lang="en"><![CDATA[Revista Latinoamericana de Psicopatologia Fundamental]]></label>
+<label lang="es"><![CDATA[Revista Latinoamericana de Psicopatologia Fundamental]]></label>
+</label_list>
+<value><![CDATA[REVISTA LATINOAMERICANA DE PSICOPATOLOGIA FUNDAMENTAL]]></value>
+</option>
+<option issn="0103-0582" siglum="rpp">
+<label_list>
+<label lang="pt"><![CDATA[Revista Paulista de Pediatria]]></label>
+<label lang="en"><![CDATA[Revista Paulista de Pediatria]]></label>
+<label lang="es"><![CDATA[Revista Paulista de Pediatria]]></label>
+</label_list>
+<value><![CDATA[REVISTA PAULISTA DE PEDIATRIA]]></value>
+</option>
+<option issn="0102-8839" siglum="spp">
+<label_list>
+<label lang="pt"><![CDATA[São Paulo em Perspectiva]]></label>
+<label lang="en"><![CDATA[São Paulo em Perspectiva]]></label>
+<label lang="es"><![CDATA[São Paulo em Perspectiva]]></label>
+</label_list>
+<value><![CDATA[SAO PAULO EM PERSPECTIVA]]></value>
 </option>
 <option issn="1516-3180" siglum="spmj">
 <label_list>
@@ -1439,6 +1647,14 @@
 <label lang="es"><![CDATA[Sao Paulo Medical Journal]]></label>
 </label_list>
 <value><![CDATA[SAO PAULO MEDICAL JOURNAL]]></value>
+</option>
+<option issn="0104-1290" siglum="sausoc">
+<label_list>
+<label lang="pt"><![CDATA[Saúde e Sociedade]]></label>
+<label lang="en"><![CDATA[Saúde e Sociedade]]></label>
+<label lang="es"><![CDATA[Saúde e Sociedade]]></label>
+</label_list>
+<value><![CDATA[SAUDE E SOCIEDADE]]></value>
 </option>
 <option issn="0103-1759" siglum="ca">
 <label_list>
@@ -1480,13 +1696,13 @@
 </label_list>
 <value><![CDATA[SUMMA PHYTOPATHOLOGICA]]></value>
 </option>
-<option issn="0102-8839" siglum="spp">
+<option issn="1806-6445" siglum="sur">
 <label_list>
-<label lang="pt"><![CDATA[São Paulo em Perspectiva]]></label>
-<label lang="en"><![CDATA[São Paulo em Perspectiva]]></label>
-<label lang="es"><![CDATA[São Paulo em Perspectiva]]></label>
+<label lang="pt"><![CDATA[Sur. Revista Internacional de Direitos Humanos]]></label>
+<label lang="en"><![CDATA[Sur. Revista Internacional de Direitos Humanos]]></label>
+<label lang="es"><![CDATA[Sur. Revista Internacional de Direitos Humanos]]></label>
 </label_list>
-<value><![CDATA[SAO PAULO EM PERSPECTIVA]]></value>
+<value><![CDATA[SUR. REVISTA INTERNACIONAL DE DIREITOS HUMANOS]]></value>
 </option>
 <option issn="1413-7704" siglum="tem">
 <label_list>
@@ -1504,6 +1720,14 @@
 </label_list>
 <value><![CDATA[TEMPO SOCIAL]]></value>
 </option>
+<option issn="0104-0707" siglum="tce">
+<label_list>
+<label lang="pt"><![CDATA[Texto & Contexto - Enfermagem]]></label>
+<label lang="en"><![CDATA[Texto & Contexto - Enfermagem]]></label>
+<label lang="es"><![CDATA[Texto & Contexto - Enfermagem]]></label>
+</label_list>
+<value><![CDATA[TEXTO & CONTEXTO - ENFERMAGEM]]></value>
+</option>
 <option issn="0101-3173" siglum="trans">
 <label_list>
 <label lang="pt"><![CDATA[Trans/Form/Ação]]></label>
@@ -1512,13 +1736,21 @@
 </label_list>
 <value><![CDATA[TRANS/FORM/ACAO]]></value>
 </option>
-<option issn="1516-1498" siglum="agora">
+<option issn="1982-5676" siglum="tpp">
 <label_list>
-<label lang="pt"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
-<label lang="en"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
-<label lang="es"><![CDATA[Ágora: Estudos em Teoria Psicanalítica]]></label>
+<label lang="pt"><![CDATA[Tropical Plant Pathology]]></label>
+<label lang="en"><![CDATA[Tropical Plant Pathology]]></label>
+<label lang="es"><![CDATA[Tropical Plant Pathology]]></label>
 </label_list>
-<value><![CDATA[AGORA: ESTUDOS EM TEORIA PSICANALITICA]]></value>
+<value><![CDATA[TROPICAL PLANT PATHOLOGY]]></value>
+</option>
+<option issn="0104-8775" siglum="vh">
+<label_list>
+<label lang="pt"><![CDATA[Varia Historia]]></label>
+<label lang="en"><![CDATA[Varia Historia]]></label>
+<label lang="es"><![CDATA[Varia Historia]]></label>
+</label_list>
+<value><![CDATA[VARIA HISTORIA]]></value>
 </option>
                         </option_list>
                 </selection>
@@ -1538,6 +1770,22 @@
                                         <value>all</value>
                                 </option>
 <option selected="true">
+<label_list>
+<label lang="pt">2009</label>
+<label lang="en">2009</label>
+<label lang="es">2009</label>
+</label_list>
+<value>2009</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2008</label>
+<label lang="en">2008</label>
+<label lang="es">2008</label>
+</label_list>
+<value>2008</value>
+</option>
+<option >
 <label_list>
 <label lang="pt">2007</label>
 <label lang="en">2007</label>
@@ -1643,6 +1891,22 @@
                                         <value>all</value>
                                 </option>
 <option selected="true">
+<label_list>
+<label lang="pt">2009</label>
+<label lang="en">2009</label>
+<label lang="es">2009</label>
+</label_list>
+<value>2009</value>
+</option>
+<option >
+<label_list>
+<label lang="pt">2008</label>
+<label lang="en">2008</label>
+<label lang="es">2008</label>
+</label_list>
+<value>2008</value>
+</option>
+<option >
 <label_list>
 <label lang="pt">2007</label>
 <label lang="en">2007</label>
