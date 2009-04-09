@@ -15,6 +15,6 @@
 	'<subtitle lang="es">Formas citadas</subtitle>'/
 '</subtitle_list>'/
 '<header>',
-	'<title_cited><![CDATA[', ref(['tab30issn']l(['tab30issn']v44),mpu,v222^a,mpl), ']]></title_cited>'/
+	'<title_cited><![CDATA[', ref(['tc30clean']l(['tc30clean']v44),mpu,v100,mpl), ']]></title_cited>'/
 '</header>'/
 '<citation_form_list>',

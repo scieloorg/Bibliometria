@@ -31,7 +31,7 @@
 		'<journal>',
 			if v2^t*1<>'' 
 			then
-				ref(['tab30issn']l(['tab30issn']v2^t*1),'<![CDATA[',mpu,v222^a,mpl,']]>')
+				ref(['title']l(['title']v2^t*1),'<![CDATA[',mpu,v100,mpl,']]>')
 			else 
 				'all' 
 			fi,

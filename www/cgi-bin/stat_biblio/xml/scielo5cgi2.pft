@@ -1,16 +1,14 @@
 proc(
+   (if v2000^n='country' then '<8000 0>',v2000^v,'</8000>', fi)
    (if v2000^n='CITED' then '<4001 0>'v2000^v'</4001>' fi)
    (if v2000^n='formato' then '<5000 0>',v2000^v,'</5000>' fi)
  )
 	
  'BOOL|'v4001/
  
- 'BEGIN|'if v5000='html' then 'echo "<html><table>"'/ else 'echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><root>"'/ fi
+ 'PAIS|'v8000/
  'LANG|'if v3004='' or v3004=' ' then 'pt'/ else v3004/ fi  
- 'FORMA1|'if v5000='html' then '-all'/ else 'pft=@$HOM/scielo5outXML2a.pft'/ fi
- 'FORMA2|'if v5000='html' then 'pft=@$HOM/scielo5out2.pft'/ else 'pft=@$HOM/scielo5outXML2b.pft'/ fi
- 'END|'if v5000='html' then 'echo "</table></html>"'/ else 'echo "</citation_form_list></root>"'/ fi
  
- 'Cited|'v4001*4.9/
+ 'Cited|'v4001*3.9/
  
  

@@ -1,7 +1,16 @@
-e1:=l(['tab30issn']ref(['tab30issn']l(['tab30issn']v1^c),v400)),
+e1:=l(['title']v1^c),
 e2:=l(['fat_imp']v1^c),
 e3:=l(['titlelilmdl']'LL_'v1^c),
 e4:=l(['titlelilmdl']'IM_'v1^c),
+e9:=l(['tab30isi']v1^c),
+if e9>0 then 
+	proc('<119 0>'ref(['tab30isi']e9,mpu,v2,mpl)'</119>'), 
+fi,
+if v119<>'' then
+	if e2=0 then e2:=l(['fat_imp']v119) fi,
+	if e3=0 then e3:=l(['titlelilmdl']'LL_'v119) fi,
+	if e4=0 then e4:=l(['titlelilmdl']'IM_'v119) fi,
+fi,
 		'<citation>',
 			'<title_cited>',
 				if e1>0
@@ -27,7 +36,7 @@ e4:=l(['titlelilmdl']'IM_'v1^c),
 										'</param>'/
 										'<param>',
 											'<name>pid</name>'/
-											'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400), '</value>'/
+											'<value>', ref(['title']e1,v400), '</value>'/
 										'</param>'/
 										'<param>',
 											'<name>lng</name>'/
@@ -73,7 +82,7 @@ e4:=l(['titlelilmdl']'IM_'v1^c),
 									'<param_list>',
 										'<param>',
 											'<name>CITED</name>'/
-											'<value>44I_',v1^i,|%20and%20|,v280,|%20and%20|,v288,|%20and%20|,v265, '</value>'/
+											'<value>44_',v1^i,|%20and%20|,v280,|%20and%20|,v288,|%20and%20|,v265, '</value>'/
 										'</param>'/
 										'<param>',
 											'<name>formato</name>'/
@@ -82,6 +91,10 @@ e4:=l(['titlelilmdl']'IM_'v1^c),
 										'<param>',
 											'<name>lang</name>'/
 											'<value>', v333, '</value>'/
+										'</param>'/
+										'<param>',
+											'<name>country</name>'/
+											'<value>', v334, '</value>'/
 										'</param>'/
 									'</param_list>'/
 								'</url>'/

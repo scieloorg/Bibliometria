@@ -1,24 +1,24 @@
 proc(
+   (if v2000^n='country' then '<8000 0>',v2000^v,'</8000>', fi)
    (if v2000^n='CITED' then '<3000 0>', v2000^v, '</3000>' fi)
-   (if v2000^n='CITED' then '<3001 0>^i'ref(['tab30issn']l(['tab30issn']v2000^v),v400)'^t'v2000^v'</3001>' fi)
+   (if v2000^n='CITED' then '<3001 0>^i'ref(['title']l(['title']v2000^v),v400)'^t'v2000^v'</3001>' fi)
    (if v2000^n='YNG' then '<3002 0>',v2000^v,'</3002>' fi)
    (if v2000^n='formato' then '<3003 0>',v2000^v,'</3003>' fi)
    (if v2000^n='lang' then '<3004 0>',v2000^v,'</3004>' fi)
    (if v2000^n='issn' then '<3400 0>',v2000^v,'</3400>' fi)
  )
-  'BEGIN|'if v3003='html' then 'echo "<html>"'/ else 'echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><root>"'/ fi
-   'BASE|'if v3000='all' and v3002='all' then '../../../scibiblio/bases/estat/artigo/alltitsanos'/ else '$ARQ.titsanos'/ fi
-   'LANG|'if v3004='' or v3004=' ' then 'pt'/ else v3004/ fi
-'FORMAT1|'if v3003='html' then '-all'/ else 'pft=@$HOM/scielo1_3outXML1a.pft'/ fi
-'FORMAT2|'if v3003='html' then 'pft=@$HOM/scielo1_3out.pft'/ else 'pft=@$HOM/scielo1_3outXML1b.pft'/ fi
-    'END|'if v3003='html' then 'echo "</html>"'/ else 'echo "</journal_list></table></table_list></root>"'/ fi
-   'ISSN|'if v3400<>'' then '"proc=\','`a3400~'v3400'~\','`"'/ else / fi
 
+   'PAIS|'v8000/
+   'BASE|'if v3000='all' and v3002='all' then '../../../scibiblio/bases/estat/artigo/'v8000'/alltitsanos'/ else '$ARQ.titsanos'/ fi
+   'LANG|'if v3004='' or v3004=' ' then 'pt'/ else v3004/ fi
+   'ISSN|'if v3400<>'' then '"proc=\','`a3400~'v3400'~\','`"'/ else / fi
+   
+   
  /* lista de titulos - um por linha */
- (if v3000='all' then cat('../../../scibiblio/bases/estat/artigo/alltits.seq') else 't|'v3001/ fi)
+ (if v3000='all' then cat('../../../scibiblio/bases/estat/artigo/'v8000'/alltits.seq') else 't|'v3001/ fi)
  
  /* lista de anos - todos em uma so linha */
- if v3002='all' then cat('../../../scibiblio/bases/estat/artigo/allanos.seq') else 'a|',v3002|;|/ fi
+ if v3002='all' then cat('../../../scibiblio/bases/estat/artigo/'v8000'/allanos.seq') else 'a|',v3002|;|/ fi
  
 
  

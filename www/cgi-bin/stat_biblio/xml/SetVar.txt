@@ -1,9 +1,8 @@
-export DOMAIN=statbiblio.scielo.br
-export DOM_SCI=www.scielo.br
+export DOMAIN=vm.scielo.br
 
 export TMP=/tmp
 
-export CIPAR=ciparcgi.cip
+export CIPAR=cipar_CGI_ORG.cip
 export UTL=../../../scibiblio/bases/estat/cisis/lind
 export HOM=.
 

@@ -21,7 +21,7 @@
 								'</param>'/
 								'<param>',
 									'<name>pid</name>'/
-									'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400), '</value>'/
+									'<value>', ref(['title']l(['title']v1^c),v400), '</value>'/
 								'</param>'/
 								'<param>',
 									'<name>lng</name>'/
@@ -38,45 +38,3 @@
 			'</title_citing>'/
 			'<citations_to_title_cited>', v999, '</citations_to_title_cited>'/
 		'</citation>'/
-/*
-e1:=l(['tab30issn']ref(['tab30issn']l(['tab30issn']v1^c),v400)),e2:=l(['fat_imp']v1^c),
-				if e1>0
-				then
-					link scielo
-				fi,
-					'<link type="iah">',
-						'<label_list>',
-	  						'<label lang="pt">Ver</label>'/
-	  						'<label lang="en">See</label>'/ 
-		  					'<label lang="es">Ver</label>'/ 
-	  					'</label_list>'/
-							'<url>',
-								'<protocol>http</protocol>'/
-								'<host>'v7777'</host>'/
-								'<port></port>'/
-								'<path>stat_biblio/xml</path>'/
-								'<script_name>scielo6out.sh</script_name>'/
-								'<param_list>',
-									'<param>',
-										'<name>CITING</name>'/
-										'<value>', ref(['tab30issn']l(['tab30issn']v1^c),v400)|%20and%20|,v230|%20and%20|,v1^y|%20and%20|,v265, '</value>'/
-									'</param>'/
-									'<param>',
-										'<name>CITED</name>'/
-										'<value>', v11, '</value>'/
-									'</param>'/
-									'<param>',
-										'<name>formato</name>'/
-										'<value>', v5000, '</value>'/
-									'</param>'/
-									'<param>',
-										'<name>lang</name>'/
-										'<value>', v333, '</value>'/
-									'</param>'/
-								'</param_list>'/
-							'</url>'/
-							'<state>14</state>'/
-					'</link>'/
-*/
-
-	

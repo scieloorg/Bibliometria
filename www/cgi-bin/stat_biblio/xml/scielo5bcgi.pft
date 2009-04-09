@@ -1,9 +1,10 @@
 proc(
-   (if v2000^n='CITING' then '<2001 0>', e1:=l(['tab30issn']v2000^v), if e1>0 then ref(['tab30issn']e1,v400) else '$' fi, '</2001>', fi)
+   (if v2000^n='country' then '<8000 0>',v2000^v,'</8000>', fi)
+   (if v2000^n='CITING' then '<2001 0>',if v2000^v:'all' then '$' else ref(['title']l(['title']v2000^v),v400) fi, '</2001>', fi)
    (if v2000^n='YNG' then '<3001 0>', if v2000^v:'all' then '$' else v2000^v fi'</3001>', fi)
    (if v2000^n='YED' then '<3002 0>', if v2000^v:'all' then '$' else '65_'v2000^v fi'</3002>', fi)
    (if v2000^n='COUNT_SCI'  then '<2005 0>'v2000^v'</2005>' fi)
-   (if v2000^n='CITING' then '<4001 0>', if v2000^v:'all' then '$' else v2000^v fi'</4001>' fi)
+   (if v2000^n='CITING' then '<4001 0>', if v2000^v:'all' then '$' else ref(['title']l(['title']v2000^v),v100) fi'</4001>' fi)
    (if v2000^n='YNG' then '<4002 0>', if v2000^v:'all' then '$' else v2000^v fi'</4002>' fi)
    (if v2000^n='YED' then '<4003 0>', if v2000^v:'all' then '$' else '65_'v2000^v fi'</4003>' fi)
    (if v2000^n='formato' then '<5000 0>',v2000^v,'</5000>' fi)
@@ -11,18 +12,12 @@ proc(
    (if v2000^n='issn' then '<3400 0>',v2000^v,'</3400>' fi)
  )
 	
+  'PAIS|'v8000/
  'BOOLC|('v2001+| or |') and ('v3001+| or |') and ('v3002+| or |')'/
  'COUNT_SCI|'v2005/ 
    'BASE|'if v3001='$' and v3002='$' then 'artigo-cTT' fi,if v3001<>'$' and v3002<>'$' then 'artigo-cYY' fi,if v3001='$' and v3002<>'$' then 'artigo-cTY' fi,if v3001<>'$' and v3002='$' then 'artigo-cYT' fi,/
-  'BEGIN|'if v5000='html' then 'echo "<html>"'/ else 'echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><root>"'/ fi
    'LANG|'if v3004='' or v3004=' ' then 'pt'/ else v3004/ fi  
- 'FORMA1|'if v5000='html' then 'pft=@$HOM/scielo5out1a.pft'/ else 'pft=@$HOM/scielo5boutXML1a.pft'/ fi
- 'FORMAT|'if v5000='html' then 'pft=@$HOM/scielo5out.pft'/ else '-all'/ fi
- 'FORMA2|'if v5000='html' then 'pft=@$HOM/scielo5out1b.pft'/ else 'pft=@$HOM/scielo5boutXML1b.pft'/ fi
-'FORMA2a|'if v5000='html' then '@$HOM/scielo5out1b2.pft'/ else '@$HOM/scielo5boutXML1b2.pft'/ fi
- 'FORMA3|'if v5000='html' then 'pft=@$HOM/scielo5bout1c.pft'/ else 'pft=@$HOM/scielo5boutXML1c.pft'/ fi
    'FOR1|'v5000/
-    'END|'if v5000='html' then 'echo "</table></html>"'/ else 'echo "</root>"'/ fi
    'ISSN|'if v3400<>'' then '"proc=\','`a3400~'v3400'~\','`"'/ else / fi
 
  'SHOWrev|'if v4001<>'$' and v5000='html' then |- |v4001+|<br><br>| else if v4001<>'$' and v5000='xml' then |<title><![CDATA[|v4001|]]></title>| else 'all' fi, fi/

@@ -19,7 +19,7 @@ if val(v222)>0 then
 							'</param>'/
 							'<param>',
 								'<name>pid</name>'/
-								'<value>', ref(['tab30issn']l(['tab30issn']v2^t),v400), '</value>'/
+								'<value>', v2^i, '</value>'/
 							'</param>'/
 							'<param>',
 								'<name>lng</name>'/
