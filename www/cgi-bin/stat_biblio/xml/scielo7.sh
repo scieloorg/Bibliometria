@@ -5,8 +5,8 @@ echo Content-type: text/plain
 echo  
 
 . ./SetVar.txt
-#export ARQ=$TMP/$PPID.scielo7
-export ARQ=../../../tempor/$PPID.scielo7
+export ARQ=$TMP/$PPID.scielo7
+#export ARQ=../../../tempor/$PPID.scielo7
 
 rm -rf $ARQ.*
 

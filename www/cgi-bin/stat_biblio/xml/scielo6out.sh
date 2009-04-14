@@ -4,7 +4,7 @@ echo Content-type: text/plain
 echo  
 
 . ./SetVar.txt
-export ARQ1=/tmp/$PPID.scielo6
+export ARQ1=$TMP/$PPID.scielo6
 
 echo "BTELL|0" >$ARQ1.gizmo2.seq
 $UTL/mxget "@$HOM/scielo6cgi2.pft" >>$ARQ1.gizmo2.seq
