@@ -27,13 +27,7 @@
         <tr>
         	<td width="20%">
         		<p align="center">
-                	<a href="http://{$host_scisite}/scielo.php?lng={$lang}">
-                		<img align="bottom" border="0">
-                			<xsl:attribute name="src">
-                   				<xsl:value-of select="concat('http://',$host_scisite,'/img/',$lang,$path_image_logo)" />
-                			</xsl:attribute>
-                   		</img>
-                   	</a>
+                		<xsl:call-template name="logo"/>
                 </p>
         	</td>
         	<td align="center" width="80%">
