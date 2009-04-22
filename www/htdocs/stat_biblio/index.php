@@ -3,7 +3,8 @@
 	include_once("functions.php");
 	include_once("class.IniFile.php");
 	include_once("class.RequestVars.php");
-
+	require_once("class.SciELOInstances.php");
+	
 	$iniObj = new IniFile("ini/stat.ini");
 	$iniArr = $iniObj->parse();
 	$xml_node_ini =  $iniObj->getXML();
@@ -11,6 +12,19 @@
 
 	$xml_node_request_vars = $requestVars->getVarsXml();
 	$array_request_vars = $requestVars->getVarsArray();
+
+	$scieloInstanceId = $array_request_vars["country"];
+	$scieloInstances = new SciELOInstances();
+	if (!$scieloInstanceId || $scieloInstanceId=="") {
+		$scieloInstanceId = $scieloInstances->getId($_SERVER['HTTP_REFERER']);
+		if (!$scieloInstanceId  || $scieloInstanceId=="") {
+			$scieloInstanceId = "org";
+		}
+	}
+	if ($scieloInstanceId){
+		$xml_instance  = '<instance id="'.$scieloInstanceId.'"><url>'.$scieloInstances->getURL($scieloInstanceId).'</url></instance>';
+	}
+	var_dump($xml_instance);
 	/* 
 	$xml_node_request_uri = "<request_uri>" . $HTTP_SERVER_VARS["REQUEST_URI"] .  "</request_uri>" ;
 	$xml_node_request_uri = str_replace("&amp;", "&", $xml_node_request_uri);
@@ -48,7 +62,7 @@
 	else
 	{
 //		$xml_url = "http://serverofi.bireme.br:2424/xml/02.xml";
-		$xml_url = "http://" . $iniArr["hosts"]["server"] . $iniArr["hosts"]["static_xml"] . "/".$_REQUEST["country"]."/" . $state . ".xml";
+		$xml_url = "http://" . $iniArr["hosts"]["server"] . $iniArr["hosts"]["static_xml"] . "/".$scieloInstanceId."/" . $state . ".xml";
 	}
 
 	if ($array_request_vars["server_action"] != "")
@@ -152,9 +166,9 @@
 		echo(NL); echo(NL);
 		die();
 		*/
-    	if ($array_request_vars["country"] != "")
+    	if ($scieloInstanceId != "")
 	    {
-		$server_parameters .= "&country=" . $_REQUEST["country"];
+		$server_parameters .= "&country=" . $scieloInstanceId;
 		}
 
 		$host_server = $iniArr["hosts"]["server"];
@@ -180,7 +194,7 @@
 	//die($xml_content);
 	$xml_node_content = transform($xml_content, $xsl_path);
 	//die($xml_node_content);
-	$xml_content = XML_HEADER . "<statistics>\n" . $xml_node_request_vars . $xml_node_ini . $xml_node_content . "\n</statistics>";
+	$xml_content = XML_HEADER . "<statistics>\n" . $xml_instance . $xml_node_request_vars . $xml_node_ini . $xml_node_content . "\n</statistics>";
 	//die($xml_content);
 	$the_xsl = "xsl_" . $state;
 	/* 
@@ -190,6 +204,7 @@
 	*/
 	
 	$xsl_path = $iniArr["xsl"][$the_xsl];
+	var_dump($xsl_path);
 	$html_content = transform($xml_content, $xsl_path);
 
 	if ($debug == "xml")
