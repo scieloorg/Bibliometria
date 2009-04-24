@@ -83,6 +83,22 @@ ini_set("display_errors",'Off');
 		case "17": 
 			$server_action = "scielo7";
 			break;
+		case "05": 
+			$server_action = "scielo1_2";
+			break;
+		case "19": 
+			$server_action = "scielo1_3";
+			break;
+		case "08": 
+			$server_action = "scielo3";
+			break;
+		case "10": 
+			$server_action = "scielo6";
+			break;
+		case "12": 
+			$server_action = "scielo5";
+			break;
+
 	}
 	if ($server_action != "")
 	{
