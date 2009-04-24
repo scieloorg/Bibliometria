@@ -128,7 +128,7 @@
 							<blockquote>
 								<p>
 									<font color="#800000">
-										<xsl:value-of select="$root/subtitle_list/subtitle[@lang = $lang]" />
+										<xsl:value-of select="$root/subtitle_list/subtitle[@lang = $lang]" /> 
 									</font>
 								</p>
 							</blockquote>

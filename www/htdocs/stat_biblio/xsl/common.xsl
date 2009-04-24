@@ -17,16 +17,28 @@
 		<xsl:param name="goTo"/>
 		<xsl:choose>
 			<xsl:when test="$goTo">
-				<a href="http://{//statistics//instance/url}/scielo.php?lng={$lang}">
-					<img align="bottom" border="0">
-						<xsl:attribute name="src"><xsl:value-of select="concat('http://',//statistics/instance/url,'/img/',$lang,$path_image_logo)"/></xsl:attribute>
+				<xsl:choose>
+					<xsl:when test="//statistics//instance/@id='org'">
+						<a href="http://{//statistics//instance/url}//php/index.php?lang={$lang}">
+							<img align="bottom" border="0">
+						<xsl:attribute name="src"><xsl:value-of select="concat('/img/',$lang,$path_image_logo)"/></xsl:attribute>
 					</img>
-				</a>				
+						</a>
+
+					</xsl:when>
+					<xsl:otherwise>
+						<a href="http://{//statistics//instance/url}/scielo.php?lng={$lang}">
+							<img align="bottom" border="0">
+								<xsl:attribute name="src"><xsl:value-of select="concat('http://',//statistics/instance/url,'/img/',$lang,$path_image_logo)"/></xsl:attribute>
+							</img>
+						</a>
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:when>
-			<xsl:otherwise>
+			<xsl:otherwise><!--xsl:value-of select="concat('/img/',$lang,$path_image_logo)"/-->
 				<a href="http://{$host_server}/stat_biblio/index.php?lang={$lang}&amp;country={$country}">
 					<img align="bottom" border="0">
-						<xsl:attribute name="src"><xsl:value-of select="concat('/img/',$lang,$path_image_logo)"/></xsl:attribute>
+						<xsl:attribute name="src"><xsl:value-of select="concat('http://',//statistics/instance/url,'/img/',$lang,$path_image_logo)"/></xsl:attribute>
 					</img>
 				</a>
 			</xsl:otherwise>
