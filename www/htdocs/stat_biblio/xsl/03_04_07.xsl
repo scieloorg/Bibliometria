@@ -21,11 +21,11 @@
 					<xsl:attribute name="name"><xsl:value-of select="'state'"/></xsl:attribute>
 					<xsl:attribute name="value"><xsl:value-of select="$root/form/state"/></xsl:attribute>
 				</input>
-				<input>
+				<!--input>
 					<xsl:attribute name="type"><xsl:value-of select="'hidden'"/></xsl:attribute>
 					<xsl:attribute name="name"><xsl:value-of select="'server_action'"/></xsl:attribute>
-					<xsl:attribute name="value"><xsl:value-of select="$server_action"/></xsl:attribute>
-				</input>
+					<xsl:attribute name="value"><xsl:value-of select="substring-before(substring-after($server_action,'/cgi-bin/stat_biblio/xml/'),'.sh')"/></xsl:attribute>
+				</input-->
 				<input>
 					<xsl:attribute name="type"><xsl:value-of select="'hidden'"/></xsl:attribute>
 					<xsl:attribute name="name"><xsl:value-of select="'lang'"/></xsl:attribute>

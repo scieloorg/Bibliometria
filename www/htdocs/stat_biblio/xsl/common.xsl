@@ -362,6 +362,11 @@
 		<xsl:value-of select="'/'"/>
 		<xsl:value-of select="script_name"/>
 	</xsl:template>
+	<xsl:template match="url">
+		<xsl:variable name="port" select="port"/>
+		<xsl:variable name="path" select="path"/>
+		<xsl:value-of select="$php_main"/>?</xsl:template>
+
 	<xsl:template name="form">
 		<xsl:param name="hidden_01_name"/>
 		<xsl:param name="hidden_01_value"/>

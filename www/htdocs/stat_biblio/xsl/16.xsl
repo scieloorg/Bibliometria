@@ -15,7 +15,7 @@
 			<form action="index.php" Xmethod="post">
 				<xsl:attribute name="onsubmit">javascript: return validate_16(this)</xsl:attribute>
 				<input type="hidden" name="state" value="{$root/form/state}"/>
-				<input type="hidden" name="server_action" value="{$server_action}"/>
+				<!--input type="hidden" name="server_action" value="{substring-before(substring-after($server_action,'/cgi-bin/stat_biblio/xml/'),'.sh')}"/-->
 				<input type="hidden" name="lang" value="{$lang}"/>
 				<!-- 
 				<input type="hidden" name="debug" value="xml" />

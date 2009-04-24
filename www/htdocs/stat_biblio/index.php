@@ -1,5 +1,5 @@
 <?php 
-
+ini_set("display_errors",'Off');
 	include_once("functions.php");
 	include_once("class.IniFile.php");
 	include_once("class.RequestVars.php");
@@ -9,6 +9,10 @@
 	$iniArr = $iniObj->parse();
 	$xml_node_ini =  $iniObj->getXML();
 	$requestVars = new RequestVars();
+
+
+	$xml_date = '<process-date>'.date("F d Y",filemtime(dirname(__FILE__)."/../../scibiblio/bases/estat/artigo/artigoi.iy0")).'</process-date>';
+
 
 	$xml_node_request_vars = $requestVars->getVarsXml();
 	$array_request_vars = $requestVars->getVarsArray();
@@ -24,7 +28,6 @@
 	if ($scieloInstanceId){
 		$xml_instance  = '<instance id="'.$scieloInstanceId.'"><url>'.$scieloInstances->getURL($scieloInstanceId).'</url></instance>';
 	}
-	var_dump($xml_instance);
 	/* 
 	$xml_node_request_uri = "<request_uri>" . $HTTP_SERVER_VARS["REQUEST_URI"] .  "</request_uri>" ;
 	$xml_node_request_uri = str_replace("&amp;", "&", $xml_node_request_uri);
@@ -64,7 +67,7 @@
 //		$xml_url = "http://serverofi.bireme.br:2424/xml/02.xml";
 		$xml_url = "http://" . $iniArr["hosts"]["server"] . $iniArr["hosts"]["static_xml"] . "/".$scieloInstanceId."/" . $state . ".xml";
 	}
-
+	
 	if ($array_request_vars["server_action"] != "")
 	{
 		$server_action = $array_request_vars["server_action"];
@@ -73,7 +76,28 @@
 	{
 		$server_action = "";
 	}
-
+	switch($array_request_vars["state"]){
+		case "15": 
+			$server_action = "scielo1";
+			break;
+		case "17": 
+			$server_action = "scielo7";
+			break;
+	}
+	if ($server_action != "")
+	{
+		if (strpos($server_action,'.sh')==0){		
+			
+			if (file_exists(dirname(__FILE__).'/../../cgi-bin/stat_biblio/xml/'.$server_action.'.sh')){
+				$server_action = '/cgi-bin/stat_biblio/xml/'.$server_action.'.sh';
+			}
+		}
+	}
+	else
+	{
+		$server_action = "";
+	}
+	
 	//echo("\$xml_url: |" . $xml_url . "|");
 	//die();
 
@@ -85,7 +109,7 @@
 	// XML estatico $server_action vem vazio e xml_url NAO contem o sinal '?' -> getXML($xml_url);
 	// XML dinamico $server_action vem com o nome do script a ser
 	//     executado no servidor ou o xml_url contem o sinal '?' -> document_post($xml_url);
-	if ($server_action == "" and $pos === false )
+	if ($server_action == "" && $pos === false )
 	{
 		// XML ESTATICO
 		/* 
@@ -204,7 +228,7 @@
 	*/
 	
 	$xsl_path = $iniArr["xsl"][$the_xsl];
-	var_dump($xsl_path);
+	
 	$html_content = transform($xml_content, $xsl_path);
 
 	if ($debug == "xml")

@@ -151,11 +151,11 @@
 									<td width="1%">&#160;</td>                                
 									<td width="69%" align="left">
                                         <xsl:if test="not($selected_option/*)">                                    
-    										<p align="left">
+    										<!--p align="left">
     											<font color="#000080">
     												<xsl:value-of select="$root/selection_list/selection[@name='journal']/label_list/label[@lang = $lang]" />
     											</font>
-    										</p>
+    										</p-->
     										<xsl:apply-templates select="$root/selection_list/selection[@name='journal']">
     											<xsl:with-param name="size" select="'10'"></xsl:with-param>
     										</xsl:apply-templates>
