@@ -83,6 +83,9 @@ class XSLTransformer {
 //            $err = "Error: " . xslt_error ($this->processor) . " Errorcode: " . xslt_errno ($this->processor);
 		    $this->setError (xslt_error($this->processor));
 			$this->setErrorCode(xslt_errno($this->processor));
+			var_dump($this->xml);
+var_dump($this->xsl);
+
 		}
     }
     

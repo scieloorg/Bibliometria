@@ -68,44 +68,16 @@ ini_set("display_errors",'Off');
 		$xml_url = "http://" . $iniArr["hosts"]["server"] . $iniArr["hosts"]["static_xml"] . "/".$scieloInstanceId."/" . $state . ".xml";
 	}
 	
-	if ($array_request_vars["server_action"] != "")
-	{
-		$server_action = $array_request_vars["server_action"];
-	}
-	else
-	{
-		$server_action = "";
-	}
-	switch($array_request_vars["state"]){
-		case "15": 
-			$server_action = "scielo1";
-			break;
-		case "17": 
-			$server_action = "scielo7";
-			break;
-		case "05": 
-			$server_action = "scielo1_2";
-			break;
-		case "19": 
-			$server_action = "scielo1_3";
-			break;
-		case "08": 
-			$server_action = "scielo3";
-			break;
-		case "10": 
-			$server_action = "scielo6";
-			break;
-		case "12": 
-			$server_action = "scielo5";
-			break;
-
-	}
+	
+	$pair_state_action = array("15" => "1", "17" => "7", "05" => "1_2", "19" => "1_3", "08" => "3", "10" => "6", "12" => "5");
+	$server_action = $pair_state_action[$array_request_vars["state"]];
+	
 	if ($server_action != "")
 	{
 		if (strpos($server_action,'.sh')==0){		
 			
-			if (file_exists(dirname(__FILE__).'/../../cgi-bin/stat_biblio/xml/'.$server_action.'.sh')){
-				$server_action = '/cgi-bin/stat_biblio/xml/'.$server_action.'.sh';
+			if (file_exists(dirname(__FILE__).'/../../cgi-bin/stat_biblio/xml/scielo'.$server_action.'.sh')){
+				$server_action = '/cgi-bin/stat_biblio/xml/scielo'.$server_action.'.sh';
 			}
 		}
 	}
@@ -133,6 +105,10 @@ ini_set("display_errors",'Off');
 		die();
 		*/
 		$xml_content = getXML($xml_url);
+		if ($scieloInstanceId){
+			$xml_content = str_replace('SciELO','SciELO '.$scieloInstances->getName($scieloInstanceId),$xml_content);
+		}
+
 	}
 	else
 	{

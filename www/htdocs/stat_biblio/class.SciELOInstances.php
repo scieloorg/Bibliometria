@@ -59,6 +59,9 @@
 		function getURL($id){
 			return $this->_instancesURL[$id]['url'];
 		}
+		function getName($id){
+			return $this->_instancesURL[$id]['name'];
+		}
 		
 		function getHTML_List_Citation(){
 			$local = $this->_instancesURL["org"]['url'];
