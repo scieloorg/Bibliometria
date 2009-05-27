@@ -4,5 +4,5 @@ export TMP=/tmp
 
 export CIPAR=cipar_CGI_ORG.cip
 export UTL=../../../scibiblio/bases/estat/cisis/lind
-export HOM=.
+export HOM=/home/statbiblio-org/www/cgi-bin/statbiblio/xml/
 

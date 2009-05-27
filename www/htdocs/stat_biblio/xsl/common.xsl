@@ -13,6 +13,9 @@
 	<xsl:variable name="root" select="//root"/>
 	<xsl:variable name="country" select="/statistics/request-vars/country"/>
 	<xsl:variable name="lang_aux" select="/statistics/request-vars/lang"/>
+	<xsl:template name="processDate">
+		<div id="processDate"><xsl:value-of select="//process-date"/></div>
+	</xsl:template>
 	<xsl:template name="logo">
 		<xsl:param name="goTo"/>
 		<xsl:choose>
@@ -43,6 +46,7 @@
 				</a>
 			</xsl:otherwise>
 		</xsl:choose>
+		<xsl:call-template name="processDate"/>
 	</xsl:template>
 	<xsl:variable name="lang">
 		<xsl:choose>
@@ -159,6 +163,7 @@
 		</script>
 	</xsl:template>
 	<xsl:template name="footer">
+
 		<xsl:comment>
 	
 		**** File: file:///home/scielo/www/htdocs/stat_biblio/xsl/common.xsl

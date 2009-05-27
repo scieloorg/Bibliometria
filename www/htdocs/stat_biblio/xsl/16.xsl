@@ -17,6 +17,7 @@
 				<input type="hidden" name="state" value="{$root/form/state}"/>
 				<!--input type="hidden" name="server_action" value="{substring-before(substring-after($server_action,'/cgi-bin/stat_biblio/xml/'),'.sh')}"/-->
 				<input type="hidden" name="lang" value="{$lang}"/>
+				<input type="hidden" name="country" value="{//country[1]}"/>
 				<!-- 
 				<input type="hidden" name="debug" value="xml" />
 				-->
@@ -30,9 +31,9 @@
 							<p align="center">
 								<xsl:choose>
 									<xsl:when test="$issn != ''">
-										<a href="http://{$host_scisite}/scielo.php?script=sci_serial&amp;pid={$issn}&amp;lng={$lang}">
+										<a href="http://{//instance/url}/scielo.php?script=sci_serial&amp;pid={$issn}&amp;lng={$lang}">
 											<img align="bottom" border="0">
-												<xsl:attribute name="src"><xsl:value-of select="concat('http://',$host_scisite,$path_image_revistas,$selected_option/option/@siglum,'/plogo.gif')"/></xsl:attribute>
+												<xsl:attribute name="src"><xsl:value-of select="concat('http://',//instance/url,'/',$path_image_revistas,$selected_option/option/@siglum,'/plogo.gif')"/></xsl:attribute>
 											</img>
 										</a>
 									</xsl:when>

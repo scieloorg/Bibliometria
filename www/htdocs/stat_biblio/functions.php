@@ -108,4 +108,21 @@ function document_post($url, $content = "")
 	return $result; 
 }
 
+function getLastProcessDate($file, $lang){
+	$mtime = date("YmdHis",filemtime($file));
+	$texts['en']='Last processed date ';
+	$texts['pt']='Data do último processamento ';
+	$texts['es']='Fecha del último procesamiento ';
+
+	if ($lang == 'en'){
+		$month = array('','Jan','Feb','Mar','Apr','May','June','July','Ago','Sept','Oct','Nov','Dec');
+
+		$d = $month[intval(substr($mtime,4,2))].'-'.substr($mtime,6,2).'-'.substr($mtime,0,4);
+	} else {
+		$d = substr($mtime,6,2).'-'.substr($mtime,4,2).'-'.substr($mtime,0,4);
+
+	}
+
+	return $texts[$lang].$d;
+}
 ?>

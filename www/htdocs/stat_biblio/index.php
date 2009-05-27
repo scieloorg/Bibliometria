@@ -4,22 +4,29 @@ ini_set("display_errors",'Off');
 	include_once("class.IniFile.php");
 	include_once("class.RequestVars.php");
 	require_once("class.SciELOInstances.php");
+
 	
 	$iniObj = new IniFile("ini/stat.ini");
 	$iniArr = $iniObj->parse();
 	$xml_node_ini =  $iniObj->getXML();
 	$requestVars = new RequestVars();
 
-
-	$xml_date = '<process-date>'.date("F d Y",filemtime(dirname(__FILE__)."/../../scibiblio/bases/estat/artigo/artigoi.iy0")).'</process-date>';
-
+	$pair_state_action = array("02"=>"","16"=>"", "17" => "7","03"=>"","15" => "1","04"=>"","05" => "1_2","18"=>"", "19" => "1_3","08"=>"3","07"=>"","09"=>"","10" => "6b","11"=>"","12" => "5b");
 
 	$xml_node_request_vars = $requestVars->getVarsXml();
 	$array_request_vars = $requestVars->getVarsArray();
+	if ($array_request_vars['lang'] != 'en' && $array_request_vars['lang'] != 'es' && $array_request_vars['lang'] != 'pt'){
+		$array_request_vars['lang'] = 'en';
+	}
+	
+	$dateFile = dirname(__FILE__)."/../../scibiblio/bases/estat/artigo/artigoi.iy0";
+	$xml_date = '<process-date>'.getLastProcessDate($dateFile, $array_request_vars['lang']).'</process-date>';
+
 
 	$scieloInstanceId = $array_request_vars["country"];
+	
 	$scieloInstances = new SciELOInstances();
-	if (!$scieloInstanceId || $scieloInstanceId=="") {
+	if (!$scieloInstanceId || $scieloInstanceId=="" || !$scieloInstances->validateId($scieloInstanceId)) {
 		$scieloInstanceId = $scieloInstances->getId($_SERVER['HTTP_REFERER']);
 		if (!$scieloInstanceId  || $scieloInstanceId=="") {
 			$scieloInstanceId = "org";
@@ -45,7 +52,7 @@ ini_set("display_errors",'Off');
 	
 	
 	
-	if ($array_request_vars["state"] != "")
+	if ($array_request_vars["state"] != "" && array_key_exists($state, $pair_state_action))
 	{
 		$state = $array_request_vars["state"];
 	}
@@ -69,8 +76,7 @@ ini_set("display_errors",'Off');
 	}
 	
 	
-	$pair_state_action = array("15" => "1", "17" => "7", "05" => "1_2", "19" => "1_3", "08" => "3", "10" => "6", "12" => "5");
-	$server_action = $pair_state_action[$array_request_vars["state"]];
+	$server_action = $pair_state_action[$state];
 	
 	if ($server_action != "")
 	{
@@ -131,20 +137,18 @@ ini_set("display_errors",'Off');
 				*/
 				while (list($key_02, $value_02) = each($value_01))
 				{
-					$server_parameters .= "&" . $key_01 . "=" . urlencode($value_02);
+					if (strpos(' '.$value_02,'/')>0 || strpos(' '.$value_02,'>')>0 || strpos(' '.$value_02,'<')>0){
+						var_dump( $value_02);
+					} else
+					{
+						$server_parameters .= "&" . $key_01 . "=" . urlencode($value_02);
+					}										
 				}
 			}
 		}
 		
-		if ($array_request_vars["lang"] != "" )
-		{
-			$lang = $array_request_vars["lang"];
-		}
-		else
-		{
-			$lang = "pt";
-		}
-		$server_parameters .= "&lang=" . $lang;
+		
+		$server_parameters .= "&lang=" . $array_request_vars['lang'] ;
 		
 		/* */
 		// No caso de querer voltar para o mesmo estado onde se encontra, levando
@@ -210,7 +214,7 @@ ini_set("display_errors",'Off');
 	//die($xml_content);
 	$xml_node_content = transform($xml_content, $xsl_path);
 	//die($xml_node_content);
-	$xml_content = XML_HEADER . "<statistics>\n" . $xml_instance . $xml_node_request_vars . $xml_node_ini . $xml_node_content . "\n</statistics>";
+	$xml_content = XML_HEADER . "<statistics>\n" .$xml_date. $xml_instance . $xml_node_request_vars . $xml_node_ini . $xml_node_content . "\n</statistics>";
 	//die($xml_content);
 	$the_xsl = "xsl_" . $state;
 	/* 

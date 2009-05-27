@@ -8,6 +8,7 @@ echo
 export ARQ=$TMP/$PPID.scielo7
 #export ARQ=../../../tempor/$PPID.scielo7
 
+#rm -rf $TMP/*scielo7*
 rm -rf $ARQ.*
 
 $UTL/mxget "@$HOM/scielo7cgi.pft" >$ARQ.gizmo.seq
@@ -29,6 +30,6 @@ chmod 777 $ARQ.*
 
 sh  $ARQ.sh
 
-rm -rf $ARQ.*
+#rm -rf $ARQ.*
 
 #rm /tmp/*elo7*

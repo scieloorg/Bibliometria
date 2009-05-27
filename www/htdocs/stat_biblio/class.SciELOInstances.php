@@ -13,7 +13,7 @@
 
 			$lines = file (dirname(__FILE__).'./../../cgi-bin/stat_biblio/xml/lst_traduc.seq');
 			$instancesURL["org"]['url'] = $_SERVER["SERVER_NAME"];
-			$instancesURL["org"]['name'] = "SciELO Regional";
+			$instancesURL["org"]['name'] = "Regional";
 
 			foreach ($lines as $line_num => $line) {
 				if ( strpos($line, "|pais|")>0 ||  strpos($line, "|temat|")>0  ) {
@@ -62,6 +62,11 @@
 		function getName($id){
 			return $this->_instancesURL[$id]['name'];
 		}
+		function validateId($id){
+			if ($this->_instancesURL[$id]){
+				return true;
+			}
+		}
 		
 		function getHTML_List_Citation(){
 			$local = $this->_instancesURL["org"]['url'];
@@ -82,7 +87,7 @@
 		/*
 
 
-require_once("/home/scieloorg/www/htdocs/stat_biblio/class.SciELOInstances.php");
+//require_once("/home/scieloorg/www/htdocs/stat_biblio/class.SciELOInstances.php");
 $scieloInstances = new SciELOInstances($lang);
 echo $scieloInstances->getHTMLList();
 

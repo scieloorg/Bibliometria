@@ -10,7 +10,9 @@ proc(
    (if v2000^n='issn' then '<3400 0>',v2000^v,'</3400>' fi)
  )
 
- 
+ /*
+	3166 = veja no cgi-bin/stat_biblio/xml/cipar_CGI_ORG.cip
+ */
 'PAIS_COL|'v8000/
     'LANG|'if v3004='' or v3004=' ' then 'pt'/ else v3004/ fi
  'SHOWpa2|'if v3002<>'all' and v3003='html' then |- |v3002+|<br><br>| else, if v3002<>'all' and v3002<>'1' and v3003='xml' then, if v3004='pt' then proc(('<302 0>'ref(['3166']l(['3166']v3002),v1)'</302>')), |<country_two><![CDATA[|v302|]]></country_two>| else, if v3004='en' then proc(('<302 0>'ref(['3166']l(['3166']v3002),v2)'</302>')), |<country_two><![CDATA[|v302|]]></country_two>| else, if v3004='es' then proc(('<302 0>'ref(['3166']l(['3166']v3002),v3)'</302>')), |<country_two><![CDATA[|v302|]]></country_two>| fi, fi, fi, else, if v3002='1' then '1' else  'all' fi, fi, fi/
@@ -19,7 +21,8 @@ proc(
 
 
 /* lista de títulos - um por linha */
- if v4002>'' then't|'v4002/ fi 
+if v4002>'' then't|'v4002/ fi 
+/* if v4002='all' or a(v4002) then cat('../../../scibiblio/bases/estat/artigo/'v8000'/alltits.seq')  else "t|"v4002/ fi */
 	
 /* lista de paises - um por linha */
  if v3001>'' then'c|'v3001/ fi 
