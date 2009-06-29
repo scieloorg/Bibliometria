@@ -22,7 +22,6 @@ proc(
 
 /* lista de títulos - um por linha */
 if v4002>'' then't|'v4002/ fi 
-/* if v4002='all' or a(v4002) then cat('../../../scibiblio/bases/estat/artigo/'v8000'/alltits.seq')  else "t|"v4002/ fi */
 	
 /* lista de paises - um por linha */
  if v3001>'' then'c|'v3001/ fi 

@@ -13,6 +13,10 @@
 	<xsl:variable name="root" select="//root"/>
 	<xsl:variable name="country" select="/statistics/request-vars/country"/>
 	<xsl:variable name="lang_aux" select="/statistics/request-vars/lang"/>
+	<xsl:variable name="journal">
+<xsl:copy-of select="//root/journal"/>
+</xsl:variable>
+
 	<xsl:template name="processDate">
 		<div id="processDate"><xsl:value-of select="//process-date"/></div>
 	</xsl:template>
@@ -39,6 +43,7 @@
 				</xsl:choose>
 			</xsl:when>
 			<xsl:otherwise><!--xsl:value-of select="concat('/img/',$lang,$path_image_logo)"/-->
+			<xsl:comment>otherwise</xsl:comment>
 				<a href="http://{$host_server}/stat_biblio/index.php?lang={$lang}&amp;country={$country}">
 					<img align="bottom" border="0">
 						<xsl:attribute name="src"><xsl:value-of select="concat('http://',//statistics/instance/url,'/img/',$lang,$path_image_logo)"/></xsl:attribute>
