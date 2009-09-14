@@ -4,9 +4,9 @@
 
 	<xsl:include href="xsl/common.xsl" />
 
-    <xsl:variable name="journal">
+    <!--xsl:variable name="journal">
         <xsl:copy-of select="//root/journal"/>
-    </xsl:variable>
+    </xsl:variable-->
 	
 	<xsl:variable name="statistic_type_aux" select="/statistics/request-vars/statistic_type" />
 	<xsl:variable name="statistic_type">	

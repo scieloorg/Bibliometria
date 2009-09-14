@@ -11,7 +11,7 @@
 	<xsl:template match="*" mode="html-body">
 		<xsl:comment>
 	
-		**** File: 11.xsl
+		**** File: 9.xsl
 		template match="*" mode="html-body"
 		
 		</xsl:comment>
@@ -35,7 +35,7 @@
 						<xsl:value-of select="$root/form/state" />
 					</xsl:attribute>
 				</input>
-				<input>
+				<!--input>
 					<xsl:attribute name="type">
 						<xsl:value-of select="'hidden'" />
 					</xsl:attribute>
@@ -45,7 +45,7 @@
 					<xsl:attribute name="value">
 						<xsl:value-of select="$server_action" />
 					</xsl:attribute>
-				</input>
+				</input-->
 				<input>
 					<xsl:attribute name="type">
 						<xsl:value-of select="'hidden'" />
@@ -81,6 +81,7 @@
 					</xsl:attribute>
 				</input>
 				-->
+				<input type="hidden" name="ng" value="b"/>
                 <xsl:if test="$issn != ''">
                     <input type="hidden" name="issn" value="{$issn}"/>
                 </xsl:if>                
@@ -90,20 +91,9 @@
 					<tr>
 						<td width="20%">
 							<p align="center">
-                                <xsl:choose>
-                                    <xsl:when test="$issn != ''">
-        								<a href="http://{$host_scisite}/scielo.php?script=sci_serial&amp;pid={$issn}&amp;lng={$lang}">
-        									<img align="bottom" border="0">
-        										<xsl:attribute name="src">
-        											<xsl:value-of select="concat('http://',$host_scisite,$path_image_revistas,$selected_option/option/@siglum,'/plogo.gif')" />
-        										</xsl:attribute>
-        									</img>
-        								</a>
-                                    </xsl:when>
-                                    <xsl:otherwise>
+                                    
         								<xsl:call-template name="logo"/>
-                                    </xsl:otherwise>
-                                </xsl:choose>
+                                  
 							</p>
 						</td>
 						<td align="center" width="80%">
@@ -167,13 +157,15 @@
                                                 <font color="#000080">&#160;<xsl:value-of select="$texts/text[find='AGRUPAR_RESULTADOS']/replace"/></font>
                                             </input>
 -->                                        
-                                            <input type="radio" checked="true" name="result_selector" onclick="javascript:this.form.server_action.value='{$nao_agrupado}';">
+                                            <!--input type="radio" checked="true" name="result_selector" onclick="javascript:this.form.server_action.value='{$nao_agrupado}';"-->
+                                            <input type="radio" checked="true" name="result_selector"  onclick="javascript:this.form.ng.value='b';">
                                                         
                                                 <font color="#000080">
                                                     <xsl:value-of select="$texts/text[find='RESULTADOS_SEPARADOS']/replace"/>
                                                 </font>
                                             </input>&#160;&#160;&#160;
-                                            <input type="radio" name="result_selector" onclick="javascript:this.form.server_action.value='{$agrupado}';">
+                                            <!--input type="radio" name="result_selector" onclick="javascript:this.form.server_action.value='{$agrupado}';"-->
+                                            <input type="radio" name="result_selector" onclick="javascript:this.form.ng.value='';">
                                                 <font color="#000080">
                                                     <xsl:value-of select="$texts/text[find='AGRUPAR_RESULTADOS']/replace"/>
                                                 </font>

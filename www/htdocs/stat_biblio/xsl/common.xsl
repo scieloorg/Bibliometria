@@ -14,27 +14,51 @@
 	<xsl:variable name="country" select="/statistics/request-vars/country"/>
 	<xsl:variable name="lang_aux" select="/statistics/request-vars/lang"/>
 	<xsl:variable name="journal">
-<xsl:copy-of select="//root/journal"/>
-</xsl:variable>
-
+		<xsl:copy-of select="//root/journal"/>
+	</xsl:variable>
 	<xsl:template name="processDate">
-		<div id="processDate"><xsl:value-of select="//process-date"/></div>
+		<div id="processDate">
+			<xsl:value-of select="//process-date"/>
+		</div>
 	</xsl:template>
 	<xsl:template name="logo">
 		<xsl:param name="goTo"/>
+		
+		<xsl:variable name="siglum"><xsl:if test="$issn!=''"><xsl:choose>
+			<xsl:when test="//option_list/option[@issn=$issn]"><xsl:value-of select="//option_list/option[@issn=$issn]/@siglum"/></xsl:when>
+			<xsl:otherwise><xsl:value-of select="//journal/siglum"/></xsl:otherwise>
+		</xsl:choose></xsl:if></xsl:variable>
 		<xsl:choose>
 			<xsl:when test="$goTo">
 				<xsl:choose>
+					<xsl:when test="$issn!=''">
+						<xsl:comment>11 <xsl:value-of select="$issn"/>
+						</xsl:comment>
+						<a href="http://{//statistics//instance/url}/scielo.php?script=sci_serial&amp;pid={$issn}&amp;lng={$lang}">
+							<img align="bottom" border="0">
+								<xsl:attribute name="src"><xsl:value-of select="concat('http://',/statistics//instance/url,$path_image_revistas,$siglum,'/plogo.gif')"/></xsl:attribute>
+							</img>
+						</a>
+					</xsl:when>
+					<xsl:when test="$journal/*">
+						<xsl:comment>12</xsl:comment>
+						<a href="http://{//statistics//instance/url}/scielo.php?script=sci_serial&amp;pid={$journal//issn}&amp;lng={$lang}">
+							<img align="bottom" border="0">
+								<xsl:attribute name="src"><xsl:value-of select="concat('http://',/statistics//instance/url,$path_image_revistas,$siglum,'/plogo.gif')"/></xsl:attribute>
+							</img>
+						</a>
+					</xsl:when>
 					<xsl:when test="//statistics//instance/@id='org'">
+						<xsl:comment>13</xsl:comment>
 						<a href="http://{//statistics//instance/url}//php/index.php?lang={$lang}">
 							<img align="bottom" border="0">
-						<xsl:attribute name="src"><xsl:value-of select="concat('/img/',$lang,$path_image_logo)"/></xsl:attribute>
-					</img>
+								<xsl:attribute name="src"><xsl:value-of select="concat('/stat_biblio/images/',$path_image_logo)"/></xsl:attribute>
+							</img>
 						</a>
-
 					</xsl:when>
 					<xsl:otherwise>
 						<a href="http://{//statistics//instance/url}/scielo.php?lng={$lang}">
+							<xsl:comment>14</xsl:comment>
 							<img align="bottom" border="0">
 								<xsl:attribute name="src"><xsl:value-of select="concat('http://',//statistics/instance/url,'/img/',$lang,$path_image_logo)"/></xsl:attribute>
 							</img>
@@ -42,12 +66,39 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:when>
-			<xsl:otherwise><!--xsl:value-of select="concat('/img/',$lang,$path_image_logo)"/-->
-			<xsl:comment>otherwise</xsl:comment>
-				<a href="http://{$host_server}/stat_biblio/index.php?lang={$lang}&amp;country={$country}">
-					<img align="bottom" border="0">
+			<xsl:otherwise>
+				<!--xsl:value-of select="concat('/img/',$lang,$path_image_logo)"/-->
+				<xsl:comment>otherwise</xsl:comment>
+				<a href="http://{$host_server}/stat_biblio/index.php?lang={$lang}&amp;country={$country}&amp;issn={$issn}">
+					<!--img align="bottom" border="0">
 						<xsl:attribute name="src"><xsl:value-of select="concat('http://',//statistics/instance/url,'/img/',$lang,$path_image_logo)"/></xsl:attribute>
-					</img>
+					</img-->
+					<xsl:choose>
+						<xsl:when test="$issn!=''">
+							<xsl:comment>1</xsl:comment>
+							<img align="bottom" border="0">
+								<xsl:attribute name="src"><xsl:value-of select="concat('http://',/statistics//instance/url,$path_image_revistas,$siglum,'/plogo.gif')"/></xsl:attribute>
+							</img>
+						</xsl:when>
+						<xsl:when test="$journal/*">
+							<xsl:comment>2</xsl:comment>
+							<img align="bottom" border="0">
+								<xsl:attribute name="src"><xsl:value-of select="concat('http://',/statistics//instance/url,$path_image_revistas,$siglum,'/plogo.gif')"/></xsl:attribute>
+							</img>
+						</xsl:when>
+						<xsl:when test="//statistics//instance/@id='org'">
+							<xsl:comment>3</xsl:comment>
+							<img align="bottom" border="0">
+								<xsl:attribute name="src"><xsl:value-of select="concat('/stat_biblio/images/',$path_image_logo)"/></xsl:attribute>
+							</img>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:comment>4</xsl:comment>
+							<img align="bottom" border="0">
+								<xsl:attribute name="src"><xsl:value-of select="concat('http://',//statistics/instance/url,'/img/',$lang,$path_image_logo)"/></xsl:attribute>
+							</img>
+						</xsl:otherwise>
+					</xsl:choose>
 				</a>
 			</xsl:otherwise>
 		</xsl:choose>
@@ -168,7 +219,6 @@
 		</script>
 	</xsl:template>
 	<xsl:template name="footer">
-
 		<xsl:comment>
 	
 		**** File: file:///home/scielo/www/htdocs/stat_biblio/xsl/common.xsl
@@ -300,14 +350,14 @@
 			<xsl:value-of select="concat('/cgi-bin/',url/path,'/',url/script_name)"/>
 		</xsl:variable>
 		<a>
-			<xsl:attribute name="href"><xsl:value-of select="$url"/><xsl:value-of select="concat('&amp;state=',$state)"/><xsl:value-of select="concat('&amp;server_action=',$popup_server_action)"/><!-- 
+			<xsl:attribute name="href"><xsl:value-of select="$url"/><xsl:value-of select="concat('&amp;state=',$state)"/><!--xsl:value-of select="concat('&amp;server_action=',$popup_server_action)"/--><!-- 
 				<xsl:value-of select="'&amp;debug=xml'"/>
 				--></xsl:attribute>
 			<xsl:attribute name="onClick">window.open(this.href,'passwrd','width=400,height=300,resizable=yes,location=yes,menubar=no,toolbar=yes,status=yes,scrollbars=yes');return false</xsl:attribute>
 			<xsl:value-of select="$label"/>
 		</a>
 	</xsl:template>
-	<xsl:template match="url" mode="popup">
+	<!--xsl:template match="url" mode="popup">
 		<xsl:variable name="port" select="port"/>
 		<xsl:variable name="path" select="path"/>
 		<xsl:value-of select="$php_main"/>
@@ -325,6 +375,18 @@
 		</xsl:if>
 		<xsl:value-of select="'/'"/>
 		<xsl:value-of select="script_name"/>
+		<xsl:apply-templates select="param_list"/>
+	</xsl:template-->
+	<xsl:template match="url" mode="popup">
+		<xsl:variable name="port" select="port"/>
+		<xsl:variable name="path" select="path"/>
+		<xsl:value-of select="$php_main"/>
+		<!--xsl:if test="$path != ''">
+			<xsl:value-of select="'/'"/>
+			<xsl:value-of select="$path"/>
+		</xsl:if>
+		<xsl:value-of select="'/'"/>
+		<xsl:value-of select="script_name"/-->
 		<xsl:apply-templates select="param_list"/>
 	</xsl:template>
 	<xsl:template match="link">
@@ -376,7 +438,6 @@
 		<xsl:variable name="port" select="port"/>
 		<xsl:variable name="path" select="path"/>
 		<xsl:value-of select="$php_main"/>?</xsl:template>
-
 	<xsl:template name="form">
 		<xsl:param name="hidden_01_name"/>
 		<xsl:param name="hidden_01_value"/>
@@ -410,11 +471,11 @@
 				<xsl:attribute name="name"><xsl:value-of select="'state'"/></xsl:attribute>
 				<xsl:attribute name="value"><xsl:value-of select="$state"/></xsl:attribute>
 			</input>
-			<input>
+			<!--input>
 				<xsl:attribute name="type"><xsl:value-of select="'hidden'"/></xsl:attribute>
 				<xsl:attribute name="name"><xsl:value-of select="'server_action'"/></xsl:attribute>
 				<xsl:attribute name="value"><xsl:value-of select="$server_action"/></xsl:attribute>
-			</input>
+			</input-->
 			<input>
 				<xsl:attribute name="type"><xsl:value-of select="'hidden'"/></xsl:attribute>
 				<xsl:attribute name="name"><xsl:value-of select="'lang'"/></xsl:attribute>

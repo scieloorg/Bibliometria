@@ -57,18 +57,7 @@
 					<tr>
 						<td width="20%">
 							<p align="center">
-								<xsl:choose>
-									<xsl:when test="$journal/*">
-										<a href="http://{$host_scisite}/scielo.php?script=sci_serial&amp;pid={$journal/journal/issn}&amp;lng={$lang}">
-											<img align="bottom" border="0">
-												<xsl:attribute name="src"><xsl:value-of select="concat('http://',$host_scisite,$path_image_revistas,$journal/journal/siglum,'/plogo.gif')"/></xsl:attribute>
-											</img>
-										</a>
-									</xsl:when>
-									<xsl:otherwise>
 										<xsl:call-template name="logo"/>
-									</xsl:otherwise>
-								</xsl:choose>
 							</p>
 						</td>
 						<td align="center" width="80%">

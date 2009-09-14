@@ -53,17 +53,17 @@
                 <blockquote>
                     <ul>
         		    <li>
-                            <a href="http://{$host_scisite}/scielolog.php?script=sci_journalstat&amp;lng=en&amp;pid={$issn}"><xsl:value-of select="$texts/text[find='JOURNAL_ACCESS']/replace" /></a>
+                            <a href="http://{//statistics/instance/url}/scielolog.php?script=sci_journalstat&amp;lng=en&amp;pid={$issn}"><xsl:value-of select="$texts/text[find='JOURNAL_ACCESS']/replace" /></a>
                         </li>
                         <li>
-                            <a href="http://{$host_scisite}/scielolog.php?script=sci_statiss&amp;lng=en&amp;pid={$issn}"><xsl:value-of select="$texts/text[find='ISSUE_ACCESS']/replace" /></a>
+                            <a href="http://{//statistics/instance/url}/scielolog.php?script=sci_statiss&amp;lng=en&amp;pid={$issn}"><xsl:value-of select="$texts/text[find='ISSUE_ACCESS']/replace" /></a>
                         </li>
                         <li>
-                            <a href="http://{$host_scisite}/scielolog.php?script=sci_statart&amp;lng=en&amp;pid={$issn}&amp;dti=20040101"><xsl:value-of select="$texts/text[find='ARTICLE_ACCESS']/replace" /></a>
+                            <a href="http://{//statistics/instance/url}/scielolog.php?script=sci_statart&amp;lng=en&amp;pid={$issn}&amp;dti=20040101"><xsl:value-of select="$texts/text[find='ARTICLE_ACCESS']/replace" /></a>
                         </li>
                     </ul>
                 </blockquote>
-                <blockquote>
+                <!--blockquote>
                     <p>
                         <font class="nomodel" color="#0000A0"><b><xsl:value-of select="$texts/text[find='CO_AUTHOR_REPORT']/replace" /></b></font>
                     </p>
@@ -72,7 +72,7 @@
                     <ul>
                         <li><a href="index.php?state=16&amp;lang={$lang}&amp;issn={$issn}"><xsl:value-of select="$texts/text[find='CO_AUTHOR']/replace" /></a></li>
                     </ul>
-                </blockquote>
+                </blockquote-->
                 <blockquote>
                     <p>
                         <font class="nomodel" color="#0000A0"><b><xsl:value-of select="$texts/text[find='CITATION_REPORTS']/replace" /></b></font>
@@ -91,22 +91,11 @@
         <tr>
         	<td width="20%">
         		<p align="center">
-                     <xsl:choose>
-                        <xsl:when test="$issn != ''">
-            				<a href="http://{$host_scisite}/scielo.php?script=sci_serial&amp;pid={$issn}&amp;lng={$lang}">
-            					<img align="bottom" border="0">
-            						<xsl:attribute name="src">
-            							<xsl:value-of select="concat('http://',$host_scisite,$path_image_revistas,$selected_option/option/@siglum,'/plogo.gif')" />
-            						</xsl:attribute>
-            					</img>
-            				</a>
-                        </xsl:when>
-                        <xsl:otherwise>
+                     
             				<xsl:call-template name="logo">
                 			<xsl:with-param name="goTo" select="'instance'"/>
                 		</xsl:call-template>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                     
                 </p>
         	</td>
         	<td align="center" width="80%">
